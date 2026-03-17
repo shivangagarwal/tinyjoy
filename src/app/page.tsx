@@ -1,4 +1,22 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: 'TinyJoy — Calm, Quick, Delightful Games',
+  description: 'Free browser games for everyday moments. Play Color Match, Memory Flip, Number Rush, Pattern Echo, Word Scramble and more.',
+  alternates: { canonical: 'https://tinyjoy.vercel.app' },
+  openGraph: {
+    title: 'TinyJoy — Calm, Quick, Delightful Games',
+    description: 'Free browser games for everyday moments. No download, no sign-up.',
+    url: 'https://tinyjoy.vercel.app',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'TinyJoy — Calm, Quick, Delightful Games',
+    description: 'Free browser games for everyday moments. No download, no sign-up.',
+  },
+};
 
 const GAMES = [
   {

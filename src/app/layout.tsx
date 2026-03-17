@@ -12,9 +12,35 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const BASE_URL = 'https://tinyjoy.vercel.app';
+
 export const metadata: Metadata = {
-  title: "TinyJoy",
-  description: "Calm, quick, delightful games for everyday moments.",
+  metadataBase: new URL(BASE_URL),
+  title: {
+    default: 'TinyJoy',
+    template: '%s | TinyJoy',
+  },
+  description: 'Calm, quick, delightful games for everyday moments. Free, web-first, no download required.',
+  keywords: ['free games', 'browser games', 'mobile games', 'casual games', 'quick games'],
+  openGraph: {
+    type: 'website',
+    siteName: 'TinyJoy',
+    title: 'TinyJoy — Calm, Quick, Delightful Games',
+    description: 'Calm, quick, delightful games for everyday moments. Free, web-first, no download required.',
+    url: BASE_URL,
+  },
+  twitter: {
+    card: 'summary',
+    title: 'TinyJoy — Calm, Quick, Delightful Games',
+    description: 'Calm, quick, delightful games for everyday moments. Free, web-first, no download required.',
+  },
+  alternates: {
+    canonical: BASE_URL,
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
