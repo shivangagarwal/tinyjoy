@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { ScoreTracker, GameTimer, vibrate, SoundManager } from '@/lib/engine';
+import AdUnit from '@/components/AdUnit';
 
 // ── Constants ──────────────────────────────────────────────────────────────
 
@@ -228,6 +229,8 @@ export default function ColorMatchGame() {
               </p>
             )}
           </div>
+
+          <AdUnit slot="1000000002" format="rectangle" />
 
           <button
             onClick={startGame}

@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { ScoreTracker, GameTimer, vibrate, SoundManager } from '@/lib/engine';
+import AdUnit from '@/components/AdUnit';
 
 // ── Word List ──────────────────────────────────────────────────────────────
 // ~200 common English words, 4-6 letters
@@ -313,6 +314,8 @@ export default function WordScrambleGame() {
               </p>
             )}
           </div>
+
+          <AdUnit slot="1000000006" format="rectangle" />
 
           <button
             onClick={startGame}

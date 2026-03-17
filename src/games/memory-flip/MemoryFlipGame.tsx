@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { ScoreTracker, GameTimer, vibrate, SoundManager } from '@/lib/engine';
+import AdUnit from '@/components/AdUnit';
 
 // ── Constants ──────────────────────────────────────────────────────────────
 
@@ -223,6 +224,8 @@ export default function MemoryFlipGame() {
               </p>
             )}
           </div>
+
+          <AdUnit slot="1000000003" format="rectangle" />
 
           <button
             onClick={startGame}

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import AdUnit from '@/components/AdUnit';
 
 export const metadata: Metadata = {
   title: 'TinyJoy — Calm, Quick, Delightful Games',
@@ -68,24 +69,30 @@ export default function Home() {
         </div>
 
         <div className="flex w-full flex-col gap-3">
-          {GAMES.map((game) => (
-            <Link
-              key={game.href}
-              href={game.href}
-              className="flex items-center gap-4 rounded-2xl bg-zinc-900 p-4 transition hover:bg-zinc-800 active:scale-95"
-            >
-              <div
-                className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl text-2xl"
-                style={{ backgroundColor: game.bg }}
-                aria-hidden
+          {GAMES.map((game, i) => (
+            <div key={game.href}>
+              <Link
+                href={game.href}
+                className="flex items-center gap-4 rounded-2xl bg-zinc-900 p-4 transition hover:bg-zinc-800 active:scale-95"
               >
-                {game.emoji}
-              </div>
-              <div>
-                <p className="font-semibold">{game.name}</p>
-                <p className="text-sm text-zinc-400">{game.description}</p>
-              </div>
-            </Link>
+                <div
+                  className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl text-2xl"
+                  style={{ backgroundColor: game.bg }}
+                  aria-hidden
+                >
+                  {game.emoji}
+                </div>
+                <div>
+                  <p className="font-semibold">{game.name}</p>
+                  <p className="text-sm text-zinc-400">{game.description}</p>
+                </div>
+              </Link>
+              {i === 2 && (
+                <div className="mt-3 rounded-xl overflow-hidden">
+                  <AdUnit slot="1000000001" format="auto" />
+                </div>
+              )}
+            </div>
           ))}
         </div>
       </div>
