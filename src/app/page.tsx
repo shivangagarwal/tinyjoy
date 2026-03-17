@@ -29,6 +29,13 @@ const GAMES = [
     emoji: '🔮',
     bg: '#F59E0B',
   },
+  {
+    href: '/games/word-scramble',
+    name: 'Word Scramble',
+    description: 'Unscramble words. 60 seconds.',
+    emoji: '🔤',
+    bg: '#EC4899',
+  },
 ] as const;
 
 export default function Home() {
