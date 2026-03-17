@@ -22,6 +22,13 @@ const GAMES = [
     emoji: '⚡',
     bg: '#10B981',
   },
+  {
+    href: '/games/pattern-echo',
+    name: 'Pattern Echo',
+    description: 'Watch the sequence. Repeat it.',
+    emoji: '🔮',
+    bg: '#F59E0B',
+  },
 ] as const;
 
 export default function Home() {
