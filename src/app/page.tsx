@@ -8,6 +8,13 @@ const GAMES = [
     emoji: '🎨',
     bg: '#3B82F6',
   },
+  {
+    href: '/games/memory-flip',
+    name: 'Memory Flip',
+    description: 'Find matching pairs. Beat the clock.',
+    emoji: '🃏',
+    bg: '#8B5CF6',
+  },
 ] as const;
 
 export default function Home() {
