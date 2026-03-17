@@ -15,6 +15,13 @@ const GAMES = [
     emoji: '🃏',
     bg: '#8B5CF6',
   },
+  {
+    href: '/games/number-rush',
+    name: 'Number Rush',
+    description: 'Tap 1→25 in order. How fast are you?',
+    emoji: '⚡',
+    bg: '#10B981',
+  },
 ] as const;
 
 export default function Home() {
