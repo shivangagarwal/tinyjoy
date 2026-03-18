@@ -71,9 +71,17 @@ export default function RootLayout({
       >
         {children}
         <footer className="py-4 text-center text-xs text-zinc-600">
-          <Link href="/privacy" className="transition hover:text-zinc-400">
-            Privacy Policy
-          </Link>
+          <div className="flex items-center justify-center gap-4">
+            <Link href="/about" className="transition hover:text-zinc-400">
+              About
+            </Link>
+            <Link href="/blog" className="transition hover:text-zinc-400">
+              Blog
+            </Link>
+            <Link href="/privacy" className="transition hover:text-zinc-400">
+              Privacy Policy
+            </Link>
+          </div>
         </footer>
         <Analytics />
       </body>
