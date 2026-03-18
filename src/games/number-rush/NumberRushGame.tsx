@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { vibrate, SoundManager } from '@/lib/engine';
 import AdUnit from '@/components/AdUnit';
+import { HomeLink, OtherGames } from '@/components/GameNav';
 
 // ── Constants ──────────────────────────────────────────────────────────────
 
@@ -156,27 +157,32 @@ export default function NumberRushGame() {
 
   if (phase === 'menu') {
     return (
-      <div className="flex min-h-svh flex-col items-center justify-center bg-zinc-950 px-6 text-white">
-        <div className="flex w-full max-w-sm flex-col items-center gap-8">
-          <div className="flex flex-col items-center gap-2">
-            <h1 className="text-4xl font-bold tracking-tight">Number Rush</h1>
-            <p className="text-center text-zinc-400">
-              Tap 1 → 25 in order, as fast as you can.
-            </p>
+      <div className="flex min-h-svh flex-col bg-zinc-950 px-6 text-white">
+        <div className="pt-4">
+          <HomeLink />
+        </div>
+        <div className="flex flex-1 flex-col items-center justify-center">
+          <div className="flex w-full max-w-sm flex-col items-center gap-8">
+            <div className="flex flex-col items-center gap-2">
+              <h1 className="text-4xl font-bold tracking-tight">Number Rush</h1>
+              <p className="text-center text-zinc-400">
+                Tap 1 → 25 in order, as fast as you can.
+              </p>
+            </div>
+
+            {bestTime !== null && (
+              <p className="text-zinc-500">
+                Best time: <span className="font-bold text-white">{formatTime(bestTime)}</span>
+              </p>
+            )}
+
+            <button
+              onClick={startGame}
+              className="rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
+            >
+              Play
+            </button>
           </div>
-
-          {bestTime !== null && (
-            <p className="text-zinc-500">
-              Best time: <span className="font-bold text-white">{formatTime(bestTime)}</span>
-            </p>
-          )}
-
-          <button
-            onClick={startGame}
-            className="rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
-          >
-            Play
-          </button>
         </div>
       </div>
     );
@@ -184,28 +190,35 @@ export default function NumberRushGame() {
 
   if (phase === 'gameover') {
     return (
-      <div className="flex min-h-svh flex-col items-center justify-center bg-zinc-950 px-6 text-white">
-        <div className="flex w-full max-w-sm flex-col items-center gap-8">
-          <div className="flex flex-col items-center gap-2">
-            <p className="text-zinc-400">Done!</p>
-            <p className="text-6xl font-bold tabular-nums">{formatTime(finalMs)}</p>
-            {isNewBest ? (
-              <p className="font-semibold text-yellow-400">New personal best!</p>
-            ) : bestTime !== null ? (
-              <p className="text-zinc-500">
-                Best: <span className="text-white">{formatTime(bestTime)}</span>
-              </p>
-            ) : null}
+      <div className="flex min-h-svh flex-col bg-zinc-950 px-6 text-white">
+        <div className="pt-4">
+          <HomeLink />
+        </div>
+        <div className="flex flex-1 flex-col items-center justify-center">
+          <div className="flex w-full max-w-sm flex-col items-center gap-8">
+            <div className="flex flex-col items-center gap-2">
+              <p className="text-zinc-400">Done!</p>
+              <p className="text-6xl font-bold tabular-nums">{formatTime(finalMs)}</p>
+              {isNewBest ? (
+                <p className="font-semibold text-yellow-400">New personal best!</p>
+              ) : bestTime !== null ? (
+                <p className="text-zinc-500">
+                  Best: <span className="text-white">{formatTime(bestTime)}</span>
+                </p>
+              ) : null}
+            </div>
+
+            <AdUnit slot="1000000004" format="rectangle" />
+
+            <button
+              onClick={startGame}
+              className="rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
+            >
+              Play again
+            </button>
+
+            <OtherGames currentHref="/games/number-rush" />
           </div>
-
-          <AdUnit slot="1000000004" format="rectangle" />
-
-          <button
-            onClick={startGame}
-            className="rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
-          >
-            Play again
-          </button>
         </div>
       </div>
     );
@@ -215,6 +228,9 @@ export default function NumberRushGame() {
   return (
     <div className="flex min-h-svh flex-col items-center bg-zinc-950 px-4 py-6 text-white">
       <div className="flex w-full max-w-sm flex-col gap-5">
+        {/* Home link */}
+        <HomeLink />
+
         {/* Header */}
         <div className="flex items-center justify-between">
           <div className="text-sm font-medium text-zinc-400">

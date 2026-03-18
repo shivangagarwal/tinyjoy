@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { ScoreTracker, vibrate, SoundManager } from '@/lib/engine';
 import AdUnit from '@/components/AdUnit';
+import { HomeLink, OtherGames } from '@/components/GameNav';
 
 // ── Constants ──────────────────────────────────────────────────────────────
 
@@ -186,27 +187,32 @@ export default function PatternEchoGame() {
 
   if (phase === 'menu') {
     return (
-      <div className="flex min-h-svh flex-col items-center justify-center bg-zinc-950 px-6 text-white">
-        <div className="flex w-full max-w-sm flex-col items-center gap-8">
-          <div className="flex flex-col items-center gap-2">
-            <h1 className="text-4xl font-bold tracking-tight">Pattern Echo</h1>
-            <p className="text-center text-zinc-400">
-              Watch the sequence. Repeat it. How far can you go?
-            </p>
+      <div className="flex min-h-svh flex-col bg-zinc-950 px-6 text-white">
+        <div className="pt-4">
+          <HomeLink />
+        </div>
+        <div className="flex flex-1 flex-col items-center justify-center">
+          <div className="flex w-full max-w-sm flex-col items-center gap-8">
+            <div className="flex flex-col items-center gap-2">
+              <h1 className="text-4xl font-bold tracking-tight">Pattern Echo</h1>
+              <p className="text-center text-zinc-400">
+                Watch the sequence. Repeat it. How far can you go?
+              </p>
+            </div>
+
+            {personalBest > 0 && (
+              <p className="text-zinc-500">
+                Personal best: <span className="font-bold text-white">{personalBest} pts</span>
+              </p>
+            )}
+
+            <button
+              onClick={startGame}
+              className="rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
+            >
+              Play
+            </button>
           </div>
-
-          {personalBest > 0 && (
-            <p className="text-zinc-500">
-              Personal best: <span className="font-bold text-white">{personalBest} pts</span>
-            </p>
-          )}
-
-          <button
-            onClick={startGame}
-            className="rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
-          >
-            Play
-          </button>
         </div>
       </div>
     );
@@ -214,29 +220,36 @@ export default function PatternEchoGame() {
 
   if (phase === 'gameover') {
     return (
-      <div className="flex min-h-svh flex-col items-center justify-center bg-zinc-950 px-6 text-white">
-        <div className="flex w-full max-w-sm flex-col items-center gap-8">
-          <div className="flex flex-col items-center gap-2">
-            <p className="text-zinc-400">Wrong!</p>
-            <p className="text-6xl font-bold">{currentRound - 1}</p>
-            <p className="text-sm text-zinc-500">rounds completed</p>
-            {isNewBest ? (
-              <p className="font-semibold text-yellow-400">New personal best!</p>
-            ) : personalBest > 0 ? (
-              <p className="text-zinc-500">
-                Best: <span className="text-white">{personalBest} pts</span>
-              </p>
-            ) : null}
+      <div className="flex min-h-svh flex-col bg-zinc-950 px-6 text-white">
+        <div className="pt-4">
+          <HomeLink />
+        </div>
+        <div className="flex flex-1 flex-col items-center justify-center">
+          <div className="flex w-full max-w-sm flex-col items-center gap-8">
+            <div className="flex flex-col items-center gap-2">
+              <p className="text-zinc-400">Wrong!</p>
+              <p className="text-6xl font-bold">{currentRound - 1}</p>
+              <p className="text-sm text-zinc-500">rounds completed</p>
+              {isNewBest ? (
+                <p className="font-semibold text-yellow-400">New personal best!</p>
+              ) : personalBest > 0 ? (
+                <p className="text-zinc-500">
+                  Best: <span className="text-white">{personalBest} pts</span>
+                </p>
+              ) : null}
+            </div>
+
+            <AdUnit slot="1000000005" format="rectangle" />
+
+            <button
+              onClick={startGame}
+              className="rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
+            >
+              Play again
+            </button>
+
+            <OtherGames currentHref="/games/pattern-echo" />
           </div>
-
-          <AdUnit slot="1000000005" format="rectangle" />
-
-          <button
-            onClick={startGame}
-            className="rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
-          >
-            Play again
-          </button>
         </div>
       </div>
     );
@@ -246,6 +259,9 @@ export default function PatternEchoGame() {
   return (
     <div className="flex min-h-svh flex-col items-center bg-zinc-950 px-4 py-8 text-white">
       <div className="flex w-full max-w-sm flex-col items-center gap-8">
+        {/* Home link */}
+        <HomeLink />
+
         {/* Header */}
         <div className="flex w-full items-center justify-between">
           <div className="text-sm font-medium text-zinc-400">

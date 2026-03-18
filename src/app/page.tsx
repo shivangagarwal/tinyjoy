@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import AdUnit from '@/components/AdUnit';
+import { GAMES } from '@/lib/games';
 
 export const metadata: Metadata = {
   title: 'TinyJoy — Calm, Quick, Delightful Games',
@@ -18,44 +19,6 @@ export const metadata: Metadata = {
     description: 'Free browser games for everyday moments. No download, no sign-up.',
   },
 };
-
-const GAMES = [
-  {
-    href: '/games/color-match',
-    name: 'Color Match',
-    description: 'Tap matching tiles. 60 seconds.',
-    emoji: '🎨',
-    bg: '#3B82F6',
-  },
-  {
-    href: '/games/memory-flip',
-    name: 'Memory Flip',
-    description: 'Find matching pairs. Beat the clock.',
-    emoji: '🃏',
-    bg: '#8B5CF6',
-  },
-  {
-    href: '/games/number-rush',
-    name: 'Number Rush',
-    description: 'Tap 1→25 in order. How fast are you?',
-    emoji: '⚡',
-    bg: '#10B981',
-  },
-  {
-    href: '/games/pattern-echo',
-    name: 'Pattern Echo',
-    description: 'Watch the sequence. Repeat it.',
-    emoji: '🔮',
-    bg: '#F59E0B',
-  },
-  {
-    href: '/games/word-scramble',
-    name: 'Word Scramble',
-    description: 'Unscramble words. 60 seconds.',
-    emoji: '🔤',
-    bg: '#EC4899',
-  },
-] as const;
 
 export default function Home() {
   return (

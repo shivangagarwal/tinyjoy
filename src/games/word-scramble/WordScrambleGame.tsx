@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { ScoreTracker, GameTimer, vibrate, SoundManager } from '@/lib/engine';
 import AdUnit from '@/components/AdUnit';
+import { HomeLink, OtherGames } from '@/components/GameNav';
 
 // ── Word List ──────────────────────────────────────────────────────────────
 // ~200 common English words, 4-6 letters
@@ -273,27 +274,32 @@ export default function WordScrambleGame() {
 
   if (phase === 'menu') {
     return (
-      <div className="flex min-h-svh flex-col items-center justify-center bg-zinc-950 px-6 text-white">
-        <div className="flex w-full max-w-sm flex-col items-center gap-8">
-          <div className="flex flex-col items-center gap-2">
-            <h1 className="text-4xl font-bold tracking-tight">Word Scramble</h1>
-            <p className="text-center text-zinc-400">
-              Unscramble as many words as you can in 60 seconds.
-            </p>
+      <div className="flex min-h-svh flex-col bg-zinc-950 px-6 text-white">
+        <div className="pt-4">
+          <HomeLink />
+        </div>
+        <div className="flex flex-1 flex-col items-center justify-center">
+          <div className="flex w-full max-w-sm flex-col items-center gap-8">
+            <div className="flex flex-col items-center gap-2">
+              <h1 className="text-4xl font-bold tracking-tight">Word Scramble</h1>
+              <p className="text-center text-zinc-400">
+                Unscramble as many words as you can in 60 seconds.
+              </p>
+            </div>
+
+            {personalBest > 0 && (
+              <p className="text-zinc-500">
+                Personal best: <span className="font-bold text-white">{personalBest}</span>
+              </p>
+            )}
+
+            <button
+              onClick={startGame}
+              className="rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
+            >
+              Play
+            </button>
           </div>
-
-          {personalBest > 0 && (
-            <p className="text-zinc-500">
-              Personal best: <span className="font-bold text-white">{personalBest}</span>
-            </p>
-          )}
-
-          <button
-            onClick={startGame}
-            className="rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
-          >
-            Play
-          </button>
         </div>
       </div>
     );
@@ -301,28 +307,35 @@ export default function WordScrambleGame() {
 
   if (phase === 'gameover') {
     return (
-      <div className="flex min-h-svh flex-col items-center justify-center bg-zinc-950 px-6 text-white">
-        <div className="flex w-full max-w-sm flex-col items-center gap-8">
-          <div className="flex flex-col items-center gap-2">
-            <p className="text-zinc-400">Time&apos;s up!</p>
-            <p className="text-6xl font-bold">{score}</p>
-            {isNewBest ? (
-              <p className="font-semibold text-yellow-400">New personal best!</p>
-            ) : (
-              <p className="text-zinc-500">
-                Best: <span className="text-white">{personalBest}</span>
-              </p>
-            )}
+      <div className="flex min-h-svh flex-col bg-zinc-950 px-6 text-white">
+        <div className="pt-4">
+          <HomeLink />
+        </div>
+        <div className="flex flex-1 flex-col items-center justify-center">
+          <div className="flex w-full max-w-sm flex-col items-center gap-8">
+            <div className="flex flex-col items-center gap-2">
+              <p className="text-zinc-400">Time&apos;s up!</p>
+              <p className="text-6xl font-bold">{score}</p>
+              {isNewBest ? (
+                <p className="font-semibold text-yellow-400">New personal best!</p>
+              ) : (
+                <p className="text-zinc-500">
+                  Best: <span className="text-white">{personalBest}</span>
+                </p>
+              )}
+            </div>
+
+            <AdUnit slot="1000000006" format="rectangle" />
+
+            <button
+              onClick={startGame}
+              className="rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
+            >
+              Play again
+            </button>
+
+            <OtherGames currentHref="/games/word-scramble" />
           </div>
-
-          <AdUnit slot="1000000006" format="rectangle" />
-
-          <button
-            onClick={startGame}
-            className="rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
-          >
-            Play again
-          </button>
         </div>
       </div>
     );
@@ -332,6 +345,9 @@ export default function WordScrambleGame() {
   return (
     <div className="flex min-h-svh flex-col items-center bg-zinc-950 px-4 py-6 text-white">
       <div className="flex w-full max-w-sm flex-col gap-5">
+        {/* Home link */}
+        <HomeLink />
+
         {/* Header */}
         <div className="flex items-center justify-between">
           <div className="text-3xl font-bold tabular-nums">{score}</div>

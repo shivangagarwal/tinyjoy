@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { ScoreTracker, GameTimer, vibrate, SoundManager } from '@/lib/engine';
 import AdUnit from '@/components/AdUnit';
+import { HomeLink, OtherGames } from '@/components/GameNav';
 
 // ── Constants ──────────────────────────────────────────────────────────────
 
@@ -176,30 +177,35 @@ export default function MemoryFlipGame() {
 
   if (phase === 'menu') {
     return (
-      <div className="flex min-h-svh flex-col items-center justify-center bg-zinc-950 px-6 text-white">
-        <div className="flex w-full max-w-sm flex-col items-center gap-8">
-          <div className="flex flex-col items-center gap-2">
-            <h1 className="text-4xl font-bold tracking-tight">Memory Flip</h1>
-            <p className="text-center text-zinc-400">
-              Flip cards and find matching pairs. 60 seconds. How many can you match?
-            </p>
-          </div>
+      <div className="flex min-h-svh flex-col bg-zinc-950 px-6 text-white">
+        <div className="pt-4">
+          <HomeLink />
+        </div>
+        <div className="flex flex-1 flex-col items-center justify-center">
+          <div className="flex w-full max-w-sm flex-col items-center gap-8">
+            <div className="flex flex-col items-center gap-2">
+              <h1 className="text-4xl font-bold tracking-tight">Memory Flip</h1>
+              <p className="text-center text-zinc-400">
+                Flip cards and find matching pairs. 60 seconds. How many can you match?
+              </p>
+            </div>
 
-          {personalBest > 0 && (
-            <p className="text-zinc-500">
-              Personal best: <span className="font-bold text-white">{personalBest}</span>
-            </p>
-          )}
+            {personalBest > 0 && (
+              <p className="text-zinc-500">
+                Personal best: <span className="font-bold text-white">{personalBest}</span>
+              </p>
+            )}
 
-          <button
-            onClick={startGame}
-            className="rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
-          >
-            Play
-          </button>
+            <button
+              onClick={startGame}
+              className="rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
+            >
+              Play
+            </button>
 
-          <div className="flex flex-col items-center gap-1 text-xs text-zinc-600">
-            <p>+100 per match · +5 per second left if you clear the board</p>
+            <div className="flex flex-col items-center gap-1 text-xs text-zinc-600">
+              <p>+100 per match · +5 per second left if you clear the board</p>
+            </div>
           </div>
         </div>
       </div>
@@ -208,31 +214,38 @@ export default function MemoryFlipGame() {
 
   if (phase === 'gameover') {
     return (
-      <div className="flex min-h-svh flex-col items-center justify-center bg-zinc-950 px-6 text-white">
-        <div className="flex w-full max-w-sm flex-col items-center gap-8">
-          <div className="flex flex-col items-center gap-2">
-            <p className="text-zinc-400">Time&apos;s up!</p>
-            <p className="text-6xl font-bold">{score}</p>
-            <p className="text-zinc-500">
-              {matchesFound} / {EMOJIS.length} pairs found
-            </p>
-            {isNewBest ? (
-              <p className="font-semibold text-yellow-400">New personal best!</p>
-            ) : (
+      <div className="flex min-h-svh flex-col bg-zinc-950 px-6 text-white">
+        <div className="pt-4">
+          <HomeLink />
+        </div>
+        <div className="flex flex-1 flex-col items-center justify-center">
+          <div className="flex w-full max-w-sm flex-col items-center gap-8">
+            <div className="flex flex-col items-center gap-2">
+              <p className="text-zinc-400">Time&apos;s up!</p>
+              <p className="text-6xl font-bold">{score}</p>
               <p className="text-zinc-500">
-                Best: <span className="text-white">{personalBest}</span>
+                {matchesFound} / {EMOJIS.length} pairs found
               </p>
-            )}
+              {isNewBest ? (
+                <p className="font-semibold text-yellow-400">New personal best!</p>
+              ) : (
+                <p className="text-zinc-500">
+                  Best: <span className="text-white">{personalBest}</span>
+                </p>
+              )}
+            </div>
+
+            <AdUnit slot="1000000003" format="rectangle" />
+
+            <button
+              onClick={startGame}
+              className="rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
+            >
+              Play again
+            </button>
+
+            <OtherGames currentHref="/games/memory-flip" />
           </div>
-
-          <AdUnit slot="1000000003" format="rectangle" />
-
-          <button
-            onClick={startGame}
-            className="rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
-          >
-            Play again
-          </button>
         </div>
       </div>
     );
@@ -242,6 +255,9 @@ export default function MemoryFlipGame() {
   return (
     <div className="flex min-h-svh flex-col items-center bg-zinc-950 px-4 py-6 text-white">
       <div className="flex w-full max-w-sm flex-col gap-5">
+        {/* Home link */}
+        <HomeLink />
+
         {/* Header */}
         <div className="flex items-center justify-between">
           <div className="text-3xl font-bold tabular-nums">{score}</div>

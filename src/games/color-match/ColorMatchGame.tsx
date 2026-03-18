@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { ScoreTracker, GameTimer, vibrate, SoundManager } from '@/lib/engine';
 import AdUnit from '@/components/AdUnit';
+import { HomeLink, OtherGames } from '@/components/GameNav';
 
 // ── Constants ──────────────────────────────────────────────────────────────
 
@@ -184,31 +185,36 @@ export default function ColorMatchGame() {
 
   if (phase === 'menu') {
     return (
-      <div className="flex min-h-svh flex-col items-center justify-center bg-zinc-950 px-6 text-white">
-        <div className="flex w-full max-w-sm flex-col items-center gap-8">
-          <div className="flex flex-col items-center gap-2">
-            <h1 className="text-4xl font-bold tracking-tight">Color Match</h1>
-            <p className="text-center text-zinc-400">
-              Tap tiles that match the target color. 60 seconds. Go!
+      <div className="flex min-h-svh flex-col bg-zinc-950 px-6 text-white">
+        <div className="pt-4">
+          <HomeLink />
+        </div>
+        <div className="flex flex-1 flex-col items-center justify-center">
+          <div className="flex w-full max-w-sm flex-col items-center gap-8">
+            <div className="flex flex-col items-center gap-2">
+              <h1 className="text-4xl font-bold tracking-tight">Color Match</h1>
+              <p className="text-center text-zinc-400">
+                Tap tiles that match the target color. 60 seconds. Go!
+              </p>
+            </div>
+
+            {personalBest > 0 && (
+              <p className="text-zinc-500">
+                Personal best: <span className="font-bold text-white">{personalBest}</span>
+              </p>
+            )}
+
+            <button
+              onClick={startGame}
+              className="rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
+            >
+              Play
+            </button>
+
+            <p className="text-xs text-zinc-600">
+              Labels shown for colorblind accessibility
             </p>
           </div>
-
-          {personalBest > 0 && (
-            <p className="text-zinc-500">
-              Personal best: <span className="font-bold text-white">{personalBest}</span>
-            </p>
-          )}
-
-          <button
-            onClick={startGame}
-            className="rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
-          >
-            Play
-          </button>
-
-          <p className="text-xs text-zinc-600">
-            Labels shown for colorblind accessibility
-          </p>
         </div>
       </div>
     );
@@ -216,28 +222,35 @@ export default function ColorMatchGame() {
 
   if (phase === 'gameover') {
     return (
-      <div className="flex min-h-svh flex-col items-center justify-center bg-zinc-950 px-6 text-white">
-        <div className="flex w-full max-w-sm flex-col items-center gap-8">
-          <div className="flex flex-col items-center gap-2">
-            <p className="text-zinc-400">Time&apos;s up!</p>
-            <p className="text-6xl font-bold">{score}</p>
-            {isNewBest ? (
-              <p className="font-semibold text-yellow-400">New personal best!</p>
-            ) : (
-              <p className="text-zinc-500">
-                Best: <span className="text-white">{personalBest}</span>
-              </p>
-            )}
+      <div className="flex min-h-svh flex-col bg-zinc-950 px-6 text-white">
+        <div className="pt-4">
+          <HomeLink />
+        </div>
+        <div className="flex flex-1 flex-col items-center justify-center">
+          <div className="flex w-full max-w-sm flex-col items-center gap-8">
+            <div className="flex flex-col items-center gap-2">
+              <p className="text-zinc-400">Time&apos;s up!</p>
+              <p className="text-6xl font-bold">{score}</p>
+              {isNewBest ? (
+                <p className="font-semibold text-yellow-400">New personal best!</p>
+              ) : (
+                <p className="text-zinc-500">
+                  Best: <span className="text-white">{personalBest}</span>
+                </p>
+              )}
+            </div>
+
+            <AdUnit slot="1000000002" format="rectangle" />
+
+            <button
+              onClick={startGame}
+              className="rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
+            >
+              Play again
+            </button>
+
+            <OtherGames currentHref="/games/color-match" />
           </div>
-
-          <AdUnit slot="1000000002" format="rectangle" />
-
-          <button
-            onClick={startGame}
-            className="rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
-          >
-            Play again
-          </button>
         </div>
       </div>
     );
@@ -247,6 +260,9 @@ export default function ColorMatchGame() {
   return (
     <div className="flex min-h-svh flex-col items-center bg-zinc-950 px-4 py-6 text-white">
       <div className="flex w-full max-w-sm flex-col gap-5">
+        {/* Home link */}
+        <HomeLink />
+
         {/* Header: score + timer */}
         <div className="flex items-center justify-between">
           <div className="text-3xl font-bold tabular-nums">{score}</div>
