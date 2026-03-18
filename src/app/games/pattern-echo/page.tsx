@@ -3,7 +3,7 @@ import PatternEchoGame from '@/games/pattern-echo/PatternEchoGame';
 
 const title = 'Pattern Echo';
 const description = 'Play Pattern Echo — watch a color sequence and repeat it. A free Simon Says-style memory game that gets harder with every round.';
-const url = 'https://tinyjoy.vercel.app/games/pattern-echo';
+const url = 'https://tinyjoy.app/games/pattern-echo';
 
 export const metadata: Metadata = {
   title,

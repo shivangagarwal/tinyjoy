@@ -3,7 +3,7 @@ import WordScrambleGame from '@/games/word-scramble/WordScrambleGame';
 
 const title = 'Word Scramble';
 const description = 'Play Word Scramble — unscramble as many words as you can in 60 seconds. A free, quick word game for your everyday moments.';
-const url = 'https://tinyjoy.vercel.app/games/word-scramble';
+const url = 'https://tinyjoy.app/games/word-scramble';
 
 export const metadata: Metadata = {
   title,

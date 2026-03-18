@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const BASE_URL = 'https://tinyjoy.vercel.app';
+const BASE_URL = 'https://tinyjoy.app';
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),

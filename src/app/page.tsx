@@ -5,11 +5,11 @@ import AdUnit from '@/components/AdUnit';
 export const metadata: Metadata = {
   title: 'TinyJoy — Calm, Quick, Delightful Games',
   description: 'Free browser games for everyday moments. Play Color Match, Memory Flip, Number Rush, Pattern Echo, Word Scramble and more.',
-  alternates: { canonical: 'https://tinyjoy.vercel.app' },
+  alternates: { canonical: 'https://tinyjoy.app' },
   openGraph: {
     title: 'TinyJoy — Calm, Quick, Delightful Games',
     description: 'Free browser games for everyday moments. No download, no sign-up.',
-    url: 'https://tinyjoy.vercel.app',
+    url: 'https://tinyjoy.app',
     type: 'website',
   },
   twitter: {

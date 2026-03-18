@@ -3,7 +3,7 @@ import MemoryFlipGame from '@/games/memory-flip/MemoryFlipGame';
 
 const title = 'Memory Flip';
 const description = 'Play Memory Flip — flip cards and find matching pairs. Beat the clock in this free, quick memory game.';
-const url = 'https://tinyjoy.vercel.app/games/memory-flip';
+const url = 'https://tinyjoy.app/games/memory-flip';
 
 export const metadata: Metadata = {
   title,

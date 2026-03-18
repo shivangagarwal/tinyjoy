@@ -8,8 +8,8 @@ export const metadata: Metadata = {
 };
 
 const LAST_UPDATED = 'March 18, 2026';
-const SITE_URL = 'https://tinyjoy.vercel.app';
-const CONTACT_EMAIL = 'privacy@tinyjoy.vercel.app';
+const SITE_URL = 'https://tinyjoy.app';
+const CONTACT_EMAIL = 'privacy@tinyjoy.app';
 
 export default function PrivacyPage() {
   return (

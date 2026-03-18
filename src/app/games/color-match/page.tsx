@@ -3,7 +3,7 @@ import ColorMatchGame from '@/games/color-match/ColorMatchGame';
 
 const title = 'Color Match';
 const description = 'Play Color Match — a quick, free color-matching game. Tap the right tiles before time runs out. 60 seconds of fast, colorful fun.';
-const url = 'https://tinyjoy.vercel.app/games/color-match';
+const url = 'https://tinyjoy.app/games/color-match';
 
 export const metadata: Metadata = {
   title,

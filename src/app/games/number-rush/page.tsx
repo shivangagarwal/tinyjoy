@@ -3,7 +3,7 @@ import NumberRushGame from '@/games/number-rush/NumberRushGame';
 
 const title = 'Number Rush';
 const description = 'Play Number Rush — tap numbers 1 to 25 in order as fast as you can. A free speed and reflex game. How fast are you?';
-const url = 'https://tinyjoy.vercel.app/games/number-rush';
+const url = 'https://tinyjoy.app/games/number-rush';
 
 export const metadata: Metadata = {
   title,
