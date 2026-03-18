@@ -226,8 +226,8 @@ export default function NumberRushGame() {
 
   // Playing
   return (
-    <div className="flex min-h-svh flex-col items-center bg-zinc-950 px-4 py-6 text-white">
-      <div className="flex w-full max-w-sm flex-col gap-5">
+    <div className="flex h-svh flex-col bg-zinc-950 px-4 py-6 text-white overflow-y-auto">
+      <div className="mx-auto flex w-full max-w-sm flex-1 flex-col gap-4">
         {/* Home link */}
         <HomeLink />
 
@@ -250,8 +250,9 @@ export default function NumberRushGame() {
           />
         </div>
 
-        {/* Grid */}
-        <div className="grid grid-cols-5 gap-2">
+        {/* Grid — flex-1 centers it vertically in remaining space */}
+        <div className="flex flex-1 items-center">
+        <div className="grid w-full grid-cols-5 gap-2">
           {numbers.map((num, i) => {
             const done = tapped.has(num);
             const kind = flash[i];
@@ -287,6 +288,7 @@ export default function NumberRushGame() {
               </button>
             );
           })}
+        </div>
         </div>
       </div>
     </div>

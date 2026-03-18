@@ -253,8 +253,8 @@ export default function MemoryFlipGame() {
 
   // Playing
   return (
-    <div className="flex min-h-svh flex-col items-center bg-zinc-950 px-4 py-6 text-white">
-      <div className="flex w-full max-w-sm flex-col gap-5">
+    <div className="flex h-svh flex-col bg-zinc-950 px-4 py-6 text-white overflow-y-auto">
+      <div className="mx-auto flex w-full max-w-sm flex-1 flex-col gap-4">
         {/* Home link */}
         <HomeLink />
 
@@ -277,9 +277,10 @@ export default function MemoryFlipGame() {
           />
         </div>
 
-        {/* Card grid */}
+        {/* Card grid — flex-1 centers it vertically in remaining space */}
+        <div className="flex flex-1 items-center">
         <div
-          className="grid gap-2"
+          className="grid w-full gap-2"
           style={{ gridTemplateColumns: `repeat(${COLS}, 1fr)` }}
           role="grid"
           aria-label="Memory card grid"
@@ -315,6 +316,7 @@ export default function MemoryFlipGame() {
               </button>
             );
           })}
+        </div>
         </div>
       </div>
     </div>

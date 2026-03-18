@@ -343,80 +343,84 @@ export default function WordScrambleGame() {
 
   // Playing
   return (
-    <div className="flex min-h-svh flex-col items-center bg-zinc-950 px-4 py-6 text-white">
-      <div className="flex w-full max-w-sm flex-col gap-5">
-        {/* Home link */}
-        <HomeLink />
+    <div className="flex h-svh flex-col bg-zinc-950 px-4 py-6 text-white overflow-y-auto">
+      <div className="mx-auto flex w-full max-w-sm flex-1 flex-col gap-5 justify-between">
+        <div className="flex flex-col gap-5">
+          {/* Home link */}
+          <HomeLink />
 
-        {/* Header */}
-        <div className="flex items-center justify-between">
-          <div className="text-3xl font-bold tabular-nums">{score}</div>
-          <div className="text-3xl font-bold tabular-nums" style={{ color: timerColor }}>
-            {timeLeft}
+          {/* Header */}
+          <div className="flex items-center justify-between">
+            <div className="text-3xl font-bold tabular-nums">{score}</div>
+            <div className="text-3xl font-bold tabular-nums" style={{ color: timerColor }}>
+              {timeLeft}
+            </div>
+          </div>
+
+          {/* Timer bar */}
+          <div className="h-1.5 w-full overflow-hidden rounded-full bg-zinc-800">
+            <div
+              className="h-full rounded-full transition-all duration-1000"
+              style={{ width: `${timerPct}%`, backgroundColor: timerColor }}
+            />
+          </div>
+
+          {/* Word length hint */}
+          <p className="text-center text-sm text-zinc-500">
+            {currentWord.length}-letter word
+          </p>
+
+          {/* Answer area */}
+          <div
+            className="flex min-h-[4rem] flex-wrap items-center justify-center gap-2 rounded-2xl border-2 px-3 py-3 transition-all"
+            style={{
+              borderColor: flashSuccess ? '#22C55E' : shakeAnswer ? '#EF4444' : '#3f3f46',
+              backgroundColor: flashSuccess ? '#14532d22' : shakeAnswer ? '#7f1d1d22' : 'transparent',
+              transform: shakeAnswer ? 'translateX(-4px)' : 'none',
+            }}
+          >
+            {answerTiles.length === 0 ? (
+              <p className="text-sm text-zinc-600">Tap letters below to build the word</p>
+            ) : (
+              answerTiles.map((tile) => (
+                <button
+                  key={tile.id}
+                  onClick={() => tapAnswer(tile)}
+                  className="flex h-11 w-11 items-center justify-center rounded-xl bg-zinc-700 text-xl font-bold uppercase text-white transition active:scale-90"
+                >
+                  {tile.letter}
+                </button>
+              ))
+            )}
           </div>
         </div>
 
-        {/* Timer bar */}
-        <div className="h-1.5 w-full overflow-hidden rounded-full bg-zinc-800">
-          <div
-            className="h-full rounded-full transition-all duration-1000"
-            style={{ width: `${timerPct}%`, backgroundColor: timerColor }}
-          />
-        </div>
-
-        {/* Word length hint */}
-        <p className="text-center text-sm text-zinc-500">
-          {currentWord.length}-letter word
-        </p>
-
-        {/* Answer area */}
-        <div
-          className="flex min-h-[4rem] flex-wrap items-center justify-center gap-2 rounded-2xl border-2 px-3 py-3 transition-all"
-          style={{
-            borderColor: flashSuccess ? '#22C55E' : shakeAnswer ? '#EF4444' : '#3f3f46',
-            backgroundColor: flashSuccess ? '#14532d22' : shakeAnswer ? '#7f1d1d22' : 'transparent',
-            transform: shakeAnswer ? 'translateX(-4px)' : 'none',
-          }}
-        >
-          {answerTiles.length === 0 ? (
-            <p className="text-sm text-zinc-600">Tap letters below to build the word</p>
-          ) : (
-            answerTiles.map((tile) => (
+        <div className="flex flex-col gap-5 pb-2">
+          {/* Scrambled letters */}
+          <div className="flex flex-wrap items-center justify-center gap-2">
+            {scrambledTiles.map((tile) => (
               <button
                 key={tile.id}
-                onClick={() => tapAnswer(tile)}
-                className="flex h-11 w-11 items-center justify-center rounded-xl bg-zinc-700 text-xl font-bold uppercase text-white transition active:scale-90"
+                onClick={() => tapScrambled(tile)}
+                className="flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-600 text-xl font-bold uppercase text-white transition active:scale-90 hover:bg-indigo-500"
               >
                 {tile.letter}
               </button>
-            ))
-          )}
-        </div>
+            ))}
+          </div>
 
-        {/* Scrambled letters */}
-        <div className="flex flex-wrap items-center justify-center gap-2 pt-2">
-          {scrambledTiles.map((tile) => (
-            <button
-              key={tile.id}
-              onClick={() => tapScrambled(tile)}
-              className="flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-600 text-xl font-bold uppercase text-white transition active:scale-90 hover:bg-indigo-500"
-            >
-              {tile.letter}
-            </button>
-          ))}
+          {/* Skip */}
+          <button
+            onClick={() => {
+              const nextWord = pickWord(usedWordsRef.current);
+              usedWordsRef.current.add(nextWord);
+              setupWord(nextWord);
+            }}
+            className="mx-auto text-sm text-zinc-600 underline-offset-2 hover:text-zinc-400"
+          >
+            Skip word
+          </button>
         </div>
-
-        {/* Skip */}
-        <button
-          onClick={() => {
-            const nextWord = pickWord(usedWordsRef.current);
-            usedWordsRef.current.add(nextWord);
-            setupWord(nextWord);
-          }}
-          className="mx-auto text-sm text-zinc-600 underline-offset-2 hover:text-zinc-400"
-        >
-          Skip word
-        </button>
       </div>
     </div>
   );

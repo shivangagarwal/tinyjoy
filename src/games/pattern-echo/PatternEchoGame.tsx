@@ -257,10 +257,12 @@ export default function PatternEchoGame() {
 
   // Playing (showing / input / success)
   return (
-    <div className="flex min-h-svh flex-col items-center bg-zinc-950 px-4 py-8 text-white">
-      <div className="flex w-full max-w-sm flex-col items-center gap-8">
+    <div className="flex h-svh flex-col bg-zinc-950 px-4 py-8 text-white overflow-y-auto">
+      <div className="mx-auto flex w-full max-w-sm flex-1 flex-col items-center gap-6">
         {/* Home link */}
-        <HomeLink />
+        <div className="w-full">
+          <HomeLink />
+        </div>
 
         {/* Header */}
         <div className="flex w-full items-center justify-between">
@@ -290,40 +292,42 @@ export default function PatternEchoGame() {
           ))}
         </div>
 
-        {/* 2×2 Color Buttons */}
-        <div className="grid grid-cols-2 gap-4 w-full">
-          {COLORS.map((color) => {
-            const isLit = litButton === color.id;
-            const isWrong = flashError === color.id;
+        {/* 2×2 Color Buttons — flex-1 fills remaining space */}
+        <div className="flex w-full flex-1 items-center">
+          <div className="grid w-full grid-cols-2 gap-4">
+            {COLORS.map((color) => {
+              const isLit = litButton === color.id;
+              const isWrong = flashError === color.id;
 
-            return (
-              <button
-                key={color.id}
-                onClick={() => handleTap(color.id)}
-                disabled={!isInput}
-                aria-label={color.label}
-                className="aspect-square select-none rounded-3xl font-bold text-white text-xl transition-all"
-                style={{
-                  backgroundColor: isLit
-                    ? color.lit
-                    : isWrong
-                      ? '#ef4444'
-                      : color.hex,
-                  opacity: isInput ? 1 : 0.7,
-                  transform: isLit ? 'scale(1.06)' : isWrong ? 'scale(0.94)' : 'scale(1)',
-                  boxShadow: isLit
-                    ? `0 0 28px ${color.lit}88`
-                    : isWrong
-                      ? '0 0 20px #ef444488'
-                      : 'none',
-                  cursor: isInput ? 'pointer' : 'default',
-                  transition: 'all 0.08s ease',
-                }}
-              >
-                {color.label[0]}
-              </button>
-            );
-          })}
+              return (
+                <button
+                  key={color.id}
+                  onClick={() => handleTap(color.id)}
+                  disabled={!isInput}
+                  aria-label={color.label}
+                  className="aspect-square select-none rounded-3xl font-bold text-white text-xl transition-all"
+                  style={{
+                    backgroundColor: isLit
+                      ? color.lit
+                      : isWrong
+                        ? '#ef4444'
+                        : color.hex,
+                    opacity: isInput ? 1 : 0.7,
+                    transform: isLit ? 'scale(1.06)' : isWrong ? 'scale(0.94)' : 'scale(1)',
+                    boxShadow: isLit
+                      ? `0 0 28px ${color.lit}88`
+                      : isWrong
+                        ? '0 0 20px #ef444488'
+                        : 'none',
+                    cursor: isInput ? 'pointer' : 'default',
+                    transition: 'all 0.08s ease',
+                  }}
+                >
+                  {color.label[0]}
+                </button>
+              );
+            })}
+          </div>
         </div>
 
         {/* Sequence length indicator */}
