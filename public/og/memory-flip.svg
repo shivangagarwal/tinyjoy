@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0d0d1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Decorative cards -->
+  <rect x="80" y="90" width="90" height="120" rx="12" fill="#8B5CF6" opacity="0.8"/>
+  <rect x="80" y="90" width="90" height="120" rx="12" fill="none" stroke="#8B5CF6" stroke-width="3"/>
+  <text x="125" y="160" font-family="system-ui" font-size="40" fill="white" text-anchor="middle">?</text>
+  <rect x="185" y="90" width="90" height="120" rx="12" fill="#6D28D9" opacity="0.9"/>
+  <text x="230" y="160" font-family="system-ui" font-size="36" fill="white" text-anchor="middle">★</text>
+  <rect x="80" y="230" width="90" height="120" rx="12" fill="#6D28D9" opacity="0.9"/>
+  <text x="125" y="300" font-family="system-ui" font-size="36" fill="white" text-anchor="middle">★</text>
+  <rect x="185" y="230" width="90" height="120" rx="12" fill="#8B5CF6" opacity="0.6"/>
+  <text x="230" y="300" font-family="system-ui" font-size="40" fill="white" text-anchor="middle">?</text>
+  <!-- Right side -->
+  <rect x="1010" y="90" width="90" height="120" rx="12" fill="#8B5CF6" opacity="0.4"/>
+  <rect x="1010" y="230" width="90" height="120" rx="12" fill="#6D28D9" opacity="0.3"/>
+  <rect x="1020" y="400" width="70" height="90" rx="10" fill="#8B5CF6" opacity="0.2"/>
+  <!-- TinyJoy branding -->
+  <text x="600" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#8B5CF6" text-anchor="middle" letter-spacing="4">TINYJOY</text>
+  <!-- Game name -->
+  <text x="600" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="88" font-weight="800" fill="white" text-anchor="middle">Memory Flip</text>
+  <!-- Tagline -->
+  <text x="600" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="400" fill="#a1a1aa" text-anchor="middle">Find all the pairs before time runs out</text>
+  <!-- CTA bar -->
+  <rect x="350" y="460" width="500" height="60" rx="30" fill="#8B5CF6" opacity="0.15"/>
+  <text x="600" y="498" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#8B5CF6" text-anchor="middle" letter-spacing="2">FREE · NO DOWNLOAD · PLAY NOW</text>
+</svg>

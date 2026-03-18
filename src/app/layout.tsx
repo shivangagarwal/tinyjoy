@@ -27,18 +27,20 @@ export const metadata: Metadata = {
     template: '%s | TinyJoy',
   },
   description: 'Calm, quick, delightful games for everyday moments. Free, web-first, no download required.',
-  keywords: ['free games', 'browser games', 'mobile games', 'casual games', 'quick games'],
+  keywords: ['free browser games', 'quick games no download', 'games to play when bored', 'casual browser games', 'free online games no download', 'quick games to play on phone', 'mobile browser games'],
   openGraph: {
     type: 'website',
     siteName: 'TinyJoy',
     title: 'TinyJoy — Calm, Quick, Delightful Games',
     description: 'Calm, quick, delightful games for everyday moments. Free, web-first, no download required.',
     url: BASE_URL,
+    images: [{ url: `${BASE_URL}/og/tinyjoy.svg`, width: 1200, height: 630, alt: 'TinyJoy — Free Browser Games' }],
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: 'TinyJoy — Calm, Quick, Delightful Games',
     description: 'Calm, quick, delightful games for everyday moments. Free, web-first, no download required.',
+    images: [`${BASE_URL}/og/tinyjoy.svg`],
   },
   alternates: {
     canonical: BASE_URL,

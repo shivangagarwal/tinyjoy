@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 import MemoryFlipGame from '@/games/memory-flip/MemoryFlipGame';
 
-const title = 'Memory Flip';
-const description = 'Play Memory Flip — flip cards and find matching pairs. Beat the clock in this free, quick memory game.';
+const title = 'Memory Flip — Free Browser Game';
+const description = 'Flip cards and find all matching pairs before time runs out. Free online memory game — no download, no sign-up. Can you clear the board in 60 seconds?';
 const url = 'https://tinyjoy.app/games/memory-flip';
+const ogImage = 'https://tinyjoy.app/og/memory-flip.svg';
 
 export const metadata: Metadata = {
   title,
@@ -14,11 +15,13 @@ export const metadata: Metadata = {
     description,
     url,
     type: 'website',
+    images: [{ url: ogImage, width: 1200, height: 630, alt: 'Memory Flip — Free Browser Game' }],
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title,
     description,
+    images: [ogImage],
   },
 };
 

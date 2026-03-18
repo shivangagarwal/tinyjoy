@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0d0d1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Number tiles -->
+  <rect x="70" y="90" width="80" height="80" rx="10" fill="#EF4444" opacity="0.9"/>
+  <text x="110" y="143" font-family="system-ui" font-size="36" font-weight="700" fill="white" text-anchor="middle">1</text>
+  <rect x="165" y="90" width="80" height="80" rx="10" fill="#DC2626" opacity="0.85"/>
+  <text x="205" y="143" font-family="system-ui" font-size="36" font-weight="700" fill="white" text-anchor="middle">2</text>
+  <rect x="70" y="185" width="80" height="80" rx="10" fill="#DC2626" opacity="0.85"/>
+  <text x="110" y="238" font-family="system-ui" font-size="36" font-weight="700" fill="white" text-anchor="middle">3</text>
+  <rect x="165" y="185" width="80" height="80" rx="10" fill="#EF4444" opacity="0.7"/>
+  <text x="205" y="238" font-family="system-ui" font-size="36" font-weight="700" fill="white" text-anchor="middle">4</text>
+  <rect x="117" y="280" width="80" height="80" rx="10" fill="#EF4444" opacity="0.5"/>
+  <text x="157" y="333" font-family="system-ui" font-size="36" font-weight="700" fill="white" text-anchor="middle">5</text>
+  <!-- Right side -->
+  <rect x="1020" y="90" width="70" height="70" rx="10" fill="#EF4444" opacity="0.4"/>
+  <text x="1055" y="135" font-family="system-ui" font-size="30" font-weight="700" fill="white" text-anchor="middle">25</text>
+  <rect x="1020" y="180" width="70" height="70" rx="10" fill="#DC2626" opacity="0.3"/>
+  <text x="1055" y="225" font-family="system-ui" font-size="30" font-weight="700" fill="white" text-anchor="middle">24</text>
+  <rect x="1020" y="270" width="70" height="70" rx="10" fill="#EF4444" opacity="0.2"/>
+  <!-- TinyJoy branding -->
+  <text x="600" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#EF4444" text-anchor="middle" letter-spacing="4">TINYJOY</text>
+  <!-- Game name -->
+  <text x="600" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="88" font-weight="800" fill="white" text-anchor="middle">Number Rush</text>
+  <!-- Tagline -->
+  <text x="600" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="400" fill="#a1a1aa" text-anchor="middle">Tap 1–25 in order as fast as you can</text>
+  <!-- CTA bar -->
+  <rect x="350" y="460" width="500" height="60" rx="30" fill="#EF4444" opacity="0.15"/>
+  <text x="600" y="498" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#EF4444" text-anchor="middle" letter-spacing="2">FREE · NO DOWNLOAD · PLAY NOW</text>
+</svg>

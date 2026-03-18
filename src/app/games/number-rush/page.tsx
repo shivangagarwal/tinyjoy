@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 import NumberRushGame from '@/games/number-rush/NumberRushGame';
 
-const title = 'Number Rush';
-const description = 'Play Number Rush — tap numbers 1 to 25 in order as fast as you can. A free speed and reflex game. How fast are you?';
+const title = 'Number Rush — Free Browser Game';
+const description = 'Tap numbers 1–25 in order as fast as you can. Free speed game in your browser — no download needed. Beat your best time. How fast are you?';
 const url = 'https://tinyjoy.app/games/number-rush';
+const ogImage = 'https://tinyjoy.app/og/number-rush.svg';
 
 export const metadata: Metadata = {
   title,
@@ -14,11 +15,13 @@ export const metadata: Metadata = {
     description,
     url,
     type: 'website',
+    images: [{ url: ogImage, width: 1200, height: 630, alt: 'Number Rush — Free Browser Game' }],
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title,
     description,
+    images: [ogImage],
   },
 };
 

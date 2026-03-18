@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 import WordScrambleGame from '@/games/word-scramble/WordScrambleGame';
 
-const title = 'Word Scramble';
-const description = 'Play Word Scramble — unscramble as many words as you can in 60 seconds. A free, quick word game for your everyday moments.';
+const title = 'Word Scramble — Free Browser Game';
+const description = 'Unscramble as many words as you can in 60 seconds. Free word game in your browser — no download, no sign-up. Quick fun for any moment.';
 const url = 'https://tinyjoy.app/games/word-scramble';
+const ogImage = 'https://tinyjoy.app/og/word-scramble.svg';
 
 export const metadata: Metadata = {
   title,
@@ -14,11 +15,13 @@ export const metadata: Metadata = {
     description,
     url,
     type: 'website',
+    images: [{ url: ogImage, width: 1200, height: 630, alt: 'Word Scramble — Free Browser Game' }],
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title,
     description,
+    images: [ogImage],
   },
 };
 
