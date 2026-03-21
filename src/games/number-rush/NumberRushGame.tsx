@@ -4,6 +4,7 @@ import { useEffect, useRef, useState, useCallback } from 'react';
 import { vibrate, SoundManager } from '@/lib/engine';
 import AdUnit from '@/components/AdUnit';
 import { HomeLink, OtherGames } from '@/components/GameNav';
+import ShareButton from '@/components/ShareButton';
 
 // ── Constants ──────────────────────────────────────────────────────────────
 
@@ -216,6 +217,12 @@ export default function NumberRushGame() {
             >
               Play again
             </button>
+
+            <ShareButton
+              label={`I cleared the board in ${formatTime(finalMs)}`}
+              gameName="Number Rush"
+              gameSlug="number-rush"
+            />
 
             <OtherGames currentHref="/games/number-rush" />
           </div>

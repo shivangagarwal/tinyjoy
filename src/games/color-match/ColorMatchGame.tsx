@@ -4,6 +4,7 @@ import { useEffect, useRef, useState, useCallback } from 'react';
 import { ScoreTracker, GameTimer, vibrate, SoundManager } from '@/lib/engine';
 import AdUnit from '@/components/AdUnit';
 import { HomeLink, OtherGames } from '@/components/GameNav';
+import ShareButton from '@/components/ShareButton';
 
 // ── Constants ──────────────────────────────────────────────────────────────
 
@@ -248,6 +249,8 @@ export default function ColorMatchGame() {
             >
               Play again
             </button>
+
+            <ShareButton score={score} gameName="Color Match" gameSlug="color-match" />
 
             <OtherGames currentHref="/games/color-match" />
           </div>

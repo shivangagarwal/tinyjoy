@@ -4,6 +4,7 @@ import { useEffect, useRef, useState, useCallback } from 'react';
 import { ScoreTracker, GameTimer, vibrate, SoundManager } from '@/lib/engine';
 import AdUnit from '@/components/AdUnit';
 import { HomeLink, OtherGames } from '@/components/GameNav';
+import ShareButton from '@/components/ShareButton';
 
 // ── Constants ──────────────────────────────────────────────────────────────
 
@@ -243,6 +244,8 @@ export default function MemoryFlipGame() {
             >
               Play again
             </button>
+
+            <ShareButton score={score} gameName="Memory Flip" gameSlug="memory-flip" />
 
             <OtherGames currentHref="/games/memory-flip" />
           </div>

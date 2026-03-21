@@ -4,6 +4,7 @@ import { useEffect, useRef, useState, useCallback } from 'react';
 import { ScoreTracker, vibrate, SoundManager } from '@/lib/engine';
 import AdUnit from '@/components/AdUnit';
 import { HomeLink, OtherGames } from '@/components/GameNav';
+import ShareButton from '@/components/ShareButton';
 
 // ── Constants ──────────────────────────────────────────────────────────────
 
@@ -247,6 +248,8 @@ export default function PatternEchoGame() {
             >
               Play again
             </button>
+
+            <ShareButton score={currentRound - 1} gameName="Pattern Echo" gameSlug="pattern-echo" />
 
             <OtherGames currentHref="/games/pattern-echo" />
           </div>

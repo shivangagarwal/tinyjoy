@@ -4,6 +4,7 @@ import { useEffect, useRef, useState, useCallback } from 'react';
 import { ScoreTracker, GameTimer, vibrate, SoundManager } from '@/lib/engine';
 import AdUnit from '@/components/AdUnit';
 import { HomeLink, OtherGames } from '@/components/GameNav';
+import ShareButton from '@/components/ShareButton';
 
 // ── Word List ──────────────────────────────────────────────────────────────
 // ~200 common English words, 4-6 letters
@@ -335,6 +336,8 @@ export default function WordScrambleGame() {
             >
               Play again
             </button>
+
+            <ShareButton score={score} gameName="Word Scramble" gameSlug="word-scramble" />
 
             <OtherGames currentHref="/games/word-scramble" />
           </div>
