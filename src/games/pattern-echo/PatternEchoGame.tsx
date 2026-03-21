@@ -292,8 +292,8 @@ export default function PatternEchoGame() {
           ))}
         </div>
 
-        {/* 2×2 Color Buttons — flex-1 fills remaining space */}
-        <div className="flex w-full flex-1 items-center">
+        {/* 2×2 Color Buttons */}
+        <div className="mt-4 w-full">
           <div className="grid w-full grid-cols-2 gap-4">
             {COLORS.map((color) => {
               const isLit = litButton === color.id;

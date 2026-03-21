@@ -250,8 +250,8 @@ export default function NumberRushGame() {
           />
         </div>
 
-        {/* Grid — flex-1 centers it vertically in remaining space */}
-        <div className="flex flex-1 items-center">
+        {/* Grid */}
+        <div className="mt-4">
         <div className="grid w-full grid-cols-5 gap-2">
           {numbers.map((num, i) => {
             const done = tapped.has(num);

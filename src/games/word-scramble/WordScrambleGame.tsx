@@ -346,7 +346,7 @@ export default function WordScrambleGame() {
   // Playing
   return (
     <div className="flex h-svh flex-col bg-zinc-950 px-4 py-6 text-white overflow-y-auto">
-      <div className="mx-auto flex w-full max-w-sm flex-1 flex-col gap-5 justify-between">
+      <div className="mx-auto flex w-full max-w-sm flex-col gap-5">
         <div className="flex flex-col gap-5">
           {/* Home link */}
           <HomeLink />

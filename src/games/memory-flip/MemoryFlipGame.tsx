@@ -277,8 +277,8 @@ export default function MemoryFlipGame() {
           />
         </div>
 
-        {/* Card grid — flex-1 centers it vertically in remaining space */}
-        <div className="flex flex-1 items-center">
+        {/* Card grid */}
+        <div className="mt-4">
         <div
           className="grid w-full gap-2"
           style={{ gridTemplateColumns: `repeat(${COLS}, 1fr)` }}
