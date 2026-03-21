@@ -154,6 +154,7 @@ export default function WordScrambleGame() {
   const [isNewBest, setIsNewBest] = useState(false);
   const [timeLeft, setTimeLeft] = useState(DURATION);
   const [currentWord, setCurrentWord] = useState('');
+  const [scrambledWord, setScrambledWord] = useState('');
   const [scrambledTiles, setScrambledTiles] = useState<LetterTile[]>([]);
   const [answerTiles, setAnswerTiles] = useState<LetterTile[]>([]);
   const [shakeAnswer, setShakeAnswer] = useState(false);
@@ -174,9 +175,10 @@ export default function WordScrambleGame() {
   useEffect(() => () => timerRef.current?.pause(), []);
 
   function setupWord(word: string) {
-    const letters = scramble(word).split('');
-    const tiles: LetterTile[] = letters.map((letter, i) => ({ id: i, letter }));
+    const scrambledStr = scramble(word);
+    const tiles: LetterTile[] = scrambledStr.split('').map((letter, i) => ({ id: i, letter }));
     setCurrentWord(word);
+    setScrambledWord(scrambledStr);
     setScrambledTiles(tiles);
     setAnswerTiles([]);
   }
@@ -365,10 +367,20 @@ export default function WordScrambleGame() {
             />
           </div>
 
-          {/* Word length hint */}
-          <p className="text-center text-sm text-zinc-500">
-            {currentWord.length}-letter word
-          </p>
+          {/* Scrambled word display */}
+          <div className="flex flex-col items-center gap-2">
+            <p className="text-xs uppercase tracking-widest text-zinc-500">Unscramble this word</p>
+            <div className="flex gap-2">
+              {scrambledWord.split('').map((letter, i) => (
+                <span
+                  key={i}
+                  className="flex h-12 w-12 items-center justify-center rounded-xl bg-zinc-800 text-2xl font-bold uppercase text-zinc-200"
+                >
+                  {letter}
+                </span>
+              ))}
+            </div>
+          </div>
 
           {/* Answer area */}
           <div
