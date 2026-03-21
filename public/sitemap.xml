@@ -37,6 +37,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tinyjoy.app/games/typing-speed/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tinyjoy.app/blog/</loc>
     <lastmod>2026-03-18</lastmod>
     <changefreq>weekly</changefreq>

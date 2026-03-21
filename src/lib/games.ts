@@ -34,6 +34,13 @@ export const GAMES = [
     emoji: '🔤',
     bg: '#EC4899',
   },
+  {
+    href: '/games/typing-speed',
+    name: 'Typing Speed',
+    description: 'Type a passage. How fast are you?',
+    emoji: '⌨️',
+    bg: '#06B6D4',
+  },
 ] as const;
 
 export type Game = (typeof GAMES)[number];

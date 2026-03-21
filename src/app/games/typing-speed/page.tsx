@@ -1,0 +1,52 @@
+import type { Metadata } from 'next';
+import TypingSpeedGame from '@/games/typing-speed/TypingSpeedGame';
+
+const title = 'Typing Speed Test — Free Online WPM Test';
+const description = 'Test your typing speed and accuracy. Type a short passage as fast as you can and see your WPM score. Free typing test — no download, no sign-up.';
+const url = 'https://tinyjoy.app/games/typing-speed';
+const ogImage = 'https://tinyjoy.app/og/typing-speed.svg';
+
+export const metadata: Metadata = {
+  title,
+  description,
+  alternates: { canonical: url },
+  openGraph: {
+    title,
+    description,
+    url,
+    type: 'website',
+    images: [{ url: ogImage, width: 1200, height: 630, alt: 'Typing Speed Test — Free Online WPM Test' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title,
+    description,
+    images: [ogImage],
+  },
+};
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'VideoGame',
+  name: 'Typing Speed Test',
+  description,
+  url,
+  genre: 'Casual',
+  playMode: 'SinglePlayer',
+  gamePlatform: 'Web Browser',
+  applicationCategory: 'Game',
+  offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+  publisher: { '@type': 'Organization', name: 'TinyJoy' },
+};
+
+export default function TypingSpeedPage() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <TypingSpeedGame />
+    </>
+  );
+}
