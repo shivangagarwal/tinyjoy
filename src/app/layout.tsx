@@ -6,7 +6,7 @@ import Link from "next/link";
 import "./globals.css";
 
 // Replace with your actual AdSense publisher ID after approval
-const ADSENSE_CLIENT = "ca-pub-XXXXXXXXXXXXXXXXXX";
+const ADSENSE_CLIENT = "ca-pub-4129630857541496";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

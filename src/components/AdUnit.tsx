@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 
 // Replace with actual AdSense publisher ID after approval at:
 // https://www.google.com/adsense/
-export const ADSENSE_CLIENT = 'ca-pub-XXXXXXXXXXXXXXXXXX';
+export const ADSENSE_CLIENT = 'ca-pub-4129630857541496';
 
 interface AdUnitProps {
   slot: string;
