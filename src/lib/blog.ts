@@ -87,6 +87,96 @@ export const BLOG_POSTS: BlogPost[] = [
     `.trim(),
   },
   {
+    slug: 'games-to-play-when-bored',
+    title: 'Games to Play When Bored — Free, No Download',
+    description: 'The best games to play when bored — free browser games that start instantly, no download or sign-up. Play for 60 seconds or 20 minutes.',
+    date: '2026-03-22',
+    category: 'tips',
+    readingTime: '3 min',
+    content: `
+<p>Boredom hits fast. The best fix is a game that starts just as fast — no app store, no install, no account creation. Just open your browser and go.</p>
+
+<p>Here are the best games to play when bored, all free and ready in seconds.</p>
+
+<h2>Number Rush — 30 seconds to a minute</h2>
+<p>Tap numbers 1–25 in order, as fast as you can. Sounds trivial. It isn't. The numbers are scattered randomly and your personal best mocks you from the top of the screen. Dangerously replayable.</p>
+<p><a href="/games/number-rush">Play Number Rush →</a></p>
+
+<h2>Reaction Time — pure reflex</h2>
+<p>A color change. You tap. How fast are you? Average human reaction time is 250ms — most people are slower than they think. This is the game you'll play 10 times in a row trying to prove yourself.</p>
+<p><a href="/games/reaction-time">Play Reaction Time →</a></p>
+
+<h2>Color Match — 60 seconds of flow</h2>
+<p>A target color, a grid of tiles, and 60 seconds. Tap everything that matches. When it clicks, it enters a satisfying flow state that makes the time disappear.</p>
+<p><a href="/games/color-match">Play Color Match →</a></p>
+
+<h2>Typing Speed Test — find out how fast you type</h2>
+<p>Type a passage as fast and accurately as you can. Your WPM score at the end is oddly motivating. Most people discover they're slower than they thought — and immediately want to try again.</p>
+<p><a href="/games/typing-speed">Play Typing Speed Test →</a></p>
+
+<h2>Pattern Echo — meditative memory</h2>
+<p>Watch a growing color sequence. Repeat it. Get it right, the sequence grows by one. There's no time pressure — just you and the pattern. Weirdly calming for a memory challenge.</p>
+<p><a href="/games/pattern-echo">Play Pattern Echo →</a></p>
+
+<h2>Memory Flip — classic card matching</h2>
+<p>16 cards, 8 pairs, 60 seconds. A classic for a reason. The satisfying click of finding a match never gets old, and finishing a full board with time to spare feels genuinely good.</p>
+<p><a href="/games/memory-flip">Play Memory Flip →</a></p>
+
+<h2>Word Scramble — quick mental workout</h2>
+<p>Scrambled letters appear; you type the word. 60 seconds to solve as many as possible. It's the fastest way to feel smart — most words take under 3 seconds once your brain locks on.</p>
+<p><a href="/games/word-scramble">Play Word Scramble →</a></p>
+
+<h2>Why browser games beat apps when you're bored</h2>
+<p>Installing an app to cure boredom takes longer than the boredom lasts. Browser games are different: instant, friction-free, and gone the moment you close the tab. No storage used, no notifications, no guilt.</p>
+
+<p>All seven games are free at <a href="/">TinyJoy</a>. Pick one and play.</p>
+    `.trim(),
+  },
+  {
+    slug: 'free-typing-speed-test-online',
+    title: 'Free Typing Speed Test Online — How Fast Do You Type?',
+    description: 'Take a free online typing speed test and find out your WPM. No sign-up, no download — test your typing speed in your browser right now.',
+    date: '2026-03-22',
+    category: 'tips',
+    readingTime: '3 min',
+    content: `
+<p>The average person types around 40 words per minute. Professional typists hit 70–80 WPM. Fast coders and writers often clock 90–110. Where do you land?</p>
+
+<p>TinyJoy's <a href="/games/typing-speed">free typing speed test</a> gives you an answer in under two minutes — no account, no download, no email required.</p>
+
+<h2>How the typing test works</h2>
+<p>A passage of common English words appears on screen. Type it as fast and accurately as you can. When you finish, you get your WPM (words per minute) and accuracy percentage. That's it.</p>
+
+<p><a href="/games/typing-speed">Take the free typing test →</a></p>
+
+<h2>What's a good typing speed?</h2>
+<ul>
+<li><strong>Under 30 WPM</strong> — slow; most tasks take noticeably longer than they should</li>
+<li><strong>30–50 WPM</strong> — average; comfortable for everyday use</li>
+<li><strong>50–70 WPM</strong> — above average; typing doesn't slow you down</li>
+<li><strong>70–90 WPM</strong> — fast; you're ahead of most people</li>
+<li><strong>90+ WPM</strong> — very fast; likely a developer, writer, or dedicated touch typist</li>
+</ul>
+
+<h2>How to improve your typing speed</h2>
+
+<h3>Touch type — all fingers, no looking</h3>
+<p>The single biggest speed unlock is proper touch typing: all ten fingers on the home row, no looking at the keyboard. If you hunt-and-peck with two fingers, you're leaving 30+ WPM on the table. It takes a few uncomfortable weeks to retrain, but it's permanent.</p>
+
+<h3>Prioritize accuracy over speed</h3>
+<p>Counter-intuitive but true: type slower with fewer errors and your real-world speed goes up. Every correction costs more time than the mistake saved. Aim for 98%+ accuracy first; speed follows naturally.</p>
+
+<h3>Test regularly, not obsessively</h3>
+<p>A quick test every week or two is enough to track progress. More frequent testing becomes a performance anxiety loop. Use the test to measure, then practice away from the test.</p>
+
+<h2>Why test your typing speed?</h2>
+<p>Typing speed compounds. A developer who types 80 WPM vs. 40 WPM will produce code faster, write clearer commit messages, and communicate more easily in async tools. For anyone who works at a keyboard — which is most people — it's one of the highest-return skills to improve.</p>
+
+<h2>Take the test</h2>
+<p>TinyJoy's typing speed test is free, runs entirely in your browser, and takes under two minutes. <a href="/games/typing-speed">Try it now</a>.</p>
+    `.trim(),
+  },
+  {
     slug: 'casual-games-no-download-required',
     title: 'Casual Games No Download Required',
     description: 'Play casual games instantly in your browser — no download, no account, no friction. Free casual browser games that load in seconds.',
@@ -301,6 +391,105 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2>Play Now</h2>
 <p>Pattern Echo is free at TinyJoy. <a href="/games/pattern-echo">Open it in your browser</a> — no download, no sign-up.</p>
+    `.trim(),
+  },
+  {
+    slug: 'how-to-play-typing-speed',
+    title: 'How to Play Typing Speed Test — Tips to Type Faster',
+    description: 'Learn how the TinyJoy Typing Speed Test works and get practical tips to improve your WPM. Free typing test in your browser, no sign-up.',
+    date: '2026-03-22',
+    category: 'game-guide',
+    readingTime: '3 min',
+    content: `
+<p>The Typing Speed Test on TinyJoy measures how many words per minute (WPM) you can type, and how accurately. It's one of the more useful games on the site — your score directly reflects a real skill that affects everyday work.</p>
+
+<p><a href="/games/typing-speed">Take the Typing Speed Test →</a></p>
+
+<h2>How It Works</h2>
+<ul>
+<li>A passage of common English words appears on screen.</li>
+<li>Start typing — the timer begins automatically on your first keystroke.</li>
+<li>Type each word, then press space to advance to the next.</li>
+<li>Finish the full passage as fast and accurately as possible.</li>
+<li>Your WPM and accuracy are shown when you complete the test.</li>
+</ul>
+
+<h2>How WPM Is Calculated</h2>
+<p>WPM is calculated as the number of characters typed divided by 5 (the standard "word" length), divided by the time in minutes. Errors are factored into your accuracy score. A 95 WPM gross speed with 90% accuracy is a worse result than 75 WPM with 99% accuracy.</p>
+
+<h2>Tips to Improve Your Score</h2>
+
+<h3>Slow down to speed up</h3>
+<p>The most reliable way to raise your WPM is to reduce errors, not to type faster. Every backspace correction costs more time than the speed "saved" by rushing. Type at the edge of your comfort zone — not beyond it.</p>
+
+<h3>Keep your eyes on the text, not your fingers</h3>
+<p>Looking at the keyboard breaks your reading rhythm and forces you to find your place again on screen. Trust your fingers to find the keys. Even if you're not a full touch typist, training yourself not to look is an immediate speed boost.</p>
+
+<h3>Relax your hands</h3>
+<p>Tension in your hands and wrists slows you down and causes errors. Shake out your hands before the test. Keep your wrists level. Relaxed muscles move faster than tense ones.</p>
+
+<h3>Read ahead of where you're typing</h3>
+<p>Your eyes should always be 1–2 words ahead of where your fingers are. This eliminates the micro-pause between words and keeps your rhythm consistent.</p>
+
+<h2>What's a Good Score?</h2>
+<p>The average adult types 40–50 WPM. If you're comfortable at a keyboard but not trained, expect 50–70 WPM. Touch typists with practice typically score 70–100 WPM. Above 100 WPM requires deliberate training — it's fast, but achievable.</p>
+
+<h2>Take the Test</h2>
+<p>Typing Speed Test is free at TinyJoy. <a href="/games/typing-speed">Open it in your browser</a> — no sign-up, no download.</p>
+    `.trim(),
+  },
+  {
+    slug: 'how-to-play-reaction-time',
+    title: 'How to Play Reaction Time — Tips to Test Your Reflexes',
+    description: 'Learn how the TinyJoy Reaction Time test works and what your score means. Measure your reflexes in milliseconds — free, no download.',
+    date: '2026-03-22',
+    category: 'game-guide',
+    readingTime: '3 min',
+    content: `
+<p>Reaction Time is TinyJoy's pure reflex test. A signal appears — you tap as fast as you can. Your time in milliseconds is your score. Simple, honest, and surprisingly hard to accept when it's slower than you expected.</p>
+
+<p><a href="/games/reaction-time">Test your reaction time →</a></p>
+
+<h2>How It Works</h2>
+<ul>
+<li>The screen shows a "wait" state.</li>
+<li>After a random delay, the signal changes.</li>
+<li>Tap (or click) as fast as possible when it changes.</li>
+<li>Your reaction time in milliseconds is shown immediately.</li>
+<li>Play multiple rounds to get an average — single results vary more than you'd expect.</li>
+</ul>
+
+<h2>What's a Good Reaction Time?</h2>
+<p>Human reaction time follows a predictable distribution:</p>
+<ul>
+<li><strong>Under 150ms</strong> — exceptionally fast; likely an anticipation guess, not a true reaction</li>
+<li><strong>150–200ms</strong> — elite; top-tier athletes and gamers</li>
+<li><strong>200–250ms</strong> — very good; above average</li>
+<li><strong>250–300ms</strong> — average for a healthy adult</li>
+<li><strong>300–400ms</strong> — slightly below average; normal variation</li>
+<li><strong>Above 400ms</strong> — tired, distracted, or the random delay was very long</li>
+</ul>
+<p>The average is right around 250ms. Don't be surprised if you land there — it's where most people do.</p>
+
+<h2>Tips for a Cleaner Test</h2>
+
+<h3>Don't anticipate — wait for the signal</h3>
+<p>The delay before the signal is randomized to prevent anticipation guessing. If you tap before the signal changes, it records a false start. Wait. A real 240ms reaction is better than a guessed 100ms that gets flagged.</p>
+
+<h3>Use a mouse on desktop, not a trackpad</h3>
+<p>Trackpad clicks have slightly more travel than a mouse button. On desktop, a real mouse click is physically faster. On mobile, a direct screen tap is ideal.</p>
+
+<h3>Take 5+ rounds and average them</h3>
+<p>Single reaction time measurements are noisy — there's real variance round to round. For an accurate picture of your baseline, play 5–10 rounds and average the results. Ignore your outlier worst and best.</p>
+
+<h3>Test at your best, not your worst</h3>
+<p>Reaction time is genuinely affected by fatigue, caffeine, and distraction. Test when you're awake and focused for the most accurate baseline. Testing half-asleep isn't representative.</p>
+
+<h2>Why Reaction Time Matters</h2>
+<p>Reaction time is a component of many real skills: driving, sports, gaming, and even catching things you knock off a table. It's not purely genetic — consistent sleep, exercise, and deliberate practice on reflex games like this one can improve it over time.</p>
+
+<h2>Play Now</h2>
+<p>Reaction Time is free at TinyJoy. <a href="/games/reaction-time">Open it in your browser</a> — no download, no account.</p>
     `.trim(),
   },
   {
