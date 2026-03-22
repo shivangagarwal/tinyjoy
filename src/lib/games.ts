@@ -41,6 +41,13 @@ export const GAMES = [
     emoji: '⌨️',
     bg: '#06B6D4',
   },
+  {
+    href: '/games/reaction-time',
+    name: 'Reaction Time',
+    description: 'Tap when it turns green. 5 rounds.',
+    emoji: '⚡',
+    bg: '#22C55E',
+  },
 ] as const;
 
 export type Game = (typeof GAMES)[number];
