@@ -16,7 +16,9 @@ export function HomeLink() {
 
 /** 2–3 other game suggestions shown on the game-over screen. */
 export function OtherGames({ currentHref }: { currentHref: string }) {
-  const suggestions = GAMES.filter((g) => g.href !== currentHref).slice(0, 3);
+  const suggestions = GAMES.filter((g) => g.href !== currentHref)
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 3);
 
   return (
     <div className="flex w-full flex-col gap-2">
