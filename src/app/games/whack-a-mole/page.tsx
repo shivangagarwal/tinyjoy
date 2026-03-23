@@ -1,0 +1,53 @@
+import type { Metadata } from 'next';
+import WhackAMoleGame from '@/games/whack-a-mole/WhackAMoleGame';
+
+const title = 'Whack-a-Mole — Free Online Reflex Game';
+const description =
+  'Tap moles as they pop up from their holes. How many can you whack in 30 seconds? Free browser game — no download, no sign-up.';
+const url = 'https://tinyjoy.app/games/whack-a-mole';
+const ogImage = 'https://tinyjoy.app/og/whack-a-mole.svg';
+
+export const metadata: Metadata = {
+  title,
+  description,
+  alternates: { canonical: url },
+  openGraph: {
+    title,
+    description,
+    url,
+    type: 'website',
+    images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title,
+    description,
+    images: [ogImage],
+  },
+};
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'VideoGame',
+  name: 'Whack-a-Mole',
+  description,
+  url,
+  genre: 'Casual',
+  playMode: 'SinglePlayer',
+  gamePlatform: 'Web Browser',
+  applicationCategory: 'Game',
+  offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+  publisher: { '@type': 'Organization', name: 'TinyJoy' },
+};
+
+export default function WhackAMolePage() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <WhackAMoleGame />
+    </>
+  );
+}

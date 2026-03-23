@@ -48,6 +48,27 @@ export const GAMES = [
     emoji: '⚡',
     bg: '#22C55E',
   },
+  {
+    href: '/games/snake',
+    name: 'Snake',
+    description: 'Eat food. Grow longer. Classic.',
+    emoji: '🐍',
+    bg: '#16A34A',
+  },
+  {
+    href: '/games/2048',
+    name: '2048',
+    description: 'Slide tiles. Merge numbers. Reach 2048.',
+    emoji: '🎯',
+    bg: '#F59E0B',
+  },
+  {
+    href: '/games/whack-a-mole',
+    name: 'Whack-a-Mole',
+    description: 'Tap moles as they pop up. 30 seconds.',
+    emoji: '🔨',
+    bg: '#92400E',
+  },
 ] as const;
 
 export type Game = (typeof GAMES)[number];
