@@ -2,7 +2,6 @@
 
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { vibrate } from '@/lib/engine';
-import AdUnit from '@/components/AdUnit';
 import { HomeLink, OtherGames } from '@/components/GameNav';
 import ShareButton from '@/components/ShareButton';
 
@@ -205,8 +204,6 @@ export default function ReactionTimeGame() {
                 ))}
               </div>
             </div>
-
-            <AdUnit slot="1000000008" format="rectangle" />
 
             <button
               onClick={startGame}

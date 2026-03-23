@@ -2,7 +2,6 @@
 
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { ScoreTracker, GameTimer, vibrate, SoundManager } from '@/lib/engine';
-import AdUnit from '@/components/AdUnit';
 import { HomeLink, OtherGames } from '@/components/GameNav';
 import ShareButton from '@/components/ShareButton';
 
@@ -240,8 +239,6 @@ export default function ColorMatchGame() {
                 </p>
               )}
             </div>
-
-            <AdUnit slot="1000000002" format="rectangle" />
 
             <button
               onClick={startGame}

@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import AdUnit from '@/components/AdUnit';
 import { GAMES } from '@/lib/games';
 
 export const metadata: Metadata = {
@@ -50,11 +49,6 @@ export default function Home() {
                   <p className="text-sm text-zinc-400">{game.description}</p>
                 </div>
               </Link>
-              {i === 2 && (
-                <div className="mt-3 rounded-xl overflow-hidden">
-                  <AdUnit slot="1000000001" format="auto" />
-                </div>
-              )}
             </div>
           ))}
         </div>

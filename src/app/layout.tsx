@@ -5,7 +5,6 @@ import Script from "next/script";
 import Link from "next/link";
 import "./globals.css";
 
-// Replace with your actual AdSense publisher ID after approval
 const ADSENSE_CLIENT = "ca-pub-4129630857541496";
 
 const geistSans = Geist({
@@ -73,11 +72,11 @@ export default function RootLayout({
             gtag('config', 'G-MKRNBGZL2G');
           `}
         </Script>
-        <Script
+        {/* eslint-disable-next-line @next/next/no-before-interactive-script-outside-document */}
+        <script
           async
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
           crossOrigin="anonymous"
-          strategy="afterInteractive"
         />
       </head>
       <body
