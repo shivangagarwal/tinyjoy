@@ -1,0 +1,53 @@
+import type { Metadata } from 'next';
+import MinesweeperGame from '@/games/minesweeper/MinesweeperGame';
+
+const title = 'Minesweeper — Free Online Minesweeper Game';
+const description =
+  'Play classic Minesweeper online. Reveal all safe squares without hitting a mine. Easy, medium, and hard difficulty — free, no download required.';
+const url = 'https://tinyjoy.app/games/minesweeper';
+const ogImage = 'https://tinyjoy.app/og/minesweeper.svg';
+
+export const metadata: Metadata = {
+  title,
+  description,
+  alternates: { canonical: url },
+  openGraph: {
+    title,
+    description,
+    url,
+    type: 'website',
+    images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title,
+    description,
+    images: [ogImage],
+  },
+};
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'VideoGame',
+  name: 'Minesweeper',
+  description,
+  url,
+  genre: 'Puzzle',
+  playMode: 'SinglePlayer',
+  gamePlatform: 'Web Browser',
+  applicationCategory: 'Game',
+  offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+  publisher: { '@type': 'Organization', name: 'TinyJoy' },
+};
+
+export default function MinesweeperPage() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <MinesweeperGame />
+    </>
+  );
+}

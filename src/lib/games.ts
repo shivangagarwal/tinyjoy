@@ -69,6 +69,27 @@ export const GAMES = [
     emoji: '🔨',
     bg: '#92400E',
   },
+  {
+    href: '/games/tic-tac-toe',
+    name: 'Tic-Tac-Toe',
+    description: 'Classic 3×3. Beat the AI.',
+    emoji: '⭕',
+    bg: '#6366F1',
+  },
+  {
+    href: '/games/sudoku',
+    name: 'Sudoku',
+    description: 'Fill the grid. No repeats.',
+    emoji: '🔢',
+    bg: '#0EA5E9',
+  },
+  {
+    href: '/games/minesweeper',
+    name: 'Minesweeper',
+    description: 'Find all safe squares. No booms.',
+    emoji: '💣',
+    bg: '#64748B',
+  },
 ] as const;
 
 export type Game = (typeof GAMES)[number];
