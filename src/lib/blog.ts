@@ -534,6 +534,341 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Word Scramble is free at TinyJoy. <a href="/games/word-scramble">Open it in your browser</a> — no download, no account needed.</p>
     `.trim(),
   },
+
+  // ─── New SEO Articles (TIN-38) ──────────────────────────────
+  {
+    slug: 'free-online-games-no-download',
+    title: 'Free Online Games No Download — Play Instantly in Your Browser',
+    description: 'The best free online games with no download required. Play instantly in any browser on desktop or mobile — no app, no sign-up, no install.',
+    date: '2026-03-24',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Looking for free online games with no download required? You're in the right place. Every game on this list opens instantly in your browser — no app store, no installation file, no storage used. Just click and play.</p>
+
+<h2>Why "No Download" Matters</h2>
+<p>Downloads create friction. You need to find the right version, wait for the file, run an installer, and sometimes deal with permission prompts or antivirus warnings. For a 2-minute game session, that's absurd overhead. Browser games skip all of it.</p>
+
+<p>In 2026, browser games have caught up to native apps in quality. Smooth animations, fast load times, and polished design are standard. The best ones feel like native apps — they just don't require one.</p>
+
+<h2>The Best Free Online Games With No Download</h2>
+
+<h3>1. Number Rush — tap 1–25 as fast as you can</h3>
+<p>Twenty-five numbers scattered randomly on screen. Tap them in order from 1 to 25. Your time is your score. This sounds trivial — it absolutely is not. The random layout means every game is a fresh challenge, and the timer makes it deeply replayable. You will immediately want to beat your previous best.</p>
+<p>Session length: 20–60 seconds. Works great on desktop and mobile.</p>
+<p><a href="/games/number-rush">Play Number Rush — no download →</a></p>
+
+<h3>2. Color Match — 60-second color recognition</h3>
+<p>A target color is shown at the top. A grid of colored tiles fills the screen. Tap every tile that matches the target color before 60 seconds run out. The grid refreshes as you clear it. Fast, focused, and easy to learn in under 10 seconds.</p>
+<p>Session length: exactly 60 seconds. One of the most satisfying score-chasing games in the browser.</p>
+<p><a href="/games/color-match">Play Color Match — no download →</a></p>
+
+<h3>3. Memory Flip — classic card matching, zero friction</h3>
+<p>16 cards laid face-down in a 4×4 grid. Flip two at a time to find matching pairs. Match all 8 pairs before the 60-second timer runs out. The card-matching format has been popular for decades because it works — and in a browser, it's as instant as any game can be.</p>
+<p>Session length: 60 seconds or less. Great on any screen size.</p>
+<p><a href="/games/memory-flip">Play Memory Flip — no download →</a></p>
+
+<h3>4. Pattern Echo — Simon Says, reimagined</h3>
+<p>Watch a sequence of color flashes, then repeat it. Each correct round adds one more step to the sequence. There's no time limit on your response — just memory, focus, and the quiet satisfaction of a long streak. Starts easy. Gets genuinely hard around round 10.</p>
+<p>Session length: variable. Go as long as your memory holds.</p>
+<p><a href="/games/pattern-echo">Play Pattern Echo — no download →</a></p>
+
+<h3>5. Reaction Time — pure reflexes in milliseconds</h3>
+<p>A signal appears. You tap as fast as you can. Your reaction time is shown in milliseconds. The average human reaction time is around 250ms — most people discover they're slower than they expected, and immediately want another round. A rare game that measures a real-world skill.</p>
+<p>Session length: 10–30 seconds per round. Play 5 rounds to get an accurate average.</p>
+<p><a href="/games/reaction-time">Play Reaction Time — no download →</a></p>
+
+<h3>6. Word Scramble — unscramble words against the clock</h3>
+<p>Scrambled letters appear. You type the correct word. 60 seconds to solve as many as possible. The words are common English — it's not a vocabulary test, it's a pattern recognition test. Fast and satisfying when you're in the zone.</p>
+<p>Session length: exactly 60 seconds. Great for a mental warm-up.</p>
+<p><a href="/games/word-scramble">Play Word Scramble — no download →</a></p>
+
+<h2>What Makes These Different From App Store Games?</h2>
+
+<h3>Zero install, zero storage</h3>
+<p>No file to download. No storage used on your device. No permission requests. Open your browser, navigate to the game, and play. Close the tab when you're done — the game leaves no trace on your device.</p>
+
+<h3>Cross-device, instantly</h3>
+<p>The same game works on your laptop, your phone, and any device with a modern browser. No syncing required. No account to log into on a new device.</p>
+
+<h3>No update fatigue</h3>
+<p>App games push updates constantly. Browser games load fresh every time you visit. You never play an outdated version, and you never stare at an update prompt when you just want to play for two minutes.</p>
+
+<h2>Play Now</h2>
+<p>All six games above are free, require no download, and work on any device. They live at <a href="/">TinyJoy</a> — no account, no sign-up, no friction.</p>
+
+<p>Bookmark <a href="https://tinyjoy.app">tinyjoy.app</a> and you've got a collection of instant browser games always one tap away.</p>
+    `.trim(),
+  },
+  {
+    slug: 'best-browser-games-2026',
+    title: 'Best Browser Games 2026 — Free, Instant, No Install',
+    description: 'The best browser games to play in 2026. Free, no download, no sign-up — play directly in your browser on any device. Updated for 2026.',
+    date: '2026-03-24',
+    category: 'tips',
+    readingTime: '5 min',
+    content: `
+<p>Browser games in 2026 are better than ever. Fast load times, polished design, and genuine replay value — without the app store, without the install, without an account. Here are the best browser games you can play right now.</p>
+
+<h2>What to Look for in a Browser Game</h2>
+<p>The best browser games share a few qualities:</p>
+<ul>
+<li><strong>Instant start</strong> — no loading screen, no tutorial you can't skip</li>
+<li><strong>Short sessions</strong> — satisfying in under 2 minutes</li>
+<li><strong>Real replayability</strong> — a reason to play again beyond habit</li>
+<li><strong>Works everywhere</strong> — desktop, phone, tablet, any browser</li>
+</ul>
+
+<p>The games below hit all four.</p>
+
+<h2>Best Browser Games in 2026</h2>
+
+<h3>Number Rush — best for speed and competition</h3>
+<p>Tap numbers 1–25 in order, as fast as possible. The numbers are scattered randomly each game. Your time is your score. The loop is: play, see your time, immediately want to beat it. It's one of the most replayable games in the browser because your score is purely your skill — no luck, no strategy, just speed and scanning ability.</p>
+<p>Perfect for: competitive players, quick breaks, personal best chasing.</p>
+<p><a href="/games/number-rush">Play Number Rush →</a></p>
+
+<h3>Reaction Time — best for quick sessions</h3>
+<p>A signal appears. You tap. Your reaction time is shown in milliseconds. Average human reaction time is around 250ms. This game will tell you exactly where you land — and whether coffee actually helps your reflexes. Each round takes about 10 seconds, making it the fastest complete game in the browser.</p>
+<p>Perfect for: 30-second breaks, reflex testing, settling debates about who's faster.</p>
+<p><a href="/games/reaction-time">Play Reaction Time →</a></p>
+
+<h3>Color Match — best for flow state</h3>
+<p>A target color at the top, a grid of tiles below. Tap tiles matching the target. 60 seconds. The game enters a satisfying flow state when you're playing well — rapid scans, confident taps, the grid refreshing as you clear it. One of the most calming high-score games in the browser.</p>
+<p>Perfect for: 60-second breaks, focus training, flow-state gaming.</p>
+<p><a href="/games/color-match">Play Color Match →</a></p>
+
+<h3>Pattern Echo — best for memory training</h3>
+<p>Watch a growing color sequence. Repeat it. One more color gets added each round. There's no time limit on your response — Pattern Echo is about pure memory and composure, not speed. The sweet spot is around rounds 8–12, where the challenge is real but your brain is still keeping up.</p>
+<p>Perfect for: memory workouts, calm gaming, going as long as you can.</p>
+<p><a href="/games/pattern-echo">Play Pattern Echo →</a></p>
+
+<h3>Memory Flip — best for classic gameplay</h3>
+<p>The card-matching game everyone knows, executed cleanly. 16 cards face-down, 8 pairs to find, 60 seconds. There's a reason this format has been popular for decades: it works. In 2026, Memory Flip in a browser is the cleanest version of this game you'll find — no ads between rounds, no waiting for animations, just cards.</p>
+<p>Perfect for: a genuine mental workout, calm 60-second sessions, any age.</p>
+<p><a href="/games/memory-flip">Play Memory Flip →</a></p>
+
+<h3>Typing Speed Test — best for improving a real skill</h3>
+<p>Type a passage of common English words as fast and accurately as you can. Your WPM score at the end reflects a skill that affects your work every day. The average person types 40–50 WPM; above 80 WPM puts you in the top tier. Browser-based typing tests are the most accurate way to measure — no gimmicks, no inflated numbers.</p>
+<p>Perfect for: skill measurement, writers, developers, anyone who works at a keyboard.</p>
+<p><a href="/games/typing-speed">Take the Typing Speed Test →</a></p>
+
+<h3>Word Scramble — best word game in the browser</h3>
+<p>Scrambled letters appear. Type the correct word. 60 seconds to solve as many as possible. Word Scramble is more about pattern recognition than vocabulary — you already know all the words, it's just about seeing them fast. The score ceiling is high enough that improving feels meaningful.</p>
+<p>Perfect for: vocabulary warmups, language lovers, anyone who liked Wordle.</p>
+<p><a href="/games/word-scramble">Play Word Scramble →</a></p>
+
+<h2>Why Browser Games Are Having a Moment in 2026</h2>
+<p>Mobile app fatigue is real. Constant notifications, storage complaints, update prompts, and the cognitive overhead of managing dozens of apps have pushed a lot of people back toward the simplicity of the browser. A game that opens in a tab — plays well — and disappears when you close the tab is a genuinely different experience from a native app designed to maximize engagement and retention.</p>
+
+<p>Browser games also work better on more devices now. WebGL, WebAssembly, and modern CSS have closed the performance gap significantly. In 2026, a well-built browser game is indistinguishable from a native app in feel — it just loads in 2 seconds instead of requiring a 200MB install.</p>
+
+<h2>Play All of Them Free</h2>
+<p>Every game above is free at <a href="/">TinyJoy</a>. No download, no account, no ads between rounds. Open your browser, pick a game, and go.</p>
+    `.trim(),
+  },
+  {
+    slug: 'snake-game-online',
+    title: 'Snake Game Online — Play Free in Your Browser',
+    description: 'Play snake game online free — no download, no app required. Classic snake gameplay in your browser, plus other free casual games at TinyJoy.',
+    date: '2026-03-24',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Snake is one of the most-played games in history. Simple concept, deep skill ceiling, endlessly replayable. The best version of snake is always the one you can open right now — no download, no account, no friction.</p>
+
+<h2>What Makes Snake So Addictive?</h2>
+<p>Snake has a perfect difficulty curve. The first 30 seconds are easy — your snake is short and the board is nearly empty. But as you eat and grow, the game becomes a spatial puzzle. You need to plan your route, avoid cutting yourself off, and manage a body that's getting longer with every bite. The transition from "this is easy" to "how did I just lose?" happens fast, and the desire to fix the mistake drives replay after replay.</p>
+
+<p>Snake is also honest. Your score is a direct measure of your decision-making. No randomness penalized you. No enemy AI got a lucky shot. You either planned your path well or you didn't.</p>
+
+<h2>Snake Game Tips and Strategies</h2>
+
+<h3>Hug the walls early</h3>
+<p>In the early game when your snake is short, travel along the outer edges of the board. This keeps your body out of the center and gives you more open space to maneuver as you grow. Wall-hugging snakes last longer than snakes that zigzag through the middle.</p>
+
+<h3>Plan 3–5 moves ahead</h3>
+<p>Don't just react to the food — think about where you'll be after you eat it. If eating this piece of food puts your head in a corner, skip it or approach from a different direction. The best snake players are thinking several moves ahead at all times.</p>
+
+<h3>Use the full board</h3>
+<p>A common mistake is staying in one quadrant of the board. Your snake's body fills space, so using the entire board gives you the most room. Think of your path as drawing a spiral inward — covering the whole board efficiently before the space runs out.</p>
+
+<h3>Don't rush</h3>
+<p>Snake rewards methodical play over speed. Most versions of snake give you control over the pacing. Use it. A slower, deliberate path that avoids dead ends scores higher than frantic speed that ends in an accidental collision.</p>
+
+<h3>When stuck, U-turn</h3>
+<p>If you're heading into a tight space, reversing course is often better than going forward into certain death. Most snake games allow you to turn back as long as you don't immediately collide with your own body. A U-turn that costs a few moves beats losing the round.</p>
+
+<h2>History of Snake</h2>
+<p>Snake's origins trace back to arcade machines in the late 1970s. The game "Blockade" (1976) was an early version. But snake became a global phenomenon in the late 1990s when Nokia pre-installed it on mobile phones — giving millions of people their first introduction to mobile gaming. The Nokia 3310 version remains the most iconic, but the concept has been rebuilt thousands of times since.</p>
+
+<p>Modern browser versions of snake are significantly better than the original: smoother animations, better controls, and scores you can actually compete on. The core loop — eat, grow, don't crash — has never changed, and it's still the most elegant game loop in casual gaming.</p>
+
+<h2>Snake Coming to TinyJoy</h2>
+<p>TinyJoy is adding a snake game to its collection of free browser games. No download, no account, plays on any device. Check back at <a href="/">tinyjoy.app</a> for the launch.</p>
+
+<h2>Play Other Free Browser Games Now</h2>
+<p>While you wait, TinyJoy already has a collection of free instant browser games:</p>
+<ul>
+<li><a href="/games/number-rush">Number Rush</a> — tap 1–25 in order, fastest time wins</li>
+<li><a href="/games/reaction-time">Reaction Time</a> — test your reflexes in milliseconds</li>
+<li><a href="/games/color-match">Color Match</a> — match colored tiles, 60-second rounds</li>
+<li><a href="/games/memory-flip">Memory Flip</a> — classic card matching</li>
+<li><a href="/games/pattern-echo">Pattern Echo</a> — Simon Says memory game</li>
+<li><a href="/games/word-scramble">Word Scramble</a> — unscramble words against the clock</li>
+</ul>
+<p>All free, no download, no sign-up. Play at <a href="/">TinyJoy</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: '2048-strategy-guide',
+    title: '2048 Strategy Guide — How to Win at 2048 Every Time',
+    description: 'The complete 2048 strategy guide: corner method, tile merging, and advanced techniques to reach 2048 and beyond. Play free browser games at TinyJoy.',
+    date: '2026-03-24',
+    category: 'game-guide',
+    readingTime: '5 min',
+    content: `
+<p>2048 looks like luck. It isn't. With the right strategy, you can reach the 2048 tile — and beyond — consistently. This guide covers everything from the core technique to advanced play for players trying to hit 4096 and higher.</p>
+
+<h2>How 2048 Works</h2>
+<p>The board is a 4×4 grid. Tiles with numbers sit on it. You swipe (or press arrow keys) to slide all tiles in one direction. When two tiles with the same number collide, they merge into one tile with double the value. A new tile (2 or 4) appears after each move. Your goal: reach a tile with the value 2048.</p>
+
+<p>The game ends when the board is full and no merges are possible.</p>
+
+<h2>The Corner Strategy (The Correct Way to Play)</h2>
+<p>The single most important 2048 strategy is the corner method. Here's how it works:</p>
+
+<h3>Step 1: Pick one corner and never move your highest tile from it</h3>
+<p>Choose a corner — bottom-left is common. Your highest-value tile should always stay in that corner. Never swipe in a direction that would move your highest tile away from that corner. This constraint structures every subsequent decision.</p>
+
+<h3>Step 2: Build a snake pattern from the corner</h3>
+<p>Arrange your tiles in descending order in a snake pattern from your corner. The snake pattern looks like this for bottom-left corner:</p>
+<ul>
+<li>Bottom row: highest → second → third → fourth (left to right)</li>
+<li>Third row: fifth → sixth → seventh → eighth (right to left)</li>
+<li>Second row: ninth → tenth... (left to right)</li>
+<li>Top row: continues the pattern</li>
+</ul>
+<p>This keeps your large tiles together and creates natural merge opportunities as smaller tiles cascade down toward your corner.</p>
+
+<h3>Step 3: Only swipe in three directions</h3>
+<p>With your corner established, you primarily use three swipe directions: two that keep your anchor tile in the corner, and one carefully chosen third direction. Avoid the swipe that would displace your highest tile until absolutely necessary — and even then, prioritize getting it back immediately.</p>
+
+<h2>Intermediate Techniques</h2>
+
+<h3>Build in columns, not rows</h3>
+<p>Vertical merges (swiping up or down) tend to be more efficient for most board configurations because tiles fall consistently. Choose either up+down or left+right as your primary axis based on where your anchor corner is, and stick to it.</p>
+
+<h3>Never let the board fill randomly</h3>
+<p>Panic-swiping in random directions when the board is crowded is how most games end. Before every swipe, look at the board and ask: "Where will the new tile appear? What merges does this enable? What does this block?" Even two seconds of analysis prevents most avoidable losses.</p>
+
+<h3>Keep big merges available</h3>
+<p>Don't merge tiles if the result would be a large tile in an inconvenient position. Sometimes it's better to leave two 64s unmarged temporarily and spend moves clearing space, then merge when the 128 can go somewhere useful.</p>
+
+<h3>Build up, not out</h3>
+<p>Concentrate your high-value tiles in one area rather than spreading them across the board. A board with one 512 tile and surrounding 256, 128, and 64 tiles is far easier to work with than a board where large tiles are scattered in all four corners.</p>
+
+<h2>Advanced Play: Going Beyond 2048</h2>
+<p>The 2048 tile is actually not that hard once you have the corner strategy down. Players regularly reach 4096, 8192, and even 16384 with perfect play. The techniques scale:</p>
+
+<h3>The same corner method, more patience</h3>
+<p>Everything above applies at higher tiles, but the stakes of each mistake are higher. A bad swipe at the 2048 level can end a run that took 10 minutes to build. Slow down. The game doesn't have a timer.</p>
+
+<h3>Manage the new tile placements</h3>
+<p>New tiles (2 or 4) appear in empty cells at random. At high tile counts, board space is precious. Try to keep a cluster of empty cells near the top of the board (away from your corner) to absorb new tiles without disrupting your pattern.</p>
+
+<h3>Sacrifice runs gracefully</h3>
+<p>Sometimes a run is unrecoverable — your anchor tile is stuck, the board is fragmented, and no good merges exist. Recognize this early and play to get as high a score as possible with the remaining moves, rather than extending a doomed board for another 50 moves out of hope.</p>
+
+<h2>What's a Good Score?</h2>
+<ul>
+<li><strong>Reaching 512</strong> — beginner; learning the basics</li>
+<li><strong>Reaching 1024</strong> — comfortable player; corner strategy understood</li>
+<li><strong>Reaching 2048</strong> — competent; strategy consistently applied</li>
+<li><strong>Reaching 4096</strong> — strong player; advanced technique</li>
+<li><strong>Reaching 8192+</strong> — expert; near-perfect play required</li>
+</ul>
+
+<h2>2048 Coming to TinyJoy</h2>
+<p>TinyJoy is launching a 2048 game — free, no download, plays in your browser on any device. Check back at <a href="/">tinyjoy.app</a> for the launch.</p>
+
+<h2>Play Free Browser Games Now</h2>
+<p>TinyJoy already has a full collection of free instant browser games while 2048 is in development:</p>
+<ul>
+<li><a href="/games/number-rush">Number Rush</a> — spatial speed game, perfect for logical thinkers</li>
+<li><a href="/games/pattern-echo">Pattern Echo</a> — sequence memory game, tests the same skills as 2048</li>
+<li><a href="/games/memory-flip">Memory Flip</a> — card matching, clean and instant</li>
+<li><a href="/games/color-match">Color Match</a> — fast-paced tile game</li>
+<li><a href="/games/word-scramble">Word Scramble</a> — pattern recognition in words</li>
+</ul>
+<p>All free, no sign-up, no download. <a href="/">Play at TinyJoy</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: 'fun-games-to-play-at-work',
+    title: 'Fun Games to Play at Work (Discreet, Quick, Browser-Based)',
+    description: 'The best fun games to play at work — free browser games that open in a tab, play in under 2 minutes, and close cleanly. No downloads, no accounts.',
+    date: '2026-03-24',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Sometimes you need a two-minute mental reset between meetings. The problem: most game recommendations involve installs, accounts, or games that are hard to exit quickly. These games run in a browser tab, start instantly, and end cleanly in under two minutes. Perfect for work.</p>
+
+<h2>What Makes a Good Work Break Game?</h2>
+<p>A good work break game is:</p>
+<ul>
+<li><strong>Fast to start</strong> — opens in under 5 seconds</li>
+<li><strong>Short sessions</strong> — satisfying round under 2 minutes</li>
+<li><strong>Easy to exit</strong> — close the tab and you're back at work</li>
+<li><strong>Mentally refreshing</strong> — not numbing, actually resets your focus</li>
+<li><strong>Discreet</strong> — looks like a browser tab, not a gaming client</li>
+</ul>
+
+<p>All of the games below pass this test. They're all at <a href="/">TinyJoy</a> — free, no account, no install.</p>
+
+<h2>The Best Work Break Games</h2>
+
+<h3>Reaction Time — 30 seconds, pure focus reset</h3>
+<p>A signal appears. You tap as fast as you can. Your reaction time in milliseconds is shown. Do 5 rounds, take an average, close the tab. The game engages your brain's visual and motor systems for 30 seconds and requires nothing else. It's the most effective focus reset in the browser for its length.</p>
+<p>Session length: 30–60 seconds. Completely discreet in a browser tab.</p>
+<p><a href="/games/reaction-time">Play Reaction Time →</a></p>
+
+<h3>Number Rush — tap 1–25, clean your head</h3>
+<p>Twenty-five numbers scattered randomly. Tap them in order. Your time is your score. Number Rush works as a work break because it requires complete focus on the screen for about 30 seconds — no room for the work problem to stay in your head. After you finish, your brain has had a genuine break. Better than scrolling social media.</p>
+<p>Session length: 20–50 seconds. Stops naturally when you finish.</p>
+<p><a href="/games/number-rush">Play Number Rush →</a></p>
+
+<h3>Typing Speed Test — productive break disguise</h3>
+<p>You're improving a real skill during your break. Type a passage of common words as fast and accurately as you can. The result is your words per minute (WPM). For anyone who works at a keyboard, this is the most defensible work break game — you're literally practicing a skill your job requires. Take one test, see your score, close the tab.</p>
+<p>Session length: 90 seconds. Can be framed as "keyboard benchmarking" if anyone asks.</p>
+<p><a href="/games/typing-speed">Take the Typing Speed Test →</a></p>
+
+<h3>Pattern Echo — calming memory reset</h3>
+<p>Watch a growing color sequence. Repeat it. There's no time pressure — you go at your own pace. Pattern Echo is one of the few work break games that's genuinely calming rather than stimulating. It occupies your attention completely without raising your heart rate. If your work has been stressful and you need to decompress rather than stimulate, this is the right game.</p>
+<p>Session length: 2–5 minutes, but you can stop after any round. Ends cleanly.</p>
+<p><a href="/games/pattern-echo">Play Pattern Echo →</a></p>
+
+<h3>Word Scramble — quick mental warmup</h3>
+<p>Scrambled letters appear, you type the correct word, 60 seconds to solve as many as possible. Word Scramble is a good choice before a writing task or a meeting where you need to be verbally sharp. It activates the language-processing parts of your brain without the emotional loading of reading news or social media.</p>
+<p>Session length: exactly 60 seconds. Timed endpoint means you know when you're done.</p>
+<p><a href="/games/word-scramble">Play Word Scramble →</a></p>
+
+<h3>Color Match — 60-second flow state</h3>
+<p>A target color at the top, a grid of tiles to tap. 60 seconds. Color Match is good for a work break because it demands visual attention without verbal thought. If your work involves a lot of reading and writing, a purely visual game gives different brain regions a chance to be active while others rest.</p>
+<p>Session length: exactly 60 seconds. Clean endpoint.</p>
+<p><a href="/games/color-match">Play Color Match →</a></p>
+
+<h2>The Case for Browser Games at Work</h2>
+<p>Research on cognitive performance consistently shows that short mental breaks improve sustained attention. The key word is "short" — a two-minute break that actually disengages your brain is more restorative than a ten-minute scroll through social media that keeps your stress response active.</p>
+
+<p>Browser games like these hit the right balance. They're engaging enough to force a genuine context switch, short enough to fit between tasks, and clean enough to exit without guilt or habit-formation traps.</p>
+
+<h2>Bookmark TinyJoy</h2>
+<p>All six games are free at <a href="https://tinyjoy.app">tinyjoy.app</a>. Bookmark the site and you've got a work break collection always one click away — no app to install, no account to manage, no ads between rounds.</p>
+
+<p>The whole point is a quick, clean break. These games deliver exactly that.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
