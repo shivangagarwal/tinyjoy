@@ -704,11 +704,11 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>Modern browser versions of snake are significantly better than the original: smoother animations, better controls, and scores you can actually compete on. The core loop — eat, grow, don't crash — has never changed, and it's still the most elegant game loop in casual gaming.</p>
 
-<h2>Snake Coming to TinyJoy</h2>
-<p>TinyJoy is adding a snake game to its collection of free browser games. No download, no account, plays on any device. Check back at <a href="/">tinyjoy.app</a> for the launch.</p>
+<h2>Play Snake Online Free</h2>
+<p>TinyJoy's Snake game is free, no download, no account required. Plays on desktop and mobile. <a href="/games/snake">Open Snake in your browser →</a></p>
 
-<h2>Play Other Free Browser Games Now</h2>
-<p>While you wait, TinyJoy already has a collection of free instant browser games:</p>
+<h2>More Free Browser Games</h2>
+<p>TinyJoy has a full collection of free instant browser games:</p>
 <ul>
 <li><a href="/games/number-rush">Number Rush</a> — tap 1–25 in order, fastest time wins</li>
 <li><a href="/games/reaction-time">Reaction Time</a> — test your reflexes in milliseconds</li>
@@ -789,11 +789,10 @@ export const BLOG_POSTS: BlogPost[] = [
 <li><strong>Reaching 8192+</strong> — expert; near-perfect play required</li>
 </ul>
 
-<h2>2048 Coming to TinyJoy</h2>
-<p>TinyJoy is launching a 2048 game — free, no download, plays in your browser on any device. Check back at <a href="/">tinyjoy.app</a> for the launch.</p>
+<h2>Play 2048 Free Online</h2>
+<p>TinyJoy's 2048 game is live — free, no download, plays in your browser on any device. <a href="/games/2048">Play 2048 now →</a></p>
 
-<h2>Play Free Browser Games Now</h2>
-<p>TinyJoy already has a full collection of free instant browser games while 2048 is in development:</p>
+<h2>More Free Browser Games</h2>
 <ul>
 <li><a href="/games/number-rush">Number Rush</a> — spatial speed game, perfect for logical thinkers</li>
 <li><a href="/games/pattern-echo">Pattern Echo</a> — sequence memory game, tests the same skills as 2048</li>
@@ -867,6 +866,61 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>All six games are free at <a href="https://tinyjoy.app">tinyjoy.app</a>. Bookmark the site and you've got a work break collection always one click away — no app to install, no account to manage, no ads between rounds.</p>
 
 <p>The whole point is a quick, clean break. These games deliver exactly that.</p>
+    `.trim(),
+  },
+  {
+    slug: 'how-to-play-whack-a-mole',
+    title: 'How to Play Whack-a-Mole Online — Tips & Strategies',
+    description: 'Learn how to play Whack-a-Mole online and improve your score. Reaction time tips, scoring strategies, and techniques for this free browser game.',
+    date: '2026-03-24',
+    category: 'game-guide',
+    readingTime: '4 min',
+    content: `
+<p>Whack-a-Mole is the ultimate reaction time game. Moles pop up — you tap them before they disappear. The faster you react, the higher your score. Simple to learn, hard to master, and genuinely satisfying when it clicks.</p>
+
+<p><a href="/games/whack-a-mole">Play Whack-a-Mole now →</a></p>
+
+<h2>How It Works</h2>
+<ul>
+<li>Moles randomly pop up from holes on the board.</li>
+<li>Tap or click a mole before it disappears to score a point.</li>
+<li>Moles appear faster as the game progresses.</li>
+<li>Missing a mole doesn't end the game — but every miss is a lost opportunity.</li>
+<li>Your final score is the number of moles you successfully hit.</li>
+</ul>
+
+<h2>Tips to Improve Your Score</h2>
+
+<h3>Watch the whole board, not one spot</h3>
+<p>The biggest beginner mistake is fixating on where the last mole appeared. Moles spawn randomly, so staring at one area means you'll miss appearances elsewhere. Keep your gaze centered and use peripheral vision to detect new moles across the full board. Let the movement trigger your attention, not your prediction.</p>
+
+<h3>Tap the center of the mole, not the hole</h3>
+<p>On touchscreens especially, aim for the mole's head rather than the hole it appears in. The hit detection is tightest at the center of the mole. Off-center taps on the edge of the hole often register as misses. A centered, deliberate tap beats a fast but imprecise one.</p>
+
+<h3>Relax your hand</h3>
+<p>Tension slows reaction time. A tight grip or rigid wrist creates resistance that adds milliseconds to every tap. Let your hand rest loosely over the screen (or hover your mouse lightly over the board). The physical path from "see mole" to "tap mole" is shorter when your muscles aren't fighting themselves.</p>
+
+<h3>Don't anticipate — react</h3>
+<p>It's tempting to guess where the next mole will appear and pre-position your tap. This almost always backfires — the mole appears somewhere else and you've wasted the motion. Trust your reaction time. The game rewards genuine speed over prediction.</p>
+
+<h3>Play in bursts to build speed</h3>
+<p>Reaction time is trainable. Short sessions — 3 to 5 rounds in a row — build the stimulus-response pattern faster than occasional play. Take a short break between sessions. The improvement comes from repetition, not duration. Ten minutes spread across a day beats one marathon session.</p>
+
+<h2>Understanding Your Score</h2>
+<p>Your score in Whack-a-Mole is a direct measure of your reaction time and visual attention. A few benchmarks:</p>
+<ul>
+<li><strong>First session</strong> — most players are surprised by how fast the moles disappear. Low scores are completely normal.</li>
+<li><strong>After 5–10 games</strong> — your score should noticeably climb as your brain calibrates to the speed.</li>
+<li><strong>Consistent high scores</strong> — you've developed the peripheral awareness and tap accuracy that separate good players from average ones.</li>
+</ul>
+
+<h2>Whack-a-Mole and Reaction Time</h2>
+<p>Reaction time in Whack-a-Mole is a compound skill — it's not just raw reflex speed. You're also doing visual search (where is the mole?), motor execution (get your tap there), and attention management (don't miss the next one while hitting this one). That's why scores improve with practice even for people with naturally fast reflexes. The reaction loop gets smoother, not just faster.</p>
+
+<p>If you want to isolate pure reflex speed, TinyJoy also has a <a href="/games/reaction-time">Reaction Time test</a> that measures your response in milliseconds. It's a useful baseline to track alongside your Whack-a-Mole scores.</p>
+
+<h2>Play Now</h2>
+<p>Whack-a-Mole is free at TinyJoy — no download, no sign-up. <a href="/games/whack-a-mole">Open it in your browser</a> and start training your reflexes.</p>
     `.trim(),
   },
 ];
