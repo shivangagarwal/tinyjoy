@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import Script from "next/script";
@@ -18,6 +18,10 @@ const geistMono = Geist_Mono({
 });
 
 const BASE_URL = 'https://tinyjoy.app';
+
+export const viewport: Viewport = {
+  themeColor: '#09090b',
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
@@ -58,6 +62,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Preconnect to third-party origins for faster resource loading */}
+        <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         {/* Google Analytics 4 */}
         <Script
           async
@@ -72,11 +81,13 @@ export default function RootLayout({
             gtag('config', 'G-MKRNBGZL2G');
           `}
         </Script>
-        {/* eslint-disable-next-line @next/next/no-before-interactive-script-outside-document */}
-        <script
+        {/* Google AdSense — load after page is interactive to avoid blocking FCP */}
+        <Script
+          id="adsense"
           async
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
           crossOrigin="anonymous"
+          strategy="afterInteractive"
         />
       </head>
       <body
