@@ -36,6 +36,14 @@ function makeTiles(colorCount: number): ColorId[] {
   return Array.from({ length: GRID_SIZE }, () => randomFrom(palette).id);
 }
 
+/** Ensures at least one tile in the grid has the target color. Returns updated tiles (same array if no change needed). */
+function guaranteeTargetInGrid(target: ColorId, tiles: ColorId[]): ColorId[] {
+  if (tiles.includes(target)) return tiles;
+  const next = [...tiles];
+  next[Math.floor(Math.random() * next.length)] = target;
+  return next;
+}
+
 // ── Types ──────────────────────────────────────────────────────────────────
 
 type GamePhase = 'menu' | 'playing' | 'gameover';
@@ -89,8 +97,9 @@ export default function ColorMatchGame() {
     tracker.reset();
     activeColorsRef.current = 3;
 
-    const initialTiles = makeTiles(3);
+    const rawTiles = makeTiles(3);
     const initialTarget = randomFrom(ALL_COLORS.slice(0, 3)).id;
+    const initialTiles = guaranteeTargetInGrid(initialTarget, rawTiles);
 
     tilesRef.current = initialTiles;
     targetRef.current = initialTarget;
@@ -116,6 +125,12 @@ export default function ColorMatchGame() {
         // Shuffle target to include new colors
         const newPalette = ALL_COLORS.slice(0, newCount);
         const newTarget = randomFrom(newPalette).id;
+        // Guarantee the new target color exists in the grid
+        const updatedTiles = guaranteeTargetInGrid(newTarget, tilesRef.current);
+        if (updatedTiles !== tilesRef.current) {
+          tilesRef.current = updatedTiles;
+          setTiles(updatedTiles);
+        }
         targetRef.current = newTarget;
         setTarget(newTarget);
       }
@@ -162,6 +177,13 @@ export default function ColorMatchGame() {
         // Rotate target occasionally (~30%)
         if (Math.random() < 0.3) {
           const newTarget = randomFrom(palette).id;
+          // Guarantee the new target exists in the (already-updated) grid
+          const currentTiles = tilesRef.current;
+          const updatedTiles = guaranteeTargetInGrid(newTarget, currentTiles);
+          if (updatedTiles !== currentTiles) {
+            tilesRef.current = updatedTiles;
+            setTiles(updatedTiles);
+          }
           targetRef.current = newTarget;
           setTarget(newTarget);
         }
