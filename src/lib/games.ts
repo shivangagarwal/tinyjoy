@@ -1,10 +1,24 @@
-export const GAMES = [
+export type GameCategory = 'quick' | 'word' | 'arcade' | 'puzzle' | 'classic';
+
+export interface Game {
+  href: string;
+  name: string;
+  description: string;
+  emoji: string;
+  bg: string;
+  category: GameCategory;
+  featured?: true;
+}
+
+export const GAMES: Game[] = [
   {
     href: '/games/color-match',
     name: 'Color Match',
     description: 'Tap matching tiles. 60 seconds.',
     emoji: '🎨',
     bg: '#3B82F6',
+    category: 'quick',
+    featured: true,
   },
   {
     href: '/games/memory-flip',
@@ -12,6 +26,7 @@ export const GAMES = [
     description: 'Find matching pairs. Beat the clock.',
     emoji: '🃏',
     bg: '#8B5CF6',
+    category: 'quick',
   },
   {
     href: '/games/number-rush',
@@ -19,6 +34,7 @@ export const GAMES = [
     description: 'Tap 1→25 in order. How fast are you?',
     emoji: '⚡',
     bg: '#10B981',
+    category: 'quick',
   },
   {
     href: '/games/pattern-echo',
@@ -26,6 +42,7 @@ export const GAMES = [
     description: 'Watch the sequence. Repeat it.',
     emoji: '🔮',
     bg: '#F59E0B',
+    category: 'quick',
   },
   {
     href: '/games/word-scramble',
@@ -33,6 +50,7 @@ export const GAMES = [
     description: 'Unscramble words. 60 seconds.',
     emoji: '🔤',
     bg: '#EC4899',
+    category: 'quick',
   },
   {
     href: '/games/typing-speed',
@@ -40,6 +58,7 @@ export const GAMES = [
     description: 'Type a passage. How fast are you?',
     emoji: '⌨️',
     bg: '#06B6D4',
+    category: 'quick',
   },
   {
     href: '/games/reaction-time',
@@ -47,6 +66,7 @@ export const GAMES = [
     description: 'Tap when it turns green. 5 rounds.',
     emoji: '⚡',
     bg: '#22C55E',
+    category: 'quick',
   },
   {
     href: '/games/snake',
@@ -54,6 +74,7 @@ export const GAMES = [
     description: 'Eat food. Grow longer. Classic.',
     emoji: '🐍',
     bg: '#16A34A',
+    category: 'arcade',
   },
   {
     href: '/games/2048',
@@ -61,6 +82,8 @@ export const GAMES = [
     description: 'Slide tiles. Merge numbers. Reach 2048.',
     emoji: '🎯',
     bg: '#F59E0B',
+    category: 'puzzle',
+    featured: true,
   },
   {
     href: '/games/whack-a-mole',
@@ -68,6 +91,7 @@ export const GAMES = [
     description: 'Tap moles as they pop up. 30 seconds.',
     emoji: '🔨',
     bg: '#92400E',
+    category: 'quick',
   },
   {
     href: '/games/tic-tac-toe',
@@ -75,6 +99,7 @@ export const GAMES = [
     description: 'Classic 3×3. Beat the AI.',
     emoji: '⭕',
     bg: '#6366F1',
+    category: 'classic',
   },
   {
     href: '/games/sudoku',
@@ -82,6 +107,7 @@ export const GAMES = [
     description: 'Fill the grid. No repeats.',
     emoji: '🔢',
     bg: '#0EA5E9',
+    category: 'puzzle',
   },
   {
     href: '/games/minesweeper',
@@ -89,6 +115,7 @@ export const GAMES = [
     description: 'Find all safe squares. No booms.',
     emoji: '💣',
     bg: '#64748B',
+    category: 'puzzle',
   },
   {
     href: '/games/flappy-jump',
@@ -96,6 +123,7 @@ export const GAMES = [
     description: 'Tap to fly. Dodge the pipes.',
     emoji: '🐦',
     bg: '#F97316',
+    category: 'arcade',
   },
   {
     href: '/games/hangman',
@@ -103,6 +131,7 @@ export const GAMES = [
     description: 'Guess the word. Letter by letter.',
     emoji: '🪢',
     bg: '#DC2626',
+    category: 'word',
   },
   {
     href: '/games/connect-four',
@@ -110,6 +139,7 @@ export const GAMES = [
     description: 'Drop discs. Get 4 in a row.',
     emoji: '🔵',
     bg: '#2563EB',
+    category: 'classic',
   },
   {
     href: '/games/word-guess',
@@ -117,6 +147,8 @@ export const GAMES = [
     description: 'Guess the 5-letter word. 6 tries.',
     emoji: '🟩',
     bg: '#16A34A',
+    category: 'word',
+    featured: true,
   },
   {
     href: '/games/solitaire',
@@ -124,6 +156,7 @@ export const GAMES = [
     description: 'Classic Klondike. Build foundations.',
     emoji: '🃏',
     bg: '#7C3AED',
+    category: 'classic',
   },
   {
     href: '/games/brick-breaker',
@@ -131,7 +164,6 @@ export const GAMES = [
     description: 'Bounce the ball. Destroy all bricks.',
     emoji: '🧱',
     bg: '#DC2626',
+    category: 'arcade',
   },
-] as const;
-
-export type Game = (typeof GAMES)[number];
+];
