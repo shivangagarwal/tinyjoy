@@ -39,6 +39,15 @@ const schema = {
   offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
   publisher: { '@type': 'Organization', name: 'TinyJoy' },
 };
+const breadcrumb = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'TinyJoy', item: 'https://tinyjoy.app' },
+    { '@type': 'ListItem', position: 2, name: 'Whack-a-Mole', item: url },
+  ],
+};
+
 
 export default function WhackAMolePage() {
   return (
@@ -46,6 +55,10 @@ export default function WhackAMolePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <WhackAMoleGame />
     </>
