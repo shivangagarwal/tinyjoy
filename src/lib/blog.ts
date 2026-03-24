@@ -923,6 +923,262 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Whack-a-Mole is free at TinyJoy — no download, no sign-up. <a href="/games/whack-a-mole">Open it in your browser</a> and start training your reflexes.</p>
     `.trim(),
   },
+  // ─── New SEO Posts (TIN-43) ─────────────────────────────────
+  {
+    slug: 'how-to-win-at-minesweeper',
+    title: 'How to Win at Minesweeper Every Time: A Complete Strategy Guide',
+    description: 'Learn the proven strategies to win at Minesweeper consistently — from beginner basics to advanced flagging patterns. No guessing required.',
+    date: '2026-03-24',
+    category: 'game-guide',
+    readingTime: '6 min',
+    content: `
+<p>Minesweeper has a reputation for being a game of luck. It isn't. With the right approach, you can solve most boards without guessing. Here's everything you need to know.</p>
+
+<h2>The Basics: How Minesweeper Works</h2>
+<p>Every cell on the board is either a mine or safe. Safe cells reveal a number (1–8) that tells you how many of the 8 surrounding cells contain mines. Empty cells have no adjacent mines.</p>
+<p>Your goal: flag all mines and reveal all safe cells without detonating anything.</p>
+
+<h2>The Fundamental Rule</h2>
+<p>If a numbered cell has exactly as many unrevealed neighbors as its number, <strong>all of those neighbors are mines</strong>. Flag them.</p>
+<p>Conversely, if a numbered cell already has all its mines flagged, <strong>all remaining unrevealed neighbors are safe</strong>. Click them.</p>
+<p>These two rules alone will solve the majority of board positions — no guessing needed.</p>
+
+<h2>Start From the Corners and Edges</h2>
+<p>Open cells that are adjacent to fewer neighbors are easier to reason about. Corner cells have only 3 neighbors; edge cells have 5. Start there when you can.</p>
+<p>On the first click, always start somewhere near the center of the board — most implementations guarantee your first click is safe and will open a large area.</p>
+
+<h2>The Subtraction Trick</h2>
+<p>This is the technique that separates intermediate from advanced players.</p>
+<p>When two numbered cells share unrevealed neighbors, you can subtract one constraint from the other to deduce which specific cells are mines.</p>
+<p>Example: If a "2" has 4 unrevealed neighbors (A, B, C, D) and an adjacent "1" shares 3 of those neighbors (B, C, D), you know the "1" accounts for exactly 1 mine among B, C, D. That means the "2" must have exactly 1 mine among A, B, C, D minus B, C, D — so A must be a mine, and B, C, D are safe.</p>
+
+<h2>Pattern Recognition Shortcuts</h2>
+<p>Certain number patterns repeat across every game. Memorizing them speeds up your solving:</p>
+<ul>
+<li><strong>1-2-1 along an edge:</strong> The mines are under the "2", not the "1"s. The cells beyond the "1"s are safe.</li>
+<li><strong>1-2-2-1 along an edge:</strong> One mine under each "2". Cells beyond the "1"s are safe.</li>
+<li><strong>1-2 in a corner:</strong> The mine is in the cell adjacent only to the "2".</li>
+</ul>
+
+<h2>When You Have to Guess</h2>
+<p>Some boards — particularly toward the end — do require a 50/50 guess. When that happens:</p>
+<ul>
+<li>Pick the cell that gives you the most information if it's safe (more new cells revealed = better)</li>
+<li>Avoid cells that are part of a 50/50 with no additional context — you can't do better than chance there</li>
+<li>If one option opens up more of the board and the other is in an isolated corner, prefer the one with more potential new information</li>
+</ul>
+
+<h2>Flag Strategically</h2>
+<p>Flags are cognitive tools, not score markers. Use them to track confirmed mines so you can reason about adjacent cells more easily. Don't flag unless you're certain — a wrong flag leads to misreads and cascading mistakes.</p>
+
+<h2>Speed vs. Accuracy</h2>
+<p>If you want to improve your time, practice the basic rules until they're automatic. Most expert players don't "think" about the fundamental rule — they scan the board and click instantly based on pattern recognition built from thousands of games.</p>
+
+<h2>Play Minesweeper Free Online</h2>
+<p>TinyJoy has a free browser-based Minesweeper — no download, no sign-up. <a href="/games/minesweeper">Play Minesweeper →</a></p>
+<p>Practice the strategies above and track your improvement. The board resets instantly so you can grind through multiple games in a short session.</p>
+<p>Want more browser games? <a href="/">Browse all TinyJoy games →</a></p>
+    `.trim(),
+  },
+  {
+    slug: 'sudoku-tips-for-beginners',
+    title: 'Sudoku Tips and Tricks for Beginners: How to Solve Any Puzzle',
+    description: 'Master Sudoku with these beginner-friendly tips and techniques. Learn scanning, pencil marks, and key patterns to solve puzzles faster.',
+    date: '2026-03-24',
+    category: 'game-guide',
+    readingTime: '6 min',
+    content: `
+<p>Sudoku looks intimidating when you're starting out. The truth is that every puzzle has a logical solution — no math required, no guessing needed (on well-formed puzzles). You just need the right techniques.</p>
+
+<h2>The Rules (Quick Recap)</h2>
+<p>Place numbers 1–9 in every row, column, and 3×3 box, so each number appears exactly once in each. That's it.</p>
+
+<h2>Technique 1: Scanning</h2>
+<p>Start by scanning for rows, columns, or boxes that already have many numbers filled in. If a row has 8 out of 9 numbers, the missing one is trivial to fill.</p>
+<p>Also scan for a specific number across the whole board. If 7 appears in 7 of the 9 rows, the remaining two rows can only place their 7 in one position each — making it easy to determine where they go.</p>
+
+<h2>Technique 2: The "Only Possible Cell" Method</h2>
+<p>For each empty cell, look at the row, column, and box it belongs to. If only one number from 1–9 can legally go there, place it. This sounds slow, but with practice you scan visually and spot these in seconds.</p>
+
+<h2>Technique 3: Pencil Marks</h2>
+<p>When a cell could hold multiple numbers, write all the candidates in small text (pencil marks). As you fill in neighboring cells, cross out eliminated candidates. Eventually, cells get narrowed to one possibility.</p>
+<p>Most Sudoku apps and our online version let you toggle pencil mark mode.</p>
+
+<h2>Technique 4: Naked Pairs and Triples</h2>
+<p>If two cells in the same row, column, or box both have exactly the same two candidates (say, {3, 7}), you know those two numbers must go in those two cells — even if you don't know which one goes where. This lets you eliminate 3 and 7 from every other cell in that row/column/box.</p>
+<p>The same logic applies to three cells sharing the same three candidates (naked triple).</p>
+
+<h2>Technique 5: Box-Line Reduction</h2>
+<p>If a candidate number within a 3×3 box can only appear in one row or column of that box, you can eliminate that number from the rest of that row or column outside the box.</p>
+<p>Example: If the number 4 can only go in the top row of a box, then no other 4 can appear anywhere else in that row, outside this box.</p>
+
+<h2>Starting a New Puzzle: The Right Order</h2>
+<ol>
+<li>Look for any cell with only one possibility (direct fill)</li>
+<li>Scan each number 1–9 to see where it must go in each box</li>
+<li>Add pencil marks to cells that still have multiple options</li>
+<li>Apply naked pairs/triples to prune candidates</li>
+<li>Repeat until solved</li>
+</ol>
+
+<h2>Common Beginner Mistakes</h2>
+<ul>
+<li><strong>Guessing</strong> — well-formed Sudoku puzzles never require guessing. If you're guessing, go back and apply more logic first.</li>
+<li><strong>Forgetting to update pencil marks</strong> — when you place a number, immediately remove it as a candidate from all cells in the same row, column, and box.</li>
+<li><strong>Ignoring boxes</strong> — most beginners scan rows and columns but forget the 3×3 box constraint. Always check all three.</li>
+</ul>
+
+<h2>Play Sudoku Free Online</h2>
+<p>TinyJoy has a free browser Sudoku with multiple difficulty levels — <a href="/games/sudoku">Play Sudoku free online →</a></p>
+<p>Try these techniques on an Easy or Medium puzzle first. Once they feel automatic, move to Hard.</p>
+<p>Also check out <a href="/games/number-rush">Number Rush</a> if you like number-based brain challenges.</p>
+    `.trim(),
+  },
+  {
+    slug: 'brain-training-games-online',
+    title: 'Brain Training Games That Actually Work (Free, No Download)',
+    description: 'Free online brain training games backed by what science says actually helps — memory, focus, pattern recognition, and processing speed.',
+    date: '2026-03-24',
+    category: 'tips',
+    readingTime: '5 min',
+    content: `
+<p>The "brain training" industry is full of overpromising apps and dubious science. But some games do genuinely exercise cognitive skills — and the best ones are free and run in your browser.</p>
+
+<h2>What "Brain Training" Actually Means</h2>
+<p>No game will make you smarter in general. What games can do is give specific cognitive abilities a workout: working memory, processing speed, attention, and pattern recognition. Like physical exercise — a specific exercise strengthens a specific muscle.</p>
+
+<h2>Memory Games</h2>
+<p>Working memory — the ability to hold information in mind while using it — is one of the most trainable cognitive skills. Card-matching games directly exercise this.</p>
+<p><a href="/games/memory-flip">Memory Flip</a> is a classic: flip cards and match pairs from memory. The 60-second timer adds just enough pressure to keep you engaged. Play a few rounds daily and you'll notice the board becoming more manageable as your short-term memory sharpens.</p>
+
+<h2>Pattern Recognition</h2>
+<p>Recognizing patterns quickly is a core component of fluid intelligence. Sequence memory games train exactly this.</p>
+<p><a href="/games/pattern-echo">Pattern Echo</a> shows you a growing color sequence and asks you to repeat it. Simple at first, genuinely hard after 8+ steps. This is a pure working memory + pattern recognition workout.</p>
+
+<h2>Processing Speed</h2>
+<p>How fast you can identify and respond to information is a measurable cognitive ability that declines with age — and improves with deliberate practice.</p>
+<p><a href="/games/number-rush">Number Rush</a> forces you to scan for numbers 1–25 in random order as fast as possible. It's a direct processing speed drill disguised as a casual game. Your first time, you'll be slow. By your tenth, you'll see the numbers almost jump out at you.</p>
+<p><a href="/games/reaction-time">Reaction Time</a> measures raw reflex speed in milliseconds. It's a good baseline metric to track.</p>
+
+<h2>Vocabulary and Verbal Processing</h2>
+<p>Verbal fluency — the ability to quickly retrieve words — is a cognitive skill that word games actively maintain.</p>
+<p><a href="/games/word-scramble">Word Scramble</a> gives you 60 seconds to unscramble as many words as possible. You're not testing vocabulary knowledge, you're testing how fast your brain can rearrange letters into recognized patterns. That's verbal processing speed.</p>
+
+<h2>Focus and Attention</h2>
+<p><a href="/games/color-match">Color Match</a> tests selective attention — your ability to filter relevant information (the matching color) from a field of distractors. Athletes use selective attention training. This is a casual version.</p>
+
+<h2>The Right Approach to Brain Training</h2>
+<ul>
+<li><strong>Short sessions beat long marathons.</strong> 5–10 minutes of focused play is more valuable than 45 distracted minutes.</li>
+<li><strong>Consistency matters.</strong> Daily brief sessions are more effective than weekly long ones.</li>
+<li><strong>Chase improvement, not scores.</strong> Set a personal best and try to beat it. That's when the real cognitive work happens.</li>
+<li><strong>Mix it up.</strong> Different games train different abilities. Rotate between memory, speed, and pattern games.</li>
+</ul>
+
+<h2>Play Free Brain Games Online</h2>
+<p>All TinyJoy games are free, work in any browser, and require no download or sign-up. <a href="/">Start playing at TinyJoy →</a></p>
+    `.trim(),
+  },
+  {
+    slug: 'how-to-improve-typing-speed',
+    title: 'How to Improve Your Typing Speed: Practical Tips That Work',
+    description: 'Improve your typing speed with targeted practice, proper technique, and the right free tools. From 40 WPM to 80 WPM and beyond.',
+    date: '2026-03-24',
+    category: 'tips',
+    readingTime: '5 min',
+    content: `
+<p>Typing speed is a learnable skill. Unlike many abilities, it improves predictably with the right practice. Here's a practical guide to getting faster — without spending money on courses or tools.</p>
+
+<h2>Where Most People Plateau</h2>
+<p>The average office worker types around 40 WPM (words per minute). With no change in approach, that number stays flat for years. The reason: they're practicing their current technique, not improving it.</p>
+<p>To get faster, you need to practice <em>slightly above your comfort level</em> — not on texts you can already type easily.</p>
+
+<h2>Fix Your Technique First</h2>
+<p>Raw speed built on bad technique has a ceiling. Before drilling for speed:</p>
+<ul>
+<li><strong>Home row position.</strong> Left hand: ASDF. Right hand: JKL;. Thumbs on spacebar. Your fingers return here between keystrokes.</li>
+<li><strong>Touch typing.</strong> If you're looking at your keyboard, you're limiting your ceiling to ~50 WPM. Learn to type without looking — it feels slow at first, then accelerates.</li>
+<li><strong>Use all fingers.</strong> Each finger is responsible for specific keys. Two-finger typists work much harder than ten-finger typists for the same output.</li>
+</ul>
+
+<h2>The Fastest Way to Improve: Slow Down to Speed Up</h2>
+<p>This sounds wrong but works. Set a timer for 10 minutes and type at 90% accuracy — not 100%, not 70%. That means going slow enough to make very few mistakes. Your brain forms clean motor patterns. Over days, your "accurate speed" naturally increases.</p>
+
+<h2>Target Your Weak Keys</h2>
+<p>Everyone has fingers they favor and keys they fumble. Pay attention to where your errors cluster. Then drill those specific keys and the transitions into/out of them — not random text.</p>
+
+<h2>Measure Regularly</h2>
+<p>You can't improve what you don't measure. Take a typing test weekly and track your WPM. Seeing the number go up is genuinely motivating, and flat weeks tell you to change your approach.</p>
+<p>TinyJoy has a free <a href="/games/typing-speed">typing speed test</a> you can run in your browser with no sign-up. It gives you WPM and accuracy in about 60 seconds.</p>
+
+<h2>Training Schedule That Works</h2>
+<ul>
+<li><strong>Days 1–7:</strong> 10 min/day focused on accuracy over speed. Don't rush.</li>
+<li><strong>Days 8–21:</strong> Add speed in bursts — do 1 minute as fast as possible, then 3 minutes slow and accurate. Repeat.</li>
+<li><strong>Day 22+:</strong> Take a weekly timed test. Maintain daily practice at your "challenging but accurate" pace.</li>
+</ul>
+<p>Most people see 10–20 WPM improvement in 30 days following this approach.</p>
+
+<h2>Other Games That Build Typing-Adjacent Skills</h2>
+<p>Typing fast requires quick recognition and response. These games build the underlying skills:</p>
+<ul>
+<li><a href="/games/word-scramble">Word Scramble</a> — rapid word recognition under time pressure</li>
+<li><a href="/games/reaction-time">Reaction Time</a> — measures raw response speed</li>
+<li><a href="/games/number-rush">Number Rush</a> — trains rapid visual scanning, useful for navigating keyboard layouts</li>
+</ul>
+
+<h2>Test Your Speed Now</h2>
+<p><a href="/games/typing-speed">Take the TinyJoy typing speed test →</a> — free, instant, no download required.</p>
+    `.trim(),
+  },
+  {
+    slug: 'best-free-games-no-download-2026',
+    title: 'Best Free Games With No Download in 2026 (Play Instantly)',
+    description: 'The best free games you can play with no download and no sign-up in 2026. Open your browser and start playing in seconds on any device.',
+    date: '2026-03-24',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>In 2026, the best casual games don't require an app store, a download, or an account. They open in your browser and are ready in seconds. Here are the best ones — all free, all playable right now.</p>
+
+<h2>Why Browser Games Are Better for Casual Play</h2>
+<p>App installs are friction. They take space on your phone, require updates, and lock you into ecosystems. Browser games skip all of that. Open a link, play, close the tab. No residue.</p>
+<p>Modern browser technology (Canvas, WebGL, fast JS engines) means browser games look and feel as good as native apps for casual gameplay.</p>
+
+<h2>The Best Free No-Download Games Right Now</h2>
+
+<h2>Minesweeper</h2>
+<p>The classic logic puzzle, playable free in your browser. No app, no ads blocking the board, no fake "lives" mechanic. Just pure Minesweeper. <a href="/games/minesweeper">Play Minesweeper →</a></p>
+
+<h2>Sudoku</h2>
+<p>Sudoku with clean UI and multiple difficulty levels — Easy through Expert. Works great on mobile. <a href="/games/sudoku">Play Sudoku →</a></p>
+
+<h2>2048</h2>
+<p>The addictive tile-merging game. Swipe tiles to combine matching numbers. Reaches 2048 feels genuinely earned. <a href="/games/2048">Play 2048 →</a></p>
+
+<h2>Snake</h2>
+<p>The original endless arcade game. Clean controls, no ads every 10 seconds, smooth on mobile. <a href="/games/snake">Play Snake →</a></p>
+
+<h2>Memory Flip</h2>
+<p>Classic card-matching game with a 60-second timer. 8 pairs, clean animations, good for a 2-minute mental reset. <a href="/games/memory-flip">Play Memory Flip →</a></p>
+
+<h2>Number Rush</h2>
+<p>Tap numbers 1–25 in order as fast as you can. Deceptively simple, genuinely addictive. Your fastest time becomes a personal benchmark to beat. <a href="/games/number-rush">Play Number Rush →</a></p>
+
+<h2>Word Scramble</h2>
+<p>Unscramble words against a 60-second clock. Tests vocabulary recall and quick pattern matching. Great for a mental warm-up. <a href="/games/word-scramble">Play Word Scramble →</a></p>
+
+<h2>Reaction Time</h2>
+<p>Click as fast as possible when the screen changes. Measures your response in milliseconds. Surprisingly satisfying to track and improve. <a href="/games/reaction-time">Play Reaction Time →</a></p>
+
+<h2>Whack-a-Mole</h2>
+<p>Classic reflex game. Moles pop up; you tap them. Gets faster over time. Great for a 2-minute energy burst. <a href="/games/whack-a-mole">Play Whack-a-Mole →</a></p>
+
+<h2>All Free at TinyJoy</h2>
+<p>Every game above is available at <a href="/">TinyJoy</a> — free, no account required, works on desktop and mobile. Open in any browser and start playing immediately.</p>
+<p>New games added regularly. Bookmark the homepage and check back.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
