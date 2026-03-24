@@ -14,16 +14,21 @@ export function HomeLink() {
   );
 }
 
-/** 2–3 other game suggestions shown on the game-over screen. */
+/** 2 same-category game suggestions shown on the game-over screen. */
 export function OtherGames({ currentHref }: { currentHref: string }) {
-  const suggestions = GAMES.filter((g) => g.href !== currentHref)
-    .sort(() => Math.random() - 0.5)
-    .slice(0, 3);
+  const currentGame = GAMES.find((g) => g.href === currentHref);
+  const pool = currentGame
+    ? GAMES.filter((g) => g.href !== currentHref && g.category === currentGame.category)
+    : [];
+  // Fall back to any game if same-category pool is too small
+  const fallback = GAMES.filter((g) => g.href !== currentHref);
+  const candidates = pool.length >= 2 ? pool : fallback;
+  const suggestions = candidates.sort(() => Math.random() - 0.5).slice(0, 2);
 
   return (
     <div className="flex w-full flex-col gap-2">
       <p className="text-xs font-medium uppercase tracking-wider text-zinc-500">
-        Try another game
+        You might also like
       </p>
       {suggestions.map((game) => (
         <Link
