@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import ColorMatchGame from '@/games/color-match/ColorMatchGame';
+import RelatedGuides from '../RelatedGuides';
 
 const title = 'Color Match — Free Browser Game';
 const description = 'Tap tiles matching the target color before time runs out. Free color game — no download, no sign-up. 60 seconds of fast, colorful fun. Play now!';
@@ -60,6 +61,10 @@ export default function ColorMatchPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <ColorMatchGame />
+      <RelatedGuides guides={[
+        { href: '/blog/how-to-play-color-match', label: 'How to Play Color Match' },
+        { href: '/blog/best-free-browser-games-2026', label: 'Best Free Browser Games 2026' },
+      ]} />
     </>
   );
 }

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import MinesweeperGame from '@/games/minesweeper/MinesweeperGame';
+import RelatedGuides from '../RelatedGuides';
 
 const title = 'Minesweeper — Free Online Minesweeper Game';
 const description =
@@ -61,6 +62,10 @@ export default function MinesweeperPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <MinesweeperGame />
+      <RelatedGuides guides={[
+        { href: '/blog/how-to-win-at-minesweeper', label: 'How to Win at Minesweeper' },
+        { href: '/blog/sudoku-tips-for-beginners', label: 'Sudoku Tips for Beginners' },
+      ]} />
     </>
   );
 }

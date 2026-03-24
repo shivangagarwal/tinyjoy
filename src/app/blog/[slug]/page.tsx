@@ -38,6 +38,22 @@ export async function generateMetadata({
   };
 }
 
+function extractFaqs(content: string): { question: string; answer: string }[] {
+  const faqIdx = content.indexOf('<h2>Frequently Asked Questions</h2>');
+  if (faqIdx === -1) return [];
+  const faqSection = content.slice(faqIdx);
+  const pairs: { question: string; answer: string }[] = [];
+  const re = /<h3>([\s\S]*?)<\/h3>\s*<p>([\s\S]*?)<\/p>/g;
+  let m;
+  while ((m = re.exec(faqSection)) !== null) {
+    pairs.push({
+      question: m[1].replace(/<[^>]+>/g, '').trim(),
+      answer: m[2].replace(/<[^>]+>/g, '').trim(),
+    });
+  }
+  return pairs;
+}
+
 export default async function BlogPostPage({
   params,
 }: {
@@ -62,12 +78,31 @@ export default async function BlogPostPage({
     url: `${BASE_URL}/blog/${post.slug}`,
   };
 
+  const faqs = extractFaqs(post.content);
+  const faqSchema = faqs.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqs.map((faq) => ({
+          '@type': 'Question',
+          name: faq.question,
+          acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+        })),
+      }
+    : null;
+
   return (
     <main className="min-h-svh bg-zinc-950 px-6 py-12 text-white">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
 
       <div className="mx-auto max-w-2xl">
         <Link

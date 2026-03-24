@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import WordGuessGame from '@/games/word-guess/WordGuessGame';
+import RelatedGuides from '../RelatedGuides';
 
 const title = 'Word Guess — Free Daily 5 Letter Word Game';
 const description =
@@ -60,6 +61,10 @@ export default function WordGuessPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <WordGuessGame />
+      <RelatedGuides guides={[
+        { href: '/blog/best-word-games-online', label: 'Best Word Games Online' },
+        { href: '/blog/games-to-play-when-bored', label: 'Games to Play When Bored' },
+      ]} />
     </>
   );
 }

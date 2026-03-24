@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import TypingSpeedGame from '@/games/typing-speed/TypingSpeedGame';
+import RelatedGuides from '../RelatedGuides';
 
 const title = 'Typing Speed Test — Free Online WPM Test';
 const description = 'Test your typing speed and accuracy. Type a short passage as fast as you can and see your WPM score. Free typing test — no download, no sign-up.';
@@ -60,6 +61,10 @@ export default function TypingSpeedPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <TypingSpeedGame />
+      <RelatedGuides guides={[
+        { href: '/blog/free-typing-speed-test-online', label: 'Free Typing Speed Test Online' },
+        { href: '/blog/how-to-improve-typing-speed', label: 'How to Improve Typing Speed' },
+      ]} />
     </>
   );
 }

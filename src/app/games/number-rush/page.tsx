@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import NumberRushGame from '@/games/number-rush/NumberRushGame';
+import RelatedGuides from '../RelatedGuides';
 
 const title = 'Number Rush — Free Browser Game';
 const description = 'Tap numbers 1–25 in order as fast as you can. Free speed game in your browser — no download needed. Beat your best time. How fast are you?';
@@ -60,6 +61,10 @@ export default function NumberRushPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <NumberRushGame />
+      <RelatedGuides guides={[
+        { href: '/blog/how-to-play-number-rush', label: 'How to Play Number Rush' },
+        { href: '/blog/games-to-play-when-bored', label: 'Games to Play When Bored' },
+      ]} />
     </>
   );
 }

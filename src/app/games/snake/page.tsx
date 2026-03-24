@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import SnakeGame from '@/games/snake/SnakeGame';
+import RelatedGuides from '../RelatedGuides';
 
 const title = 'Snake — Free Online Snake Game';
 const description =
@@ -61,6 +62,10 @@ export default function SnakePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <SnakeGame />
+      <RelatedGuides guides={[
+        { href: '/blog/snake-game-online', label: 'Snake Game Online' },
+        { href: '/blog/best-arcade-games-browser', label: 'Best Arcade Games for Browser' },
+      ]} />
     </>
   );
 }

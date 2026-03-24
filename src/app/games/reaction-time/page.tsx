@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import ReactionTimeGame from '@/games/reaction-time/ReactionTimeGame';
+import RelatedGuides from '../RelatedGuides';
 
 const title = 'Reaction Time Test — Free Online Reflex Test';
 const description =
@@ -61,6 +62,10 @@ export default function ReactionTimePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <ReactionTimeGame />
+      <RelatedGuides guides={[
+        { href: '/blog/how-to-play-reaction-time', label: 'How to Play Reaction Time' },
+        { href: '/blog/fun-games-to-play-at-work', label: 'Fun Games to Play at Work' },
+      ]} />
     </>
   );
 }

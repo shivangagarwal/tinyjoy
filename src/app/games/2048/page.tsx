@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Game2048 from '@/games/2048/Game2048';
+import RelatedGuides from '../RelatedGuides';
 
 const title = '2048 — Free Online Puzzle Game';
 const description =
@@ -61,6 +62,10 @@ export default function Game2048Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <Game2048 />
+      <RelatedGuides guides={[
+        { href: '/blog/2048-strategy-guide', label: '2048 Strategy Guide' },
+        { href: '/blog/free-online-solitaire', label: 'Free Online Solitaire' },
+      ]} />
     </>
   );
 }

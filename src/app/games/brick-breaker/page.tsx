@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import BrickBreakerGame from '@/games/brick-breaker/BrickBreakerGame';
+import RelatedGuides from '../RelatedGuides';
 
 const title = 'Brick Breaker — Free Online Breakout Game';
 const description =
@@ -60,6 +61,10 @@ export default function BrickBreakerPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <BrickBreakerGame />
+      <RelatedGuides guides={[
+        { href: '/blog/best-arcade-games-browser', label: 'Best Arcade Games for Browser' },
+        { href: '/blog/best-free-games-no-download-2026', label: 'Best Free Games No Download 2026' },
+      ]} />
     </>
   );
 }

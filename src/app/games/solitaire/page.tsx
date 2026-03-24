@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import SolitaireGame from '@/games/solitaire/SolitaireGame';
+import RelatedGuides from '../RelatedGuides';
 
 const title = 'Solitaire — Free Online Klondike Card Game';
 const description =
@@ -60,6 +61,10 @@ export default function SolitairePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <SolitaireGame />
+      <RelatedGuides guides={[
+        { href: '/blog/free-online-solitaire', label: 'Free Online Solitaire' },
+        { href: '/blog/best-free-games-no-download-2026', label: 'Best Free Games No Download 2026' },
+      ]} />
     </>
   );
 }

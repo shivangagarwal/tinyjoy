@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import SudokuGame from '@/games/sudoku/SudokuGame';
+import RelatedGuides from '../RelatedGuides';
 
 const title = 'Sudoku — Free Online Sudoku Puzzle';
 const description =
@@ -61,6 +62,10 @@ export default function SudokuPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <SudokuGame />
+      <RelatedGuides guides={[
+        { href: '/blog/sudoku-tips-for-beginners', label: 'Sudoku Tips for Beginners' },
+        { href: '/blog/brain-training-games-that-actually-work', label: 'Brain Training Games That Actually Work' },
+      ]} />
     </>
   );
 }

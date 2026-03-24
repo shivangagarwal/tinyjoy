@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import MemoryFlipGame from '@/games/memory-flip/MemoryFlipGame';
+import RelatedGuides from '../RelatedGuides';
 
 const title = 'Memory Flip — Free Browser Game';
 const description = 'Flip cards and find all matching pairs before time runs out. Free online memory game — no download, no sign-up. Can you clear the board in 60 seconds?';
@@ -60,6 +61,10 @@ export default function MemoryFlipPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <MemoryFlipGame />
+      <RelatedGuides guides={[
+        { href: '/blog/how-to-play-memory-flip', label: 'How to Play Memory Flip' },
+        { href: '/blog/brain-training-games-online', label: 'Brain Training Games Online' },
+      ]} />
     </>
   );
 }

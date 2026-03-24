@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import ConnectFourGame from '@/games/connect-four/ConnectFourGame';
+import RelatedGuides from '../RelatedGuides';
 
 const title = 'Connect Four — Free Online Game vs AI';
 const description =
@@ -61,6 +62,10 @@ export default function ConnectFourPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <ConnectFourGame />
+      <RelatedGuides guides={[
+        { href: '/blog/best-arcade-games-browser', label: 'Best Arcade Games for Browser' },
+        { href: '/blog/best-free-browser-games-2026', label: 'Best Free Browser Games 2026' },
+      ]} />
     </>
   );
 }

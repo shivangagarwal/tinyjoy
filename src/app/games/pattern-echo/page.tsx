@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import PatternEchoGame from '@/games/pattern-echo/PatternEchoGame';
+import RelatedGuides from '../RelatedGuides';
 
 const title = 'Pattern Echo — Free Browser Game';
 const description = 'Watch the color sequence and repeat it back. Free Simon Says-style memory game in your browser — no download, no sign-up. Gets harder every round.';
@@ -60,6 +61,10 @@ export default function PatternEchoPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <PatternEchoGame />
+      <RelatedGuides guides={[
+        { href: '/blog/how-to-play-pattern-echo', label: 'How to Play Pattern Echo' },
+        { href: '/blog/brain-training-games-online', label: 'Brain Training Games Online' },
+      ]} />
     </>
   );
 }

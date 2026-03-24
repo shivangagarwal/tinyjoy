@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import WordScrambleGame from '@/games/word-scramble/WordScrambleGame';
+import RelatedGuides from '../RelatedGuides';
 
 const title = 'Word Scramble — Free Browser Game';
 const description = 'Unscramble as many words as you can in 60 seconds. Free word game in your browser — no download, no sign-up. Quick fun for any moment.';
@@ -60,6 +61,10 @@ export default function WordScramblePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <WordScrambleGame />
+      <RelatedGuides guides={[
+        { href: '/blog/how-to-play-word-scramble', label: 'How to Play Word Scramble' },
+        { href: '/blog/best-word-games-online', label: 'Best Word Games Online' },
+      ]} />
     </>
   );
 }

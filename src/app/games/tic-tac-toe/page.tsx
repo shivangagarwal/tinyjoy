@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import TicTacToeGame from '@/games/tic-tac-toe/TicTacToeGame';
+import RelatedGuides from '../RelatedGuides';
 
 const title = 'Tic-Tac-Toe — Free Online Game vs AI';
 const description =
@@ -61,6 +62,10 @@ export default function TicTacToePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <TicTacToeGame />
+      <RelatedGuides guides={[
+        { href: '/blog/best-free-browser-games-2026', label: 'Best Free Browser Games 2026' },
+        { href: '/blog/fun-games-to-play-at-work', label: 'Fun Games to Play at Work' },
+      ]} />
     </>
   );
 }
