@@ -6,7 +6,7 @@ const title = 'Reaction Time Test — Free Online Reflex Test';
 const description =
   'Test your reaction time in 5 quick rounds. Tap when the screen turns green and see how your reflexes compare to the 250ms human average. Free — no download, no sign-up.';
 const url = 'https://tinyjoy.app/games/reaction-time';
-const ogImage = 'https://tinyjoy.app/og/reaction-time.svg';
+const ogImage = 'https://tinyjoy.app/og/reaction-time.png';
 
 export const metadata: Metadata = {
   title,

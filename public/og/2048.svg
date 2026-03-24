@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0d0d1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <rect x="70" y="80" width="85" height="85" rx="12" fill="#F59E0B" opacity="0.9"/>
+  <text x="112" y="136" font-family="system-ui" font-size="32" font-weight="800" fill="white" text-anchor="middle">2</text>
+  <rect x="170" y="80" width="85" height="85" rx="12" fill="#D97706" opacity="0.85"/>
+  <text x="212" y="136" font-family="system-ui" font-size="32" font-weight="800" fill="white" text-anchor="middle">4</text>
+  <rect x="70" y="180" width="85" height="85" rx="12" fill="#D97706" opacity="0.85"/>
+  <text x="112" y="236" font-family="system-ui" font-size="32" font-weight="800" fill="white" text-anchor="middle">8</text>
+  <rect x="170" y="180" width="85" height="85" rx="12" fill="#B45309" opacity="0.8"/>
+  <text x="212" y="236" font-family="system-ui" font-size="28" font-weight="800" fill="white" text-anchor="middle">16</text>
+  <rect x="70" y="280" width="85" height="85" rx="12" fill="#F59E0B" opacity="0.5"/>
+  <text x="112" y="332" font-family="system-ui" font-size="26" font-weight="800" fill="white" text-anchor="middle">32</text>
+  <rect x="1040" y="80" width="85" height="85" rx="12" fill="#F59E0B" opacity="0.4"/>
+  <text x="1082" y="136" font-family="system-ui" font-size="24" font-weight="800" fill="white" text-anchor="middle">512</text>
+  <rect x="1040" y="180" width="85" height="85" rx="12" fill="#D97706" opacity="0.3"/>
+  <text x="1082" y="236" font-family="system-ui" font-size="22" font-weight="800" fill="white" text-anchor="middle">1024</text>
+  <rect x="1040" y="280" width="85" height="85" rx="12" fill="#B45309" opacity="0.25"/>
+  <text x="1082" y="332" font-family="system-ui" font-size="22" font-weight="800" fill="white" text-anchor="middle">2048</text>
+  <text x="600" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#F59E0B" text-anchor="middle" letter-spacing="4">TINYJOY</text>
+  <text x="600" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="88" font-weight="800" fill="white" text-anchor="middle">2048</text>
+  <text x="600" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="400" fill="#a1a1aa" text-anchor="middle">Slide and merge tiles to reach 2048</text>
+  <rect x="350" y="460" width="500" height="60" rx="30" fill="#F59E0B" opacity="0.15"/>
+  <text x="600" y="498" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#F59E0B" text-anchor="middle" letter-spacing="2">FREE · NO DOWNLOAD · PLAY NOW</text>
+</svg>

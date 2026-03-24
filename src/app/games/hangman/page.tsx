@@ -6,7 +6,7 @@ const title = 'Hangman — Free Online Word Game';
 const description =
   'Play Hangman online for free. Guess the hidden word letter by letter before the stick figure is complete. Classic word guessing game — no download required.';
 const url = 'https://tinyjoy.app/games/hangman';
-const ogImage = 'https://tinyjoy.app/og/hangman.svg';
+const ogImage = 'https://tinyjoy.app/og/hangman.png';
 
 export const metadata: Metadata = {
   title,

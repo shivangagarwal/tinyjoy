@@ -37,13 +37,13 @@ export const metadata: Metadata = {
     title: 'TinyJoy — Calm, Quick, Delightful Games',
     description: 'Calm, quick, delightful games for everyday moments. Free, web-first, no download required.',
     url: BASE_URL,
-    images: [{ url: `${BASE_URL}/og/tinyjoy.svg`, width: 1200, height: 630, alt: 'TinyJoy — Free Browser Games' }],
+    images: [{ url: `${BASE_URL}/og/tinyjoy.png`, width: 1200, height: 630, alt: 'TinyJoy — Free Browser Games' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'TinyJoy — Calm, Quick, Delightful Games',
     description: 'Calm, quick, delightful games for everyday moments. Free, web-first, no download required.',
-    images: [`${BASE_URL}/og/tinyjoy.svg`],
+    images: [`${BASE_URL}/og/tinyjoy.png`],
   },
   alternates: {
     canonical: BASE_URL,

@@ -6,7 +6,7 @@ const title = 'Whack-a-Mole — Free Online Reflex Game';
 const description =
   'Tap moles as they pop up from their holes. How many can you whack in 30 seconds? Free browser game — no download, no sign-up.';
 const url = 'https://tinyjoy.app/games/whack-a-mole';
-const ogImage = 'https://tinyjoy.app/og/whack-a-mole.svg';
+const ogImage = 'https://tinyjoy.app/og/whack-a-mole.png';
 
 export const metadata: Metadata = {
   title,

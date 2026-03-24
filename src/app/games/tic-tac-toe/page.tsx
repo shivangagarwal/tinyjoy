@@ -6,7 +6,7 @@ const title = 'Tic-Tac-Toe — Free Online Game vs AI';
 const description =
   'Play Tic-Tac-Toe online against an unbeatable AI. Classic 3×3 board game — free, no download, no sign-up required.';
 const url = 'https://tinyjoy.app/games/tic-tac-toe';
-const ogImage = 'https://tinyjoy.app/og/tic-tac-toe.svg';
+const ogImage = 'https://tinyjoy.app/og/tic-tac-toe.png';
 
 export const metadata: Metadata = {
   title,

@@ -6,7 +6,7 @@ const title = 'Flappy Jump — Free Online Tap Game';
 const description =
   'Play Flappy Jump online for free. Tap to fly, dodge the pipes, and beat your high score. Addictive browser game — no download required.';
 const url = 'https://tinyjoy.app/games/flappy-jump';
-const ogImage = 'https://tinyjoy.app/og/flappy-jump.svg';
+const ogImage = 'https://tinyjoy.app/og/flappy-jump.png';
 
 export const metadata: Metadata = {
   title,

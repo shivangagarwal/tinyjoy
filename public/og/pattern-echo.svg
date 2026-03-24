@@ -6,23 +6,18 @@
     </linearGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
-  <!-- Simon-style pads -->
-  <path d="M75 180 A120 120 0 0 1 195 60 L155 100 A80 80 0 0 0 115 180 Z" fill="#EF4444" opacity="0.9"/>
-  <path d="M195 60 A120 120 0 0 1 315 180 L275 180 A80 80 0 0 0 235 100 Z" fill="#3B82F6" opacity="0.8"/>
-  <path d="M75 180 A120 120 0 0 0 195 300 L195 260 A80 80 0 0 1 115 180 Z" fill="#10B981" opacity="0.7"/>
-  <path d="M315 180 A120 120 0 0 1 195 300 L195 260 A80 80 0 0 0 275 180 Z" fill="#F59E0B" opacity="0.8"/>
-  <circle cx="195" cy="180" r="40" fill="#1a1a2e"/>
-  <!-- Right side smaller pads -->
-  <circle cx="1060" cy="150" r="60" fill="#3B82F6" opacity="0.3"/>
-  <circle cx="1060" cy="150" r="40" fill="#3B82F6" opacity="0.2"/>
-  <circle cx="1020" cy="280" r="45" fill="#EF4444" opacity="0.2"/>
-  <!-- TinyJoy branding -->
-  <text x="600" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#3B82F6" text-anchor="middle" letter-spacing="4">TINYJOY</text>
-  <!-- Game name -->
+  
+  <circle cx="120" cy="130" r="55" fill="#10B981" opacity="0.8"/>
+  <circle cx="230" cy="130" r="55" fill="#059669" opacity="0.7"/>
+  <circle cx="120" cy="250" r="55" fill="#6D28D9" opacity="0.7"/>
+  <circle cx="230" cy="250" r="55" fill="#10B981" opacity="0.6"/>
+  <circle cx="1080" cy="130" r="50" fill="#10B981" opacity="0.35"/>
+  <circle cx="1080" cy="250" r="50" fill="#6D28D9" opacity="0.25"/>
+  <circle cx="100" cy="500" r="35" fill="#10B981" opacity="0.2"/>
+  <circle cx="1080" cy="500" r="35" fill="#059669" opacity="0.2"/>
+  <text x="600" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#10B981" text-anchor="middle" letter-spacing="4">TINYJOY</text>
   <text x="600" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="88" font-weight="800" fill="white" text-anchor="middle">Pattern Echo</text>
-  <!-- Tagline -->
-  <text x="600" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="400" fill="#a1a1aa" text-anchor="middle">Watch the sequence. Repeat it back.</text>
-  <!-- CTA bar -->
-  <rect x="350" y="460" width="500" height="60" rx="30" fill="#3B82F6" opacity="0.15"/>
-  <text x="600" y="498" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#3B82F6" text-anchor="middle" letter-spacing="2">FREE · NO DOWNLOAD · PLAY NOW</text>
+  <text x="600" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="400" fill="#a1a1aa" text-anchor="middle">Watch, remember, repeat the sequence</text>
+  <rect x="350" y="460" width="500" height="60" rx="30" fill="#10B981" opacity="0.15"/>
+  <text x="600" y="498" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#10B981" text-anchor="middle" letter-spacing="2">FREE · NO DOWNLOAD · PLAY NOW</text>
 </svg>

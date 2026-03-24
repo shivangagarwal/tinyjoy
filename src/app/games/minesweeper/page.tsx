@@ -6,7 +6,7 @@ const title = 'Minesweeper — Free Online Minesweeper Game';
 const description =
   'Play classic Minesweeper online. Reveal all safe squares without hitting a mine. Easy, medium, and hard difficulty — free, no download required.';
 const url = 'https://tinyjoy.app/games/minesweeper';
-const ogImage = 'https://tinyjoy.app/og/minesweeper.svg';
+const ogImage = 'https://tinyjoy.app/og/minesweeper.png';
 
 export const metadata: Metadata = {
   title,

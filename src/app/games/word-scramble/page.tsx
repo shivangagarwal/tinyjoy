@@ -5,7 +5,7 @@ import RelatedGuides from '../RelatedGuides';
 const title = 'Word Scramble — Free Browser Game';
 const description = 'Unscramble as many words as you can in 60 seconds. Free word game in your browser — no download, no sign-up. Quick fun for any moment.';
 const url = 'https://tinyjoy.app/games/word-scramble';
-const ogImage = 'https://tinyjoy.app/og/word-scramble.svg';
+const ogImage = 'https://tinyjoy.app/og/word-scramble.png';
 
 export const metadata: Metadata = {
   title,

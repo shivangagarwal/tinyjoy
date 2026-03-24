@@ -6,7 +6,7 @@ const title = 'Solitaire — Free Online Klondike Card Game';
 const description =
   'Play free Solitaire online — classic Klondike rules, no download required. Tap to select and move cards. Build foundations from Ace to King and win!';
 const url = 'https://tinyjoy.app/games/solitaire';
-const ogImage = 'https://tinyjoy.app/og/solitaire.svg';
+const ogImage = 'https://tinyjoy.app/og/solitaire.png';
 
 export const metadata: Metadata = {
   title,

@@ -6,7 +6,7 @@ const title = 'Sudoku — Free Online Sudoku Puzzle';
 const description =
   'Play free Sudoku online. Choose easy, medium, or hard difficulty. No download, no sign-up — just pure number puzzles in your browser.';
 const url = 'https://tinyjoy.app/games/sudoku';
-const ogImage = 'https://tinyjoy.app/og/sudoku.svg';
+const ogImage = 'https://tinyjoy.app/og/sudoku.png';
 
 export const metadata: Metadata = {
   title,

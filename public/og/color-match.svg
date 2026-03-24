@@ -5,28 +5,18 @@
       <stop offset="100%" style="stop-color:#0d0d1a"/>
     </linearGradient>
   </defs>
-  <!-- Background -->
   <rect width="1200" height="630" fill="url(#bg)"/>
-  <!-- Decorative color tiles -->
+  
   <rect x="80" y="80" width="100" height="100" rx="16" fill="#F97316" opacity="0.9"/>
   <rect x="200" y="80" width="100" height="100" rx="16" fill="#EF4444" opacity="0.9"/>
   <rect x="80" y="200" width="100" height="100" rx="16" fill="#3B82F6" opacity="0.9"/>
   <rect x="200" y="200" width="100" height="100" rx="16" fill="#10B981" opacity="0.9"/>
-  <rect x="140" y="140" width="100" height="100" rx="16" fill="#F97316" opacity="0.7"/>
-  <!-- Right side tiles -->
   <rect x="1000" y="80" width="100" height="100" rx="16" fill="#8B5CF6" opacity="0.6"/>
   <rect x="1060" y="180" width="80" height="80" rx="12" fill="#F97316" opacity="0.5"/>
-  <rect x="980" y="200" width="70" height="70" rx="10" fill="#EF4444" opacity="0.4"/>
-  <!-- Bottom decorative tiles -->
   <rect x="900" y="460" width="90" height="90" rx="14" fill="#10B981" opacity="0.4"/>
-  <rect x="1010" y="480" width="70" height="70" rx="12" fill="#3B82F6" opacity="0.3"/>
-  <!-- TinyJoy branding -->
   <text x="600" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#F97316" text-anchor="middle" letter-spacing="4">TINYJOY</text>
-  <!-- Game name -->
   <text x="600" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="88" font-weight="800" fill="white" text-anchor="middle">Color Match</text>
-  <!-- Tagline -->
   <text x="600" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="400" fill="#a1a1aa" text-anchor="middle">Tap the right tiles before time runs out</text>
-  <!-- CTA bar -->
   <rect x="350" y="460" width="500" height="60" rx="30" fill="#F97316" opacity="0.15"/>
   <text x="600" y="498" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#F97316" text-anchor="middle" letter-spacing="2">FREE · NO DOWNLOAD · PLAY NOW</text>
 </svg>

@@ -5,7 +5,7 @@ import RelatedGuides from '../RelatedGuides';
 const title = 'Typing Speed Test — Free Online WPM Test';
 const description = 'Test your typing speed and accuracy. Type a short passage as fast as you can and see your WPM score. Free typing test — no download, no sign-up.';
 const url = 'https://tinyjoy.app/games/typing-speed';
-const ogImage = 'https://tinyjoy.app/og/typing-speed.svg';
+const ogImage = 'https://tinyjoy.app/og/typing-speed.png';
 
 export const metadata: Metadata = {
   title,

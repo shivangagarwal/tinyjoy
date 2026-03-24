@@ -5,7 +5,7 @@ import RelatedGuides from '../RelatedGuides';
 const title = 'Pattern Echo — Free Browser Game';
 const description = 'Watch the color sequence and repeat it back. Free Simon Says-style memory game in your browser — no download, no sign-up. Gets harder every round.';
 const url = 'https://tinyjoy.app/games/pattern-echo';
-const ogImage = 'https://tinyjoy.app/og/pattern-echo.svg';
+const ogImage = 'https://tinyjoy.app/og/pattern-echo.png';
 
 export const metadata: Metadata = {
   title,

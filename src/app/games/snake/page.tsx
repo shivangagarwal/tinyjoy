@@ -6,7 +6,7 @@ const title = 'Snake — Free Online Snake Game';
 const description =
   'Play the classic Snake game online. Eat food, grow longer, and don\'t hit the walls or yourself. Free — no download, no sign-up.';
 const url = 'https://tinyjoy.app/games/snake';
-const ogImage = 'https://tinyjoy.app/og/snake.svg';
+const ogImage = 'https://tinyjoy.app/og/snake.png';
 
 export const metadata: Metadata = {
   title,

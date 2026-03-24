@@ -6,56 +6,18 @@
     </linearGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
-  <!-- Decorative game elements scattered -->
-  <!-- Color tiles -->
+  
   <rect x="60" y="80" width="70" height="70" rx="10" fill="#F97316" opacity="0.7"/>
   <rect x="140" y="80" width="70" height="70" rx="10" fill="#EF4444" opacity="0.6"/>
   <rect x="60" y="160" width="70" height="70" rx="10" fill="#3B82F6" opacity="0.6"/>
   <rect x="140" y="160" width="70" height="70" rx="10" fill="#10B981" opacity="0.7"/>
-  <!-- Number tile -->
-  <rect x="60" y="260" width="70" height="70" rx="10" fill="#EF4444" opacity="0.5"/>
-  <text x="95" y="305" font-family="system-ui" font-size="28" font-weight="700" fill="white" text-anchor="middle">7</text>
-  <!-- Letter tiles -->
-  <rect x="140" y="260" width="70" height="70" rx="10" fill="#10B981" opacity="0.5"/>
-  <text x="175" y="305" font-family="system-ui" font-size="28" font-weight="700" fill="white" text-anchor="middle">A</text>
-  <!-- Card -->
-  <rect x="60" y="360" width="70" height="90" rx="10" fill="#8B5CF6" opacity="0.5"/>
-  <text x="95" y="413" font-family="system-ui" font-size="30" fill="white" text-anchor="middle">?</text>
-  <rect x="140" y="360" width="70" height="90" rx="10" fill="#6D28D9" opacity="0.4"/>
-  <text x="175" y="413" font-family="system-ui" font-size="26" fill="white" text-anchor="middle">★</text>
-  <!-- Right side -->
   <rect x="1050" y="80" width="70" height="70" rx="10" fill="#8B5CF6" opacity="0.4"/>
   <rect x="1050" y="160" width="70" height="70" rx="10" fill="#F97316" opacity="0.3"/>
-  <rect x="1050" y="260" width="70" height="70" rx="10" fill="#10B981" opacity="0.3"/>
-  <text x="1085" y="305" font-family="system-ui" font-size="28" font-weight="700" fill="white" text-anchor="middle">Z</text>
-  <rect x="1050" y="360" width="70" height="90" rx="10" fill="#3B82F6" opacity="0.3"/>
-  <text x="1085" y="413" font-family="system-ui" font-size="30" fill="white" text-anchor="middle">?</text>
-  <!-- Bottom left scattered -->
   <circle cx="100" cy="530" r="30" fill="#F97316" opacity="0.2"/>
-  <circle cx="160" cy="510" r="20" fill="#3B82F6" opacity="0.15"/>
-  <!-- Bottom right scattered -->
   <circle cx="1080" cy="510" r="35" fill="#10B981" opacity="0.2"/>
-  <circle cx="1050" cy="545" r="20" fill="#8B5CF6" opacity="0.15"/>
-  <!-- Main logo -->
-  <text x="600" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="100" font-weight="800" fill="white" text-anchor="middle">TinyJoy</text>
-  <!-- Color underline dots -->
-  <circle cx="430" cy="290" r="8" fill="#F97316"/>
-  <circle cx="460" cy="290" r="8" fill="#EF4444"/>
-  <circle cx="490" cy="290" r="8" fill="#3B82F6"/>
-  <circle cx="520" cy="290" r="8" fill="#10B981"/>
-  <circle cx="550" cy="290" r="8" fill="#8B5CF6"/>
-  <circle cx="580" cy="290" r="8" fill="#F59E0B"/>
-  <circle cx="610" cy="290" r="8" fill="#F97316"/>
-  <circle cx="640" cy="290" r="8" fill="#EF4444"/>
-  <circle cx="670" cy="290" r="8" fill="#3B82F6"/>
-  <circle cx="700" cy="290" r="8" fill="#10B981"/>
-  <circle cx="730" cy="290" r="8" fill="#8B5CF6"/>
-  <circle cx="760" cy="290" r="8" fill="#F59E0B"/>
-  <!-- Tagline -->
-  <text x="600" y="370" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="400" fill="#a1a1aa" text-anchor="middle">Calm, quick, delightful games</text>
-  <!-- Sub-tagline -->
-  <text x="600" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="400" fill="#71717a" text-anchor="middle">5 free browser games · No download · Play anywhere</text>
-  <!-- CTA -->
-  <rect x="400" y="460" width="400" height="56" rx="28" fill="white" opacity="0.1"/>
-  <text x="600" y="494" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="white" text-anchor="middle" letter-spacing="2">tinyjoy.app</text>
+  <text x="600" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#F97316" text-anchor="middle" letter-spacing="4">TINYJOY</text>
+  <text x="600" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="88" font-weight="800" fill="white" text-anchor="middle">TinyJoy</text>
+  <text x="600" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="400" fill="#a1a1aa" text-anchor="middle">Calm, quick, delightful games</text>
+  <rect x="350" y="460" width="500" height="60" rx="30" fill="#F97316" opacity="0.15"/>
+  <text x="600" y="498" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#F97316" text-anchor="middle" letter-spacing="2">FREE · NO DOWNLOAD · PLAY NOW</text>
 </svg>

@@ -6,7 +6,7 @@ const title = 'Brick Breaker — Free Online Breakout Game';
 const description =
   'Play Brick Breaker free online! Classic arcade breakout game — move the paddle, bounce the ball, destroy all bricks. Power-ups, no download needed.';
 const url = 'https://tinyjoy.app/games/brick-breaker';
-const ogImage = 'https://tinyjoy.app/og/brick-breaker.svg';
+const ogImage = 'https://tinyjoy.app/og/brick-breaker.png';
 
 export const metadata: Metadata = {
   title,

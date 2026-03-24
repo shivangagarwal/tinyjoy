@@ -5,7 +5,7 @@ import RelatedGuides from '../RelatedGuides';
 const title = 'Color Match — Free Browser Game';
 const description = 'Tap tiles matching the target color before time runs out. Free color game — no download, no sign-up. 60 seconds of fast, colorful fun. Play now!';
 const url = 'https://tinyjoy.app/games/color-match';
-const ogImage = 'https://tinyjoy.app/og/color-match.svg';
+const ogImage = 'https://tinyjoy.app/og/color-match.png';
 
 export const metadata: Metadata = {
   title,

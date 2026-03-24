@@ -5,7 +5,7 @@ import RelatedGuides from '../RelatedGuides';
 const title = 'Memory Flip — Free Browser Game';
 const description = 'Flip cards and find all matching pairs before time runs out. Free online memory game — no download, no sign-up. Can you clear the board in 60 seconds?';
 const url = 'https://tinyjoy.app/games/memory-flip';
-const ogImage = 'https://tinyjoy.app/og/memory-flip.svg';
+const ogImage = 'https://tinyjoy.app/og/memory-flip.png';
 
 export const metadata: Metadata = {
   title,

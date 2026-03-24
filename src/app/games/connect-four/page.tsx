@@ -6,7 +6,7 @@ const title = 'Connect Four — Free Online Game vs AI';
 const description =
   'Play Connect Four online against AI. Drop discs and get 4 in a row to win. Free, no download, no sign-up required.';
 const url = 'https://tinyjoy.app/games/connect-four';
-const ogImage = 'https://tinyjoy.app/og/connect-four.svg';
+const ogImage = 'https://tinyjoy.app/og/connect-four.png';
 
 export const metadata: Metadata = {
   title,

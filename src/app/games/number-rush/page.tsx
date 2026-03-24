@@ -5,7 +5,7 @@ import RelatedGuides from '../RelatedGuides';
 const title = 'Number Rush — Free Browser Game';
 const description = 'Tap numbers 1–25 in order as fast as you can. Free speed game in your browser — no download needed. Beat your best time. How fast are you?';
 const url = 'https://tinyjoy.app/games/number-rush';
-const ogImage = 'https://tinyjoy.app/og/number-rush.svg';
+const ogImage = 'https://tinyjoy.app/og/number-rush.png';
 
 export const metadata: Metadata = {
   title,

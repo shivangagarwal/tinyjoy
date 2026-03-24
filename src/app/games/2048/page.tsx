@@ -6,7 +6,7 @@ const title = '2048 — Free Online Puzzle Game';
 const description =
   'Play 2048 online. Slide tiles, merge numbers, and try to reach the 2048 tile. The classic viral puzzle game — free, no download required.';
 const url = 'https://tinyjoy.app/games/2048';
-const ogImage = 'https://tinyjoy.app/og/2048.svg';
+const ogImage = 'https://tinyjoy.app/og/2048.png';
 
 export const metadata: Metadata = {
   title,

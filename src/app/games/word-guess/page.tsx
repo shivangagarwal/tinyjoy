@@ -6,7 +6,7 @@ const title = 'Word Guess — Free Daily 5 Letter Word Game';
 const description =
   'Play Word Guess free online — a daily word puzzle where you guess a 5-letter word in 6 tries. Green means right spot, yellow means wrong spot. No download needed.';
 const url = 'https://tinyjoy.app/games/word-guess';
-const ogImage = 'https://tinyjoy.app/og/word-guess.svg';
+const ogImage = 'https://tinyjoy.app/og/word-guess.png';
 
 export const metadata: Metadata = {
   title,
