@@ -47,8 +47,21 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>TinyJoy is built specifically for this format: short sessions, zero friction, and games that are actually satisfying to play.</p>
 
+<h2>More Free Games at TinyJoy</h2>
+<p>TinyJoy has expanded well beyond the original five. More great free browser games now available:</p>
+<ul>
+<li><a href="/games/hangman">Hangman</a> — classic word-guessing game, guess the word before the drawing completes</li>
+<li><a href="/games/sudoku">Sudoku</a> — logic puzzles in Easy, Medium, Hard, and Expert modes</li>
+<li><a href="/games/minesweeper">Minesweeper</a> — the definitive logic game, no ads blocking the board</li>
+<li><a href="/games/connect-four">Connect Four</a> — strategic two-player disc-dropping game</li>
+<li><a href="/games/tic-tac-toe">Tic-Tac-Toe</a> — instant two-player classic</li>
+<li><a href="/games/snake">Snake</a> — the original arcade endless game</li>
+<li><a href="/games/flappy-jump">Flappy Jump</a> — one-tap arcade challenge</li>
+<li><a href="/games/whack-a-mole">Whack-a-Mole</a> — reflex training, classic format</li>
+</ul>
+
 <h2>Play Now</h2>
-<p>All five games are free, mobile-friendly, and live at <a href="/">TinyJoy</a>. No download. No sign-up. Just play.</p>
+<p>All games are free, mobile-friendly, and live at <a href="/">TinyJoy</a>. No download. No sign-up. Just play.</p>
     `.trim(),
   },
   {
@@ -84,6 +97,16 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Apps take storage, require updates, and need permissions. Browser games skip all of that. Open your browser, go to <a href="https://tinyjoy.app">tinyjoy.app</a>, tap a game. Done.</p>
 
 <p>Bookmark the site and you've got a collection of quick games always one tap away — no space used, no install required.</p>
+
+<h2>More Mobile-Friendly Games at TinyJoy</h2>
+<p>The full TinyJoy library also includes:</p>
+<ul>
+<li><a href="/games/hangman">Hangman</a> — tap letters to guess the word, great in portrait mode</li>
+<li><a href="/games/flappy-jump">Flappy Jump</a> — one-tap arcade, perfectly suited for touch</li>
+<li><a href="/games/whack-a-mole">Whack-a-Mole</a> — tap moles before they disappear, best on a touchscreen</li>
+<li><a href="/games/sudoku">Sudoku</a> — full logic puzzle, touch-optimized for phone screens</li>
+<li><a href="/games/connect-four">Connect Four</a> — quick 2-player strategy game</li>
+</ul>
     `.trim(),
   },
   {
@@ -129,7 +152,18 @@ export const BLOG_POSTS: BlogPost[] = [
 <h2>Why browser games beat apps when you're bored</h2>
 <p>Installing an app to cure boredom takes longer than the boredom lasts. Browser games are different: instant, friction-free, and gone the moment you close the tab. No storage used, no notifications, no guilt.</p>
 
-<p>All seven games are free at <a href="/">TinyJoy</a>. Pick one and play.</p>
+<h2>More Games to Play When Bored</h2>
+<p>TinyJoy has expanded with more great options when you need something to do:</p>
+<ul>
+<li><a href="/games/hangman">Hangman</a> — guess the word letter by letter before time runs out</li>
+<li><a href="/games/snake">Snake</a> — the original endless arcade game</li>
+<li><a href="/games/minesweeper">Minesweeper</a> — pure logic puzzle, no luck required</li>
+<li><a href="/games/sudoku">Sudoku</a> — number logic, multiple difficulty levels</li>
+<li><a href="/games/connect-four">Connect Four</a> — strategy game against a friend or the computer</li>
+<li><a href="/games/tic-tac-toe">Tic-Tac-Toe</a> — classic 2-player, always one quick game away</li>
+<li><a href="/games/flappy-jump">Flappy Jump</a> — one-tap arcade challenge</li>
+</ul>
+<p>All free at <a href="/">TinyJoy</a>. Pick one and play.</p>
     `.trim(),
   },
   {
@@ -218,6 +252,18 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Scrambled letters. Type the correct word. 60 seconds to get as many as you can. Each word is common English — you know them all, it's just about seeing them fast.</p>
 <p><a href="/games/word-scramble">Play Word Scramble →</a></p>
 
+<h2>More Casual Games at TinyJoy</h2>
+<p>TinyJoy has added many more casual browser games since launch:</p>
+<ul>
+<li><a href="/games/hangman">Hangman</a> — word guessing, perfect for relaxed play</li>
+<li><a href="/games/minesweeper">Minesweeper</a> — logic puzzle, pure deduction no luck</li>
+<li><a href="/games/sudoku">Sudoku</a> — number puzzles from Easy to Expert</li>
+<li><a href="/games/connect-four">Connect Four</a> — fast strategy game</li>
+<li><a href="/games/tic-tac-toe">Tic-Tac-Toe</a> — the instant classic</li>
+<li><a href="/games/snake">Snake</a> — endless arcade nostalgia</li>
+<li><a href="/games/flappy-jump">Flappy Jump</a> — one-tap challenge</li>
+</ul>
+
 <h2>No Download, Ever</h2>
 <p>TinyJoy is web-first. Every game runs in your browser on any device. No app to install, no account to create, no notification permissions to manage. Just games.</p>
 <p>Start playing at <a href="/">tinyjoy.app</a>.</p>
@@ -263,6 +309,15 @@ export const BLOG_POSTS: BlogPost[] = [
 <h2>What's a Good Score?</h2>
 <p>A first-time player will typically score 15–25. With a few rounds of practice, 35–50 is very achievable. Top scores push past 60. The jump from novice to competent mostly comes from eliminating hesitation, not from going physically faster.</p>
 
+<h2>More Free Games at TinyJoy</h2>
+<p>If you enjoy Color Match, try these other fast-paced TinyJoy games:</p>
+<ul>
+<li><a href="/games/number-rush">Number Rush</a> — tap 1–25 in order, speed challenge</li>
+<li><a href="/games/reaction-time">Reaction Time</a> — pure reflex test in milliseconds</li>
+<li><a href="/games/whack-a-mole">Whack-a-Mole</a> — tap moles before they disappear</li>
+<li><a href="/games/flappy-jump">Flappy Jump</a> — one-tap arcade action</li>
+</ul>
+
 <h2>Play Now</h2>
 <p>Color Match is free, no account required. <a href="/games/color-match">Open it in your browser</a> and go.</p>
     `.trim(),
@@ -304,6 +359,15 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2>What's a Good Score?</h2>
 <p>Completing all 8 pairs in under 60 seconds is the goal. Beginners often don't finish in time. With practice, finishing with 15–20 seconds remaining is very achievable. The best players finish in under 40 seconds total.</p>
+
+<h2>More Free Games at TinyJoy</h2>
+<p>Enjoy other single-player games at TinyJoy:</p>
+<ul>
+<li><a href="/games/pattern-echo">Pattern Echo</a> — sequence memory game, grows with each round</li>
+<li><a href="/games/sudoku">Sudoku</a> — logic puzzles from Easy to Expert</li>
+<li><a href="/games/minesweeper">Minesweeper</a> — deduction-based classic</li>
+<li><a href="/games/hangman">Hangman</a> — word-guessing game</li>
+</ul>
 
 <h2>Play Now</h2>
 <p>Memory Flip is free at TinyJoy. <a href="/games/memory-flip">Open it in your browser</a> — no download, no account.</p>
@@ -347,6 +411,15 @@ export const BLOG_POSTS: BlogPost[] = [
 <h2>What's a Good Time?</h2>
 <p>A first attempt usually lands around 40–60 seconds. With practice, 20–30 seconds is realistic for most players. Sub-20 seconds is considered fast. The all-time obsessives aim for sub-15.</p>
 
+<h2>More Free Games at TinyJoy</h2>
+<p>Love speed and scanning challenges? Try these next:</p>
+<ul>
+<li><a href="/games/reaction-time">Reaction Time</a> — pure reflex test in milliseconds</li>
+<li><a href="/games/color-match">Color Match</a> — scan and tap matching tiles, 60 seconds</li>
+<li><a href="/games/whack-a-mole">Whack-a-Mole</a> — tap moles as they appear</li>
+<li><a href="/games/flappy-jump">Flappy Jump</a> — one-tap arcade</li>
+</ul>
+
 <h2>Play Now</h2>
 <p>Number Rush is free at TinyJoy. <a href="/games/number-rush">Open it in your browser</a> — no download required.</p>
     `.trim(),
@@ -388,6 +461,15 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2>What's a Good Score?</h2>
 <p>First-time players typically reach 5–7. With practice, 10–12 is achievable for most people. Anything above 15 requires genuine focus and technique. The human short-term memory cap is around 7 ± 2 items — beat it consistently and you're doing something right.</p>
+
+<h2>More Memory and Focus Games at TinyJoy</h2>
+<p>If you enjoy Pattern Echo, try these related games:</p>
+<ul>
+<li><a href="/games/memory-flip">Memory Flip</a> — card matching from memory, 60 seconds</li>
+<li><a href="/games/sudoku">Sudoku</a> — logical deduction puzzle</li>
+<li><a href="/games/minesweeper">Minesweeper</a> — reasoning-based logic game</li>
+<li><a href="/games/hangman">Hangman</a> — word pattern memory and deduction</li>
+</ul>
 
 <h2>Play Now</h2>
 <p>Pattern Echo is free at TinyJoy. <a href="/games/pattern-echo">Open it in your browser</a> — no download, no sign-up.</p>
@@ -529,6 +611,14 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2>What's a Good Score?</h2>
 <p>First-time players typically solve 5–8 words in 60 seconds. With practice, 12–18 is very achievable. High scores push past 20. The ceiling is mostly about typing speed and confidence, not vocabulary.</p>
+
+<h2>More Word and Language Games at TinyJoy</h2>
+<p>If you enjoy word-based challenges, try these too:</p>
+<ul>
+<li><a href="/games/hangman">Hangman</a> — guess the hidden word letter by letter</li>
+<li><a href="/games/typing-speed">Typing Speed Test</a> — measure your WPM and accuracy</li>
+<li><a href="/games/pattern-echo">Pattern Echo</a> — sequence memory, different kind of mental challenge</li>
+</ul>
 
 <h2>Play Now</h2>
 <p>Word Scramble is free at TinyJoy. <a href="/games/word-scramble">Open it in your browser</a> — no download, no account needed.</p>
@@ -1129,6 +1219,280 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2>Test Your Speed Now</h2>
 <p><a href="/games/typing-speed">Take the TinyJoy typing speed test →</a> — free, instant, no download required.</p>
+    `.trim(),
+  },
+  // ─── New SEO Posts (TIN-46) ─────────────────────────────────
+  {
+    slug: 'free-online-solitaire',
+    title: 'Free Online Solitaire — Single-Player Browser Games to Play Now',
+    description: 'Looking for free online solitaire and single-player browser games? Play instantly — no download, no sign-up. Puzzles, card-style games, and more.',
+    date: '2026-03-24',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Solitaire is the original single-player game — a calming, strategic card game you can play anywhere, anytime, with no opponent required. The browser version strips away the friction: no download, no app, just open and play.</p>
+
+<h2>What Makes Solitaire So Enduring?</h2>
+<p>Solitaire has been on every Windows computer since 1990. It's outlasted countless gaming trends because the loop is perfect: deal the cards, make moves, see if you can clear the board. Each game is a small puzzle with a clean end state. No time pressure, no opponent, no social obligation. Just you and the cards.</p>
+<p>The browser version of solitaire inherits everything that made the original great, and adds instant access from any device.</p>
+
+<h2>Classic Solitaire Variants</h2>
+
+<h3>Klondike — the one you grew up with</h3>
+<p>Seven columns of cards, four foundation piles, a draw pile. Build the foundations from Ace to King by suit. Move cards between columns in alternating colors and descending order. This is the variant most people mean when they say "solitaire." It has the right balance of skill and luck — most deals are winnable, but not all.</p>
+
+<h3>FreeCell — the thinker's solitaire</h3>
+<p>Four free cells let you park cards temporarily, giving you more control than Klondike. Almost every FreeCell deal is winnable with correct play — which means losses are almost always your fault, not the cards'. Purists prefer FreeCell because it rewards strategic thinking over luck.</p>
+
+<h3>Spider Solitaire — the hard mode</h3>
+<p>Eight columns, two decks, sequences built in-suit. The one-suit version is manageable; the four-suit version is genuinely difficult. If you've mastered Klondike and want more, Spider is the next step up.</p>
+
+<h2>What to Play If You Want a Solitaire-Style Experience Right Now</h2>
+<p>TinyJoy offers several single-player games that hit the same sweet spot as solitaire — calm, thoughtful, and satisfying to complete:</p>
+
+<h3>Minesweeper — pure logic, no luck</h3>
+<p>Numbers tell you where the mines are. Your job is to deduce which cells are safe. Like FreeCell, a correctly played Minesweeper board is mostly winnable through logic. The satisfaction of uncovering the full board safely is the browser equivalent of clearing a Solitaire deck.</p>
+<p><a href="/games/minesweeper">Play Minesweeper →</a></p>
+
+<h3>Sudoku — the number grid puzzle</h3>
+<p>Fill a 9×9 grid so every row, column, and box contains 1–9 exactly once. No math required — just logic and patience. Multiple difficulty levels from Easy to Expert. Easy puzzles feel like a warm-up; Expert puzzles take real concentration.</p>
+<p><a href="/games/sudoku">Play Sudoku →</a></p>
+
+<h3>2048 — tile merging strategy</h3>
+<p>Swipe tiles to merge matching numbers. The goal: reach 2048. Simple to start, surprisingly strategic at higher tiles. 2048 has the same "one more game" quality as solitaire — you can always see how you'd improve if you just played again.</p>
+<p><a href="/games/2048">Play 2048 →</a></p>
+
+<h3>Memory Flip — card matching with a twist</h3>
+<p>If you love the card-based feel of solitaire, Memory Flip is the most direct analog at TinyJoy. Flip cards to find matching pairs. 8 pairs, 60 seconds, clean animations. It's the classic card game in a different format — still just you versus the deck.</p>
+<p><a href="/games/memory-flip">Play Memory Flip →</a></p>
+
+<h2>Why Browser Games Beat Downloaded Solitaire</h2>
+<p>Downloaded solitaire apps have a problem in 2026: they're monetized to the teeth. Ads between every deal. Daily spin wheels. In-app purchases for "premium" card backs. The solitaire concept has been buried under engagement mechanics.</p>
+<p>Browser games don't need to maximize your session time to earn revenue. You play, you close the tab, no harm done. That's how casual games used to work — and it's still the right model for a game you play to relax.</p>
+
+<h2>Play Now</h2>
+<p>All TinyJoy games are free, instant, and work on any device. No download, no account, no ads between rounds. <a href="/">Browse all games at TinyJoy →</a></p>
+    `.trim(),
+  },
+  {
+    slug: 'best-word-games-online',
+    title: 'Best Word Games Online — Free Browser Games for Word Lovers',
+    description: 'The best free word games online — play instantly in your browser, no download or sign-up. Word Scramble, Hangman, and more word games you can play now.',
+    date: '2026-03-24',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Word games are uniquely satisfying: they test vocabulary, pattern recognition, and quick thinking all at once. The best word games start in seconds — no app, no account, just open your browser and play.</p>
+
+<h2>Why Word Games Work</h2>
+<p>A great word game is a mental workout that doesn't feel like one. You're exercising verbal fluency — the ability to retrieve and recognize words quickly — while being engaged enough to not notice the effort. That's the quality that made Wordle a daily ritual for millions of people.</p>
+<p>The best word games are also replay-friendly: every round is a fresh challenge, so there's always a reason to play again.</p>
+
+<h2>Best Free Word Games Online</h2>
+
+<h3>Word Scramble — fastest word game in the browser</h3>
+<p>Scrambled letters appear on screen. Your job: type the correct word. 60 seconds to solve as many as possible.</p>
+<p>Word Scramble is less about vocabulary than pattern recognition. You already know all the words — the challenge is seeing them in jumbled form and unscrambling them fast. It's the closest thing to a vocabulary speed run, and your score ceiling is surprisingly high once you get comfortable.</p>
+<p>Best for: players who liked Wordle and want something faster-paced. Also great as a mental warm-up before writing or reading.</p>
+<p><a href="/games/word-scramble">Play Word Scramble →</a></p>
+
+<h3>Hangman — the classic guessing game</h3>
+<p>A hidden word is revealed one letter at a time as you guess correctly. Guess wrong enough times and the drawing completes — game over. Guess the word before that happens and you win.</p>
+<p>Hangman tests pure vocabulary: you need to guess letters intelligently based on word patterns and probability. E, T, A, O, I, N are the most common letters in English — good starting points. As the word takes shape, pattern matching takes over. It's deceptively strategic for a simple game.</p>
+<p>Best for: players who love thinking through word patterns and enjoy the suspense of revealing a word letter by letter.</p>
+<p><a href="/games/hangman">Play Hangman →</a></p>
+
+<h2>How Word Scramble and Hangman Compare</h2>
+<ul>
+<li><strong>Speed:</strong> Word Scramble is time-pressured (60 seconds); Hangman is open-ended</li>
+<li><strong>Skill:</strong> Word Scramble tests pattern recognition speed; Hangman tests letter frequency knowledge</li>
+<li><strong>Session length:</strong> Word Scramble is exactly 60 seconds; Hangman varies by word length and difficulty</li>
+<li><strong>Replayability:</strong> Both are highly replayable — different words every round</li>
+</ul>
+
+<h2>More Word-Adjacent Games at TinyJoy</h2>
+<p>If you enjoy word games because they test quick thinking and pattern recognition, these non-word TinyJoy games scratch the same itch:</p>
+<ul>
+<li><a href="/games/number-rush">Number Rush</a> — pattern scanning, just with numbers instead of letters</li>
+<li><a href="/games/memory-flip">Memory Flip</a> — symbol matching that exercises the same visual pattern circuits</li>
+<li><a href="/games/sudoku">Sudoku</a> — pure logic puzzle, no words, but the same methodical problem-solving feeling</li>
+</ul>
+
+<h2>Tips for Both Word Games</h2>
+
+<h3>For Word Scramble</h3>
+<p>Look for common English patterns in the scrambled letters: -ing, -tion, -er, -est. These suffixes narrow the possibilities dramatically. If you see N-G-I in the scramble, try -ing immediately.</p>
+
+<h3>For Hangman</h3>
+<p>Start with E, then T, A, O, I, N — the six most common letters in English. They'll reveal the word structure quickly. Avoid rare letters (X, Z, Q) until the word shape suggests them.</p>
+
+<h2>Play Free Word Games Now</h2>
+<p>Word Scramble and Hangman are both free at TinyJoy — no download, no sign-up, works on any device. <a href="/">Browse all TinyJoy games →</a></p>
+    `.trim(),
+  },
+  {
+    slug: 'brain-training-games-that-actually-work',
+    title: 'Brain Training Games That Actually Work — Free, No Download',
+    description: 'Free brain training games that genuinely exercise memory, focus, and processing speed. Play in your browser — no app, no download, no subscription.',
+    date: '2026-03-24',
+    category: 'tips',
+    readingTime: '5 min',
+    content: `
+<p>The "brain training" market is full of apps making big promises. Most don't deliver. But specific games do genuinely exercise specific cognitive abilities — and the best ones are free and run in your browser right now.</p>
+
+<h2>What Science Says About Brain Training</h2>
+<p>The honest answer: no game makes you "smarter" in a general sense. What targeted games can do is strengthen specific cognitive skills — working memory, processing speed, attention, and pattern recognition. Think of it like physical exercise: a squat strengthens specific muscles. A memory game strengthens specific memory circuits.</p>
+<p>The key is choosing games that actually target the skill you want to improve, then practicing consistently.</p>
+
+<h2>For Working Memory: Memory Flip</h2>
+<p>Working memory is your brain's scratch pad — the ability to hold information in mind while using it. It's predictive of academic and professional success, and it's genuinely trainable.</p>
+<p><a href="/games/memory-flip">Memory Flip</a> directly exercises this. You flip cards, see what's underneath, and hold those positions in memory while looking for matches. The 60-second time limit adds just enough pressure to keep the workout real. Play a few rounds daily and the board will start feeling less chaotic as your spatial memory improves.</p>
+
+<h2>For Pattern Recognition: Pattern Echo</h2>
+<p>Pattern recognition — the ability to quickly identify structure in information — is a core component of fluid intelligence. It's what lets experts spot solutions that novices miss.</p>
+<p><a href="/games/pattern-echo">Pattern Echo</a> is a growing color sequence game: the game shows a sequence, you repeat it. One more step is added each round. This isolates the pattern memory circuit and stresses it progressively — exactly the kind of training that transfers to real-world pattern recognition tasks.</p>
+
+<h2>For Processing Speed: Number Rush</h2>
+<p>Processing speed — how quickly you can identify and respond to information — naturally declines with age and improves with deliberate practice. It affects everything from reading comprehension to driving reaction time.</p>
+<p><a href="/games/number-rush">Number Rush</a> forces you to visually scan for numbers 1–25 in random order, as fast as possible. It's a direct processing speed drill. Your first time, the numbers seem to hide. After ten sessions, they jump out at you. That's a measurable improvement in visual search speed.</p>
+
+<h2>For Logical Reasoning: Sudoku</h2>
+<p>Logical deduction — the ability to chain constraints to reach conclusions — is one of the most transferable cognitive skills. Sudoku is one of the best free games for practicing it.</p>
+<p><a href="/games/sudoku">Sudoku</a> requires no math, just logic: each number must appear once per row, column, and box. The techniques escalate in complexity as difficulty increases. Solving a Hard or Expert puzzle without guessing is a genuine reasoning workout.</p>
+
+<h2>For Focused Attention: Color Match</h2>
+<p>Selective attention — filtering relevant information from a noisy field — is measurably trainable and practically useful. Color Match puts this directly in play.</p>
+<p><a href="/games/color-match">Color Match</a> shows a target color and a grid of colored tiles. Tap the matching tiles. Ignore the distractors. The 60-second timer forces sustained attention rather than lazy scanning. This mirrors selective attention tasks used in cognitive training research.</p>
+
+<h2>For Verbal Fluency: Word Scramble</h2>
+<p>Verbal fluency — the speed of word retrieval and recognition — is a cognitive ability that's used constantly in reading, writing, and conversation. It's also trainable.</p>
+<p><a href="/games/word-scramble">Word Scramble</a> tests exactly this: scrambled letters, 60 seconds, solve as many as you can. You're not being tested on vocabulary — you already know the words. You're being tested on how quickly your brain can pattern-match letters into words. That's verbal processing speed.</p>
+
+<h2>How to Get Real Benefit</h2>
+<ul>
+<li><strong>Short, focused sessions beat long marathon sessions.</strong> 5–10 minutes of engaged play is more valuable than 45 distracted minutes.</li>
+<li><strong>Consistency is everything.</strong> Daily brief sessions produce more cognitive benefit than weekly longer ones.</li>
+<li><strong>Track your improvement.</strong> Set a personal best and try to beat it. That's when the real cognitive work happens — at the edge of your current ability.</li>
+<li><strong>Rotate between games.</strong> Different games train different abilities. Mixing memory, speed, and pattern games gives you a more complete workout.</li>
+</ul>
+
+<h2>Play Free</h2>
+<p>All games mentioned here are free at TinyJoy — no download, no account, no subscription. <a href="/">Start training at TinyJoy →</a></p>
+    `.trim(),
+  },
+  {
+    slug: 'fun-games-to-play-on-your-phone',
+    title: 'Fun Games to Play on Your Phone — No App Download Required',
+    description: 'The best fun games to play on your phone without downloading an app. Free mobile browser games that work on any phone, instant start, no install.',
+    date: '2026-03-24',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Your phone is always with you. The games on it shouldn't require an installation. Here are the best games to play on your phone right now — all free, all playable in your mobile browser without downloading anything.</p>
+
+<h2>Why Mobile Browser Games Beat Apps for Casual Play</h2>
+<p>App store games are optimized for retention, not for fun. Notifications, daily login bonuses, limited lives, energy timers — these mechanics exist to keep you coming back on the developer's schedule, not yours.</p>
+<p>Mobile browser games skip all of it. Open your browser, play for two minutes, close the tab. No app icon cluttering your home screen, no storage used, no update to wait for. Just a game.</p>
+<p>All of these games are at <a href="https://tinyjoy.app">tinyjoy.app</a> — bookmark it and you've got a full game collection always one tap away.</p>
+
+<h2>Best Mobile Browser Games Right Now</h2>
+
+<h3>Number Rush — pure one-handed speed game</h3>
+<p>25 numbers scattered on screen, tap them in order 1→25, fastest time wins. Number Rush works perfectly on a phone: the numbers are sized for touch, the game fits in portrait mode, and each round is under a minute. The personal best mechanic makes it deeply replayable.</p>
+<p>Great for: waiting in line, commuting, any 30-second gap.</p>
+<p><a href="/games/number-rush">Play Number Rush →</a></p>
+
+<h3>Color Match — thumb-friendly tile tapping</h3>
+<p>A target color at the top. Tap matching tiles in the grid. 60 seconds. The tile grid is sized for phone screens and the game responds well to fast thumb taps. One of the most satisfying score-chasing games on mobile.</p>
+<p>Great for: flow state gaming, beating your high score, quick breaks.</p>
+<p><a href="/games/color-match">Play Color Match →</a></p>
+
+<h3>Hangman — great for portrait mode</h3>
+<p>The classic word-guessing game works beautifully on a phone. Tap letters to guess. The layout fits naturally in portrait orientation. Short rounds, replayable, and gently challenging.</p>
+<p>Great for: relaxed play, vocabulary practice, quiet moments.</p>
+<p><a href="/games/hangman">Play Hangman →</a></p>
+
+<h3>Pattern Echo — no time pressure, works anywhere</h3>
+<p>Watch a growing color sequence, then tap to repeat it. Pattern Echo is ideal for phone play because there's no time pressure on your response — you can pause, think, and tap when ready. Sessions are self-paced and calming.</p>
+<p>Great for: unwinding, testing your memory, long waits.</p>
+<p><a href="/games/pattern-echo">Play Pattern Echo →</a></p>
+
+<h3>Flappy Jump — classic arcade on mobile</h3>
+<p>Tap to stay airborne, dodge obstacles. Flappy Jump is the kind of mobile game that mobile was made for: one-touch controls, instant retry, short sessions. Works perfectly in a browser on any phone.</p>
+<p>Great for: quick challenges, casual gaming, competing with friends on high score.</p>
+<p><a href="/games/flappy-jump">Play Flappy Jump →</a></p>
+
+<h3>Whack-a-Mole — reflex training on touchscreen</h3>
+<p>Moles pop up, you tap them before they disappear. Touch screens are the best way to play Whack-a-Mole — direct tapping is faster than clicking. The game is fast, physical, and genuinely fun on a phone.</p>
+<p>Great for: quick energy release, reaction time training, 2-minute sessions.</p>
+<p><a href="/games/whack-a-mole">Play Whack-a-Mole →</a></p>
+
+<h3>Word Scramble — uses your phone keyboard</h3>
+<p>Scrambled letters appear, you type the word. Word Scramble uses your phone's native keyboard, which means autocomplete can actually help. Fast, satisfying, and a great mental warm-up.</p>
+<p>Great for: vocabulary lovers, mental warm-ups, relaxed gaming.</p>
+<p><a href="/games/word-scramble">Play Word Scramble →</a></p>
+
+<h3>Sudoku — full puzzle game on your phone</h3>
+<p>The classic logic puzzle, designed for mobile. Touch-friendly number input, multiple difficulty levels, clean layout. If you need a longer focused session, Sudoku is the game for it.</p>
+<p>Great for: deep focus, longer breaks, puzzle lovers.</p>
+<p><a href="/games/sudoku">Play Sudoku →</a></p>
+
+<h2>The Full TinyJoy Collection on Mobile</h2>
+<p>Every game at TinyJoy is mobile-optimized — they're all tested and tuned for phone screens. The complete list includes Memory Flip, Reaction Time, Snake, 2048, Minesweeper, Connect Four, Tic-Tac-Toe, and more.</p>
+<p><a href="/">See all games at TinyJoy →</a> — free, no download, works on any phone.</p>
+    `.trim(),
+  },
+  {
+    slug: 'best-arcade-games-browser',
+    title: 'Best Arcade Games to Play in Your Browser — Free, No Download',
+    description: 'The best free arcade games to play in your browser right now. Snake, Flappy Jump, Whack-a-Mole, and more — no download, no sign-up, instant play.',
+    date: '2026-03-24',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Arcade games are the purest form of gaming: simple rules, fast sessions, score you want to beat. In 2026, the best arcade games don't live in app stores — they live in your browser, load in seconds, and cost nothing.</p>
+
+<h2>What Makes a Great Browser Arcade Game?</h2>
+<p>A great arcade game has three things: a concept you understand in 10 seconds, a challenge that takes longer to master, and a score that makes you want to play again. The games below hit all three — and they all run directly in your browser without installation.</p>
+
+<h2>Best Free Arcade Browser Games</h2>
+
+<h3>Snake — the original browser arcade game</h3>
+<p>Eat food, grow longer, don't crash into yourself. Snake is one of the most-played games in history — it was on virtually every Nokia phone in the late 1990s. The browser version is better: smoother controls, proper scoring, and none of the pixelation of the original. The spatial planning required to keep a long snake alive is genuinely satisfying.</p>
+<p>Perfect for: nostalgia hits, spatial strategy, beating your high score.</p>
+<p><a href="/games/snake">Play Snake →</a></p>
+
+<h3>Flappy Jump — one tap, endless challenge</h3>
+<p>Tap to fly, dodge obstacles, go as far as you can. Flappy Jump captures the perfect difficulty of classic arcade games: the rules are immediate, the challenge escalates naturally, and "just one more try" is always true. Sessions are short — which means the urge to replay is constant.</p>
+<p>Perfect for: quick challenges, mobile gaming, competing on high score.</p>
+<p><a href="/games/flappy-jump">Play Flappy Jump →</a></p>
+
+<h3>Whack-a-Mole — pure reflex, pure satisfaction</h3>
+<p>Moles pop up from holes. Tap them before they disappear. It sounds trivial until the speed picks up and you realize how much peripheral vision and reaction time are involved. One of the most tactile games to play on a touchscreen — the physical tap is part of the satisfaction.</p>
+<p>Perfect for: energy release, reflex training, 2-minute sessions.</p>
+<p><a href="/games/whack-a-mole">Play Whack-a-Mole →</a></p>
+
+<h3>Connect Four — strategic arcade with a friend</h3>
+<p>Drop discs into a 7×6 grid, get four in a row before your opponent. Connect Four bridges arcade and strategy: games are fast (under 3 minutes) but require real tactical thinking. Great to play against another person sharing a screen — or against the computer for a solo challenge.</p>
+<p>Perfect for: two-player games, quick strategy, anyone who grew up with the original.</p>
+<p><a href="/games/connect-four">Play Connect Four →</a></p>
+
+<h3>Reaction Time — the arcade score you can improve</h3>
+<p>A signal appears; you tap as fast as you can. Reaction time is shown in milliseconds. The average human reaction time is around 250ms — where do you land? Unlike most arcade games, your score here reflects a real physical ability. That makes improvement feel genuinely meaningful.</p>
+<p>Perfect for: quick sessions, measuring improvement, settling bets about who's faster.</p>
+<p><a href="/games/reaction-time">Play Reaction Time →</a></p>
+
+<h3>Number Rush — speed arcade, one clean rule</h3>
+<p>25 numbers scattered on screen. Tap them in order 1→25, as fast as possible. Your time is your score. Number Rush is arcade-perfect: one rule, measurable score, instant replay. The randomized layout means every game is a fresh challenge. Sub-20 seconds is the speed demon benchmark.</p>
+<p>Perfect for: personal best chasing, speed challenges, 30-second sessions.</p>
+<p><a href="/games/number-rush">Play Number Rush →</a></p>
+
+<h2>Why Browser Arcade Games Work So Well</h2>
+<p>Classic arcade games were designed around short, intense sessions with no save state — you played, you died, you tried again. That format is a perfect match for browser games in 2026. Fast load, fast play, no friction. The score motivates replay without manufactured engagement mechanics.</p>
+<p>Apps have largely abandoned this formula in favor of progression systems and monetization. Browser arcade games at TinyJoy bring it back.</p>
+
+<h2>Play All Free</h2>
+<p>Every arcade game above is free at <a href="/">TinyJoy</a> — no download, no account, works on desktop and mobile. Open your browser and play.</p>
     `.trim(),
   },
   {

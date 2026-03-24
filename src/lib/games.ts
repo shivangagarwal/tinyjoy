@@ -111,6 +111,27 @@ export const GAMES = [
     emoji: '🔵',
     bg: '#2563EB',
   },
+  {
+    href: '/games/word-guess',
+    name: 'Word Guess',
+    description: 'Guess the 5-letter word. 6 tries.',
+    emoji: '🟩',
+    bg: '#16A34A',
+  },
+  {
+    href: '/games/solitaire',
+    name: 'Solitaire',
+    description: 'Classic Klondike. Build foundations.',
+    emoji: '🃏',
+    bg: '#7C3AED',
+  },
+  {
+    href: '/games/brick-breaker',
+    name: 'Brick Breaker',
+    description: 'Bounce the ball. Destroy all bricks.',
+    emoji: '🧱',
+    bg: '#DC2626',
+  },
 ] as const;
 
 export type Game = (typeof GAMES)[number];
