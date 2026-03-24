@@ -90,6 +90,27 @@ export const GAMES = [
     emoji: '💣',
     bg: '#64748B',
   },
+  {
+    href: '/games/flappy-jump',
+    name: 'Flappy Jump',
+    description: 'Tap to fly. Dodge the pipes.',
+    emoji: '🐦',
+    bg: '#F97316',
+  },
+  {
+    href: '/games/hangman',
+    name: 'Hangman',
+    description: 'Guess the word. Letter by letter.',
+    emoji: '🪢',
+    bg: '#DC2626',
+  },
+  {
+    href: '/games/connect-four',
+    name: 'Connect Four',
+    description: 'Drop discs. Get 4 in a row.',
+    emoji: '🔵',
+    bg: '#2563EB',
+  },
 ] as const;
 
 export type Game = (typeof GAMES)[number];
