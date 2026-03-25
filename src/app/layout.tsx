@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import Script from "next/script";
 import Link from "next/link";
+import PWAInit from "./pwa-init";
 import "./globals.css";
 
 const ADSENSE_CLIENT = "ca-pub-4129630857541496";
@@ -62,6 +63,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="manifest" href="/manifest.json" />
         {/* Preconnect to third-party origins for faster resource loading */}
         <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
@@ -108,6 +110,7 @@ export default function RootLayout({
           </div>
         </footer>
         <Analytics />
+        <PWAInit />
       </body>
     </html>
   );
