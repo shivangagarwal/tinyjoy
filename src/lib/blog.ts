@@ -1670,6 +1670,169 @@ export const BLOG_POSTS: BlogPost[] = [
     `.trim(),
   },
   {
+    slug: 'wordle-alternative-free',
+    title: 'Best Wordle Alternatives — Free Word Games Online',
+    description: 'Looking for a Wordle alternative? These free word games work in your browser — no account, no download. Play Word Guess, Hangman, and Word Scramble now.',
+    date: '2026-03-25',
+    category: 'tips',
+    readingTime: '3 min',
+    content: `
+<p>Wordle popularized the daily word game format — but one puzzle a day leaves a lot of waiting. If you want more word game action right now, these free browser alternatives are worth bookmarking.</p>
+
+<h2>Word Guess — The Closest Wordle Alternative</h2>
+<p>Six tries to guess a hidden 5-letter word. Each guess tells you which letters are correct and in the right position (green), correct but in the wrong position (yellow), or not in the word at all (gray). Unlimited rounds — play as many as you want, no 24-hour wait.</p>
+<p><a href="/games/word-guess">Play Word Guess free →</a></p>
+
+<h2>Word Scramble — Fast-Paced Letters Under Pressure</h2>
+<p>Letters are shuffled; you have 60 seconds to unscramble as many words as you can. Less deduction than Wordle, more raw vocabulary speed. Great if you want word games that feel more like a sprint than a puzzle.</p>
+<p><a href="/games/word-scramble">Play Word Scramble free →</a></p>
+
+<h2>Hangman — Classic Deduction Game</h2>
+<p>Guess letters one at a time to reveal a hidden word before the drawing completes. More unforgiving than Wordle (no color hints) but equally satisfying when you crack a tough word. Unlimited rounds.</p>
+<p><a href="/games/hangman">Play Hangman free →</a></p>
+
+<h2>Why These Beat Waiting for Wordle</h2>
+<ul>
+<li><strong>Unlimited play</strong> — no daily limit, no waiting until midnight</li>
+<li><strong>No account required</strong> — open the game and start immediately</li>
+<li><strong>Mobile-friendly</strong> — works on any smartphone in your browser</li>
+<li><strong>Free</strong> — no subscription, no in-app purchases</li>
+</ul>
+
+<h2>All Word Games at TinyJoy</h2>
+<p>TinyJoy has a full word game category alongside quick hits, arcade, puzzle, and classics. Everything is free and playable at <a href="/">tinyjoy.app</a>.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Is there a free Wordle alternative with unlimited plays?</h3>
+<p>Yes. <a href="/games/word-guess">Word Guess</a> at TinyJoy works just like Wordle — 5-letter words, color-coded feedback — but you can play as many rounds as you want with no daily limit and no account required.</p>
+
+<h3>What are the best word games to play online for free?</h3>
+<p>The best free online word games right now are Word Guess (Wordle-style), Hangman (letter-by-letter deduction), and Word Scramble (unscramble words against the clock). All three are available free at TinyJoy with no sign-up.</p>
+
+<h3>Do these Wordle alternatives work on mobile?</h3>
+<p>Yes. All TinyJoy word games are fully touch-optimized and work in any mobile browser on iPhone or Android. No app download required.</p>
+
+<h3>Is Word Guess exactly like Wordle?</h3>
+<p>It's the same core mechanic — 5-letter word, 6 guesses, green/yellow/gray feedback. The key difference is unlimited rounds instead of one per day. The word list is independently curated.</p>
+    `.trim(),
+  },
+  {
+    slug: 'hangman-online-free',
+    title: 'Play Hangman Online Free — No Download Required',
+    description: 'Play Hangman online for free. Classic word-guessing game in your browser — no account, no app, no ads blocking the game. Works on mobile too.',
+    date: '2026-03-25',
+    category: 'game-guide',
+    readingTime: '3 min',
+    content: `
+<p>Hangman is one of the oldest word games around — and it's still great. Guess letters one at a time to reveal a hidden word before the stick figure drawing completes. Simple rules, real mental challenge.</p>
+
+<p>Play it free in your browser right now: <a href="/games/hangman">TinyJoy Hangman →</a></p>
+
+<h2>How to Play Hangman Online</h2>
+<ol>
+<li>A hidden word is displayed as blank spaces (one per letter)</li>
+<li>Click or tap any letter to guess it</li>
+<li>Correct letters appear in their positions; wrong guesses add to the drawing</li>
+<li>Win by completing the word before the hangman is fully drawn</li>
+<li>You get 6 wrong guesses — use them wisely</li>
+</ol>
+
+<h2>Hangman Strategy Tips</h2>
+<p><strong>Start with the most common letters.</strong> E, T, A, O, I, and N appear in over 80% of English words. Lead with these before trying less common letters.</p>
+
+<p><strong>Watch the word length.</strong> Short words (3–4 letters) often follow common patterns. Long words (8+ letters) usually contain repeated vowels — guess E and A early.</p>
+
+<p><strong>Look for double letters.</strong> If you've guessed E and see it appear twice, it tells you a lot about the word structure. Common doubles: LL, SS, EE, OO.</p>
+
+<p><strong>When you're stuck, go for consonants.</strong> After exhausting the top vowels, try R, S, L, N, and D — the most frequent consonants in English.</p>
+
+<h2>Why Play Hangman at TinyJoy?</h2>
+<ul>
+<li>No account or sign-up required</li>
+<li>Works in any browser — desktop, phone, tablet</li>
+<li>No app download</li>
+<li>Clean, uncluttered interface — just the game</li>
+<li>Unlimited plays, unlimited words</li>
+</ul>
+
+<h2>More Word Games</h2>
+<p>If you enjoy Hangman, try <a href="/games/word-guess">Word Guess</a> (Wordle-style deduction) and <a href="/games/word-scramble">Word Scramble</a> (unscramble words against the clock). All free at <a href="/">TinyJoy</a>.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Is this Hangman game free?</h3>
+<p>Yes, completely free. No account, no in-app purchases, no subscription. Open the game in your browser and start playing immediately.</p>
+
+<h3>Can I play Hangman on my phone?</h3>
+<p>Yes. TinyJoy Hangman is fully touch-optimized. Tap letters to guess — it works great on any smartphone or tablet without an app download.</p>
+
+<h3>What are good letters to guess first in Hangman?</h3>
+<p>Start with the most common English letters: E, T, A, O, I, N. In most words, these will reveal several letters early and help you identify the pattern before running out of guesses.</p>
+
+<h3>How many wrong guesses do you get in Hangman?</h3>
+<p>In TinyJoy Hangman you get 6 wrong guesses before the game ends. Use them strategically — common letters first, then use the revealed pattern to deduce remaining letters.</p>
+    `.trim(),
+  },
+  {
+    slug: 'connect-four-online-free',
+    title: 'Play Connect Four Online Free',
+    description: 'Play Connect Four online free — no download, no account. Drop discs, block your opponent, get four in a row. Works on desktop and mobile.',
+    date: '2026-03-25',
+    category: 'game-guide',
+    readingTime: '3 min',
+    content: `
+<p>Connect Four is a perfect two-player strategy game: drop colored discs into a grid, be the first to get four in a row (horizontally, vertically, or diagonally). Easy to learn, genuinely deep.</p>
+
+<p>Play it free now: <a href="/games/connect-four">TinyJoy Connect Four →</a></p>
+
+<h2>How to Play Connect Four</h2>
+<ol>
+<li>The grid is 7 columns × 6 rows</li>
+<li>Players alternate dropping discs into any column</li>
+<li>Discs fall to the lowest open row in that column</li>
+<li>First player to get 4 discs in a row (any direction) wins</li>
+<li>If the grid fills with no winner, the game is a draw</li>
+</ol>
+
+<h2>Connect Four Strategy</h2>
+<p><strong>Control the center.</strong> The middle column is the most valuable — discs there participate in more possible four-in-a-row combinations than edge columns. Open with center drops whenever possible.</p>
+
+<p><strong>Build threats in two directions.</strong> Create positions where you have two simultaneous ways to win. Your opponent can only block one — you win with the other.</p>
+
+<p><strong>Count your opponent's threats.</strong> Don't just think offensively. If your opponent has three in a row with an open space, block it — unless you can win first on your next move.</p>
+
+<p><strong>The "7" trap.</strong> A classic Connect Four setup: arrange discs in a pattern where winning one way also enables another win. Force your opponent to block high while you build low.</p>
+
+<p><strong>Odd vs. even rows matter.</strong> If you go first, you want your winning move on an odd row. The second player wins on even rows. This shapes which columns you should fight over.</p>
+
+<h2>Why TinyJoy for Connect Four?</h2>
+<ul>
+<li>No account, no download — play in any browser</li>
+<li>Clean board with no clutter or ads blocking the grid</li>
+<li>Works on mobile — tap to drop discs on phone or tablet</li>
+<li>Play against a friend on the same device (pass-and-play)</li>
+</ul>
+
+<h2>More Strategy Games at TinyJoy</h2>
+<p>If you like Connect Four's strategic depth, try <a href="/games/minesweeper">Minesweeper</a> for solo logic puzzles and <a href="/games/sudoku">Sudoku</a> for number-based deduction. Or head to the <a href="/">TinyJoy homepage</a> to browse all 19 free games.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Can I play Connect Four online for free?</h3>
+<p>Yes. TinyJoy Connect Four is completely free — no account, no payment, no download. Open it in any browser and start playing immediately.</p>
+
+<h3>Can I play Connect Four on my phone?</h3>
+<p>Yes. The game is touch-optimized and works in any mobile browser on iPhone or Android. Tap a column to drop your disc — no app required.</p>
+
+<h3>What's the best first move in Connect Four?</h3>
+<p>Drop in the center column (column 4 of 7). The center position connects to more potential four-in-a-row combinations than any other column, giving you more flexibility in the early game.</p>
+
+<h3>Is Connect Four a solved game?</h3>
+<p>Yes — with perfect play, the first player always wins. But at normal human play levels, mistakes happen on both sides, making it genuinely competitive and fun.</p>
+    `.trim(),
+  },
+  {
     slug: 'best-free-games-no-download-2026',
     title: 'Best Free Games With No Download in 2026 (Play Instantly)',
     description: 'The best free games you can play with no download and no sign-up in 2026. Open your browser and start playing in seconds on any device.',
