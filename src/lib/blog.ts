@@ -1880,6 +1880,374 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>New games added regularly. Bookmark the homepage and check back.</p>
     `.trim(),
   },
+  // ─── New SEO Posts (TIN-59) ──────────────────────────────────
+  {
+    slug: 'best-typing-games-online',
+    title: 'Best Typing Games Online (Free, No Download)',
+    description: 'The best free typing games online to improve your speed and accuracy. Play in your browser — no download, no account needed.',
+    date: '2026-03-26',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Typing games are one of the most useful ways to spend 5 minutes. Unlike passive drills, they add real stakes — a timer, a score, something to beat. The best ones are also genuinely fun. Here are the top free typing games you can play online right now, no download required.</p>
+
+<h2>Why Play Typing Games?</h2>
+<p>Touch typing is a skill that compounds. Even modest improvements — going from 50 WPM to 70 WPM — have real impact on how quickly you write emails, code, or messages. Typing games make the practice stick because they're competitive and immediate. You can see progress within a single session.</p>
+
+<h2>1. Typing Speed Test (TinyJoy)</h2>
+<p>The simplest and most pure typing game available. You're given a passage and a 60-second clock. Type as accurately and quickly as you can. Your WPM (words per minute) and accuracy are shown at the end.</p>
+<p>What makes this version stand out: it's completely clean. No ads mid-game, no upsells, no account required. Just you and the words.</p>
+<p><a href="/games/typing-speed">Play Typing Speed Test →</a></p>
+
+<h2>2. Word Scramble (TinyJoy)</h2>
+<p>A different kind of typing challenge: you're shown scrambled letters and must type the correct word. You have 60 seconds to solve as many as possible. This trains your vocabulary recall and finger memory simultaneously — when you know the word instinctively, your fingers follow faster.</p>
+<p><a href="/games/word-scramble">Play Word Scramble →</a></p>
+
+<h2>3. Number Rush (TinyJoy)</h2>
+<p>Not strictly a typing game, but it trains the same finger-brain loop. You tap numbers 1 through 25 in sequence as fast as possible. Your fastest time is saved. It's an underrated way to practice precision and hand-eye coordination.</p>
+<p><a href="/games/number-rush">Play Number Rush →</a></p>
+
+<h2>How to Use Typing Games to Actually Improve</h2>
+<p>A few principles that make practice sessions count:</p>
+<ul>
+<li><strong>Focus on accuracy first.</strong> A 95% accurate 50 WPM typist will improve faster than an 80% accurate 70 WPM typist. Errors create bad habits that take longer to undo.</li>
+<li><strong>Do short sessions.</strong> 5–10 minutes of focused typing beats 45 minutes of half-attention. Your brain consolidates motor skills better in distributed practice.</li>
+<li><strong>Use all your fingers.</strong> If you still hunt-and-peck with two fingers, switch. It takes 2–3 uncomfortable weeks, then you'll never go back.</li>
+<li><strong>Track your score.</strong> Games that show WPM create a personal benchmark. Competing against your previous best is more motivating than abstract "practice."</li>
+</ul>
+
+<h2>What WPM Should You Aim For?</h2>
+<p>Average typing speed is around 40–45 WPM. Comfortable professional typing is 60–80 WPM. Proficient is 80–100 WPM. Most people plateau around 50–60 WPM without deliberate practice. With regular typing game sessions, hitting 70+ WPM in 30 days is realistic for most adults.</p>
+
+<h2>Browser Typing Games vs Apps</h2>
+<p>Browser typing games have one significant advantage: no friction. You can open a tab, play for 5 minutes, and close it without an app installed on your device. They also tend to be simpler and more focused — no gamification bloat designed to keep you addicted. The best typing practice is direct and clean.</p>
+
+<h2>Free Typing Games at TinyJoy</h2>
+<p>Both <a href="/games/typing-speed">Typing Speed Test</a> and <a href="/games/word-scramble">Word Scramble</a> are free at <a href="/">TinyJoy</a>. No account, no download. Open in any browser and start improving.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What is the best free typing game online?</h3>
+<p>For pure speed improvement, a timed typing test is most effective. <a href="/games/typing-speed">TinyJoy's Typing Speed Test</a> is clean, free, and works in any browser. For variety, <a href="/games/word-scramble">Word Scramble</a> adds a vocabulary challenge on top of the typing challenge.</p>
+
+<h3>Can typing games actually improve your WPM?</h3>
+<p>Yes, especially in the early stages. Regular 10-minute sessions 3–4 times per week can increase WPM by 20–30% in a month. The key is consistency and focusing on accuracy over raw speed.</p>
+
+<h3>Are online typing games free?</h3>
+<p>The best ones are. All games at TinyJoy are completely free — no subscription, no in-app purchases, no ads interrupting gameplay. Just open and play.</p>
+
+<h3>Do I need an account to play typing games online?</h3>
+<p>Not at TinyJoy. Open <a href="/games/typing-speed">the typing game</a> in your browser and start immediately. No registration, no email, no password.</p>
+
+<h3>What's a good typing speed?</h3>
+<p>For casual use, 50–60 WPM is comfortable. For professional work (coding, writing, admin), 70–90 WPM is the productive sweet spot. Elite typists hit 100–130+ WPM, but that takes years of deliberate practice.</p>
+    `.trim(),
+  },
+  {
+    slug: 'connect-four-strategy-tips',
+    title: 'Connect Four Strategy: Tips to Win Every Time',
+    description: 'Master Connect Four with proven strategy tips. Learn opening moves, key patterns, and how to force wins against any opponent.',
+    date: '2026-03-26',
+    category: 'game-guide',
+    readingTime: '5 min',
+    content: `
+<p>Connect Four looks simple — drop discs, get four in a row. But beneath the surface it's a solved game with deep strategy. If you know the patterns, you can reliably beat most opponents. Here's everything you need to win at Connect Four.</p>
+
+<h2>The Basics (Quick Recap)</h2>
+<p>Two players alternate dropping colored discs into a 7-column, 6-row grid. Discs fall to the lowest available row. First player to connect four discs in a line — horizontal, vertical, or diagonal — wins. If the board fills with no winner, it's a draw.</p>
+<p>Ready to practice? <a href="/games/connect-four">Play Connect Four at TinyJoy →</a></p>
+
+<h2>The Single Most Important Rule: Own the Center</h2>
+<p>Column 4 (the middle column) is the most powerful position on the board. Discs in the center column can contribute to more potential winning lines than any other position — horizontal, vertical, and both diagonals. Always start with the center column, and contest it whenever your opponent does.</p>
+<p>The second-most valuable columns are 3 and 5 (one off center). Edge columns (1 and 7) are the weakest — they can only contribute to lines going inward.</p>
+
+<h2>Build Threats, Not Just Lines</h2>
+<p>Beginners focus on completing their own four-in-a-row. Strong players focus on creating <em>threats</em> — positions where they could win on the next move. The real goal is to have two threats simultaneously, so your opponent can only block one.</p>
+<p>This is called a <strong>double threat</strong> or <strong>fork</strong>. When you have two winning moves available at once, you win regardless of what your opponent does.</p>
+
+<h2>The Odd/Even Rule</h2>
+<p>This is the core of advanced Connect Four strategy. Track the row where a winning move would land:</p>
+<ul>
+<li><strong>First player</strong> wants to create winning threats on odd rows (rows 1, 3, 5 from the bottom).</li>
+<li><strong>Second player</strong> wants to create winning threats on even rows (rows 2, 4, 6).</li>
+</ul>
+<p>Why? Because the first player drops on odd turns and the second player drops on even turns. If your winning move is on an "even" row and you're the first player, your opponent will get there first.</p>
+<p>In practice: be aware of <em>which row your threats land on</em> and plan column fills accordingly.</p>
+
+<h2>Vertical Threats Are Underrated</h2>
+<p>Most players see horizontal and diagonal threats. Vertical threats (four in a column) are easier to miss — and can be set up quickly by simply placing three discs in the same column. Your opponent has to respond, or you win by filling that column.</p>
+<p>Stack verticals in the center column early. Your opponent will often be forced to abandon their strategy to respond.</p>
+
+<h2>Don't Fill the Winning Row Early</h2>
+<p>A common beginner mistake: building three in a horizontal row, then dropping into the column that would complete it too early — before the row above it is set up to be a threat. Your opponent fills that row, and now you need the next row up, which may never be reachable.</p>
+<p>Think one layer ahead: what row comes <em>above</em> your current threat? Make sure you won't accidentally gift that position to your opponent.</p>
+
+<h2>Endgame: The Zugzwang Trap</h2>
+<p>As the board fills up, sometimes any move your opponent makes helps you. This is called zugzwang — a German chess term meaning "compulsion to move." In Connect Four, you can engineer positions where every column your opponent fills completes your winning sequence.</p>
+<p>The setup requires multiple horizontal threats staggered across the board, timed so that each defensive move opens another winning line for you.</p>
+
+<h2>Opening Book Summary</h2>
+<ol>
+<li>Always start center (column 4).</li>
+<li>If opponent plays center, play adjacent (column 3 or 5).</li>
+<li>Build toward double threats early.</li>
+<li>Watch for vertical threats in your opponent's columns.</li>
+<li>Don't mirror your opponent — it usually backfires.</li>
+</ol>
+
+<h2>Practice at TinyJoy</h2>
+<p>The best way to internalize these strategies is repetition. Play <a href="/games/connect-four">Connect Four at TinyJoy</a> against the computer. It's free, works in any browser, and the board is clean — no distractions.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What is the best opening move in Connect Four?</h3>
+<p>The center column (column 4). It gives the most positional flexibility and connects to the most potential winning lines. Empirically, the first player who takes center has a winning advantage with correct play.</p>
+
+<h3>Is Connect Four a solved game?</h3>
+<p>Yes. In 1988, mathematician James Dow Allen proved that the first player can always win with perfect play, starting from the center column. Against casual opponents, you don't need perfect play — knowing the double-threat strategy is sufficient to win reliably.</p>
+
+<h3>How do you force a win in Connect Four?</h3>
+<p>Create two simultaneous winning threats (a fork). Your opponent can only block one, so you win on the next move. Build toward forks by placing discs that threaten multiple lines at once.</p>
+
+<h3>Can you play Connect Four online for free?</h3>
+<p>Yes. <a href="/games/connect-four">TinyJoy's Connect Four</a> is free, browser-based, and requires no download or account. Play against the computer anytime.</p>
+
+<h3>What's the difference between Connect Four and Connect Four strategy?</h3>
+<p>Basic play is about completing your own line. Strategic play is about controlling the center, creating double threats, and using the odd/even rule to ensure your threats resolve before your opponent's. The gap in skill level is significant — strategy-aware players almost always beat unaware players.</p>
+    `.trim(),
+  },
+  {
+    slug: 'how-to-play-minesweeper',
+    title: "How to Play Minesweeper: Beginner's Complete Guide",
+    description: 'Learn how to play Minesweeper from scratch. Understand the numbers, flagging, and safe-click logic that makes you a better player from game one.',
+    date: '2026-03-26',
+    category: 'game-guide',
+    readingTime: '5 min',
+    content: `
+<p>Minesweeper has been installed on Windows PCs since 1990, but most people never learned how it actually works. They click randomly until they hit a mine. With a few rules, that changes completely — Minesweeper becomes a satisfying logic puzzle you can actually solve.</p>
+
+<h2>The Goal</h2>
+<p>Clear the entire board without clicking on a hidden mine. Every cell either contains a mine or a number (1–8) indicating how many of the 8 surrounding cells contain mines. Your job is to deduce which cells are safe and which are mines.</p>
+<p>Practice as you read: <a href="/games/minesweeper">Play Minesweeper at TinyJoy →</a></p>
+
+<h2>What the Numbers Mean</h2>
+<p>This is the heart of Minesweeper:</p>
+<ul>
+<li>A <strong>1</strong> means exactly 1 of the 8 surrounding cells is a mine.</li>
+<li>A <strong>2</strong> means exactly 2 of the surrounding cells are mines.</li>
+<li>A <strong>3</strong> means exactly 3. And so on up to 8.</li>
+<li>A <strong>blank cell</strong> (no number) means 0 surrounding mines — safe to auto-expand.</li>
+</ul>
+<p>When you open a blank cell, Minesweeper automatically opens all connected blank cells and their numbered borders. That's why clicking one spot can reveal a huge section of the board.</p>
+
+<h2>How to Flag Mines</h2>
+<p>Right-click (or long-press on mobile) to place a flag on a cell you believe contains a mine. This marks it so you don't accidentally click it. Flags don't affect the game logic — they're just a reminder to yourself.</p>
+<p>The mine counter in the corner shows how many mines remain unflagged based on your current flags.</p>
+
+<h2>Your First Move</h2>
+<p>The first click is always safe — Minesweeper guarantees it. Click somewhere near the center of the board for your first move; center clicks tend to open larger sections of the board because they have more neighbors.</p>
+
+<h2>Basic Deduction: The 1-2-1 Pattern</h2>
+<p>Once numbers are visible, you can start making deductions. The simplest:</p>
+<p>If a <strong>1</strong> has only one unrevealed neighboring cell, that cell is definitely a mine. Flag it.</p>
+<p>If all of a number's mines are already flagged, all its other unrevealed neighbors are safe to click.</p>
+<p>Example: A cell showing <strong>2</strong> has two unrevealed neighbors and both other neighbors are flagged mines — both remaining cells are safe.</p>
+
+<h2>The Constraint Subtraction Technique</h2>
+<p>More powerful than basic deduction: compare adjacent numbers. If a <strong>2</strong> and a <strong>1</strong> share unrevealed neighbors, and the <strong>1</strong>'s only unrevealed neighbor is a subset of the <strong>2</strong>'s unrevealed neighbors, then the remaining cells covered by the <strong>2</strong> but not the <strong>1</strong> must contain exactly one mine.</p>
+<p>This sounds complex but becomes intuitive with practice. Essentially: you can "subtract" what you know from one constraint to learn something about another.</p>
+
+<h2>Corner and Edge Cells Are Easier</h2>
+<p>Cells at corners have only 3 neighbors. Edge cells have 5. This means a <strong>1</strong> in a corner with two unrevealed neighbors is already 50/50, and if one is revealed, the other is the mine. Corners and edges resolve faster than center cells because there are fewer possibilities.</p>
+
+<h2>When You Have to Guess</h2>
+<p>Even with perfect logic, most Minesweeper boards have at least one position where you genuinely can't deduce the answer — it's a 50/50 guess. Accept it. What you can do is optimize the guess: choose the cell where being wrong costs least (not adjacent to many numbered constraints).</p>
+<p>Beginner mode has fewer forced guesses. Expert mode has more. This is intentional.</p>
+
+<h2>Difficulty Levels</h2>
+<ul>
+<li><strong>Beginner:</strong> 9×9 grid, 10 mines. Good for learning patterns.</li>
+<li><strong>Intermediate:</strong> 16×16 grid, 40 mines. Where most players spend their time.</li>
+<li><strong>Expert:</strong> 30×16 grid, 99 mines. Fast clicking and pattern recognition required.</li>
+</ul>
+
+<h2>Tips for Faster Play</h2>
+<ul>
+<li><strong>Chord clicking:</strong> In most versions, clicking a numbered cell with all its mines already flagged automatically opens all remaining neighbors. This speeds up endgame dramatically.</li>
+<li><strong>Don't over-flag:</strong> Flags slow you down. Only flag mines when you need to remember them or to unlock chord clicks.</li>
+<li><strong>Scan borders:</strong> After a big reveal, quickly scan the number borders for easy 1s with one unrevealed neighbor — these are immediate flags.</li>
+</ul>
+
+<h2>Play Minesweeper Free</h2>
+<p><a href="/games/minesweeper">TinyJoy's Minesweeper</a> is free, ad-free during gameplay, and works in any browser on desktop or mobile. No download, no account. <a href="/">TinyJoy</a> also has Sudoku, Solitaire, and other logic games if you want to keep the brain going.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>How do you play Minesweeper for beginners?</h3>
+<p>Click any cell to start. The numbers that appear tell you how many mines are in the surrounding cells. Use logic to deduce which unrevealed cells are safe and which are mines. Right-click to flag mines. Clear all non-mine cells to win.</p>
+
+<h3>What do the numbers mean in Minesweeper?</h3>
+<p>Each number tells you exactly how many of the 8 surrounding cells contain a mine. A "1" means one neighbor is a mine. A "3" means three neighbors are mines. Blank cells have zero mine neighbors.</p>
+
+<h3>Is Minesweeper a game of skill or luck?</h3>
+<p>Mostly skill, occasionally luck. The opening is random, and some board configurations force a 50/50 guess. But most of the board can be solved with pure logic. Skilled players rely on luck only 5–10% of the time.</p>
+
+<h3>How do you win Minesweeper faster?</h3>
+<p>Learn chord clicking (clicking a number with all mines flagged to auto-open safe neighbors), scan borders efficiently, and only flag when necessary. Speed comes from pattern recognition — after enough games, common configurations resolve instantly.</p>
+
+<h3>Where can I play Minesweeper online free?</h3>
+<p><a href="/games/minesweeper">TinyJoy</a> has a clean, free Minesweeper with no ads during gameplay. It works on desktop and mobile with no download required.</p>
+    `.trim(),
+  },
+  {
+    slug: 'brain-games-for-adults-free',
+    title: 'Best Brain Games for Adults (Free Online, No Download)',
+    description: 'The best free brain games for adults to sharpen memory, focus, and logic. Play in your browser — no app, no account, no cost.',
+    date: '2026-03-26',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Brain games for adults don't need to be expensive apps or academic programs. The best ones are fast, free, and available in your browser. Here are the games that actually work — plus what the research says about how to get the most from them.</p>
+
+<h2>Do Brain Games Actually Work?</h2>
+<p>The short answer: yes, with caveats. The research is clear that brain games improve performance on tasks similar to the game itself. Memory games improve working memory. Reaction games improve response speed. Pattern games improve sequence recall. The effect is most pronounced when you're genuinely challenged — coasting through easy levels doesn't build cognitive capacity.</p>
+<p>The practical takeaway: play games that feel slightly hard. That edge of difficulty is where improvement happens.</p>
+
+<h2>Best Brain Games for Memory</h2>
+
+<h3>Memory Flip</h3>
+<p>The classic card-matching game: flip pairs and remember positions. 8 pairs, 60-second timer, clean design. Memory Flip directly exercises short-term spatial memory — the same system you use to remember where you left your keys.</p>
+<p><a href="/games/memory-flip">Play Memory Flip →</a></p>
+
+<h3>Pattern Echo</h3>
+<p>Watch a sequence of colored lights, then repeat it. Each round the sequence grows longer. This is a working memory game — you must hold an increasingly long sequence in mind and recall it in order. More cognitively demanding than it looks.</p>
+<p><a href="/games/pattern-echo">Play Pattern Echo →</a></p>
+
+<h2>Best Brain Games for Focus and Attention</h2>
+
+<h3>Color Match</h3>
+<p>You're shown a target color and must rapidly identify matching tiles from a grid. The catch: the game tests both speed and attention accuracy simultaneously. Sustained attention under time pressure is a real cognitive skill, and Color Match taxes it effectively.</p>
+<p><a href="/games/color-match">Play Color Match →</a></p>
+
+<h3>Number Rush</h3>
+<p>Tap numbers 1–25 in order as fast as possible. The numbers are scrambled — you have to visually scan and sequence simultaneously. This is essentially a Trail Making test, a standard neuropsychological assessment tool. Fast scan time correlates with executive function.</p>
+<p><a href="/games/number-rush">Play Number Rush →</a></p>
+
+<h2>Best Brain Games for Logic and Problem-Solving</h2>
+
+<h3>Minesweeper</h3>
+<p>Pure deductive reasoning. You're given number constraints and must deduce the underlying mine map through logical inference. No luck in the middle game — just constraint propagation and elimination. Excellent for anyone who wants to exercise formal reasoning.</p>
+<p><a href="/games/minesweeper">Play Minesweeper →</a></p>
+
+<h3>Sudoku</h3>
+<p>The classic logic puzzle. Each row, column, and 3×3 box must contain every digit 1–9 exactly once. TinyJoy's Sudoku has four difficulty levels — start Easy and work toward Expert. Expert grids require multi-step lookahead and elimination techniques.</p>
+<p><a href="/games/sudoku">Play Sudoku →</a></p>
+
+<h2>Best Brain Game for Processing Speed</h2>
+
+<h3>Reaction Time</h3>
+<p>Click when the screen changes. Your response time is measured in milliseconds. Baseline adult reaction time is ~250ms. This game builds processing speed — the cognitive dimension that declines earliest with age and responds well to practice.</p>
+<p><a href="/games/reaction-time">Play Reaction Time →</a></p>
+
+<h2>How to Get the Most Out of Brain Games</h2>
+<ul>
+<li><strong>Play daily, briefly.</strong> 10–15 minutes per day beats 90 minutes once a week. Daily practice consolidates the neural pathways you're building.</li>
+<li><strong>Increase difficulty.</strong> Once a game is easy, it stops being a brain game — it's just entertainment. Push to the harder modes.</li>
+<li><strong>Switch games.</strong> Rotating between memory, logic, and speed games trains more cognitive systems than repeating one game.</li>
+<li><strong>Don't use hints.</strong> Struggling to remember, to figure out the pattern, or to spot the solution is the training. Using hints removes the productive struggle.</li>
+</ul>
+
+<h2>All Free at TinyJoy</h2>
+<p>Every game listed here is free at <a href="/">TinyJoy</a> — no account, no download, works in any browser on desktop and mobile. A complete brain training session (memory, focus, logic, speed) takes under 20 minutes and costs nothing.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What are the best brain games for adults?</h3>
+<p>For a balanced workout: <a href="/games/memory-flip">Memory Flip</a> and <a href="/games/pattern-echo">Pattern Echo</a> for memory, <a href="/games/sudoku">Sudoku</a> and <a href="/games/minesweeper">Minesweeper</a> for logic, <a href="/games/reaction-time">Reaction Time</a> for processing speed, and <a href="/games/number-rush">Number Rush</a> for focus and sequencing. All free at TinyJoy.</p>
+
+<h3>Are free brain games as good as paid apps?</h3>
+<p>For most purposes, yes. The cognitive demands of a free Memory Flip game are identical to a paid app version. What paid brain training apps often add is adaptive difficulty, progress tracking, and reports — but the core training value is in the games themselves, not the wrapper.</p>
+
+<h3>How long should you play brain games each day?</h3>
+<p>10–20 minutes is the sweet spot for most research. Short, focused, challenging sessions are more effective than long casual ones. The goal is to reach a difficulty level where you're genuinely working, not cruising.</p>
+
+<h3>Do brain games help with memory loss?</h3>
+<p>Research shows brain games can slow age-related cognitive decline and improve working memory in healthy adults. They're most effective as part of a lifestyle that includes physical exercise, sleep, and social engagement. They are not a treatment for clinical memory conditions.</p>
+
+<h3>What brain games are free online?</h3>
+<p><a href="/">TinyJoy</a> has free browser-based brain games including Sudoku, Minesweeper, Memory Flip, Pattern Echo, Number Rush, and Reaction Time. No download or account needed — open in any browser and start immediately.</p>
+    `.trim(),
+  },
+  {
+    slug: 'free-puzzle-games-online',
+    title: 'Best Free Puzzle Games Online (No Download Required)',
+    description: 'The best free puzzle games online — Sudoku, Minesweeper, 2048, and more. Play instantly in your browser, no download or sign-up needed.',
+    date: '2026-03-26',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Puzzle games are uniquely satisfying. Unlike reflex games, they reward thinking. Unlike story games, they're complete in a few minutes. The best free puzzle games online capture that satisfaction without requiring an install or an account. Here are the ones worth your time.</p>
+
+<h2>What Makes a Good Online Puzzle Game?</h2>
+<p>Three things: clean design (no ads obscuring the puzzle), appropriate difficulty range (from approachable to genuinely hard), and fast load time. Browser-based puzzle games have gotten very good on all three fronts. The games below check all the boxes.</p>
+
+<h2>Sudoku</h2>
+<p>The definitive logic puzzle. Fill a 9×9 grid so every row, column, and 3×3 box contains each digit 1–9 exactly once. Pure constraint satisfaction — no luck involved. TinyJoy's Sudoku has four difficulty levels: Easy (solvable in 5 minutes with basic rules), Medium, Hard, and Expert (requires advanced techniques like X-wing and swordfish patterns).</p>
+<p>Best for: structured logical thinkers. Deep depth of difficulty. Calming for some, infuriating for others — pick your setting.</p>
+<p><a href="/games/sudoku">Play Sudoku Free →</a></p>
+
+<h2>Minesweeper</h2>
+<p>Often misunderstood as random, Minesweeper is mostly a deduction puzzle. Numbers tell you exactly how many mines surround each cell. Use constraint propagation to clear the board without hitting a mine. Once you understand the logic (see our <a href="/blog/how-to-play-minesweeper">Minesweeper beginner's guide</a>), the game transforms from frustrating to deeply satisfying.</p>
+<p>Best for: logical problem-solvers. Fast sessions. One of the most replayable puzzle formats ever created.</p>
+<p><a href="/games/minesweeper">Play Minesweeper Free →</a></p>
+
+<h2>2048</h2>
+<p>Slide tiles in a 4×4 grid. Matching numbers combine. Keep combining to reach 2048. Simple to understand, surprisingly strategic — the best players develop consistent techniques for keeping the largest tile in a corner while building toward it methodically.</p>
+<p>Best for: strategic thinkers who like long-form optimization. Sessions can run 10–20 minutes for skilled players.</p>
+<p><a href="/games/2048">Play 2048 Free →</a></p>
+
+<h2>Word Scramble</h2>
+<p>A time-pressured vocabulary puzzle. Letters are scrambled; you type the correct word. 60 seconds, as many words as you can solve. This combines pattern recognition with vocabulary recall — you're essentially doing anagram solving under a clock.</p>
+<p>Best for: word game fans and anyone who wants a quick mental warm-up.</p>
+<p><a href="/games/word-scramble">Play Word Scramble Free →</a></p>
+
+<h2>Hangman</h2>
+<p>The original vocabulary puzzle game: guess a hidden word one letter at a time before the drawing completes. Each wrong guess costs you. Strategy matters — experienced players guess common letters (E, T, A, O, I, N) early before trying less common ones.</p>
+<p>Best for: word game fans of all ages. Relaxed pace, satisfying when you crack a difficult word.</p>
+<p><a href="/games/hangman">Play Hangman Free →</a></p>
+
+<h2>Memory Flip</h2>
+<p>Classic card-matching puzzle. Flip cards to find matching pairs before time runs out. 8 pairs, 60 seconds. The puzzle is memorizing positions across flips — each unmatched card is information to retain and use. More strategic than it looks at first glance.</p>
+<p>Best for: memory exercises. Genuinely calming when you're in a flow state.</p>
+<p><a href="/games/memory-flip">Play Memory Flip Free →</a></p>
+
+<h2>Connect Four</h2>
+<p>Drop discs to get four in a row before your opponent. Against a computer opponent, this is essentially a puzzle: how do you force a winning position? Understanding double threats and the odd/even rule turns this into a satisfying strategic puzzle (see our <a href="/blog/connect-four-strategy-tips">Connect Four strategy guide</a>).</p>
+<p>Best for: players who want a competitive puzzle with a learnable strategy.</p>
+<p><a href="/games/connect-four">Play Connect Four Free →</a></p>
+
+<h2>The Case for Browser Puzzle Games</h2>
+<p>Phone puzzle game apps are designed to keep you playing indefinitely through artificial friction (lives, energy systems, wait timers). Browser puzzle games don't have that agenda. You play until you're done, close the tab, and come back when you want. That's a healthier relationship with a game.</p>
+<p>All the games above are free at <a href="/">TinyJoy</a> — no account, no download, no life system. Open in any browser on desktop or mobile.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What are the best free puzzle games online?</h3>
+<p>For logic puzzles: <a href="/games/sudoku">Sudoku</a> and <a href="/games/minesweeper">Minesweeper</a>. For tile strategy: <a href="/games/2048">2048</a>. For word puzzles: <a href="/games/word-scramble">Word Scramble</a> and <a href="/games/hangman">Hangman</a>. For memory: <a href="/games/memory-flip">Memory Flip</a>. All free at TinyJoy with no download.</p>
+
+<h3>Can I play puzzle games online for free without downloading?</h3>
+<p>Yes. All games at TinyJoy run entirely in your browser — no download, no install, no app store. Open the link and play immediately on any device.</p>
+
+<h3>What are good puzzle games for adults?</h3>
+<p>Sudoku and Minesweeper are the most cognitively demanding — both reward logical thinking and have deep difficulty ranges. 2048 rewards strategic planning. Word Scramble and Hangman reward vocabulary. Memory Flip rewards spatial memory. Adults benefit most from games with genuine difficulty progression.</p>
+
+<h3>Are online puzzle games good for your brain?</h3>
+<p>Yes. Logic games like Sudoku and Minesweeper exercise deductive reasoning. Memory games like Memory Flip train working memory. Word games support vocabulary recall. Regular play (10–20 minutes daily) contributes meaningfully to cognitive maintenance in adults.</p>
+
+<h3>Do I need an account to play puzzle games online?</h3>
+<p>Not at TinyJoy. All puzzle games are available immediately — no sign-up, no email, no password. Just open the game and play.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
