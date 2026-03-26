@@ -12,6 +12,11 @@ export const metadata: Metadata = {
     url: 'https://tinyjoy.app/blog',
     type: 'website',
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'TinyJoy Blog — Free Browser Game Tips & Guides',
+    description: 'Tips, guides, and strategies for free browser games. No download, no sign-up.',
+  },
 };
 
 const CATEGORY_LABEL: Record<string, string> = {

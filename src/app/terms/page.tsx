@@ -4,6 +4,13 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Terms of Service',
   description: 'Terms of Service for TinyJoy — free browser games, no accounts required.',
+  alternates: { canonical: 'https://tinyjoy.app/terms' },
+  openGraph: {
+    title: 'Terms of Service | TinyJoy',
+    description: 'Terms of Service for TinyJoy — free browser games, no accounts required.',
+    url: 'https://tinyjoy.app/terms',
+    type: 'website',
+  },
   robots: { index: true, follow: true },
 };
 

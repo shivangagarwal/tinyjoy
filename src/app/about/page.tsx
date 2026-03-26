@@ -11,6 +11,11 @@ export const metadata: Metadata = {
     url: 'https://tinyjoy.app/about',
     type: 'website',
   },
+  twitter: {
+    card: 'summary',
+    title: 'About TinyJoy',
+    description: 'Calm, quick, delightful games for everyday moments. Free browser games, no download required.',
+  },
 };
 
 export default function AboutPage() {

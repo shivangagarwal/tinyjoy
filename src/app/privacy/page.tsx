@@ -4,6 +4,13 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description: 'Privacy Policy for TinyJoy — how we handle data for analytics and advertising.',
+  alternates: { canonical: 'https://tinyjoy.app/privacy' },
+  openGraph: {
+    title: 'Privacy Policy | TinyJoy',
+    description: 'Privacy Policy for TinyJoy — how we handle data for analytics and advertising.',
+    url: 'https://tinyjoy.app/privacy',
+    type: 'website',
+  },
   robots: { index: true, follow: true },
 };
 
