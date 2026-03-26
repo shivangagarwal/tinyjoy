@@ -2248,6 +2248,442 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Not at TinyJoy. All puzzle games are available immediately — no sign-up, no email, no password. Just open the game and play.</p>
     `.trim(),
   },
+  // ─── Comparison / Alternative SEO Posts ─────────────────────
+  {
+    slug: 'coolmath-games-alternatives',
+    title: 'Best Coolmath Games Alternatives (Free, No Download)',
+    description: 'Looking for Coolmath Games alternatives? These free browser games are cleaner, faster, and ad-lighter. Play instantly — no account, no download.',
+    date: '2026-03-26',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Coolmath Games has been around since 1997. It introduced generations of kids to browser games — but in 2026, the experience feels dated. Heavy ads, slow load times, and a cluttered interface make it harder to actually enjoy the games.</p>
+
+<p>If you're looking for Coolmath Games alternatives that are faster, cleaner, and less ad-heavy, here are the best options available right now.</p>
+
+<h2>Why People Look for Coolmath Games Alternatives</h2>
+<p>The most common complaints about Coolmath Games:</p>
+<ul>
+<li>Aggressive advertising that interrupts gameplay</li>
+<li>Slow page loads from ad scripts</li>
+<li>Requires Flash or plugins for older games</li>
+<li>Cluttered interface that's hard to navigate</li>
+<li>Account prompts and upsells</li>
+</ul>
+<p>The good news: the best alternatives have none of these problems.</p>
+
+<h2>TinyJoy — Calm, Fast, No Ads Interrupting Gameplay</h2>
+<p><a href="/">TinyJoy</a> is built for exactly what people want from Coolmath: quick browser games that just work. No accounts. No installs. No life-systems or energy meters. Clean interface, fast loads, and games that are genuinely fun.</p>
+
+<h3>Best TinyJoy Games for Coolmath Refugees</h3>
+
+<h3>Number Rush</h3>
+<p>Tap numbers 1–25 in order, as fast as you can. A pure speed-and-attention game. Perfect for competitive people who want to beat their personal best. This is exactly the kind of clean, simple, replayable game Coolmath was good at — TinyJoy does it without the friction.</p>
+<p><a href="/games/number-rush">Play Number Rush →</a></p>
+
+<h3>Minesweeper</h3>
+<p>The definitive logic puzzle. Deduce mine locations from numbered clues. Three difficulty levels. TinyJoy's version is clean — no pop-ups, no interstitials, just the board.</p>
+<p><a href="/games/minesweeper">Play Minesweeper Free →</a></p>
+
+<h3>Sudoku</h3>
+<p>Four difficulty levels from Easy to Expert. Auto-notes, error highlighting, and a clean interface. If Coolmath's Sudoku frustrated you with intrusive ads between puzzles, this is the alternative you're looking for.</p>
+<p><a href="/games/sudoku">Play Sudoku Free →</a></p>
+
+<h3>2048</h3>
+<p>Slide tiles to combine matching numbers, building toward 2048. More strategic than it looks. One of the most replayable browser games ever made — and it loads in under a second.</p>
+<p><a href="/games/2048">Play 2048 Free →</a></p>
+
+<h3>Word Scramble</h3>
+<p>Unscramble words against a 60-second clock. Fast, competitive against yourself, and genuinely good vocabulary practice. Coolmath fans who liked Unolingo and word games will feel at home.</p>
+<p><a href="/games/word-scramble">Play Word Scramble Free →</a></p>
+
+<h3>Memory Flip</h3>
+<p>Match 8 pairs of cards before time runs out. A calming, focused game for when you want something low-pressure. TinyJoy's card animations are smooth and satisfying.</p>
+<p><a href="/games/memory-flip">Play Memory Flip Free →</a></p>
+
+<h2>Other Coolmath Games Alternatives Worth Knowing</h2>
+
+<h3>Poki</h3>
+<p>Large library of casual browser games. Some ads present, but generally less aggressive than Coolmath. Good variety across genres.</p>
+
+<h3>CrazyGames</h3>
+<p>Strong catalog of HTML5 games. More complex games than TinyJoy (including 3D titles). More ads as a trade-off.</p>
+
+<h3>itch.io (browser games section)</h3>
+<p>Indie game developers publish playable browser games. Quality varies widely but you'll find genuinely original experiences not available elsewhere.</p>
+
+<h2>The Bottom Line</h2>
+<p>If what you loved about Coolmath Games was the quick, low-stakes browser game experience — not the specific game catalog — <a href="/">TinyJoy</a> is the cleanest alternative. Fast, free, no friction.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Are these Coolmath Games alternatives actually free?</h3>
+<p>Yes. Every game at TinyJoy is completely free with no in-app purchases, no lives system, and no account required.</p>
+
+<h3>Do these alternatives work at school?</h3>
+<p>TinyJoy games run in any browser and don't require plugins or downloads. Whether they're accessible depends on your school's network filter settings.</p>
+
+<h3>What happened to Coolmath Games?</h3>
+<p>Coolmath Games still operates, but the experience has degraded with more aggressive advertising. The games library is large but the free experience is worse than it was.</p>
+
+<h3>Are there Coolmath-style games for adults?</h3>
+<p>Yes — <a href="/games/sudoku">Sudoku</a>, <a href="/games/minesweeper">Minesweeper</a>, and <a href="/games/2048">2048</a> are logic-focused games that adults consistently find more satisfying than the reflex-heavy games targeted at younger players.</p>
+
+<h3>Can I play these Coolmath alternatives on my phone?</h3>
+<p>All TinyJoy games are mobile-optimized. Open tinyjoy.app in any mobile browser — no app download required.</p>
+    `.trim(),
+  },
+  {
+    slug: 'best-free-browser-games-list-2026',
+    title: 'Best Free Browser Games List 2026 — No Download, No Sign-Up',
+    description: 'The definitive list of best free browser games in 2026. Play instantly — no download, no account, no cost. Covers puzzle, word, arcade, and strategy games.',
+    date: '2026-03-26',
+    category: 'tips',
+    readingTime: '5 min',
+    content: `
+<p>The best free browser games in 2026 have one thing in common: they start instantly, cost nothing, and work on any device. No app store. No install. No account required. This is the definitive list.</p>
+
+<h2>Best Free Puzzle Browser Games</h2>
+
+<h3>Sudoku</h3>
+<p>The gold standard of logic puzzles. Fill a 9×9 grid using deductive reasoning alone. Available in four difficulties — Easy through Expert. No luck involved, just pure constraint-solving. Endlessly replayable because every puzzle is unique.</p>
+<p><a href="/games/sudoku">Play Sudoku Free →</a></p>
+
+<h3>Minesweeper</h3>
+<p>One of the most misunderstood games ever made. It's not random — it's a deduction puzzle. Numbers tell you exactly how many mines surround each cell. Once you learn to read the board, it becomes one of the most satisfying games in any category.</p>
+<p><a href="/games/minesweeper">Play Minesweeper Free →</a></p>
+
+<h3>2048</h3>
+<p>Slide tiles to combine matching numbers. Reach 2048. Sounds simple; requires strategy. Consistently one of the most-played browser games because it's easy to start and hard to master.</p>
+<p><a href="/games/2048">Play 2048 Free →</a></p>
+
+<h2>Best Free Word Browser Games</h2>
+
+<h3>Word Scramble</h3>
+<p>Unscramble words against a 60-second timer. Fast-paced vocabulary challenge. Great warm-up for the brain. The words range from easy to challenging — you'll be surprised which ones trip you up.</p>
+<p><a href="/games/word-scramble">Play Word Scramble Free →</a></p>
+
+<h3>Hangman</h3>
+<p>Guess a hidden word one letter at a time before the drawing is complete. The classic word game, faithfully implemented. Strategy matters: guess common letters first (E, T, A, O, I, N) before committing to uncommon ones.</p>
+<p><a href="/games/hangman">Play Hangman Free →</a></p>
+
+<h2>Best Free Arcade Browser Games</h2>
+
+<h3>Number Rush</h3>
+<p>Tap numbers 1–25 in order, as fast as possible. Numbers are scattered randomly. Your time is displayed prominently. Dangerously replayable — most people immediately want to beat their score.</p>
+<p><a href="/games/number-rush">Play Number Rush Free →</a></p>
+
+<h3>Color Match</h3>
+<p>Tap tiles matching a target color before 60 seconds end. Fast, reflexive, good for hand-eye coordination. A brief mental reset that doesn't overstay its welcome.</p>
+<p><a href="/games/color-match">Play Color Match Free →</a></p>
+
+<h3>Snake</h3>
+<p>The original endless arcade game. Guide your snake, eat food, grow longer, avoid walls and your own tail. Timeless game design that holds up perfectly in a browser.</p>
+<p><a href="/games/snake">Play Snake Free →</a></p>
+
+<h3>Flappy Jump</h3>
+<p>One-tap arcade challenge. Tap to stay airborne, navigate obstacles. The browser version of the genre that took the world by storm. Infuriatingly addictive.</p>
+<p><a href="/games/flappy-jump">Play Flappy Jump Free →</a></p>
+
+<h3>Whack-a-Mole</h3>
+<p>Tap moles before they disappear. Reflex training disguised as fun. Progressively faster as your score climbs. Perfect on a touchscreen.</p>
+<p><a href="/games/whack-a-mole">Play Whack-a-Mole Free →</a></p>
+
+<h2>Best Free Strategy Browser Games</h2>
+
+<h3>Connect Four</h3>
+<p>Drop discs to connect four in a row before your opponent. Against a computer opponent, this becomes a puzzle: how do you force a winning position? Deeper strategy than it first appears.</p>
+<p><a href="/games/connect-four">Play Connect Four Free →</a></p>
+
+<h3>Pattern Echo</h3>
+<p>Simon Says for the browser. Watch a color sequence, repeat it back. Each round the sequence grows. Tests memory and pattern recognition simultaneously. Gets genuinely challenging after round 8.</p>
+<p><a href="/games/pattern-echo">Play Pattern Echo Free →</a></p>
+
+<h2>Best Free Memory Browser Games</h2>
+
+<h3>Memory Flip</h3>
+<p>Classic card-matching. Flip cards to find 8 pairs before time runs out. Exercises spatial memory and concentration. One of the most calming games in this list — good for decompression.</p>
+<p><a href="/games/memory-flip">Play Memory Flip Free →</a></p>
+
+<h2>Where to Play All of These</h2>
+<p>All games above are free at <a href="/">TinyJoy</a>. No download, no account, no cost. Works on desktop and mobile browsers. Bookmark it for the next time you need a quick game.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What is the best free browser game in 2026?</h3>
+<p>It depends on what you enjoy. For logic: <a href="/games/sudoku">Sudoku</a> or <a href="/games/minesweeper">Minesweeper</a>. For speed: <a href="/games/number-rush">Number Rush</a>. For strategy: <a href="/games/2048">2048</a>. For words: <a href="/games/word-scramble">Word Scramble</a>. All free at TinyJoy.</p>
+
+<h3>Do browser games require Flash in 2026?</h3>
+<p>No. Flash was discontinued in 2020. All modern browser games use HTML5, Canvas, and JavaScript — no plugins needed. Every game at TinyJoy runs in any modern browser without extra software.</p>
+
+<h3>Are these really free or is there a catch?</h3>
+<p>TinyJoy is genuinely free — no in-app purchases, no energy systems, no premium tiers. The site is ad-supported, which means ads may appear, but gameplay is never gated or interrupted by forced ad breaks.</p>
+
+<h3>What browser games work on mobile?</h3>
+<p>All TinyJoy games are mobile-optimized and work in any mobile browser. No app download needed — just open tinyjoy.app on your phone.</p>
+
+<h3>What's the best browser game to play at work?</h3>
+<p>Games with natural endpoints and low sound: <a href="/games/number-rush">Number Rush</a> (30–60 second sessions), <a href="/games/sudoku">Sudoku</a> (5–15 minutes), <a href="/games/memory-flip">Memory Flip</a> (60 seconds). All run in a standard browser tab.</p>
+    `.trim(),
+  },
+  {
+    slug: 'games-to-play-when-bored-at-work',
+    title: 'Games to Play When Bored at Work (Browser, No Download)',
+    description: 'The best games to play when bored at work — runs in your browser tab, no download or install needed. Quick sessions, silent gameplay, no suspicious apps.',
+    date: '2026-03-26',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Work gets boring. Meetings drag. Waiting for a build to finish takes forever. The best solution: a browser game that runs in a regular tab, has no sound by default, and can be closed in one click when your manager walks by.</p>
+
+<p>Here are the best games to play when bored at work — all free, all browser-based, no installation needed.</p>
+
+<h2>What Makes a Good Work Browser Game?</h2>
+<p>Four criteria:</p>
+<ul>
+<li><strong>No download or install</strong> — IT can't flag it</li>
+<li><strong>Silent by default</strong> — no embarrassing sound effects</li>
+<li><strong>Natural stopping points</strong> — you can stop at any time, not mid-level</li>
+<li><strong>Fast to open and close</strong> — works in a regular browser tab</li>
+</ul>
+<p>All games below meet all four criteria.</p>
+
+<h2>Sudoku — The Ultimate Work Game</h2>
+<p>Sudoku is the perfect work game. It looks like you're thinking. It IS productive thinking. Fill a 9×9 grid using logic, no guessing needed. Easy puzzles take 5 minutes; Expert puzzles can occupy you for 20+. Silent, calm, and genuinely good mental exercise.</p>
+<p>Pro tip: use Easy mode for short breaks, Expert for longer stretches when you need deep focus but not on work.</p>
+<p><a href="/games/sudoku">Play Sudoku at Work →</a></p>
+
+<h2>Minesweeper — Focused Logic in Any Window</h2>
+<p>Minesweeper is a deduction puzzle. Every decision is logical. Numbers tell you exactly how many mines surround each cell — no luck needed. A short Beginner game takes 2–3 minutes; Advanced can take 10+. Completely silent, minimal visual footprint.</p>
+<p><a href="/games/minesweeper">Play Minesweeper at Work →</a></p>
+
+<h2>Number Rush — 60-Second Productivity Break</h2>
+<p>Tap numbers 1–25 in order, as fast as possible. One game takes under 60 seconds. It's a perfect micro-break: long enough to reset attention, short enough to not derail your day. Beat your personal best and go back to work.</p>
+<p><a href="/games/number-rush">Play Number Rush →</a></p>
+
+<h2>2048 — Strategy for Long Waits</h2>
+<p>Slide number tiles to combine matching ones. Goal: reach 2048. Games can last 5–20 minutes, but you can stop at any tile position without losing progress in the session. A strategic game that doesn't require any audio and looks like you're working with a spreadsheet.</p>
+<p><a href="/games/2048">Play 2048 →</a></p>
+
+<h2>Word Scramble — Silent Vocabulary Challenge</h2>
+<p>Unscramble as many words as possible in 60 seconds. Quick to open, quick to close. No sound required to play. Keeps your brain active without the mindless scrolling that actually wastes more time.</p>
+<p><a href="/games/word-scramble">Play Word Scramble →</a></p>
+
+<h2>Memory Flip — Short, Calming, Focused</h2>
+<p>Match 8 pairs of cards in 60 seconds. A calm, brief game. Good for decompression between stressful tasks. The 60-second time limit makes it impossible to lose track of time.</p>
+<p><a href="/games/memory-flip">Play Memory Flip →</a></p>
+
+<h2>Hangman — Word Game for a Few Minutes</h2>
+<p>Guess a hidden word letter by letter. Silent, low-stakes, and mentally engaging. Each game takes about 1–3 minutes. Good for a break that feels less mindless than social media scrolling.</p>
+<p><a href="/games/hangman">Play Hangman →</a></p>
+
+<h2>Tips for Playing Browser Games at Work Responsibly</h2>
+<ul>
+<li><strong>Use incognito/private mode</strong> so no browser history is saved</li>
+<li><strong>Mute your tab</strong> if you're in an open office (all TinyJoy games are silent by default)</li>
+<li><strong>Set a time limit</strong> — short breaks (5–10 minutes) are more effective for attention reset than long ones</li>
+<li><strong>Know your company policy</strong> — most acceptable-use policies allow brief personal browsing during breaks</li>
+</ul>
+
+<h2>Play at TinyJoy</h2>
+<p>All these games are free at <a href="/">TinyJoy</a>. No account, no download, no app. Just open a tab and play — it's designed for exactly this kind of quick session.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What are the best games to play at work without getting caught?</h3>
+<p>Browser games that look like productivity tools: <a href="/games/sudoku">Sudoku</a> (looks like a spreadsheet), <a href="/games/minesweeper">Minesweeper</a> (small grid, minimal movement). Both are silent and run in a plain browser tab.</p>
+
+<h3>Are there browser games that don't require downloading anything?</h3>
+<p>Yes. All TinyJoy games run entirely in your browser — no download, no install, no plugins. Open the URL and play immediately.</p>
+
+<h3>What games can I play during a work break that don't waste too much time?</h3>
+<p><a href="/games/number-rush">Number Rush</a> (under 60 seconds per game), <a href="/games/memory-flip">Memory Flip</a> (exactly 60 seconds), and <a href="/games/word-scramble">Word Scramble</a> (exactly 60 seconds) all have hard time limits that prevent overplaying.</p>
+
+<h3>Do these work games require sound?</h3>
+<p>All TinyJoy games are silent by default — no sound effects, no music. Safe for open-plan offices and meetings-on-mute situations.</p>
+
+<h3>Will playing browser games at work slow down my computer?</h3>
+<p>TinyJoy games are lightweight HTML5 games — they use minimal CPU/memory. Running one in a browser tab won't noticeably affect your computer's performance.</p>
+    `.trim(),
+  },
+  {
+    slug: 'free-games-no-download-no-sign-up',
+    title: 'Free Games No Download No Sign Up — Play Instantly',
+    description: 'Free browser games with no download, no sign-up, no account required. Open your browser and play instantly. Works on desktop and mobile.',
+    date: '2026-03-26',
+    category: 'tips',
+    readingTime: '3 min',
+    content: `
+<p>Finding truly free games — no download, no sign-up, no account — is harder than it sounds. Most "free" games have a catch: an app install, an email requirement, or a paywall after the first few levels.</p>
+
+<p>These games have none of that. Open the link. Play. Close the tab. That's it.</p>
+
+<h2>What "No Download, No Sign-Up" Actually Means</h2>
+<p>To be on this list, a game must:</p>
+<ul>
+<li>Run entirely in the browser — no app store, no download, no plugin</li>
+<li>Require zero account creation — no email, no password, no social login</li>
+<li>Be completely free — no paid tiers, no "premium" content gating the good stuff</li>
+<li>Work immediately — open the page, start playing within seconds</li>
+</ul>
+<p>Every game at <a href="/">TinyJoy</a> meets all four criteria.</p>
+
+<h2>Free Games You Can Play Right Now</h2>
+
+<h3>Number Rush — 30 seconds</h3>
+<p>Tap numbers 1–25 in order. As fast as you can. Numbers are scattered randomly. Your time is tracked. Games take under a minute. Immediately addictive — you'll want to beat your score.</p>
+<p><a href="/games/number-rush">Play Number Rush →</a></p>
+
+<h3>Sudoku — 5 to 20 minutes</h3>
+<p>Logic puzzle. Fill a 9×9 grid using deduction alone. Four difficulty levels. No luck, no randomness, no account needed. One of the most satisfying puzzle games ever designed.</p>
+<p><a href="/games/sudoku">Play Sudoku →</a></p>
+
+<h3>Word Scramble — 60 seconds</h3>
+<p>Unscramble words against a timer. Quick vocabulary challenge that works on desktop and touchscreen keyboards. Exactly 60 seconds, then done.</p>
+<p><a href="/games/word-scramble">Play Word Scramble →</a></p>
+
+<h3>Minesweeper — 2 to 10 minutes</h3>
+<p>Deduce mine locations from numerical clues. Not random — a logic puzzle. The board loads instantly, no account, no ads interrupting play.</p>
+<p><a href="/games/minesweeper">Play Minesweeper →</a></p>
+
+<h3>Memory Flip — 60 seconds</h3>
+<p>Match card pairs before the clock runs out. 60 seconds, 8 pairs. Clean interface. Zero friction between you and the game.</p>
+<p><a href="/games/memory-flip">Play Memory Flip →</a></p>
+
+<h3>2048 — 5 to 20 minutes</h3>
+<p>Slide tiles to combine matching numbers. Build toward 2048. One of the most-played browser games ever made — and genuinely free with no strings attached.</p>
+<p><a href="/games/2048">Play 2048 →</a></p>
+
+<h3>Snake — endless</h3>
+<p>Guide your snake, eat food, avoid your own tail. The original endless arcade game. No account, loads instantly, works on touchscreen.</p>
+<p><a href="/games/snake">Play Snake →</a></p>
+
+<h3>Hangman — 1 to 3 minutes</h3>
+<p>Guess a hidden word one letter at a time. Classic and satisfying. Open the page, guess the word. That's the entire flow.</p>
+<p><a href="/games/hangman">Play Hangman →</a></p>
+
+<h3>Color Match — 60 seconds</h3>
+<p>Tap tiles matching a target color before time runs out. Fast, visual, a good 60-second reset for your brain.</p>
+<p><a href="/games/color-match">Play Color Match →</a></p>
+
+<h3>Connect Four — 2 to 5 minutes</h3>
+<p>Drop discs to connect four in a row. Play against the computer. Strategic and satisfying. No account. No install. Just a board and a good AI opponent.</p>
+<p><a href="/games/connect-four">Play Connect Four →</a></p>
+
+<h2>Why No-Download, No-Sign-Up Games Are Better</h2>
+<p>Every point of friction between you and a game represents a design choice — usually one made to capture your data or money. No-download games skip the install tracking. No-sign-up games don't harvest your email. You get the game without giving anything up.</p>
+<p>This is TinyJoy's core design philosophy. Games should be <em>immediately</em> accessible, not conditionally accessible once you've handed over credentials.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Are these really free with no hidden costs?</h3>
+<p>Yes. TinyJoy games are completely free — no in-app purchases, no premium tiers, no ads between levels. The site is ad-supported (ads may appear on the page), but the games themselves are never paywalled or interrupted.</p>
+
+<h3>Do I need to create an account to save progress?</h3>
+<p>No account is needed to play. Note that without an account, high scores aren't saved between browser sessions — but this is intentional. Zero friction means zero friction, including sign-up forms.</p>
+
+<h3>Do these games work on mobile without downloading an app?</h3>
+<p>Yes. All TinyJoy games are mobile-optimized and run in any modern mobile browser. Go to tinyjoy.app on your phone, tap a game, and play — no App Store visit required.</p>
+
+<h3>Are there free online games with no sign-up that work offline?</h3>
+<p>TinyJoy supports Progressive Web App (PWA) installation — add it to your home screen like an app. Some games may work offline after the first visit. Install from your browser's "Add to Home Screen" option.</p>
+
+<h3>Why do some "free" games still require sign-ups?</h3>
+<p>Sign-up requirements let platforms build email lists, track users across sessions, and target them with marketing. Requiring an account is a monetization strategy, not a technical requirement. Browser games don't need accounts to function.</p>
+    `.trim(),
+  },
+  {
+    slug: 'best-puzzle-games-online-free',
+    title: 'Best Puzzle Games Online Free — Play in Your Browser',
+    description: 'The best free online puzzle games you can play in your browser right now. Sudoku, Minesweeper, 2048, and more — no download, no account required.',
+    date: '2026-03-26',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Puzzle games are the most cognitively satisfying category in casual gaming. They reward thinking, not reflexes. They have natural endpoints. And the best ones get harder as you get better, keeping the challenge calibrated to your skill level.</p>
+
+<p>Here are the best puzzle games online that are genuinely free — no download, no account, no in-app purchases.</p>
+
+<h2>Logic Puzzle Games</h2>
+
+<h3>Sudoku — Difficulty: Easy to Expert</h3>
+<p>The definitive logic puzzle. Fill a 9×9 grid so every row, column, and 3×3 box contains each digit 1–9 once. Pure deduction — no luck involved. TinyJoy's Sudoku has four difficulties:</p>
+<ul>
+<li><strong>Easy</strong> — 5–8 minutes, straightforward elimination</li>
+<li><strong>Medium</strong> — 10–15 minutes, requires pattern recognition</li>
+<li><strong>Hard</strong> — 15–25 minutes, advanced techniques needed</li>
+<li><strong>Expert</strong> — 25+ minutes, requires techniques like X-wing, swordfish, and forcing chains</li>
+</ul>
+<p>Best for: structured thinkers who want deep, skill-based challenge. One of the most intellectually satisfying puzzle games ever made.</p>
+<p><a href="/games/sudoku">Play Sudoku Free →</a></p>
+
+<h3>Minesweeper — Difficulty: Beginner to Expert</h3>
+<p>Often dismissed as luck-based, Minesweeper is actually a deduction puzzle. Numbers tell you exactly how many mines surround each cell. Apply constraint satisfaction and you can solve boards without ever guessing. Beginner boards clear in 2–3 minutes; Expert boards challenge even skilled players.</p>
+<p>Read our <a href="/blog/how-to-win-at-minesweeper">guide to winning at Minesweeper</a> to understand the logic.</p>
+<p>Best for: logical problem-solvers who enjoy constraint satisfaction puzzles.</p>
+<p><a href="/games/minesweeper">Play Minesweeper Free →</a></p>
+
+<h2>Strategy Puzzle Games</h2>
+
+<h3>2048 — Difficulty: Moderate (easy to start, hard to master)</h3>
+<p>Slide tiles in a 4×4 grid to combine matching numbers. Reach 2048 to win (or keep going for higher tiles). The key insight: skilled players use a consistent algorithm — keep the highest tile in a corner and build toward it in a systematic L-shape or snake pattern. Without strategy, 2048 feels random. With it, it becomes deeply satisfying.</p>
+<p>See our <a href="/blog/2048-strategy-guide">2048 strategy guide</a> to go from random sliding to consistent 1024+ tiles.</p>
+<p><a href="/games/2048">Play 2048 Free →</a></p>
+
+<h3>Connect Four — Difficulty: Easy to Strategic</h3>
+<p>Drop colored discs to connect four in a row before your opponent. Simple rules; deep strategy. Key concepts: creating double threats (two ways to win simultaneously), controlling the center column, and understanding the odd/even rule for forced wins. Our <a href="/blog/connect-four-strategy-tips">Connect Four strategy guide</a> covers all of these.</p>
+<p><a href="/games/connect-four">Play Connect Four Free →</a></p>
+
+<h2>Memory Puzzle Games</h2>
+
+<h3>Memory Flip — Difficulty: Easy</h3>
+<p>Flip cards to find all 8 matching pairs before 60 seconds end. The puzzle is spatial memory: remembering which card was at which position across multiple flips. Calming and focused. A good game for between demanding tasks.</p>
+<p><a href="/games/memory-flip">Play Memory Flip Free →</a></p>
+
+<h3>Pattern Echo — Difficulty: Easy to Hard (escalating)</h3>
+<p>Watch a color sequence light up, then repeat it. Each round adds one more step. The game starts simple and scales to genuine challenge after 8–10 rounds. Exercises both working memory and sequential recall.</p>
+<p><a href="/games/pattern-echo">Play Pattern Echo Free →</a></p>
+
+<h2>Word Puzzle Games</h2>
+
+<h3>Word Scramble — Difficulty: Easy to Moderate</h3>
+<p>Letters are scrambled; you type the correct word. 60 seconds, as many words as you can solve. Fast-paced vocabulary puzzle that combines anagram-solving with time pressure. The best players approach it systematically: identify common letter patterns first (TH, ING, TION) before trying brute-force anagramming.</p>
+<p><a href="/games/word-scramble">Play Word Scramble Free →</a></p>
+
+<h3>Hangman — Difficulty: Variable</h3>
+<p>Guess a hidden word letter by letter. Strategy matters: start with the most common letters in English (E, T, A, O, I, N) before less common ones. A wrong-guess budget forces efficient decisions.</p>
+<p><a href="/games/hangman">Play Hangman Free →</a></p>
+
+<h2>How to Choose the Right Puzzle Game</h2>
+<p>Match the game to your available time and mental state:</p>
+<ul>
+<li><strong>2–5 minutes, quick break</strong>: Memory Flip, Word Scramble, or Hangman</li>
+<li><strong>5–15 minutes, structured thinking</strong>: Sudoku (Easy/Medium) or Minesweeper (Beginner/Intermediate)</li>
+<li><strong>15+ minutes, deep focus</strong>: Sudoku (Hard/Expert), Minesweeper (Expert), or 2048</li>
+<li><strong>Strategic competition</strong>: Connect Four against the computer</li>
+</ul>
+
+<h2>All Games Free at TinyJoy</h2>
+<p>Every puzzle game above is free at <a href="/">TinyJoy</a>. No download, no account, no cost. Works on desktop and mobile. Open the page, start solving.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What is the best free online puzzle game?</h3>
+<p>Depends on your preference. <a href="/games/sudoku">Sudoku</a> and <a href="/games/minesweeper">Minesweeper</a> offer the deepest challenge with genuine difficulty scaling. <a href="/games/2048">2048</a> is more casual but strategically rich. <a href="/games/word-scramble">Word Scramble</a> is best for quick vocabulary challenges.</p>
+
+<h3>Are online puzzle games good for your brain?</h3>
+<p>Yes. Logic puzzles like Sudoku exercise deductive reasoning and working memory. Memory games like Memory Flip train spatial recall. Strategy games like 2048 develop planning and optimization skills. Regular play (15–20 minutes daily) provides meaningful cognitive exercise.</p>
+
+<h3>Do free puzzle games require a download?</h3>
+<p>Not at TinyJoy. All puzzle games run in your browser using HTML5 — no download, no install, no plugins. Open the link and play immediately on any device.</p>
+
+<h3>Can I play these puzzle games on my phone?</h3>
+<p>All TinyJoy games are mobile-optimized. Open tinyjoy.app in your mobile browser — they work on touchscreens without any app download.</p>
+
+<h3>What are good puzzle games for adults?</h3>
+<p>Adults benefit most from games with genuine difficulty progression: Expert Sudoku, Minesweeper (Expert), and advanced 2048 runs. These offer challenge that grows with skill, rather than repeating the same easy difficulty indefinitely.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
