@@ -2697,3 +2697,46 @@ export function formatDate(dateStr: string): string {
     day: 'numeric',
   });
 }
+
+const STOP_WORDS = new Set([
+  'a', 'an', 'the', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for',
+  'of', 'with', 'by', 'from', 'up', 'about', 'into', 'through', 'how',
+  'is', 'are', 'was', 'were', 'be', 'been', 'being', 'have', 'has', 'had',
+  'do', 'does', 'did', 'will', 'would', 'could', 'should', 'may', 'might',
+  'it', 'its', 'that', 'this', 'you', 'your', 'i', 'my', 'we', 'our',
+  'not', 'no', 'so', 'as', 'if', 'then', 'than', 'when', 'what', 'which',
+]);
+
+function tokenize(text: string): Set<string> {
+  return new Set(
+    text
+      .toLowerCase()
+      .replace(/[^a-z0-9\s]/g, ' ')
+      .split(/\s+/)
+      .filter((w) => w.length > 2 && !STOP_WORDS.has(w))
+  );
+}
+
+export function getRelatedPosts(currentSlug: string, count = 3): BlogPost[] {
+  const current = BLOG_POSTS.find((p) => p.slug === currentSlug);
+  if (!current) return BLOG_POSTS.slice(0, count);
+
+  const currentTokens = tokenize(`${current.title} ${current.description}`);
+
+  const scored = BLOG_POSTS.filter((p) => p.slug !== currentSlug).map((p) => {
+    let score = 0;
+    if (p.category === current.category) score += 3;
+    const tokens = tokenize(`${p.title} ${p.description}`);
+    for (const t of currentTokens) {
+      if (tokens.has(t)) score += 1;
+    }
+    return { post: p, score };
+  });
+
+  scored.sort((a, b) => {
+    if (b.score !== a.score) return b.score - a.score;
+    return b.post.date.localeCompare(a.post.date);
+  });
+
+  return scored.slice(0, count).map((s) => s.post);
+}

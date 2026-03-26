@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { BLOG_POSTS, getPostBySlug, formatDate } from '@/lib/blog';
+import { BLOG_POSTS, getPostBySlug, getRelatedPosts, formatDate } from '@/lib/blog';
 
 const BASE_URL = 'https://tinyjoy.app';
 
@@ -77,6 +77,8 @@ export default async function BlogPostPage({
   const { slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) notFound();
+
+  const relatedPosts = getRelatedPosts(slug);
 
   const schema = {
     '@context': 'https://schema.org',
@@ -163,6 +165,30 @@ export default async function BlogPostPage({
           className="prose-blog text-zinc-300"
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
+
+        {relatedPosts.length > 0 && (
+          <section className="mt-16 border-t border-zinc-800 pt-10">
+            <h2 className="mb-6 text-lg font-semibold text-white">Related Posts</h2>
+            <ul className="space-y-4">
+              {relatedPosts.map((related) => (
+                <li key={related.slug}>
+                  <Link
+                    href={`/blog/${related.slug}`}
+                    className="group block rounded-lg border border-zinc-800 p-4 transition hover:border-zinc-600 hover:bg-zinc-900"
+                  >
+                    <p className="mb-1 font-medium text-white group-hover:text-zinc-100">
+                      {related.title}
+                    </p>
+                    <p className="line-clamp-2 text-sm text-zinc-500">
+                      {related.description}
+                    </p>
+                    <p className="mt-2 text-xs text-zinc-600">{related.readingTime} read</p>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
       </div>
     </main>
   );
