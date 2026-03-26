@@ -107,6 +107,9 @@ export default function RootLayout({
             <Link href="/privacy" className="transition hover:text-zinc-400">
               Privacy Policy
             </Link>
+            <Link href="/terms" className="transition hover:text-zinc-400">
+              Terms
+            </Link>
           </div>
         </footer>
         <Analytics />
