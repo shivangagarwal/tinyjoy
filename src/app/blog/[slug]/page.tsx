@@ -38,6 +38,21 @@ export async function generateMetadata({
   };
 }
 
+function extractHowToSteps(content: string): string[] {
+  const howToIdx = content.indexOf('<h2>How It Works</h2>');
+  if (howToIdx === -1) return [];
+  const section = content.slice(howToIdx);
+  const ulMatch = section.match(/<ul>([\s\S]*?)<\/ul>/);
+  if (!ulMatch) return [];
+  const steps: string[] = [];
+  const re = /<li>([\s\S]*?)<\/li>/g;
+  let m;
+  while ((m = re.exec(ulMatch[1])) !== null) {
+    steps.push(m[1].replace(/<[^>]+>/g, '').trim());
+  }
+  return steps;
+}
+
 function extractFaqs(content: string): { question: string; answer: string }[] {
   const faqIdx = content.indexOf('<h2>Frequently Asked Questions</h2>');
   if (faqIdx === -1) return [];
@@ -78,6 +93,20 @@ export default async function BlogPostPage({
     url: `${BASE_URL}/blog/${post.slug}`,
   };
 
+  const howToSteps = extractHowToSteps(post.content);
+  const howToSchema = howToSteps.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'HowTo',
+        name: post.title,
+        description: post.description,
+        step: howToSteps.map((text) => ({
+          '@type': 'HowToStep',
+          text,
+        })),
+      }
+    : null;
+
   const faqs = extractFaqs(post.content);
   const faqSchema = faqs.length > 0
     ? {
@@ -97,6 +126,12 @@ export default async function BlogPostPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
+      {howToSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+        />
+      )}
       {faqSchema && (
         <script
           type="application/ld+json"
