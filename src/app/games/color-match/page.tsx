@@ -10,6 +10,7 @@ const ogImage = 'https://tinyjoy.app/og/color-match.png';
 export const metadata: Metadata = {
   title,
   description,
+  keywords: ['color matching game', 'color recognition game', 'quick reflex game', 'free color game browser', 'tap color game'],
   alternates: { canonical: url },
   openGraph: {
     title,

@@ -11,6 +11,7 @@ const ogImage = 'https://tinyjoy.app/og/hangman.png';
 export const metadata: Metadata = {
   title,
   description,
+  keywords: ['hangman game online', 'word guessing game', 'free hangman browser', 'letter guessing game', 'classic hangman game'],
   alternates: { canonical: url },
   openGraph: {
     title,

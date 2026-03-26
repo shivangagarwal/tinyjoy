@@ -11,6 +11,7 @@ const ogImage = 'https://tinyjoy.app/og/solitaire.png';
 export const metadata: Metadata = {
   title,
   description,
+  keywords: ['solitaire online', 'klondike solitaire free', 'patience card game browser', 'classic solitaire no download', 'free online card game'],
   alternates: { canonical: url },
   openGraph: {
     title,

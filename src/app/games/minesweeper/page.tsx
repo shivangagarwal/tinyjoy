@@ -11,6 +11,7 @@ const ogImage = 'https://tinyjoy.app/og/minesweeper.png';
 export const metadata: Metadata = {
   title,
   description,
+  keywords: ['minesweeper online', 'free minesweeper browser', 'classic minesweeper game', 'mine sweeper puzzle', 'logic game browser'],
   alternates: { canonical: url },
   openGraph: {
     title,

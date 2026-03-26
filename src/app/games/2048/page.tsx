@@ -11,6 +11,7 @@ const ogImage = 'https://tinyjoy.app/og/2048.png';
 export const metadata: Metadata = {
   title,
   description,
+  keywords: ['2048 game online', '2048 puzzle browser', 'number merge game', 'sliding tile puzzle', 'free 2048 no download'],
   alternates: { canonical: url },
   openGraph: {
     title,

@@ -10,6 +10,7 @@ const ogImage = 'https://tinyjoy.app/og/typing-speed.png';
 export const metadata: Metadata = {
   title,
   description,
+  keywords: ['typing speed test online', 'WPM test free', 'words per minute test', 'keyboard speed test', 'free typing test browser'],
   alternates: { canonical: url },
   openGraph: {
     title,

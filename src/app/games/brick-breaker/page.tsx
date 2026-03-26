@@ -11,6 +11,7 @@ const ogImage = 'https://tinyjoy.app/og/brick-breaker.png';
 export const metadata: Metadata = {
   title,
   description,
+  keywords: ['brick breaker online', 'breakout game browser', 'ball and paddle arcade game', 'free brick breaking game', 'classic breakout game'],
   alternates: { canonical: url },
   openGraph: {
     title,

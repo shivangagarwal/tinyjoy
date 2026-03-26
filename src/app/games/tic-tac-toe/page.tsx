@@ -11,6 +11,7 @@ const ogImage = 'https://tinyjoy.app/og/tic-tac-toe.png';
 export const metadata: Metadata = {
   title,
   description,
+  keywords: ['tic tac toe online', 'tic-tac-toe vs AI', 'noughts and crosses game', 'free tic tac toe browser', 'classic board game online'],
   alternates: { canonical: url },
   openGraph: {
     title,

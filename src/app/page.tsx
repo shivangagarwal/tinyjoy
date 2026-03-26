@@ -11,11 +11,13 @@ export const metadata: Metadata = {
     description: 'Free browser games for everyday moments. No download, no sign-up.',
     url: 'https://tinyjoy.app',
     type: 'website',
+    images: [{ url: 'https://tinyjoy.app/og/tinyjoy.png', width: 1200, height: 630, alt: 'TinyJoy — Free Browser Games' }],
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: 'TinyJoy — Calm, Quick, Delightful Games',
     description: 'Free browser games for everyday moments. No download, no sign-up.',
+    images: ['https://tinyjoy.app/og/tinyjoy.png'],
   },
 };
 

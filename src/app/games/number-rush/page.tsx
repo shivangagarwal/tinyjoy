@@ -10,6 +10,7 @@ const ogImage = 'https://tinyjoy.app/og/number-rush.png';
 export const metadata: Metadata = {
   title,
   description,
+  keywords: ['number rush', 'tap numbers game', 'speed number game', 'brain speed test online', 'number tapping game'],
   alternates: { canonical: url },
   openGraph: {
     title,

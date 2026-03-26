@@ -11,6 +11,7 @@ const ogImage = 'https://tinyjoy.app/og/connect-four.png';
 export const metadata: Metadata = {
   title,
   description,
+  keywords: ['connect four online', 'connect 4 game', 'strategy game vs AI', 'four in a row game', 'free connect four browser'],
   alternates: { canonical: url },
   openGraph: {
     title,

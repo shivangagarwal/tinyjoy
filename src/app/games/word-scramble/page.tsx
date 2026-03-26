@@ -10,6 +10,7 @@ const ogImage = 'https://tinyjoy.app/og/word-scramble.png';
 export const metadata: Metadata = {
   title,
   description,
+  keywords: ['word scramble game', 'anagram game online', 'unscramble words game', 'vocabulary game browser', 'free word game online'],
   alternates: { canonical: url },
   openGraph: {
     title,

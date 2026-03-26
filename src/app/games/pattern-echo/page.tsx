@@ -10,6 +10,7 @@ const ogImage = 'https://tinyjoy.app/og/pattern-echo.png';
 export const metadata: Metadata = {
   title,
   description,
+  keywords: ['pattern matching game', 'Simon Says game online', 'memory sequence game', 'color sequence game', 'free Simon game browser'],
   alternates: { canonical: url },
   openGraph: {
     title,

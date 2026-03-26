@@ -11,6 +11,7 @@ const ogImage = 'https://tinyjoy.app/og/snake.png';
 export const metadata: Metadata = {
   title,
   description,
+  keywords: ['snake game online', 'classic snake browser game', 'free snake game', 'arcade snake game', 'snake eat food game'],
   alternates: { canonical: url },
   openGraph: {
     title,

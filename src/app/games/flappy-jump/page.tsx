@@ -11,6 +11,7 @@ const ogImage = 'https://tinyjoy.app/og/flappy-jump.png';
 export const metadata: Metadata = {
   title,
   description,
+  keywords: ['flappy bird game online', 'tap to fly game', 'one-tap arcade game', 'flappy jump browser', 'free flappy game'],
   alternates: { canonical: url },
   openGraph: {
     title,

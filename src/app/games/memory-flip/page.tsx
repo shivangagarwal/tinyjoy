@@ -10,6 +10,7 @@ const ogImage = 'https://tinyjoy.app/og/memory-flip.png';
 export const metadata: Metadata = {
   title,
   description,
+  keywords: ['memory game', 'card matching game', 'free memory game online', 'brain training game', 'match pairs game'],
   alternates: { canonical: url },
   openGraph: {
     title,

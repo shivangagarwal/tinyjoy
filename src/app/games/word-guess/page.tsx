@@ -11,6 +11,7 @@ const ogImage = 'https://tinyjoy.app/og/word-guess.png';
 export const metadata: Metadata = {
   title,
   description,
+  keywords: ['word guess game', 'wordle alternative', '5 letter word game', 'daily word puzzle game', 'free word guessing game browser'],
   alternates: { canonical: url },
   openGraph: {
     title,

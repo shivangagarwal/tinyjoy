@@ -11,6 +11,7 @@ const ogImage = 'https://tinyjoy.app/og/whack-a-mole.png';
 export const metadata: Metadata = {
   title,
   description,
+  keywords: ['whack a mole game online', 'whack-a-mole browser', 'reflex click game', 'free mole hitting game', 'reaction game online'],
   alternates: { canonical: url },
   openGraph: {
     title,

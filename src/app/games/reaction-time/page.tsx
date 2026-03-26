@@ -11,6 +11,7 @@ const ogImage = 'https://tinyjoy.app/og/reaction-time.png';
 export const metadata: Metadata = {
   title,
   description,
+  keywords: ['reaction time test online', 'reflex test free', 'how fast are your reflexes', 'reaction speed test browser', 'free reflex game'],
   alternates: { canonical: url },
   openGraph: {
     title,

@@ -11,6 +11,7 @@ const ogImage = 'https://tinyjoy.app/og/sudoku.png';
 export const metadata: Metadata = {
   title,
   description,
+  keywords: ['sudoku online', 'free sudoku puzzle', 'sudoku browser game', 'number logic puzzle', 'daily sudoku easy hard'],
   alternates: { canonical: url },
   openGraph: {
     title,
