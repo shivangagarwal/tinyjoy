@@ -2758,6 +2758,176 @@ export const BLOG_POSTS: BlogPost[] = [
     `.trim(),
   },
   {
+    slug: 'simon-says-online-free',
+    title: 'Simon Says Online Free — Play Pattern Echo in Your Browser',
+    description: 'Play Simon Says online free — no download, no sign-up. Pattern Echo is a modern browser version of Simon Says that gets harder every round. Test your memory now.',
+    date: '2026-03-27',
+    category: 'tips',
+    readingTime: '3 min',
+    content: `
+<p>Simon Says is one of the most enduring memory games ever made — and you can play a free browser version right now. No download, no app, no account. Just click and go.</p>
+
+<h2>Play Simon Says Online Free</h2>
+
+<p><strong><a href="/games/pattern-echo">Pattern Echo</a></strong> is TinyJoy's take on Simon Says. A sequence of colors lights up. You repeat it. Each round, the sequence grows by one. Simple rules, genuine difficulty.</p>
+
+<p><a href="/games/pattern-echo">Play Pattern Echo (Simon Says) Free →</a></p>
+
+<p>Works on mobile and desktop. No install. No sign-up.</p>
+
+<h2>How the Simon Says Browser Game Works</h2>
+<ol>
+<li>A color lights up on the screen</li>
+<li>Tap or click that color</li>
+<li>Next round: two colors light up in sequence. Repeat both in order.</li>
+<li>Each round adds one more step</li>
+<li>Fail a step and the game ends — your score is your longest correct sequence</li>
+</ol>
+
+<p>The game starts easy and becomes genuinely difficult after 8–10 rounds. Most people can comfortably handle sequences of 6–7 items. Getting past 10 in a row is a real achievement.</p>
+
+<h2>Why Simon Says Is Such a Good Memory Game</h2>
+<p>Simon Says has been popular since 1978 because the core mechanic is perfectly designed. It trains working memory — the ability to hold a sequence in mind and act on it — which is one of the most trainable cognitive skills.</p>
+
+<p>Unlike many "brain training" apps, Simon Says adapts to your current skill level automatically. You always play at the exact edge of your ability: the sequence you just failed is one step longer than your current working memory capacity.</p>
+
+<h2>Tips for Getting Better at Simon Says</h2>
+<ul>
+<li><strong>Chunk the sequence</strong> — Instead of remembering each color individually, group them: "red-blue" as one unit, "green-red" as another. Your brain handles chunks better than individual items.</li>
+<li><strong>Say the colors out loud</strong> — Verbal encoding adds a second memory channel alongside the visual one. Even whispering the colors as they flash significantly improves recall.</li>
+<li><strong>Use rhythm</strong> — The colors flash at a consistent tempo. Tap in time with that rhythm when you repeat. The motor memory helps.</li>
+<li><strong>Don't rush on long sequences</strong> — When you reach 7+ steps, slow down on your response. The few seconds you spend thinking are worth more than the speed advantage of clicking fast.</li>
+<li><strong>Play right after waking up</strong> — Working memory is strongest when you're fresh. Your Simon Says score in the morning will consistently beat your evening score.</li>
+</ul>
+
+<h2>Simon Says vs. Other Memory Games</h2>
+<p>Simon Says (Pattern Echo) is specifically a <strong>sequential memory</strong> game. This is different from card matching games like Memory Flip, which test <strong>spatial memory</strong>. Both are worth playing — they train different aspects of working memory.</p>
+
+<ul>
+<li>For sequence memory → <a href="/games/pattern-echo">Pattern Echo</a></li>
+<li>For card matching memory → <a href="/games/memory-flip">Memory Flip</a></li>
+<li>For visual pattern memory → <a href="/games/color-match">Color Match</a></li>
+</ul>
+
+<h2>Play Simon Says Free Now</h2>
+<p><a href="/games/pattern-echo">Pattern Echo</a> is free at TinyJoy. No download. No account. Works on any device. Click the link to start — the game opens immediately.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What is Simon Says online?</h3>
+<p>Simon Says online is a browser version of the classic Simon Says memory game. A sequence of colors flashes on screen, and you must repeat the sequence in order. Each round adds one more color. Pattern Echo at TinyJoy is a free version you can play instantly without any download.</p>
+
+<h3>Is Pattern Echo the same as Simon Says?</h3>
+<p>Yes. Pattern Echo uses the same core mechanic as the classic Simon electronic game — watch a color sequence, repeat it, try to survive as the sequence grows. It's a modern, clean browser version with no physical toy required.</p>
+
+<h3>Can I play Simon Says on my phone?</h3>
+<p>Yes. <a href="/games/pattern-echo">Pattern Echo</a> is fully touch-optimized. Tap the colored squares to repeat the sequence. It works in any mobile browser without downloading an app.</p>
+
+<h3>How long does a Simon Says game take?</h3>
+<p>A single game of Pattern Echo takes 2–10 minutes depending on skill level. Beginners typically reach round 5–6 before failing. Experienced players can reach round 12–15. There's no fixed time limit — the game ends when you fail a sequence.</p>
+
+<h3>What's a good score in Simon Says?</h3>
+<p>Getting to round 8 is good. Round 10 is excellent. Round 12+ puts you in the top tier of players. The world record for the physical Simon game is in the 30s — don't expect to get there on your first session.</p>
+    `.trim(),
+  },
+  {
+    slug: 'reaction-time-test-online',
+    title: 'Reaction Time Test Online — Free, No Download',
+    description: 'Test your reaction time online for free. The average human reacts in ~250ms — find out where you stand. No download, plays instantly in your browser.',
+    date: '2026-03-27',
+    category: 'tips',
+    readingTime: '3 min',
+    content: `
+<p>The average human reaction time is around 250 milliseconds. Where do you land? This free browser test shows you in under a minute — no download, no account, no app required.</p>
+
+<h2>Take the Reaction Time Test Free</h2>
+
+<p><strong><a href="/games/reaction-time">Reaction Time</a></strong> at TinyJoy is a free, clean reaction time test that measures your response speed in milliseconds. Click when the signal appears. Your result is immediate.</p>
+
+<p><a href="/games/reaction-time">Test Your Reaction Time Free →</a></p>
+
+<h2>How the Reaction Time Test Works</h2>
+<ol>
+<li>Click "Start" to begin</li>
+<li>Wait for the signal — a color change or indicator appears after a random delay</li>
+<li>Click as fast as you can when you see it</li>
+<li>Your time in milliseconds is shown immediately</li>
+<li>Play multiple rounds to get an accurate average</li>
+</ol>
+
+<p>The random delay is important — it prevents you from anticipating the signal and clicking before you actually see it. Your result is a genuine measure of reaction speed.</p>
+
+<h2>What Is a Good Reaction Time?</h2>
+
+<table>
+<thead>
+<tr><th>Result</th><th>Rating</th></tr>
+</thead>
+<tbody>
+<tr><td>Under 150ms</td><td>Exceptional (likely an outlier or lucky click)</td></tr>
+<tr><td>150–200ms</td><td>Elite (top-tier gamers, professional athletes)</td></tr>
+<tr><td>200–250ms</td><td>Above average (faster than most people)</td></tr>
+<tr><td>250–300ms</td><td>Average (completely normal)</td></tr>
+<tr><td>300–400ms</td><td>Slightly below average</td></tr>
+<tr><td>400ms+</td><td>May indicate fatigue, distraction, or device lag</td></tr>
+</tbody>
+</table>
+
+<p>Most people score in the 200–300ms range. Don't be discouraged by a 280ms result — that's genuinely average, not slow.</p>
+
+<h2>Factors That Affect Reaction Time</h2>
+
+<h3>Things that slow you down:</h3>
+<ul>
+<li><strong>Fatigue</strong> — Even mild tiredness adds 20–50ms to your average</li>
+<li><strong>Caffeine withdrawal</strong> — Missing your usual coffee can noticeably slow reaction speed</li>
+<li><strong>Older device/browser</strong> — A slow device can add genuine latency to results</li>
+<li><strong>Touch screen vs. mouse</strong> — Touch screens typically add 10–30ms compared to a mouse click</li>
+<li><strong>Stress or distraction</strong> — A wandering mind consistently produces slower results</li>
+</ul>
+
+<h3>Things that speed you up:</h3>
+<ul>
+<li><strong>Warm-up rounds</strong> — Your first 2–3 results are almost always slower. Average 10 runs.</li>
+<li><strong>Anticipatory focus</strong> — Active attention on the screen (not passive waiting) reduces reaction time</li>
+<li><strong>Regular practice</strong> — Repeated testing over days genuinely improves your baseline</li>
+</ul>
+
+<h2>Can You Improve Your Reaction Time?</h2>
+<p>Yes, within limits. Reaction time has a genetic floor — very fast reactors are partly born that way. But the trainable portion (mental focus, anticipatory readiness, motor efficiency) can improve meaningfully with practice.</p>
+
+<p>Games like <a href="/games/whack-a-mole">Whack-a-Mole</a> and <a href="/games/number-rush">Number Rush</a> develop the same visual scanning and response skills that improve reaction time performance. Playing them regularly will likely show up in your reaction time scores over weeks.</p>
+
+<h2>Fun Reaction Time Facts</h2>
+<ul>
+<li>Professional gamers average around 200–220ms — not superhuman, but consistently faster than average</li>
+<li>Formula 1 drivers average about 200ms at the starting light — a full 50ms faster than the average person</li>
+<li>Visual reaction (what this test measures) is always slower than auditory reaction — you'd test faster if the signal were a sound</li>
+<li>Right-handed people's right hand is typically 5–10ms faster than their left (and vice versa for left-handers)</li>
+</ul>
+
+<h2>Test Your Reaction Time Free</h2>
+<p>The <a href="/games/reaction-time">Reaction Time test</a> is completely free at TinyJoy. No download, no sign-up. Mobile-friendly — works on any browser. Test multiple rounds for a reliable average.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What is the average reaction time?</h3>
+<p>The average human visual reaction time is approximately 250 milliseconds (0.25 seconds). Results under 200ms are above average; results over 350ms may indicate fatigue or distraction. Take multiple runs and average them for a reliable result.</p>
+
+<h3>How can I test my reaction time online for free?</h3>
+<p>Visit <a href="/games/reaction-time">TinyJoy's Reaction Time test</a> — it's free and runs directly in your browser with no download or account required. Click when the signal appears; your result in milliseconds is shown immediately.</p>
+
+<h3>Is 200ms a good reaction time?</h3>
+<p>Yes, 200ms is above average. Most people score 230–270ms in controlled conditions. Consistently hitting 200ms or below puts you in the top 15–20% of reaction speed for your age group.</p>
+
+<h3>Why is my reaction time different each test?</h3>
+<p>Reaction time varies naturally by 20–50ms run to run. Fatigue, attention, and device variability all contribute. Take 10 runs and average them for your true baseline. Single results are not reliable.</p>
+
+<h3>Does reaction time slow with age?</h3>
+<p>Yes. Reaction time peaks in the mid-20s and gradually slows by about 1ms per year after that. A healthy 50-year-old should expect results roughly 25ms slower than their 25-year-old self — noticeable in lab conditions, but not meaningfully impactful in daily life.</p>
+    `.trim(),
+  },
+  {
     slug: 'quick-online-games',
     title: 'Quick Online Games — Play in 60 Seconds, No Download',
     description: 'The best quick online games you can play right now — no download, no sign-up, no install. Browser games that start in seconds and fit any break.',
