@@ -81,19 +81,20 @@ export default async function BlogPostPage({
 
   const relatedPosts = getRelatedPosts(slug);
 
+  const postUrl = `${BASE_URL}/blog/${post.slug}`;
   const schema = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': 'BlogPosting',
     headline: post.title,
     description: post.description,
     datePublished: post.date,
-    author: { '@type': 'Organization', name: 'TinyJoy' },
+    author: { '@type': 'Organization', name: 'TinyJoy', url: BASE_URL },
     publisher: {
       '@type': 'Organization',
       name: 'TinyJoy',
       url: BASE_URL,
     },
-    url: `${BASE_URL}/blog/${post.slug}`,
+    mainEntityOfPage: postUrl,
   };
 
   const howToSteps = extractHowToSteps(post.content);
