@@ -3495,6 +3495,150 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>All TinyJoy games load in under 3 seconds on a normal connection. Number Rush starts the moment you click — no loading screen, no intro animation, no "tap to continue." Click the game, it starts. That's intentional.</p>
     `.trim(),
   },
+  {
+    slug: 'free-word-games-online',
+    title: 'Best Free Word Games Online (No Download)',
+    description: 'The best free word games online right now — no download, no account, no cost. Play in your browser on desktop or mobile.',
+    date: '2026-03-29',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Looking for free word games you can play right now? These games run entirely in your browser — no app, no download, no account required. Just open a tab and start playing.</p>
+
+<p>All games below are free at <a href="/">TinyJoy</a>.</p>
+
+<h2>Best Free Word Games Online</h2>
+
+<h3>Word Scramble</h3>
+<p>Unscramble words before the 60-second clock runs out. Letters are shuffled; you type the correct word. A fast-paced vocabulary game that rewards quick thinking over obscure knowledge. Each round is fresh — the word set rotates so you're not memorizing the same answers.</p>
+<p><strong>Best for:</strong> quick mental warm-ups, vocabulary practice, short breaks.</p>
+<p><a href="/games/word-scramble">Play Word Scramble Free →</a></p>
+
+<h3>Hangman</h3>
+<p>Guess the hidden word one letter at a time before the drawing completes. A classic deduction game that works on any device, runs silently, and rewards smart letter selection over random guessing. Start with high-frequency letters (E, T, A, O, I) to narrow the word quickly.</p>
+<p><strong>Best for:</strong> deduction, vocabulary, or a quiet brain game during downtime.</p>
+<p><a href="/games/hangman">Play Hangman Free →</a></p>
+
+<h3>Word Guess</h3>
+<p>Guess the hidden 5-letter word in 6 attempts. Color-coded feedback tells you which letters are correct, which are in the word but in the wrong position, and which aren't in the word at all. A daily-puzzle-style word game you can play unlimited times.</p>
+<p><strong>Best for:</strong> word lovers who want a strategic daily challenge.</p>
+<p><a href="/games/word-guess">Play Word Guess Free →</a></p>
+
+<h2>Why Play Word Games in Your Browser?</h2>
+<p>Word games sharpen vocabulary, pattern recognition, and working memory. The browser format means no install, no storage used, and no account to lose progress in. Open the tab, play a round, close the tab. Simple.</p>
+<p>TinyJoy's word games are designed for short sessions — most rounds are 60 seconds to 5 minutes. You get the benefit without the time sink.</p>
+
+<h2>Word Games for Every Skill Level</h2>
+
+<h3>If you want speed:</h3>
+<p><a href="/games/word-scramble">Word Scramble</a> is the fastest word game here — 60-second rounds, immediate feedback, no filler. A single round is shorter than most loading screens.</p>
+
+<h3>If you want deduction:</h3>
+<p><a href="/games/hangman">Hangman</a> and <a href="/games/word-guess">Word Guess</a> both reward methodical thinking over rapid-fire guessing. Hangman is more casual; Word Guess is the tighter challenge.</p>
+
+<h3>If you want variety:</h3>
+<p>All three games use rotating word sets, so the puzzles stay fresh across multiple sessions. No two games of Word Scramble or Word Guess are the same.</p>
+
+<h2>Playing Word Games on Mobile</h2>
+<p>All TinyJoy word games are fully mobile-optimized. Word Scramble and Hangman work well on touchscreens; Word Guess has a built-in on-screen keyboard that feels natural on any phone. No app download needed — open <a href="https://tinyjoy.app">tinyjoy.app</a> in mobile Chrome or Safari.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What are the best free word games online?</h3>
+<p><a href="/games/word-scramble">Word Scramble</a>, <a href="/games/hangman">Hangman</a>, and <a href="/games/word-guess">Word Guess</a> at TinyJoy are all free, browser-based, and require no account. Word Scramble is best for quick 60-second rounds; Word Guess is the most strategic of the three.</p>
+
+<h3>Can I play word games online without downloading anything?</h3>
+<p>Yes. All TinyJoy word games run entirely in your browser — Chrome, Safari, Firefox, or Edge on desktop or mobile. No download, no install, no plugin required. Open the site and play.</p>
+
+<h3>Are there free word games with no sign-up?</h3>
+<p>All TinyJoy games require zero sign-up. No email address, no account creation, no password. Open the game, start playing immediately.</p>
+
+<h3>What's a good word game to play on my phone?</h3>
+<p><a href="/games/word-scramble">Word Scramble</a> works especially well on mobile — the typing interface is optimized for phone keyboards and rounds are short enough that you can finish one before your bus stop.</p>
+
+<h3>Is Word Scramble a good brain training game?</h3>
+<p>Yes. Unscrambling words exercises pattern recognition, spelling recall, and working memory simultaneously. It's a lightweight mental workout — more productive than scrolling, less demanding than a full puzzle game.</p>
+    `.trim(),
+  },
+  {
+    slug: 'arcade-games-online-free',
+    title: 'Best Arcade Games Online Free (No Download)',
+    description: 'Play the best free arcade games online right now — no download, no install, no sign-up. Classic arcade action in your browser on any device.',
+    date: '2026-03-29',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Arcade games are back — and they live in your browser now. No quarters, no cabinet, no app store. Just open a tab and play. Here are the best free arcade games you can play online right now.</p>
+
+<p>All games below are free at <a href="/">TinyJoy</a>.</p>
+
+<h2>Best Free Arcade Games Online</h2>
+
+<h3>Snake</h3>
+<p>The original arcade game. Guide your snake across the board, eat food, grow longer. Avoid your own tail and the walls. Simple, endless, and deeply satisfying when you get a long streak going. This version runs in any browser with smooth controls on keyboard or touch.</p>
+<p><strong>Best for:</strong> classic arcade fans, mobile play, 5-minute sessions.</p>
+<p><a href="/games/snake">Play Snake Free →</a></p>
+
+<h3>Flappy Jump</h3>
+<p>One tap to stay airborne. Navigate through gaps between obstacles. Brutally simple to understand, genuinely hard to master. Each attempt lasts 10–30 seconds — short enough to keep trying, addictive enough that you will. The "one more try" loop is real.</p>
+<p><strong>Best for:</strong> quick challenge, high replayability, mobile touchscreen play.</p>
+<p><a href="/games/flappy-jump">Play Flappy Jump Free →</a></p>
+
+<h3>Whack-a-Mole</h3>
+<p>Tap moles before they disappear. Gets faster as your score climbs. A pure reflex game that feels satisfying on touchscreen and mouse alike. Sessions are 60 seconds — quick enough to fit anywhere.</p>
+<p><strong>Best for:</strong> reflex training, mobile play, a quick adrenaline hit.</p>
+<p><a href="/games/whack-a-mole">Play Whack-a-Mole Free →</a></p>
+
+<h3>Color Match</h3>
+<p>Tap tiles matching the target color before 60 seconds run out. Fast, visual, and tighter than it sounds. A modern arcade reflex game that tests color recognition and click speed simultaneously. Each round starts instantly — no tutorial, no loading screen.</p>
+<p><strong>Best for:</strong> hand-eye coordination, quick mental reset, short breaks.</p>
+<p><a href="/games/color-match">Play Color Match Free →</a></p>
+
+<h3>Number Rush</h3>
+<p>Tap numbers 1 through 25 in order, as fast as you can. Numbers are scattered randomly across the grid. Your time is recorded. This is one of the most deceptively challenging speed games in the browser — the combination of visual search and sequential tapping is harder than it looks.</p>
+<p><strong>Best for:</strong> personal records, speed challenges, competitive play with friends.</p>
+<p><a href="/games/number-rush">Play Number Rush Free →</a></p>
+
+<h3>Reaction Time</h3>
+<p>Click the instant you see the signal. Your result in milliseconds. An arcade-style reflex test that tells you exactly how fast your reactions are. Professionals average under 220ms; most people land between 230–280ms. Try to beat your personal best.</p>
+<p><strong>Best for:</strong> measuring reflex speed, warming up, nerding out on your own data.</p>
+<p><a href="/games/reaction-time">Play Reaction Time Free →</a></p>
+
+<h2>What Makes a Good Arcade Game?</h2>
+<p>The best arcade games share three traits: they start immediately (no tutorial required), they have a clear challenge (survive, score higher, go faster), and they have a natural end point so you don't accidentally lose 45 minutes. TinyJoy's arcade games are designed exactly this way — most sessions are 30–90 seconds, with instant restart.</p>
+
+<h2>Arcade Games by Style</h2>
+
+<h3>Endless / Survival</h3>
+<p><a href="/games/snake">Snake</a> and <a href="/games/flappy-jump">Flappy Jump</a> — play until you fail. No time limit, just score as high as you can.</p>
+
+<h3>Timed / Score Attack</h3>
+<p><a href="/games/color-match">Color Match</a>, <a href="/games/whack-a-mole">Whack-a-Mole</a>, and <a href="/games/word-scramble">Word Scramble</a> — 60 seconds to score as high as possible.</p>
+
+<h3>Speed / Personal Record</h3>
+<p><a href="/games/number-rush">Number Rush</a> and <a href="/games/reaction-time">Reaction Time</a> — the challenge is your own fastest time. No enemies, no obstacles — just you versus the clock.</p>
+
+<h2>Playing Arcade Games on Mobile</h2>
+<p>All TinyJoy arcade games are touch-optimized. Snake uses swipe controls, Flappy Jump and Whack-a-Mole use taps, and Color Match is built for finger input. No controller needed. Open <a href="https://tinyjoy.app">tinyjoy.app</a> on your phone and play immediately.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What are the best free arcade games online?</h3>
+<p>Snake, Flappy Jump, Whack-a-Mole, and Color Match at TinyJoy are all top-tier free browser arcade games. All start instantly, require no account, and work on desktop and mobile.</p>
+
+<h3>Can I play arcade games online without downloading anything?</h3>
+<p>Yes. All TinyJoy games run in your browser — nothing to install, no plugin required. Works in Chrome, Safari, Firefox, and Edge on any device.</p>
+
+<h3>Are browser arcade games as good as apps?</h3>
+<p>For short sessions, yes. Browser games load faster than apps (no install, no update prompt), have no energy systems or paywalls, and close cleanly when you're done. For casual 2–5 minute play, browser games are arguably better than their app equivalents.</p>
+
+<h3>What arcade game should I play to improve reflexes?</h3>
+<p><a href="/games/reaction-time">Reaction Time</a> directly measures and trains reflex speed. <a href="/games/color-match">Color Match</a> and <a href="/games/whack-a-mole">Whack-a-Mole</a> also train fast response. Play 5–10 rounds daily for measurable improvement over a few weeks.</p>
+
+<h3>What's the hardest free arcade game here?</h3>
+<p><a href="/games/flappy-jump">Flappy Jump</a> has the highest skill ceiling — the gap between a first attempt and a personal best of 50+ is significant. <a href="/games/number-rush">Number Rush</a> is deceptively hard to optimize; shaving even 2 seconds off your best time requires focused effort.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
