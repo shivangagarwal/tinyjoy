@@ -2928,6 +2928,164 @@ export const BLOG_POSTS: BlogPost[] = [
     `.trim(),
   },
   {
+    slug: 'unblocked-games-free-online',
+    title: 'Unblocked Games Free Online (No Download, No Install)',
+    description: 'Play free unblocked games online right now. No download, no install, no app required. Works at school, work, and anywhere else — just open your browser.',
+    date: '2026-03-28',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Looking for unblocked games you can play anywhere? These games run entirely in your browser — no download, no install, no app. If your browser works, these games work.</p>
+
+<p>All games below are free and available at <a href="/">TinyJoy</a>.</p>
+
+<h2>Best Unblocked Games Online</h2>
+
+<h3>Number Rush</h3>
+<p>Tap numbers 1 through 25 in order, as fast as you can. Runs in any browser, loads in seconds, and sessions are under 60 seconds. One of the most satisfying speed challenges available online.</p>
+<p><a href="/games/number-rush">Play Number Rush →</a></p>
+
+<h3>Color Match</h3>
+<p>Match colored tiles to a target color before 60 seconds runs out. Fast-paced, visual, and great for a quick mental reset. No setup, no tutorial you can't skip.</p>
+<p><a href="/games/color-match">Play Color Match →</a></p>
+
+<h3>Memory Flip</h3>
+<p>Classic card-matching game. Find all 8 pairs before the clock hits zero. Calm and focused — ideal for a mental break without too much stimulation.</p>
+<p><a href="/games/memory-flip">Play Memory Flip →</a></p>
+
+<h3>Word Scramble</h3>
+<p>Unscramble words before time runs out. 60-second rounds, no audio by default, works great on school or work computers. A gentle brain workout.</p>
+<p><a href="/games/word-scramble">Play Word Scramble →</a></p>
+
+<h3>Pattern Echo</h3>
+<p>Watch a color sequence and repeat it. Gets harder each round. A modern version of Simon Says that's genuinely challenging. No sound required to play.</p>
+<p><a href="/games/pattern-echo">Play Pattern Echo →</a></p>
+
+<h3>Sudoku</h3>
+<p>Logic puzzles in four difficulty levels — Easy through Expert. Each puzzle is a new grid. No account needed to save scores; just play and move on.</p>
+<p><a href="/games/sudoku">Play Sudoku →</a></p>
+
+<h3>Minesweeper</h3>
+<p>The classic logic game. Flag mines, clear the board, win. No ads blocking the grid. Works exactly as you remember, runs in any browser.</p>
+<p><a href="/games/minesweeper">Play Minesweeper →</a></p>
+
+<h3>Snake</h3>
+<p>The original endless arcade game. Eat, grow, don't hit the walls. Simple controls, timeless challenge. Works on keyboard or touch.</p>
+<p><a href="/games/snake">Play Snake →</a></p>
+
+<h3>Hangman</h3>
+<p>Guess the word before the drawing completes. Clean interface, works silently. A word game that rewards vocabulary and deduction.</p>
+<p><a href="/games/hangman">Play Hangman →</a></p>
+
+<h3>2048</h3>
+<p>Slide tiles to reach 2048. A strategy puzzle that's easy to start and hard to master. Each game is self-contained — no cloud save required.</p>
+<p><a href="/games/2048">Play 2048 →</a></p>
+
+<h2>Why These Games Are Unblocked</h2>
+<p>These games are hosted at a standard HTTPS web address, use no special plugins, and don't require Flash or any third-party software. They're plain HTML5 games that load like any other webpage — which is why they tend to work even in filtered environments.</p>
+
+<p>They also have no chat features, no accounts, and no user-generated content — factors that often trigger content filters at schools and workplaces.</p>
+
+<h2>Play on Any Device</h2>
+<p>All TinyJoy games work on desktop computers, laptops, Chromebooks, tablets, and smartphones. No install, no storage used. Just open <a href="https://tinyjoy.app">tinyjoy.app</a> in any browser.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What are unblocked games?</h3>
+<p>Unblocked games are games that run in a standard web browser without requiring downloads, plugins, or special software. Because they load like regular web pages, they often work in environments with restricted app installations — like school computers, library terminals, or office machines.</p>
+
+<h3>Are these unblocked games actually free?</h3>
+<p>Yes. All games at TinyJoy are completely free. No premium tiers, no coins, no in-app purchases. Free means free — open the page and play.</p>
+
+<h3>Do unblocked games work on Chromebooks?</h3>
+<p>Yes. TinyJoy's games are built with HTML5 and run in Chrome, which is the default browser on all Chromebooks. No Android app required, no Linux container needed — just open Chrome and go to <a href="https://tinyjoy.app">tinyjoy.app</a>.</p>
+
+<h3>Can I play unblocked games at school?</h3>
+<p>TinyJoy's games load like standard websites, use no special plugins, and have no social or chat features. Whether a specific site is accessible depends on your school's network policy, but these games don't have any technical features that would typically trigger a content block.</p>
+
+<h3>What are the best unblocked games for a quick break?</h3>
+<p>For a 60-second break: Number Rush or Color Match. For a 2–3 minute break: Memory Flip or Word Scramble. For a longer session: Sudoku, Minesweeper, or 2048. All run in your browser instantly.</p>
+    `.trim(),
+  },
+  {
+    slug: '5-minute-games-online-free',
+    title: 'Best 5-Minute Games Online Free (Play Instantly)',
+    description: 'The best free 5-minute games you can play online right now. Short, satisfying, and zero setup — perfect for a break at work, school, or anywhere.',
+    date: '2026-03-28',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Got five minutes? That's more than enough time to play something genuinely satisfying. These free online games are designed for short sessions — no 30-minute tutorial, no setup, no account. Pick one, play, move on.</p>
+
+<p>All games below are free at <a href="/">TinyJoy</a>. No download, no sign-up.</p>
+
+<h2>5-Minute Games Worth Playing</h2>
+
+<h3>Number Rush — 30 seconds per run</h3>
+<p>Tap numbers 1 through 25 in order as fast as you can. One run takes 20–40 seconds. In five minutes you can play 8–10 rounds and genuinely improve your time. One of the most addictive quick games in the browser.</p>
+<p><a href="/games/number-rush">Play Number Rush →</a></p>
+
+<h3>Color Match — 60 seconds per round</h3>
+<p>Match tiles to a target color before time runs out. Each round is exactly 60 seconds. In five minutes you get five complete rounds, each slightly different. A great visual warmup or mental reset.</p>
+<p><a href="/games/color-match">Play Color Match →</a></p>
+
+<h3>Word Scramble — 60 seconds per round</h3>
+<p>Unscramble words against the clock. Rounds are exactly 60 seconds, so you get 4–5 complete games in five minutes. A vocabulary challenge that rewards quick thinking over extensive word knowledge.</p>
+<p><a href="/games/word-scramble">Play Word Scramble →</a></p>
+
+<h3>Memory Flip — 60 seconds per game</h3>
+<p>Find all 8 card pairs before the clock hits zero. A focused, calm game. Two or three rounds fit neatly in five minutes. Good for unwinding without overstimulating.</p>
+<p><a href="/games/memory-flip">Play Memory Flip →</a></p>
+
+<h3>Pattern Echo — 3–5 minutes per session</h3>
+<p>Watch a growing color sequence and repeat it. Each round gets harder. A typical session until you miss runs 3–5 minutes — perfectly sized for a break. Tests memory, focus, and patience.</p>
+<p><a href="/games/pattern-echo">Play Pattern Echo →</a></p>
+
+<h3>Hangman — 2–3 minutes per game</h3>
+<p>Guess the hidden word before the drawing completes. Each game takes 1–3 minutes. You can play 2–3 rounds in five minutes. Clean, quiet, and satisfying to win.</p>
+<p><a href="/games/hangman">Play Hangman →</a></p>
+
+<h3>Whack-a-Mole — 60 seconds per round</h3>
+<p>Tap moles as they pop up. Pure reflex. Rounds are 60 seconds. In five minutes you get five rounds and can track whether your reaction time is improving.</p>
+<p><a href="/games/whack-a-mole">Play Whack-a-Mole →</a></p>
+
+<h3>Reaction Time Test — 15 seconds per test</h3>
+<p>Tap as fast as possible when the screen changes. Measures your reaction time in milliseconds. Runs are 15 seconds. You can do 15–20 attempts in five minutes and see real improvement.</p>
+<p><a href="/games/reaction-time">Play Reaction Time →</a></p>
+
+<h2>How to Pick the Right 5-Minute Game</h2>
+<p>Different games serve different purposes during a break:</p>
+<ul>
+<li><strong>Want mental stimulation?</strong> Word Scramble, Hangman, Pattern Echo</li>
+<li><strong>Want a physical/reflex challenge?</strong> Number Rush, Reaction Time, Whack-a-Mole</li>
+<li><strong>Want to relax?</strong> Memory Flip, Color Match</li>
+<li><strong>Want to compete with yourself?</strong> Number Rush (beat your time), Reaction Time (beat your average)</li>
+</ul>
+
+<h2>Why 5 Minutes is the Sweet Spot</h2>
+<p>Research on effective breaks suggests that 5-minute micro-breaks significantly reduce fatigue and improve focus more than simply sitting at your desk. A short game that fully occupies your attention for five minutes — without bleeding into thirty — is genuinely restorative.</p>
+
+<p>The key is having a hard stop. Every game at TinyJoy has a built-in endpoint — a timer, a win condition, or a natural moment to stop. There's no endless scroll, no auto-play next level, no "one more round" dark pattern. You play for five minutes and actually stop.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What are the best 5-minute games online?</h3>
+<p>For quick, satisfying 5-minute sessions: Number Rush (30 seconds per run, very replayable), Color Match and Word Scramble (exactly 60 seconds per round), and Pattern Echo (natural 3–5 minute sessions). All free at <a href="/">TinyJoy</a>.</p>
+
+<h3>Can I play 5-minute games without downloading anything?</h3>
+<p>Yes. All TinyJoy games run in your browser — no download, no install, no plugin. Open tinyjoy.app in Chrome, Safari, Firefox, or any modern browser and start immediately.</p>
+
+<h3>Are there free 5-minute games for work breaks?</h3>
+<p>Yes. TinyJoy's games are designed specifically for work breaks: short sessions, no audio by default, no social pressure, and a clear endpoint so you actually return to work. Number Rush and Color Match are particularly good for 5-minute resets.</p>
+
+<h3>Do 5-minute browser games work on mobile?</h3>
+<p>All TinyJoy games are optimized for mobile. Touch controls work on every game. Open tinyjoy.app in any mobile browser — no app to install.</p>
+
+<h3>What makes a good 5-minute game?</h3>
+<p>A good 5-minute game has: no setup or tutorial, a clear endpoint (timer or win condition), sessions that naturally end rather than loop indefinitely, and enough challenge to engage your full attention. TinyJoy's games are built around all four of these principles.</p>
+    `.trim(),
+  },
+  {
     slug: 'quick-online-games',
     title: 'Quick Online Games — Play in 60 Seconds, No Download',
     description: 'The best quick online games you can play right now — no download, no sign-up, no install. Browser games that start in seconds and fit any break.',
