@@ -3163,6 +3163,176 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>All TinyJoy games are mobile-optimized. Touch controls work on every game. Open tinyjoy.app in any mobile browser — Chrome, Safari, Firefox — and play without installing an app.</p>
     `.trim(),
   },
+  {
+    slug: 'flash-games-alternative-free',
+    title: 'Best Flash Games Alternatives Free (Play in Browser, No Plugin)',
+    description: 'Flash is gone but browser games are better than ever. These free Flash game alternatives run in any modern browser with no plugin, no download, no install.',
+    date: '2026-03-28',
+    category: 'tips',
+    readingTime: '5 min',
+    content: `
+<p>Adobe Flash was shut down in December 2020. Millions of games disappeared overnight — Miniclip, Newgrounds, AddictingGames, Coolmathgames. If you're looking for what replaced them, you're in the right place.</p>
+
+<p>The good news: HTML5 browser games have matured significantly. You can play great casual games today with no plugin, no download, and no account. They just work.</p>
+
+<h2>Why Flash Is Gone (and What Replaced It)</h2>
+<p>Flash required a plugin that most browsers no longer support. Adobe officially ended Flash support on December 31, 2020. Modern browsers — Chrome, Firefox, Safari, Edge — all removed Flash support entirely.</p>
+
+<p>What replaced it: HTML5 games. These run natively in your browser using JavaScript and canvas rendering. They're faster, more secure, and work on mobile. The era of needing a plugin is over.</p>
+
+<h2>Best Free Flash Game Alternatives</h2>
+
+<h3>Number Rush — Best Alternative to Classic Speed Games</h3>
+<p>Tap numbers 1 through 25 in order as fast as you can. It's the kind of addictive speed game that made Flash games popular — simple mechanics, instant satisfaction, easy to replay. No plugin, no download. Just open and go.</p>
+<p><a href="/games/number-rush">Play Number Rush →</a></p>
+
+<h3>Minesweeper — Browser Classic Rebuilt</h3>
+<p>The original Windows game, now running in pure HTML5. Four difficulty modes, clean interface, no ads blocking the grid. If you played Minesweeper in a browser back in the Flash era, this is the direct successor.</p>
+<p><a href="/games/minesweeper">Play Minesweeper →</a></p>
+
+<h3>Snake — The Original Arcade, No Flash Needed</h3>
+<p>Eat, grow, don't hit the walls. Snake was one of the most-played Flash games in the early internet era. This version loads instantly in any browser and works on keyboard or touchscreen.</p>
+<p><a href="/games/snake">Play Snake →</a></p>
+
+<h3>2048 — Strategy Puzzle</h3>
+<p>Slide numbered tiles and combine them to reach 2048. The kind of logic puzzle that replaced Flash strategy games — no instructions needed, impossible to put down once you start.</p>
+<p><a href="/games/2048">Play 2048 →</a></p>
+
+<h3>Color Match — Fast Reflex Game</h3>
+<p>Match colored tiles before 60 seconds runs out. The fast-paced reflex games that made Flash popular are alive and well in HTML5. This one is sharper, faster, and works on any device.</p>
+<p><a href="/games/color-match">Play Color Match →</a></p>
+
+<h3>Memory Flip — Card Matching</h3>
+<p>Classic card-matching game, 8 pairs, 60-second timer. Simple enough to pick up in 10 seconds, satisfying enough to replay for 10 minutes. The kind of game Miniclip used to host.</p>
+<p><a href="/games/memory-flip">Play Memory Flip →</a></p>
+
+<h3>Pattern Echo — Simon Says Reborn</h3>
+<p>Watch a color sequence and repeat it. Gets harder each round. Simon Says was a staple of the Flash era — this is its HTML5 successor. No sound required.</p>
+<p><a href="/games/pattern-echo">Play Pattern Echo →</a></p>
+
+<h3>Brick Breaker — Arcade Classic</h3>
+<p>Bounce the ball, break the bricks. The Breakout-style game was one of the most popular Flash arcade games. This version runs in any browser with no lag and no plugin.</p>
+<p><a href="/games/brick-breaker">Play Brick Breaker →</a></p>
+
+<h3>Whack-a-Mole — Reaction Training</h3>
+<p>Hit the moles as they appear. A reaction game that was everywhere in the Flash era. Short sessions, instant replay, satisfying to play.</p>
+<p><a href="/games/whack-a-mole">Play Whack-a-Mole →</a></p>
+
+<h3>Flappy Jump — One-Tap Arcade</h3>
+<p>Tap to fly, dodge the pipes. The Flappy Bird-style game that's become an HTML5 staple. Harder than it looks, impossible to stop playing.</p>
+<p><a href="/games/flappy-jump">Play Flappy Jump →</a></p>
+
+<h2>Sites Like Miniclip and Newgrounds — What Happened</h2>
+<p>Many of the big Flash game sites have either shut down, removed their game libraries, or pivoted to app games. Miniclip moved to mobile. Newgrounds preserved some games using a Flash emulator (Ruffle), but it's not perfect. AddictingGames largely dropped its catalog.</p>
+
+<p>The best current option is to play HTML5 games directly in your browser. They load faster than Flash ever did, work on mobile, and require no plugin.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Can I still play Flash games anywhere?</h3>
+<p>Some sites use Ruffle, an open-source Flash emulator written in Rust. It runs in the browser and can play many (but not all) old Flash games. The Internet Archive also hosts a large Flash game collection playable through Ruffle. For modern gameplay, HTML5 alternatives are more reliable.</p>
+
+<h3>What browser games replaced Flash games?</h3>
+<p>HTML5 games. They use JavaScript and canvas elements instead of Flash, run natively in all modern browsers, and work on mobile. Quality has improved dramatically — modern HTML5 games are smoother and more responsive than most Flash games were.</p>
+
+<h3>Is Coolmathgames still working without Flash?</h3>
+<p>Coolmathgames transitioned most of its catalog to HTML5 after Flash was discontinued. It still operates and has a large collection of logic and math games. For a simpler, faster experience, TinyJoy offers casual games that load instantly without ads-between-games or popups.</p>
+
+<h3>What happened to Newgrounds games?</h3>
+<p>Newgrounds launched its own Flash player (Ruffle) to preserve its archive. Many old Flash games work through it, though compatibility varies. New Newgrounds content is HTML5.</p>
+
+<h3>Are HTML5 games as good as Flash games?</h3>
+<p>For casual games, yes — and often better. HTML5 games are faster to load, more secure, and work on every device including mobile. The genre of quick, no-setup browser games that Flash pioneered is fully alive in HTML5.</p>
+    `.trim(),
+  },
+  {
+    slug: 'free-single-player-games-online',
+    title: 'Free Single Player Games Online (No Multiplayer, No Account)',
+    description: 'The best free single player games you can play online right now. No account, no multiplayer, no waiting. Open your browser and play solo.',
+    date: '2026-03-28',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Not every game needs to be social. Sometimes you just want to play alone, without waiting for opponents, managing friends lists, or dealing with chat. These are the best free single player games you can play in your browser right now.</p>
+
+<p>No account required. No multiplayer lobbies. No waiting. Just open the game and play.</p>
+
+<h2>Best Free Single Player Browser Games</h2>
+
+<h3>Sudoku — Quiet Logic Puzzle</h3>
+<p>Fill a 9x9 grid so every row, column, and box contains digits 1–9. Four difficulty levels: Easy, Medium, Hard, Expert. One of the most played single player games in the world, now in your browser with no setup.</p>
+<p><a href="/games/sudoku">Play Sudoku →</a></p>
+
+<h3>2048 — Number Strategy</h3>
+<p>Slide tiles to merge matching numbers and reach 2048. Pure solo strategy — no opponents, no multiplayer. You against the board. Every game is different; every game is beatable with the right approach.</p>
+<p><a href="/games/2048">Play 2048 →</a></p>
+
+<h3>Minesweeper — Logic Under Pressure</h3>
+<p>Clear a minefield using logic and deduction. A genuinely solo game — no leaderboard pressure, no social component. One of the most satisfying single-player games ever made, now running in pure HTML5.</p>
+<p><a href="/games/minesweeper">Play Minesweeper →</a></p>
+
+<h3>Solitaire — The Original Solo Card Game</h3>
+<p>Classic Klondike Solitaire. Sort cards into foundation piles by suit, ace through king. The quintessential single-player game — calming, self-contained, and endlessly replayable. No account, no online component.</p>
+<p><a href="/games/solitaire">Play Solitaire →</a></p>
+
+<h3>Number Rush — Solo Speed Challenge</h3>
+<p>Find and tap numbers 1 through 25 in order as fast as you can. A personal speed game — you're competing against your own best time, not other players. Sessions are 30–60 seconds.</p>
+<p><a href="/games/number-rush">Play Number Rush →</a></p>
+
+<h3>Word Scramble — Solo Word Challenge</h3>
+<p>Unscramble as many words as you can in 60 seconds. A vocabulary challenge that you play alone — no other players, no chat, no social pressure. Just you and the words.</p>
+<p><a href="/games/word-scramble">Play Word Scramble →</a></p>
+
+<h3>Snake — Classic Endless Challenge</h3>
+<p>Guide a growing snake to eat food without hitting the walls. The purest solo game — no multiplayer version, no leaderboard required to enjoy it. Just you trying to beat your own high score.</p>
+<p><a href="/games/snake">Play Snake →</a></p>
+
+<h3>Memory Flip — Solo Memory Training</h3>
+<p>Find all 8 matching card pairs before 60 seconds runs out. A focused single-player exercise in short-term memory. No opponents — you're trying to beat your own completion time.</p>
+<p><a href="/games/memory-flip">Play Memory Flip →</a></p>
+
+<h3>Brick Breaker — Arcade Solo Play</h3>
+<p>Control a paddle and bounce a ball to break all the bricks. A solo arcade game with no social component — just you, the paddle, and the bricks. Satisfying to play in sessions of 2–5 minutes.</p>
+<p><a href="/games/brick-breaker">Play Brick Breaker →</a></p>
+
+<h3>Hangman — Single Player Word Game</h3>
+<p>Guess the hidden word one letter at a time before the drawing completes. A solo word game with no multiplayer mode and no account needed. Works silently — good for quiet environments.</p>
+<p><a href="/games/hangman">Play Hangman →</a></p>
+
+<h2>Why Play Single Player Games Online?</h2>
+<p>Multiplayer games require coordination — matching schedules, waiting for opponents, dealing with connectivity. Single player browser games eliminate all of that. Open the game, play for as long as you want, close it. No commitment, no social obligation.</p>
+
+<p>They're also better for focus. When you're taking a break at work or winding down before bed, a quiet solo game is less stimulating than competitive multiplayer. You control the pace entirely.</p>
+
+<h2>Single Player Games for Different Moods</h2>
+
+<h3>When you want to think slowly:</h3>
+<p>Sudoku, Minesweeper, or 2048. These reward patience and logic. There's no timer pressure in Sudoku and Minesweeper — go at whatever pace feels right.</p>
+
+<h3>When you want a 60-second sprint:</h3>
+<p>Number Rush, Color Match, or Word Scramble. Fast, timed, and satisfying. Good for a mental reset between tasks.</p>
+
+<h3>When you want to zone out:</h3>
+<p>Solitaire or Snake. Low cognitive load, repetitive rhythm, naturally calming. Good for unwinding.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What are the best free single player games online?</h3>
+<p>Sudoku, Minesweeper, Solitaire, 2048, and Snake are consistently the most-played solo browser games. All are free, require no account, and run in any browser. All are available at <a href="/">TinyJoy</a>.</p>
+
+<h3>Are there good solo games that don't need an account?</h3>
+<p>Yes. All TinyJoy games require no account, no login, and no email. Open the game and play immediately. Your session is private and local to your browser.</p>
+
+<h3>Can I play single player games on mobile?</h3>
+<p>All TinyJoy games are mobile-optimized. They work in Chrome, Safari, and Firefox on any phone or tablet. No app download required — just open <a href="https://tinyjoy.app">tinyjoy.app</a> in your mobile browser.</p>
+
+<h3>What single player browser games are good for focus?</h3>
+<p>Sudoku and Minesweeper are excellent for building concentration — they require sustained logical attention. Number Rush and Word Scramble are good for a quick mental warmup. None of them have notifications, social feeds, or anything designed to distract you.</p>
+
+<h3>Are single player browser games free?</h3>
+<p>All games at TinyJoy are completely free. No premium tiers, no in-app purchases, no subscription. Free means free — open the page and play without entering a credit card or creating an account.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
