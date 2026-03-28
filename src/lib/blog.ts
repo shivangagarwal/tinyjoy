@@ -3333,6 +3333,168 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>All games at TinyJoy are completely free. No premium tiers, no in-app purchases, no subscription. Free means free — open the page and play without entering a credit card or creating an account.</p>
     `.trim(),
   },
+  {
+    slug: 'relaxing-games-online-free',
+    title: 'Best Relaxing Games Online Free (Calm Browser Games, No Stress)',
+    description: 'The best relaxing browser games you can play free online. Calm, unhurried games with no timers, no pressure, no ads. Just open the tab and unwind.',
+    date: '2026-03-29',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Not every game needs to be high-energy. Sometimes you want something calm — a quiet puzzle, a card game, a gentle challenge to occupy your hands while your mind rests. These are the best relaxing games you can play free in your browser right now.</p>
+
+<p>No install. No account. No pop-ups demanding you upgrade to premium. Just calm, unhurried games that open instantly.</p>
+
+<h2>Best Free Relaxing Browser Games</h2>
+
+<h3>Solitaire — The Original Calm Game</h3>
+<p>Klondike Solitaire is the most played solo card game in history for a reason. It's quiet, methodical, and satisfying. Sort cards into foundation piles one suit at a time. No timer, no pressure. Play as slowly or quickly as you like.</p>
+<p><a href="/games/solitaire">Play Solitaire →</a></p>
+
+<h3>Sudoku — Quiet Logic</h3>
+<p>Fill a 9×9 grid so every row, column, and box contains digits 1–9. Four difficulty levels from Easy to Expert. Sudoku is the rare game that requires full attention without feeling stressful — it occupies the analytical mind completely.</p>
+<p><a href="/games/sudoku">Play Sudoku →</a></p>
+
+<h3>2048 — Slow Strategy Puzzle</h3>
+<p>Slide numbered tiles on a 4×4 grid to merge matching numbers. There's no clock, no penalty for thinking. 2048 rewards patience over speed — the satisfying click of tiles merging is oddly soothing.</p>
+<p><a href="/games/2048">Play 2048 →</a></p>
+
+<h3>Memory Flip — Calm Card Matching</h3>
+<p>Flip cards to find matching pairs. Eight pairs, clean interface, gentle pace. Memory games are naturally calming — they require gentle focus rather than reflex speed. A good way to settle a racing mind.</p>
+<p><a href="/games/memory-flip">Play Memory Flip →</a></p>
+
+<h3>Minesweeper — Logic Without Rush</h3>
+<p>Clear a minefield using pure deduction. Minesweeper has a reputation for being stressful, but played without the clock it's actually a deeply satisfying logic puzzle. The process of narrowing down each safe square is methodical and calming.</p>
+<p><a href="/games/minesweeper">Play Minesweeper →</a></p>
+
+<h3>Word Guess — Quiet Word Puzzle</h3>
+<p>Guess a hidden word in six tries. Each guess reveals which letters are correct and in the right position. A gentle daily puzzle format — no scoring pressure, just the quiet satisfaction of narrowing in on the word.</p>
+<p><a href="/games/word-guess">Play Word Guess →</a></p>
+
+<h3>Connect Four — Laid-Back Strategy</h3>
+<p>Drop colored discs to get four in a row. Against the computer, Connect Four is a calm strategic exercise — no time pressure, just thinking ahead. Good for a quiet break where you want light mental engagement.</p>
+<p><a href="/games/connect-four">Play Connect Four →</a></p>
+
+<h2>What Makes a Browser Game Relaxing?</h2>
+
+<p>The difference between a relaxing game and a stressful one usually comes down to a few design choices:</p>
+
+<ul>
+<li><strong>No timer:</strong> Sudoku, 2048, and Solitaire at TinyJoy have no countdown clock — you set the pace.</li>
+<li><strong>No failure state:</strong> In Word Guess, you get six full tries. In Sudoku, you can undo any move. Mistakes are part of the process, not a punishment.</li>
+<li><strong>No social pressure:</strong> No leaderboards, no friends to beat, no visible scores. Just you and the game.</li>
+<li><strong>Short sessions that feel complete:</strong> A Solitaire game takes 5–10 minutes and has a natural end. You don't need to grind toward a distant unlock.</li>
+</ul>
+
+<h2>Relaxing Games vs. Mindless Games</h2>
+<p>There's a distinction worth making. Mindless games (endless auto-scrollers, idle clickers) don't require attention. Relaxing games require <em>gentle</em> attention — enough to be present, not enough to be tense. Sudoku is relaxing. A bullet-hell shooter is not. The sweet spot is games that engage just enough of your mind to quiet the noise.</p>
+
+<h2>The Best Time to Play Relaxing Browser Games</h2>
+<p>Relaxing games work well as transitions: between tasks at work, after a stressful meeting, in the 10 minutes before you fall asleep, or during a long commute. They're also a good alternative to social media scrolling — passive scrolling tends to increase anxiety; focused games tend to reduce it.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What are the most relaxing games to play online?</h3>
+<p>Solitaire, Sudoku, and 2048 are consistently rated among the most calming browser games. They share a common trait: you set the pace, there's no urgency, and the goal is clear. At TinyJoy, all three are free and require no account or install.</p>
+
+<h3>Are relaxing games good for anxiety?</h3>
+<p>Focused games (puzzles, card games, logic games) can help interrupt anxious thought loops by occupying the analytical mind with a concrete, solvable problem. They're not therapy, but many people find a 5-minute Sudoku or Solitaire game calming. The key is games with clear rules and achievable goals — not competitive, high-pressure games.</p>
+
+<h3>Can I play relaxing games on my phone?</h3>
+<p>Yes. All TinyJoy games are mobile-optimized and run in your phone's browser — no app needed. Open <a href="https://tinyjoy.app">tinyjoy.app</a> in Safari or Chrome on any phone or tablet and all games work with touch input.</p>
+
+<h3>What are good calm games for before bed?</h3>
+<p>Solitaire, Word Guess, and Sudoku are good pre-sleep options because they're low-stimulation — no fast movement, no loud sound effects, no urgency. They give your mind a quiet task to focus on while winding down. Avoid high-reflex games like Whack-a-Mole or Flappy Jump right before sleep.</p>
+
+<h3>Are these games free with no catch?</h3>
+<p>Yes. TinyJoy is free to play with no account, no in-app purchases, and no subscription. The site is ad-supported (which pays for hosting), but the games are fully playable without watching ads or unlocking anything.</p>
+    `.trim(),
+  },
+  {
+    slug: 'best-online-games-to-kill-time',
+    title: 'Best Online Games to Kill Time Free (Quick Browser Games, No Download)',
+    description: 'The best free online games to kill time in your browser. Quick sessions, no install, no sign-up. Open the tab and start playing in under 10 seconds.',
+    date: '2026-03-29',
+    category: 'tips',
+    readingTime: '5 min',
+    content: `
+<p>You have 5 minutes to kill. Maybe it's a coffee break, a waiting room, or the 3 minutes before your next meeting starts. You want something engaging — not social media, not a YouTube rabbit hole. Just a quick game that starts instantly and ends cleanly.</p>
+
+<p>Here are the best free browser games for exactly that situation. No download, no account, no tutorial to sit through.</p>
+
+<h2>Best Quick Games to Kill Time Online</h2>
+
+<h3>Number Rush — 30 Seconds of Pure Focus</h3>
+<p>Tap numbers 1 through 25 in order as fast as you can. Sessions last 30–60 seconds. It sounds simple — and it is — but the combination of scanning speed and motor accuracy makes it genuinely absorbing. You'll want to beat your time immediately.</p>
+<p><strong>Best for:</strong> a 1-minute break when you need to reset focus.</p>
+<p><a href="/games/number-rush">Play Number Rush →</a></p>
+
+<h3>Reaction Time — Test Yourself in 30 Seconds</h3>
+<p>Wait for green. Click as fast as you can. That's it. Average human reaction time is ~250ms. Most people are surprised by their actual number. The test takes under a minute and you'll likely run it 4–5 times.</p>
+<p><strong>Best for:</strong> a quick competitive break — challenge yourself or a coworker.</p>
+<p><a href="/games/reaction-time">Play Reaction Time →</a></p>
+
+<h3>Whack-a-Mole — Fast and Satisfying</h3>
+<p>Hit the moles as they appear before they disappear. Fast-paced, zero learning curve, deeply satisfying. A 60-second session is enough to feel like a real break without pulling you in for an hour.</p>
+<p><strong>Best for:</strong> burning off restless energy mid-afternoon.</p>
+<p><a href="/games/whack-a-mole">Play Whack-a-Mole →</a></p>
+
+<h3>Word Scramble — 60 Seconds of Brain Warmup</h3>
+<p>Unscramble as many words as you can in 60 seconds. Good for a quick vocabulary workout. Each game feels different because the word set rotates. It's the kind of game that keeps you sharp without demanding sustained attention.</p>
+<p><strong>Best for:</strong> a mental gear-change between different types of work.</p>
+<p><a href="/games/word-scramble">Play Word Scramble →</a></p>
+
+<h3>Color Match — Fast Tap Game</h3>
+<p>Tap the tiles that match the target color before time runs out. Gets faster as you progress. A pure reaction game that requires just enough focus to quiet everything else for 60 seconds.</p>
+<p><strong>Best for:</strong> a quick session when you want zero thinking — just doing.</p>
+<p><a href="/games/color-match">Play Color Match →</a></p>
+
+<h3>Flappy Jump — The One More Try Loop</h3>
+<p>Tap to keep a bird airborne between pipes. Harder than it looks, impossible to put down. Each attempt is 10–30 seconds — short enough to feel low-commitment, compelling enough to keep retrying. Classic time-killer loop.</p>
+<p><strong>Best for:</strong> when you have 10 minutes and want a frustratingly fun challenge.</p>
+<p><a href="/games/flappy-jump">Play Flappy Jump →</a></p>
+
+<h3>Snake — Timeless</h3>
+<p>Eat food, grow longer, don't hit the walls. The snake game has been killing time since Nokia phones. This version runs in your browser with clean controls and a satisfying arcade feel. Sessions naturally end when you die, so there's a built-in exit point.</p>
+<p><strong>Best for:</strong> a 5-minute filler that doesn't spiral into 45 minutes.</p>
+<p><a href="/games/snake">Play Snake →</a></p>
+
+<h3>Memory Flip — 60 Seconds of Card Matching</h3>
+<p>Find matching pairs of cards before time runs out. The timed version creates urgency; the satisfaction of clearing the board in the last few seconds is hard to match. Fast enough to kill a 2-minute wait.</p>
+<p><strong>Best for:</strong> a quick brain engagement during a commute or waiting room.</p>
+<p><a href="/games/memory-flip">Play Memory Flip →</a></p>
+
+<h2>Why Browser Games Are Better for Killing Time</h2>
+
+<p>The alternatives — social media, YouTube, news sites — are designed to maximize time-on-platform. They're not built to let you close the tab after 5 minutes. Browser games are the opposite: they have natural session lengths, clear win/lose states, and no infinite scroll to keep you hooked past when you meant to stop.</p>
+
+<p>A 60-second Reaction Time test won't accidentally take 40 minutes. A round of Whack-a-Mole ends. This is the feature, not the limitation.</p>
+
+<h2>Games by Time Available</h2>
+
+<p><strong>Under 2 minutes:</strong> Reaction Time, Number Rush, Color Match</p>
+<p><strong>2–5 minutes:</strong> Word Scramble, Memory Flip, Whack-a-Mole, Flappy Jump</p>
+<p><strong>5–15 minutes:</strong> Snake, Minesweeper, Solitaire, 2048</p>
+<p><strong>Open-ended (when you have time):</strong> Sudoku, Word Guess, Connect Four</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What are the best free games to kill time online?</h3>
+<p>For quick sessions: Number Rush, Reaction Time, and Whack-a-Mole at TinyJoy are ideal — each lasts under 2 minutes, starts instantly, and requires no setup. For slightly longer breaks, Word Scramble, Snake, and Minesweeper are all free and playable in any browser.</p>
+
+<h3>Can I play these on my phone during commutes?</h3>
+<p>Yes. All TinyJoy games are mobile-optimized and work in Chrome or Safari on any phone. No app download needed — just open <a href="https://tinyjoy.app">tinyjoy.app</a> in your mobile browser and tap to play.</p>
+
+<h3>Are there any free browser games with no sign-up?</h3>
+<p>All TinyJoy games require zero sign-up. No email, no account, no cookie consent wall to click through. Open the site, pick a game, start playing. That's the entire process.</p>
+
+<h3>What games can I play for exactly 5 minutes?</h3>
+<p>Word Scramble (60-second rounds, play 3–4), Memory Flip (60 seconds per game), Snake (average session is 2–5 minutes), and Whack-a-Mole (60 seconds) all fit cleanly into a 5-minute window. They have defined ends rather than infinite loops.</p>
+
+<h3>What's the fastest game to start?</h3>
+<p>All TinyJoy games load in under 3 seconds on a normal connection. Number Rush starts the moment you click — no loading screen, no intro animation, no "tap to continue." Click the game, it starts. That's intentional.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
