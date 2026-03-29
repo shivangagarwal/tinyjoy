@@ -3998,6 +3998,179 @@ export const BLOG_POSTS: BlogPost[] = [
     `.trim(),
   },
   {
+    slug: 'strategy-games-online-free',
+    title: 'Best Strategy Games Online Free — No Download, No Sign-Up',
+    description: 'The best free strategy games online — Sudoku, Minesweeper, Connect Four, 2048, and more. Play in your browser instantly.',
+    date: '2026-03-30',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Strategy games reward thinking ahead. Unlike reflex games where reaction speed wins, strategy games are won by players who plan several moves forward, read patterns, and manage competing objectives. And you don't need to download anything to play them.</p>
+
+<p>Here are the best free strategy games online right now — all playable in your browser, no account or install needed.</p>
+
+<h2>What Makes a Game a Strategy Game?</h2>
+<p>A strategy game asks you to make meaningful decisions where the quality of your thinking determines the outcome. Short-term tactics, long-term planning, resource management, or opponent reading — all count. Pure luck doesn't.</p>
+
+<h2>Top Free Strategy Games Online</h2>
+
+<h3>Sudoku</h3>
+<p>Pure deductive strategy. Fill a 9×9 grid so every row, column, and 3×3 box contains each digit 1–9. No arithmetic — only logical constraint propagation. Available in Easy, Medium, Hard, and Expert difficulty.</p>
+<p>Expert Sudoku is one of the most strategically deep free browser games available. The best approach involves identifying "naked pairs", "hidden triples", and building inference chains across the entire board.</p>
+<p><a href="/games/sudoku">Play Sudoku Free →</a></p>
+
+<h3>Minesweeper</h3>
+<p>Reveal the entire grid without detonating a mine. Each number tells you exactly how many mines touch that tile. The strategy is in using those numbers as logical constraints to deduce safe tiles — and identifying when you must guess.</p>
+<p>High-level Minesweeper involves a systematic opening strategy, probability estimation on ambiguous boards, and recognizing common patterns (the "1-2-1 formation", "corner traps") that resolve without guessing.</p>
+<p><a href="/games/minesweeper">Play Minesweeper Free →</a></p>
+
+<h3>Connect Four</h3>
+<p>Drop colored discs into a 7×6 grid. First to connect four in a row (horizontal, vertical, or diagonal) wins. A genuine two-player strategy game with a solved perfect outcome — but achieving that against a smart CPU opponent requires real planning.</p>
+<p>The strategy: control the center column early, build two threats simultaneously, and recognize "zugzwang" positions where any move your opponent makes helps you win.</p>
+<p><a href="/games/connect-four">Play Connect Four Free →</a></p>
+
+<h3>2048</h3>
+<p>Slide numbered tiles on a 4×4 grid to merge matching values. Two 2s become a 4; two 4s become an 8. Goal: reach the 2048 tile. The real strategy is tile positioning — keeping your highest tile in one corner and maintaining a descending merge chain radiating from it.</p>
+<p>Getting to 2048 consistently requires a coherent board strategy from move one. Getting beyond 4096 is where it gets genuinely hard.</p>
+<p><a href="/games/2048">Play 2048 Free →</a></p>
+
+<h3>Tic-Tac-Toe</h3>
+<p>The classic introduction to combinatorial strategy. Against a perfect opponent, the optimal result is always a draw — but understanding why is a real lesson in game theory. A good warmup before deeper strategy games.</p>
+<p><a href="/games/tic-tac-toe">Play Tic-Tac-Toe Free →</a></p>
+
+<h2>Strategy-Adjacent: Pattern and Planning Games</h2>
+
+<p>These games blend strategy with memory and timing — still decision-heavy, just faster-paced.</p>
+
+<h3>Pattern Echo</h3>
+<p>Watch a color sequence, reproduce it. Each round it grows. The strategy is in your encoding method — visual-spatial grouping beats trying to memorize individual colors in sequence.</p>
+<p><a href="/games/pattern-echo">Play Pattern Echo →</a></p>
+
+<h3>Memory Flip</h3>
+<p>Flip cards to find all matching pairs. A memory game with a strategy layer: tracking revealed card positions and prioritizing high-value reveals over random flips.</p>
+<p><a href="/games/memory-flip">Play Memory Flip →</a></p>
+
+<h2>Free Strategy Games by Complexity</h2>
+
+<h3>Quick to Learn (5 minutes)</h3>
+<ul>
+<li><a href="/games/tic-tac-toe">Tic-Tac-Toe</a> — grasp the full strategy in one session</li>
+<li><a href="/games/connect-four">Connect Four</a> — simple rules, real depth</li>
+<li><a href="/games/2048">2048</a> — start anywhere, learn by playing</li>
+</ul>
+
+<h3>Deeper Strategy</h3>
+<ul>
+<li><a href="/games/minesweeper">Minesweeper</a> — requires a systematic opening and pattern library</li>
+<li><a href="/games/sudoku">Sudoku (Hard/Expert)</a> — multi-step inference chains</li>
+</ul>
+
+<h2>Why Play Strategy Games in a Browser?</h2>
+<p>No install, no accounts, no ads interrupting mid-game. Browser strategy games at <a href="https://tinyjoy.app">TinyJoy</a> start instantly. A 5-minute Sudoku is a better work break than doom-scrolling — and it actually exercises something.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What are the best free strategy games online?</h3>
+<p>Sudoku, Minesweeper, Connect Four, and 2048 are the best free browser strategy games. All require planning and reasoning rather than reflex, and all are available at TinyJoy with no download or sign-up.</p>
+
+<h3>Can I play strategy games online without downloading anything?</h3>
+<p>Yes. All TinyJoy strategy games run entirely in your browser — no app, no plugin, no account. Works on Chrome, Safari, Firefox, and Edge on both desktop and mobile.</p>
+
+<h3>What's the best free browser strategy game for beginners?</h3>
+<p>Connect Four and 2048 are the best entry points — easy to learn, immediately fun, with genuine strategy to discover. Once comfortable, move to Minesweeper and Sudoku for more depth.</p>
+
+<h3>Are strategy games good for your brain?</h3>
+<p>Yes. Games like Sudoku and Minesweeper train logical deduction, working memory, and systematic search. These are transferable cognitive skills. A 10-minute Sudoku session is a genuine mental workout.</p>
+    `.trim(),
+  },
+  {
+    slug: 'math-games-online-free',
+    title: 'Best Math Games Online Free — Play in Your Browser',
+    description: 'The best free math games online for adults and kids — Number Rush, Sudoku, 2048, and more. No download, no sign-up required.',
+    date: '2026-03-30',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Math games don't have to be dry worksheets. The best ones hide the math inside satisfying gameplay — you're not drilling multiplication tables, you're chasing a high score or solving a logic puzzle. The math is just the engine.</p>
+
+<p>Here are the best free math games online right now, all playable in your browser with no download required.</p>
+
+<h2>What Counts as a Math Game?</h2>
+<p>For this list, a math game is any game that meaningfully exercises numerical reasoning — pattern recognition, mental arithmetic, spatial quantity judgment, or number sequencing. Not just games that happen to have numbers on screen.</p>
+
+<h2>Best Free Math Games Online</h2>
+
+<h3>Number Rush</h3>
+<p>Tap numbers 1 through 25 in order, as fast as possible. Numbers are scattered randomly across the screen. The challenge is visual scanning — finding the next number quickly while your timer runs. Fast, satisfying, and great for sequential number recognition.</p>
+<p>Top players can complete Number Rush in under 20 seconds. Average is around 35–45 seconds. The difference is scanning strategy, not speed.</p>
+<p><a href="/games/number-rush">Play Number Rush Free →</a></p>
+
+<h3>Sudoku</h3>
+<p>Fill a 9×9 grid so every row, column, and 3×3 box contains each digit 1–9. No arithmetic — but deep numerical reasoning. Sudoku is the gold standard for number-based logic: it rewards systematic thinking and penalizes guessing.</p>
+<p>Available in four difficulty levels: Easy (beginner-friendly), Medium, Hard, and Expert. Expert puzzles require multi-step inference chains that veteran players find genuinely challenging.</p>
+<p><a href="/games/sudoku">Play Sudoku Free →</a></p>
+
+<h3>2048</h3>
+<p>Slide numbered tiles on a 4×4 grid. Matching tiles merge: two 2s become a 4, two 512s become a 1024. Goal: reach 2048. The math is in recognizing powers of two and planning your merge chain.</p>
+<p>2048 builds genuine number intuition. After a few sessions, you'll instantly recognize which tile combinations are achievable and which board states are losing positions.</p>
+<p><a href="/games/2048">Play 2048 Free →</a></p>
+
+<h3>Minesweeper</h3>
+<p>The numbers in Minesweeper represent mine counts for adjacent tiles. Reading these numbers correctly — and using them to make precise deductions — is applied probabilistic reasoning. More math than it looks.</p>
+<p>Expert players can calculate exact probability distributions across ambiguous cells. Beginners experience the same number-reading process but with shallower chains.</p>
+<p><a href="/games/minesweeper">Play Minesweeper Free →</a></p>
+
+<h2>Number-Adjacent Games Worth Playing</h2>
+
+<h3>Reaction Time</h3>
+<p>Click the moment a stimulus appears and see your result in milliseconds. Not a math game exactly, but it gives you a precise numerical measure of your reaction speed. Comparing results across sessions is strangely motivating.</p>
+<p><a href="/games/reaction-time">Play Reaction Time →</a></p>
+
+<h3>Typing Speed Test</h3>
+<p>Type a paragraph as fast and accurately as possible. Your result is in WPM (words per minute) — a number you'll want to improve. Simple goal, clear metric.</p>
+<p><a href="/games/typing-speed">Play Typing Speed Test →</a></p>
+
+<h2>Math Games by Age and Skill Level</h2>
+
+<h3>Best for Kids</h3>
+<ul>
+<li><a href="/games/number-rush">Number Rush</a> — number sequencing 1–25, fast-paced</li>
+<li><a href="/games/sudoku">Sudoku (Easy)</a> — digit placement, no arithmetic needed</li>
+<li><a href="/games/2048">2048</a> — powers of two, visual and intuitive</li>
+</ul>
+
+<h3>Best for Adults</h3>
+<ul>
+<li><a href="/games/sudoku">Sudoku (Hard/Expert)</a> — deep logical deduction</li>
+<li><a href="/games/minesweeper">Minesweeper</a> — probability and deduction</li>
+<li><a href="/games/2048">2048</a> — strategic number planning</li>
+</ul>
+
+<h3>Quick Sessions (Under 2 Minutes)</h3>
+<ul>
+<li><a href="/games/number-rush">Number Rush</a> — average 35–45 seconds</li>
+<li><a href="/games/reaction-time">Reaction Time</a> — 10 seconds per test</li>
+</ul>
+
+<h2>Why Play Math Games in a Browser?</h2>
+<p>No subscription, no app install, no ads in the middle of a puzzle. TinyJoy's math games load instantly and work on any device. A 5-minute Sudoku during a work break is more valuable for your brain than most alternatives — and it's free.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What are the best free math games online?</h3>
+<p>Number Rush, Sudoku, and 2048 are the best free browser math games. They're all available at TinyJoy with no download or sign-up, and they work on any device.</p>
+
+<h3>Are there free math games for adults online?</h3>
+<p>Yes. Sudoku (especially Hard and Expert difficulty), Minesweeper, and 2048 are genuinely challenging free math games for adults. They're not kids' drill games — they require real reasoning and strategy.</p>
+
+<h3>Can I play math games in my browser without downloading anything?</h3>
+<p>Yes. All TinyJoy games run entirely in your browser. No app, no plugin, no account. Works on Chrome, Safari, Firefox, and Edge on desktop and mobile.</p>
+
+<h3>What's the best math game for improving number skills?</h3>
+<p>Sudoku is the best free browser game for number reasoning. It doesn't require arithmetic, but it builds the pattern recognition and logical deduction skills that underlie strong numeracy. Start with Easy and work up to Expert.</p>
+    `.trim(),
+  },
+  {
     slug: 'logic-games-online-free',
     title: 'Best Logic Games Online Free — No Download, No Sign-Up',
     description: 'The best free logic games online — Sudoku, Minesweeper, 2048, and more. Play in your browser, no download required.',
