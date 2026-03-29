@@ -3902,6 +3902,198 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><a href="/games/flappy-jump">Flappy Jump</a> has the highest skill ceiling — the gap between a first attempt and a personal best of 50+ is significant. <a href="/games/number-rush">Number Rush</a> is deceptively hard to optimize; shaving even 2 seconds off your best time requires focused effort.</p>
     `.trim(),
   },
+  {
+    slug: 'free-games-for-adults-online',
+    title: 'Best Free Games for Adults Online — No Download Required',
+    description: 'Free online games for adults that are actually worth your time. No kids-game vibes, no paywalls, no download. Quick, smart, satisfying.',
+    date: '2026-03-29',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Most "free online games" lists are stuffed with kids' games or pay-to-win trash. This one isn't. These are browser games adults actually enjoy — smart, brief, and genuinely satisfying.</p>
+
+<p>All playable right now. No download, no account, no age-gate.</p>
+
+<h2>Word Games for Adults</h2>
+
+<h3>Word Scramble</h3>
+<p>Unscramble words as fast as you can in 60 seconds. The words aren't baby-level — you'll get tripped up on medium-difficulty vocabulary. A sharp mental warm-up or a quick way to prove you're still good at words.</p>
+<p><a href="/games/word-scramble">Play Word Scramble →</a></p>
+
+<h3>Word Guess</h3>
+<p>Guess the hidden word using letter-by-letter clues. Similar to Wordle but playable without a daily limit. Good for vocabulary, pattern recognition, and that satisfying feeling when it clicks on guess four.</p>
+<p><a href="/games/word-guess">Play Word Guess →</a></p>
+
+<h2>Strategy and Puzzle Games for Adults</h2>
+
+<h3>Sudoku</h3>
+<p>Classic number-placement logic puzzle. Three difficulty levels. Works your deductive reasoning without requiring math. The standard for adult puzzle play — and still excellent.</p>
+<p><a href="/games/sudoku">Play Sudoku →</a></p>
+
+<h3>2048</h3>
+<p>Slide tiles to merge numbers, targeting the 2048 tile. Deceptively simple, deeply strategic. You'll want to replay immediately after losing. One of the most addictive browser games ever made.</p>
+<p><a href="/games/2048">Play 2048 →</a></p>
+
+<h3>Minesweeper</h3>
+<p>The office classic. Reveal tiles, avoid mines, use logic. A pure deduction game with no randomness once you understand it. Still one of the most cerebral free browser games available.</p>
+<p><a href="/games/minesweeper">Play Minesweeper →</a></p>
+
+<h2>Speed and Reflex Games for Adults</h2>
+
+<h3>Number Rush</h3>
+<p>Tap 1 through 25 in order as fast as possible. Numbers are scattered randomly across the grid. It sounds trivial until you hit the clock. Chasing your personal best is genuinely compelling.</p>
+<p><a href="/games/number-rush">Play Number Rush →</a></p>
+
+<h3>Reaction Time</h3>
+<p>Click or tap the moment a signal appears. Measures your true reaction speed in milliseconds. Competitive against yourself or others. A 60-second session gives you a meaningful benchmark.</p>
+<p><a href="/games/reaction-time">Play Reaction Time →</a></p>
+
+<h3>Typing Speed Test</h3>
+<p>Measure your WPM and accuracy against a real text passage. Useful for knowing where you actually stand. Satisfying to improve, easy to share.</p>
+<p><a href="/games/typing-speed">Play Typing Speed Test →</a></p>
+
+<h2>Memory and Focus Games for Adults</h2>
+
+<h3>Memory Flip</h3>
+<p>Flip cards to find matching pairs before time runs out. Simple mechanics, genuine cognitive demand. A 2-minute session that actually exercises short-term memory — better than most "brain training" apps.</p>
+<p><a href="/games/memory-flip">Play Memory Flip →</a></p>
+
+<h3>Pattern Echo</h3>
+<p>Watch a color sequence, then repeat it from memory. Starts easy, gets genuinely difficult as sequences lengthen. The adult equivalent of Simon Says — not embarrassing to be stumped by.</p>
+<p><a href="/games/pattern-echo">Play Pattern Echo →</a></p>
+
+<h2>Classic Card and Board Games for Adults</h2>
+
+<h3>Solitaire</h3>
+<p>Klondike Solitaire — the version you grew up with. Full rules, clean interface, no ads in your way. The go-to game for a break that feels productive and calm.</p>
+<p><a href="/games/solitaire">Play Solitaire →</a></p>
+
+<h3>Connect Four</h3>
+<p>Drop discs to get four in a row before your opponent (CPU). A quick strategy game with real decision depth. A few rounds is a satisfying lunch-break diversion.</p>
+<p><a href="/games/connect-four">Play Connect Four →</a></p>
+
+<h2>What Makes a Good Game for Adults?</h2>
+<p>The best free games for adults share a few traits:</p>
+<ul>
+<li><strong>No handholding</strong> — you're not walked through a five-step tutorial before playing</li>
+<li><strong>Respect for time</strong> — sessions under 5 minutes, no artificial time sinks</li>
+<li><strong>Real challenge</strong> — a skill gap that makes improvement feel earned</li>
+<li><strong>No energy systems</strong> — you can play as many rounds as you want</li>
+</ul>
+<p>Every game at <a href="https://tinyjoy.app">TinyJoy</a> is designed with those constraints in mind.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What are the best free games for adults online?</h3>
+<p>Sudoku, Minesweeper, 2048, Solitaire, and Word Scramble are top picks for adults — they require real thinking, respect your time, and are free with no paywall. All available at TinyJoy with no download.</p>
+
+<h3>Are there free brain games for adults online?</h3>
+<p>Yes. <a href="/games/sudoku">Sudoku</a>, <a href="/games/minesweeper">Minesweeper</a>, <a href="/games/memory-flip">Memory Flip</a>, and <a href="/games/pattern-echo">Pattern Echo</a> all engage working memory, logic, and focus. No app purchase or subscription required.</p>
+
+<h3>Can I play free online games for adults without creating an account?</h3>
+<p>Yes. TinyJoy requires no sign-up, no email, no account. Open the site and play immediately. Your scores and settings are saved locally in your browser if you want to track progress.</p>
+
+<h3>What free games can I play quickly at work?</h3>
+<p><a href="/games/number-rush">Number Rush</a>, <a href="/games/reaction-time">Reaction Time</a>, and <a href="/games/memory-flip">Memory Flip</a> each take under 2 minutes. They're designed for short breaks, open in any browser tab, and close cleanly when you're done.</p>
+    `.trim(),
+  },
+  {
+    slug: 'logic-games-online-free',
+    title: 'Best Logic Games Online Free — No Download, No Sign-Up',
+    description: 'The best free logic games online — Sudoku, Minesweeper, 2048, and more. Play in your browser, no download required.',
+    date: '2026-03-29',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Logic games are different from most browser games. There's no randomness to hide behind, no luck mechanic to blame. Either your reasoning works or it doesn't. That's what makes them satisfying.</p>
+
+<p>Here are the best free logic games you can play online right now — all in your browser, no download or account required.</p>
+
+<h2>What Makes a Logic Game?</h2>
+<p>A true logic game has a defined set of rules, a deterministic outcome, and a solution reachable by pure reasoning. Luck plays no role. Guessing is penalized or unnecessary. Progress comes from thinking clearly, not quickly.</p>
+
+<h2>Top Free Logic Games Online</h2>
+
+<h3>Sudoku</h3>
+<p>The benchmark for free logic games. Fill a 9×9 grid so every row, column, and 3×3 box contains digits 1–9. No arithmetic required — only deduction. Three difficulty levels from beginner to expert.</p>
+<p>The skill ceiling is enormous. Beginner puzzles can be solved with basic elimination. Expert-level requires chained logical inferences spanning the whole board.</p>
+<p><a href="/games/sudoku">Play Sudoku Free →</a></p>
+
+<h3>Minesweeper</h3>
+<p>Reveal all safe tiles on a grid without hitting a mine. Each number tells you how many mines touch that tile. Work outward from safe zones using deductive chains. Pure logic.</p>
+<p>Minesweeper is underrated as a logic trainer. The best players can solve large boards with zero guessing by constructing precise inference chains. Beginners will guess; experts rarely need to.</p>
+<p><a href="/games/minesweeper">Play Minesweeper Free →</a></p>
+
+<h3>2048</h3>
+<p>Slide numbered tiles on a grid to merge them. Matching tiles combine: two 2s become a 4, two 4s become an 8. Reach 2048. Simple to learn, deep to master.</p>
+<p>The logic is in tile placement strategy: keeping high-value tiles in a corner, building a merge chain, and deciding when to shift directions. Purely deterministic — the same moves always produce the same result.</p>
+<p><a href="/games/2048">Play 2048 Free →</a></p>
+
+<h3>Connect Four</h3>
+<p>Drop discs into a 7×6 vertical grid. First to get four in a row wins. Looks simple; plays deep. You need to simultaneously build your own threats and block your opponent's. A classic two-player logic game, playable solo against CPU.</p>
+<p><a href="/games/connect-four">Play Connect Four Free →</a></p>
+
+<h3>Tic-Tac-Toe</h3>
+<p>The original logic game. Three in a row wins. At its most basic level, it's purely mechanical — but understanding the forced-draw against a perfect opponent is a real lesson in game theory. A good warmup for deeper logic games.</p>
+<p><a href="/games/tic-tac-toe">Play Tic-Tac-Toe Free →</a></p>
+
+<h2>Logic-Adjacent: Pattern and Sequence Games</h2>
+
+<p>These games aren't pure logic puzzles, but they develop pattern recognition and working memory — the cognitive foundations that make you better at logic games.</p>
+
+<h3>Pattern Echo</h3>
+<p>Watch a color sequence light up, then reproduce it from memory. The sequence grows each round. Tests recall fidelity and sequential reasoning.</p>
+<p><a href="/games/pattern-echo">Play Pattern Echo →</a></p>
+
+<h3>Memory Flip</h3>
+<p>Flip cards to find matching pairs. You must track which cards you've revealed and where they are. A spatial memory and logic combination.</p>
+<p><a href="/games/memory-flip">Play Memory Flip →</a></p>
+
+<h3>Number Rush</h3>
+<p>Find and tap numbers 1–25 in order on a scrambled grid. Tests visual scanning logic — the ability to systematically search a space without backtracking.</p>
+<p><a href="/games/number-rush">Play Number Rush →</a></p>
+
+<h2>Logic Games by Difficulty</h2>
+
+<h3>Easiest</h3>
+<ul>
+<li><a href="/games/tic-tac-toe">Tic-Tac-Toe</a> — rules learned in seconds</li>
+<li><a href="/games/connect-four">Connect Four</a> — fast games, clear objectives</li>
+<li><a href="/games/memory-flip">Memory Flip</a> — visual recall, no abstract rules</li>
+</ul>
+
+<h3>Moderate</h3>
+<ul>
+<li><a href="/games/2048">2048</a> — strategy builds over time</li>
+<li><a href="/games/sudoku">Sudoku (Easy/Medium)</a> — single-step deductions</li>
+<li><a href="/games/pattern-echo">Pattern Echo</a> — sequences get long fast</li>
+</ul>
+
+<h3>Hardest</h3>
+<ul>
+<li><a href="/games/sudoku">Sudoku (Expert)</a> — requires multi-step inference chains</li>
+<li><a href="/games/minesweeper">Minesweeper</a> — full board logic with limited information</li>
+</ul>
+
+<h2>Why Play Logic Games Online?</h2>
+<p>Logic games train transferable skills: systematic thinking, hypothesis testing, and recognizing patterns under constraint. Unlike trivia or reflex games, improvement in logic games reflects actual cognitive development — not just muscle memory.</p>
+<p>Browser logic games at <a href="https://tinyjoy.app">TinyJoy</a> are free, instant-play, and don't require an account. A 5-minute Sudoku is a more productive break than doom-scrolling.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What are the best free logic games online?</h3>
+<p>Sudoku, Minesweeper, and 2048 are the top free browser logic games. All require pure reasoning, have no luck component, and are available at TinyJoy with no download or sign-up.</p>
+
+<h3>Are logic games good for your brain?</h3>
+<p>Yes — with caveats. Logic games like Sudoku and Minesweeper improve the specific cognitive skills they exercise: deduction, working memory, and systematic search. They won't prevent cognitive decline on their own, but they're a better mental workout than passive entertainment.</p>
+
+<h3>What's the hardest free logic game online?</h3>
+<p>Expert-level <a href="/games/sudoku">Sudoku</a> and <a href="/games/minesweeper">Minesweeper</a> on large boards are the most demanding free browser logic games. Both require constructing multi-step deductive chains with limited information.</p>
+
+<h3>Can I play logic games online without downloading anything?</h3>
+<p>Yes. All TinyJoy logic games run entirely in your browser. No app, no plugin, no sign-up. Works on Chrome, Safari, Firefox, and Edge on desktop and mobile.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
