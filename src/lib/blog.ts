@@ -3691,6 +3691,139 @@ export const BLOG_POSTS: BlogPost[] = [
     `.trim(),
   },
   {
+    slug: 'card-games-online-free',
+    title: 'Best Free Card Games Online No Download',
+    description: 'Play free card games online instantly — no download, no sign-up. Solitaire, Memory, and more browser card games playable on desktop and mobile right now.',
+    date: '2026-03-29',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Card games are some of the most satisfying browser games to play — familiar rules, clear goals, zero learning curve. Here are the best free card games you can play online right now with no download required.</p>
+
+<p>All games below are free at <a href="/">TinyJoy</a>.</p>
+
+<h2>Best Free Online Card Games</h2>
+
+<h3>Solitaire</h3>
+<p>The definitive single-player card game. Classic Klondike Solitaire — move cards to foundation piles in ascending suit order, using the tableau to build descending alternating-color sequences. Full rules including tableau-to-foundation, foundation-to-tableau, and draw from the stock pile. The same rules you grew up with, running cleanly in your browser with no install.</p>
+<p><strong>Best for:</strong> classic card game fans, longer sessions (10–20 min), relaxed play.</p>
+<p><a href="/games/solitaire">Play Solitaire Free →</a></p>
+
+<h3>Memory Flip</h3>
+<p>A card-matching game that tests short-term memory. Flip cards two at a time to find all 8 matching pairs before 60 seconds run out. Clean, focused, and easier to play than it sounds — but scoring well requires genuine concentration. A great card game for all ages.</p>
+<p><strong>Best for:</strong> memory training, 2-minute breaks, kids and adults alike.</p>
+<p><a href="/games/memory-flip">Play Memory Flip Free →</a></p>
+
+<h2>Why Play Card Games in Your Browser?</h2>
+<p>Browser card games load faster than apps, have no energy systems, and close when you're done. Solitaire in a browser tab is the same game you've always known — minus the app download, the account creation, and the "watch an ad to undo" prompts. Open it, play it, close it.</p>
+
+<h2>Card Games by Session Length</h2>
+
+<h3>Quick (under 2 minutes)</h3>
+<p><a href="/games/memory-flip">Memory Flip</a> — 60-second timer, 8 pairs. Fast, complete, satisfying. Perfect for a short break with a clear endpoint.</p>
+
+<h3>Medium (5–20 minutes)</h3>
+<p><a href="/games/solitaire">Solitaire</a> — a full Klondike game takes 10–20 minutes when you're on a good run. Winnable without being easy. Each game is randomly dealt, so no two games are identical.</p>
+
+<h2>Card Games on Mobile</h2>
+<p>Both TinyJoy card games are fully touch-optimized. Solitaire uses tap-to-move and drag-and-drop for card placement. Memory Flip is built for single taps. Open <a href="https://tinyjoy.app">tinyjoy.app</a> on your phone — no install, no prompt, just play.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What are the best free card games online?</h3>
+<p><a href="/games/solitaire">Solitaire</a> and <a href="/games/memory-flip">Memory Flip</a> at TinyJoy are the best free browser card games available — no download, no sign-up, and no ads interrupting your game. Both work on desktop and mobile.</p>
+
+<h3>Can I play Solitaire online for free without downloading?</h3>
+<p>Yes. TinyJoy's Solitaire runs entirely in your browser — Chrome, Safari, Firefox, or Edge. Nothing to install, no account required. Open <a href="/games/solitaire">tinyjoy.app/games/solitaire</a> and play immediately.</p>
+
+<h3>Is Solitaire good for your brain?</h3>
+<p>Solitaire exercises planning, pattern recognition, and decision-making. It's a light cognitive workout — structured enough to engage your brain, calm enough to serve as a mental break. Regular short sessions can improve focus and sequential thinking.</p>
+
+<h3>What card game is best for a quick break?</h3>
+<p><a href="/games/memory-flip">Memory Flip</a> is ideal for a short break — 60 seconds, clear endpoint, no setup. If you have 10–15 minutes, <a href="/games/solitaire">Solitaire</a> is more satisfying for a longer session with a clear win condition.</p>
+
+<h3>Are there multiplayer card games available?</h3>
+<p>TinyJoy's card games are single-player — designed for focused solo sessions rather than waiting on opponents. No matchmaking, no connection required. Just open and play.</p>
+    `.trim(),
+  },
+  {
+    slug: 'mind-games-online-free',
+    title: 'Best Mind Games Online Free (No Download)',
+    description: 'Play the best free mind games online — puzzles, logic challenges, and brain teasers in your browser. No download, no sign-up. Works on desktop and mobile.',
+    date: '2026-03-29',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Mind games online give your brain a real workout — not the fake kind that just re-labels basic tasks as "brain training." These are games that require genuine focus, pattern recognition, logic, and memory. Here are the best free mind games you can play right now without downloading anything.</p>
+
+<p>All games below are free at <a href="/">TinyJoy</a>.</p>
+
+<h2>Best Free Mind Games Online</h2>
+
+<h3>Sudoku</h3>
+<p>The gold standard of logic-based mind games. Fill a 9×9 grid so every row, column, and 3×3 box contains every digit from 1 to 9. No guessing — every puzzle has a unique solution reachable through pure deduction. Four difficulty levels: Easy, Medium, Hard, and Expert. Hard and Expert will genuinely challenge experienced solvers.</p>
+<p><strong>Best for:</strong> logical reasoning, extended focus sessions (10–30 min), puzzle enthusiasts.</p>
+<p><a href="/games/sudoku">Play Sudoku Free →</a></p>
+
+<h3>Minesweeper</h3>
+<p>Logic and probability in perfect combination. Clear a minefield using number clues to deduce where bombs are hidden. Beginner, Intermediate, and Expert modes. The Expert grid (30×16, 99 mines) is one of the most mentally demanding free games available — it requires systematic reasoning under time pressure across hundreds of cells.</p>
+<p><strong>Best for:</strong> logical deduction, pattern recognition, experienced puzzle players.</p>
+<p><a href="/games/minesweeper">Play Minesweeper Free →</a></p>
+
+<h3>2048</h3>
+<p>A tile-sliding strategy game. Merge matching numbered tiles to build higher values — the target is the 2048 tile. Requires forward planning: every move changes the entire board state. Early turns are easy; the endgame demands careful spatial reasoning. One of the best free strategy mind games online.</p>
+<p><strong>Best for:</strong> strategic thinking, medium sessions (10–20 min), number-puzzle fans.</p>
+<p><a href="/games/2048">Play 2048 Free →</a></p>
+
+<h3>Pattern Echo</h3>
+<p>A sequence memory game in the tradition of Simon Says. Watch a color pattern, then repeat it exactly. Patterns grow longer with each round — testing how much you can hold in working memory. A precise short-term memory trainer that gets genuinely hard after 8–10 steps.</p>
+<p><strong>Best for:</strong> short-term memory training, quick sessions (2–5 min), pattern recognition.</p>
+<p><a href="/games/pattern-echo">Play Pattern Echo Free →</a></p>
+
+<h3>Word Guess</h3>
+<p>Guess a hidden 5-letter word in 6 attempts. Each guess reveals which letters are correct and in the right position (green), correct but misplaced (yellow), or absent (gray). A daily word puzzle — one new puzzle per day. A vocabulary and deductive reasoning workout in 5 minutes.</p>
+<p><strong>Best for:</strong> vocabulary, deductive reasoning, daily habit formation.</p>
+<p><a href="/games/word-guess">Play Word Guess Free →</a></p>
+
+<h2>What Makes a Good Mind Game?</h2>
+<p>A good mind game challenges a specific cognitive skill — logic, memory, pattern recognition, or deduction — with clear feedback. The best ones don't require prior knowledge (Sudoku has no vocabulary, Minesweeper has no story), so the full challenge is pure problem-solving. They also have a clear endpoint: a solved puzzle, a cleared board, or a final score. That closure is what makes them satisfying rather than draining.</p>
+
+<h2>Mind Games by Cognitive Skill</h2>
+
+<h3>Logic & Deduction</h3>
+<p><a href="/games/sudoku">Sudoku</a> and <a href="/games/minesweeper">Minesweeper</a> — both require systematic elimination and deductive chains. If you like crossword puzzles or logic riddles, start here.</p>
+
+<h3>Working Memory</h3>
+<p><a href="/games/pattern-echo">Pattern Echo</a> and <a href="/games/memory-flip">Memory Flip</a> — hold sequences or card positions in mind. These are the closest things to traditional memory training games online.</p>
+
+<h3>Strategic Planning</h3>
+<p><a href="/games/2048">2048</a> — every move has consequences. The best 2048 players think 3–5 moves ahead. A strategy mind game with a satisfying difficulty arc.</p>
+
+<h3>Language & Vocabulary</h3>
+<p><a href="/games/word-guess">Word Guess</a> and <a href="/games/word-scramble">Word Scramble</a> — language-based mental challenges. Word Guess rewards deductive vocabulary; Word Scramble tests pattern recognition within letters.</p>
+
+<h2>Mind Games on Mobile</h2>
+<p>All TinyJoy mind games are mobile-optimized. Sudoku has large touch-friendly cells; Minesweeper supports touch flagging; 2048 uses swipe gestures; Pattern Echo and Memory Flip are built for taps. Open <a href="https://tinyjoy.app">tinyjoy.app</a> on your phone — no app required.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What are the best free mind games online?</h3>
+<p><a href="/games/sudoku">Sudoku</a>, <a href="/games/minesweeper">Minesweeper</a>, <a href="/games/2048">2048</a>, and <a href="/games/pattern-echo">Pattern Echo</a> at TinyJoy are top-tier free browser mind games. All require no download, no account, and work on any device.</p>
+
+<h3>Do mind games actually improve brain function?</h3>
+<p>Logic puzzles and memory games exercise specific cognitive skills — working memory, deductive reasoning, pattern recognition — in the same way that physical exercise trains specific muscles. Regular short sessions (5–15 min daily) help maintain cognitive sharpness, especially for logical reasoning tasks. The key is active engagement: games that require decisions, not passive clicking.</p>
+
+<h3>What's the hardest free mind game online?</h3>
+<p><a href="/games/minesweeper">Minesweeper</a> on Expert is one of the most cognitively demanding free browser games available. It requires systematic logic across a 30×16 grid with 99 mines, often under time pressure. <a href="/games/sudoku">Sudoku</a> on Expert difficulty is a close second — these puzzles regularly require advanced techniques beyond simple elimination.</p>
+
+<h3>What mind game should I play to improve memory?</h3>
+<p><a href="/games/pattern-echo">Pattern Echo</a> directly trains working memory — you hold and recall increasingly long sequences. <a href="/games/memory-flip">Memory Flip</a> trains spatial memory by requiring you to remember card positions. Both are effective short-term memory exercises in under 5 minutes.</p>
+
+<h3>Can I play mind games online without signing up?</h3>
+<p>Yes. All TinyJoy mind games require no account, no email, and no password. Open the site, click a game, and play. Your progress within a session is saved automatically; no login needed.</p>
+    `.trim(),
+  },
+  {
     slug: 'arcade-games-online-free',
     title: 'Best Arcade Games Online Free (No Download)',
     description: 'Play the best free arcade games online right now — no download, no install, no sign-up. Classic arcade action in your browser on any device.',
