@@ -3561,6 +3561,136 @@ export const BLOG_POSTS: BlogPost[] = [
     `.trim(),
   },
   {
+    slug: 'number-games-online-free',
+    title: 'Best Number Games Online Free (No Download)',
+    description: 'Play the best free number games online right now — no download, no account required. Number puzzles, speed games, and logic challenges in your browser.',
+    date: '2026-03-29',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Number games online are some of the most satisfying browser games to play. No story, no tutorial — just numbers, your brain, and a timer. Here are the best free number games you can play right now without downloading anything.</p>
+
+<p>All games below are free at <a href="/">TinyJoy</a>.</p>
+
+<h2>Best Free Number Games Online</h2>
+
+<h3>Number Rush</h3>
+<p>Tap numbers 1 through 25 in order, as fast as you can. The numbers are scattered randomly across the grid — not in sequence, not in rows. Your time is recorded. This sounds simple; it isn't. The challenge is rapid visual scanning combined with sequential decision-making. Beat your personal best.</p>
+<p><strong>Best for:</strong> speed challenges, personal records, mental warm-ups.</p>
+<p><a href="/games/number-rush">Play Number Rush Free →</a></p>
+
+<h3>Sudoku</h3>
+<p>Fill a 9×9 grid so every row, column, and 3×3 box contains every digit from 1 to 9. The definitive number logic puzzle, available at four difficulty levels: Easy, Medium, Hard, and Expert. No guessing required — every Sudoku puzzle has a unique solution reachable through pure logic.</p>
+<p><strong>Best for:</strong> logical thinking, longer sessions (10–30 min), puzzle enthusiasts.</p>
+<p><a href="/games/sudoku">Play Sudoku Free →</a></p>
+
+<h3>2048</h3>
+<p>Slide numbered tiles on a 4×4 grid. When two tiles with the same number collide, they merge into their sum. The goal: reach the 2048 tile. A clean number strategy game with a satisfying difficulty curve — early moves are easy, end-game requires careful planning.</p>
+<p><strong>Best for:</strong> strategy players who enjoy number progression, medium-length sessions.</p>
+<p><a href="/games/2048">Play 2048 Free →</a></p>
+
+<h2>Why Number Games Are Good for Your Brain</h2>
+<p>Number games exercise working memory, processing speed, and logical reasoning simultaneously. Unlike passive entertainment, they require active engagement — your brain has to track state, make decisions, and process feedback in real time. Even a 60-second number game produces measurable mental engagement that passive scrolling doesn't.</p>
+<p>They're also calming. The structure of number puzzles — a clear problem, a clear solution — is a form of cognitive order that many people find stress-relieving.</p>
+
+<h2>Number Games by Skill Level</h2>
+
+<h3>Complete Beginner</h3>
+<p><a href="/games/number-rush">Number Rush</a> is the most accessible — no prior knowledge needed, just tap numbers in order. First-timers average 60–80 seconds; experienced players aim for under 25 seconds.</p>
+
+<h3>Casual Player</h3>
+<p><a href="/games/2048">2048</a> is great for medium-length sessions. Easy to learn, naturally hard to master. Most players reach 512 on their first real attempt; hitting 2048 reliably takes real strategy.</p>
+
+<h3>Puzzle Enthusiast</h3>
+<p><a href="/games/sudoku">Sudoku</a> at Hard or Expert difficulty is a full logical workout. These puzzles require several techniques beyond simple elimination and can take 20–40 minutes to complete without hints.</p>
+
+<h2>Number Games on Mobile</h2>
+<p>All TinyJoy number games are touch-optimized. Number Rush works perfectly with a single finger — tap fast across the grid. Sudoku has large touch-friendly cells. 2048 uses intuitive swipe gestures. No app required: open <a href="https://tinyjoy.app">tinyjoy.app</a> in your mobile browser and play immediately.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What are the best free number games online?</h3>
+<p><a href="/games/number-rush">Number Rush</a>, <a href="/games/sudoku">Sudoku</a>, and <a href="/games/2048">2048</a> at TinyJoy are all top-tier free browser number games. All start instantly, require no account, and work on desktop and mobile.</p>
+
+<h3>Can I play number games online without downloading anything?</h3>
+<p>Yes. All TinyJoy games run entirely in your browser — Chrome, Safari, Firefox, or Edge. No download, no install, no plugin required. Open the site and play immediately.</p>
+
+<h3>Are number games good brain training?</h3>
+<p>Yes. Number games exercise working memory, processing speed, and logical reasoning. Regular play — even 5 minutes daily — maintains cognitive sharpness in a low-effort format. <a href="/games/sudoku">Sudoku</a> and <a href="/games/number-rush">Number Rush</a> are particularly effective for mental exercise.</p>
+
+<h3>What's the best number game for speed training?</h3>
+<p><a href="/games/number-rush">Number Rush</a> is built for speed. Tap 1–25 in order as fast as possible. The visual scanning and sequential tapping combination trains processing speed better than most digital brain games.</p>
+
+<h3>Is there a number game like Sudoku that's faster to play?</h3>
+<p><a href="/games/number-rush">Number Rush</a> is the shorter alternative — a full game takes 30–90 seconds versus 10–30 minutes for Sudoku. Both are number-focused, but Number Rush prioritizes speed over logic depth.</p>
+    `.trim(),
+  },
+  {
+    slug: 'reflex-games-online-free',
+    title: 'Best Reflex Games Online Free (Test Your Reaction Time)',
+    description: 'Play the best free reflex games online — no download, no account. Test and train your reaction time with quick browser games you can play anywhere.',
+    date: '2026-03-29',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Reflex games test how fast you can react and respond. The best ones are short, precise, and immediately tell you how you performed. These are the best free reflex games you can play right now in your browser — no app, no download, no sign-up.</p>
+
+<p>All games below are free at <a href="/">TinyJoy</a>.</p>
+
+<h2>Best Free Reflex Games Online</h2>
+
+<h3>Reaction Time</h3>
+<p>The purest reflex test online. Wait for the signal, then click or tap the instant you see it. Your result is measured in milliseconds. Professional gamers average under 200ms; most people land between 230–280ms. Try multiple rounds to establish your true baseline. Simple, precise, and instantly repeatable.</p>
+<p><strong>Best for:</strong> measuring raw reflex speed, warm-up before gaming, tracking improvement.</p>
+<p><a href="/games/reaction-time">Play Reaction Time Free →</a></p>
+
+<h3>Whack-a-Mole</h3>
+<p>Tap moles as they pop up before they retreat. Starts manageable, gets faster as your score climbs. Unlike a pure reaction test, Whack-a-Mole requires spatial attention — multiple moles appear in different locations and you have to prioritize. A reflex game with a genuine skill ceiling.</p>
+<p><strong>Best for:</strong> spatial reflex training, quick fun, mobile touchscreen play.</p>
+<p><a href="/games/whack-a-mole">Play Whack-a-Mole Free →</a></p>
+
+<h3>Color Match</h3>
+<p>A target color is shown; tap all matching tiles before 60 seconds runs out. Color Match tests a different kind of reflex — not pure speed, but rapid visual discrimination. Your eyes identify the matching color and your hand acts on it. A more cognitively demanding reflex game than a simple tap-when-ready test.</p>
+<p><strong>Best for:</strong> visual processing speed, hand-eye coordination, short breaks.</p>
+<p><a href="/games/color-match">Play Color Match Free →</a></p>
+
+<h3>Flappy Jump</h3>
+<p>One tap keeps you airborne. Navigate through gaps. A rhythm-reflex game that requires consistent timing rather than maximum speed. The best players develop a feel for when to tap — this is trained reflex, not raw reaction. Each attempt is 10–30 seconds; you'll want to keep going.</p>
+<p><strong>Best for:</strong> timing-based reflex training, high replayability, quick challenge.</p>
+<p><a href="/games/flappy-jump">Play Flappy Jump Free →</a></p>
+
+<h2>What Is a Good Reaction Time?</h2>
+<p>For visual stimuli (seeing something and clicking), average human reaction time is 250ms. Under 200ms is elite (typical for competitive gamers and athletes). Over 300ms is common and completely normal — reaction time varies significantly based on fatigue, alertness, and age.</p>
+
+<p>Context matters more than the raw number. A 260ms click in a reflex test often translates to 180ms in a familiar game context because pattern recognition kicks in before the visual signal fully registers.</p>
+
+<h2>Can You Actually Improve Reaction Time?</h2>
+<p>Yes — to a point. Practice trains your anticipatory patterns and reduces decision latency. You can realistically improve from 280ms to 240ms with consistent training. But pure neural conduction speed has a genetic ceiling; the biggest gains come from reducing hesitation and building better prediction, not literally getting faster nerves.</p>
+
+<p>The best approach: 5–10 rounds of <a href="/games/reaction-time">Reaction Time</a> daily, focusing on not anticipating (false starts inflate your average). Note your average after a week. Consistent mild improvement should be visible within 2–3 weeks.</p>
+
+<h2>Reflex Games on Mobile</h2>
+<p>All TinyJoy reflex games are touch-optimized. Reaction Time works perfectly with a tap — results are valid on touchscreen. Whack-a-Mole is arguably more satisfying on mobile (tapping moles feels more natural than clicking). Open <a href="https://tinyjoy.app">tinyjoy.app</a> on your phone and play immediately — no app needed.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What is the best free reflex game online?</h3>
+<p><a href="/games/reaction-time">Reaction Time</a> at TinyJoy is the most precise reflex test available in a browser. For a game-based reflex challenge, <a href="/games/whack-a-mole">Whack-a-Mole</a> and <a href="/games/color-match">Color Match</a> both train spatial and visual reflexes. All are free and require no account.</p>
+
+<h3>How do I test my reaction time online for free?</h3>
+<p>Open <a href="/games/reaction-time">TinyJoy's Reaction Time</a> in any browser. Wait for the signal, then tap or click as fast as you can. Your time is shown in milliseconds immediately after each attempt. No sign-up required.</p>
+
+<h3>What is considered a fast reaction time?</h3>
+<p>Under 200ms is considered fast (top 10% roughly). 200–250ms is above average. 250–300ms is typical for most adults. Over 350ms may indicate fatigue or distraction. Measure multiple times and average the results — single attempts vary significantly.</p>
+
+<h3>Do reflex games improve real reaction time?</h3>
+<p>Regular play does improve reaction time, primarily by reducing decision hesitation and building pattern recognition. Expect 10–20% improvement with consistent daily practice over 2–4 weeks. Biggest gains come from the first few sessions as you adapt to the format.</p>
+
+<h3>What's the best reaction time game for mobile?</h3>
+<p><a href="/games/reaction-time">Reaction Time</a> and <a href="/games/whack-a-mole">Whack-a-Mole</a> both play great on mobile. Reaction Time uses a simple full-screen tap; Whack-a-Mole uses precise taps on moving targets. Both are free, touch-optimized, and open instantly without any app download.</p>
+    `.trim(),
+  },
+  {
     slug: 'arcade-games-online-free',
     title: 'Best Arcade Games Online Free (No Download)',
     description: 'Play the best free arcade games online right now — no download, no install, no sign-up. Classic arcade action in your browser on any device.',
