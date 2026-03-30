@@ -4424,6 +4424,205 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Yes. All TinyJoy games — including Sudoku, Minesweeper, Number Rush, Pattern Echo, and Word Scramble — require no account and no sign-up. Open the site, click a game, play. Your session starts in under 3 seconds.</p>
     `.trim(),
   },
+
+  // ─── Day 13 SEO posts ───────────────────────────────────────
+  {
+    slug: 'color-matching-game-online-free',
+    title: 'Color Matching Game Online Free — No Download Required',
+    description: 'Play a free color matching game online right now. No download, no account, works on any browser or phone. Test your speed and color recognition.',
+    date: '2026-03-30',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Looking for a color matching game online free? Color Match at TinyJoy is exactly that — open your browser, click play, and you're in. No download. No account. Works on mobile and desktop.</p>
+
+<p><a href="/games/color-match">Play Color Match Free →</a></p>
+
+<h2>How Color Match Works</h2>
+<p>A target color appears at the top of the screen. You have a grid of colored tiles. Tap every tile that matches the target color before 60 seconds runs out. Miss a tile or tap the wrong color and you lose points. The faster you recognize and tap, the higher your score.</p>
+
+<p>Each round the tile grid refreshes with a new target color. The game demands fast visual processing and accurate tapping — a rare combination that makes it genuinely hard to put down.</p>
+
+<h2>Why Color Matching Games Are Satisfying</h2>
+<p>Color recognition is one of the most automatic mental processes humans have. A color matching game works <em>with</em> this instinct rather than against it — but adds just enough speed pressure to make it interesting. The 60-second timer creates urgency without frustration. You're never stuck; you're always moving.</p>
+
+<p>That's why color games are particularly good for mental resets. They require enough focus to block out background thoughts, but not so much that they're exhausting. Two minutes of Color Match leaves your brain more alert, not more tired.</p>
+
+<h2>Color Match vs. Other Color Matching Games</h2>
+
+<h3>Color Match (TinyJoy)</h3>
+<p>Free, browser-based, no sign-up. 60-second rounds. Works on any device including older phones. Clean design with no ads interrupting gameplay. <strong>Best for:</strong> Quick sessions, mobile play, daily habit.</p>
+
+<h3>Color Switch</h3>
+<p>Mobile app (requires download). Timing-based — you tap to jump through color barriers. More arcade-style. Requires install. <strong>Best for:</strong> Long mobile sessions.</p>
+
+<h3>Hue Test</h3>
+<p>A color perception calibration tool, not really a game. You arrange color gradients. Interesting once but not replayable. <strong>Best for:</strong> Testing color blindness or monitor calibration.</p>
+
+<h3>Color Flood</h3>
+<p>A puzzle game where you flood-fill a grid with colors to make it uniform. Strategic, not fast-paced. <strong>Best for:</strong> Casual puzzles with no time pressure.</p>
+
+<p>Color Match is the only free browser color game that's genuinely fast-paced and replayable with no setup required.</p>
+
+<h2>Tips to Get a High Score in Color Match</h2>
+<ul>
+<li><strong>Lock onto the target color first.</strong> Take one second at the start of each round to fully register the target shade. Misidentifying it wastes more time than a slow first tap.</li>
+<li><strong>Scan in rows.</strong> Move your eyes systematically top-to-bottom rather than jumping randomly. You'll catch every match faster.</li>
+<li><strong>Use peripheral vision.</strong> You can see 3–4 tiles at once without moving your eyes. Train yourself to tap confirmed tiles while your eyes are already scanning the next row.</li>
+<li><strong>Don't overthink similar shades.</strong> When in doubt, tap it. A wrong tap costs less than a missed correct tile.</li>
+<li><strong>Breathe.</strong> Tension in your hands slows tapping speed. Stay loose.</li>
+</ul>
+
+<h2>Benefits of Playing Color Matching Games</h2>
+<p>Color matching games aren't just fun — they exercise specific cognitive skills:</p>
+<ul>
+<li><strong>Visual processing speed:</strong> Rapid color identification trains your brain to categorize visual input faster.</li>
+<li><strong>Hand-eye coordination:</strong> Accurate tapping under time pressure improves fine motor precision.</li>
+<li><strong>Attention:</strong> Sustained focus on a fast-changing grid trains selective attention.</li>
+<li><strong>Stress relief:</strong> The narrow focus required blocks rumination. Hard to worry about your inbox while scanning for blue tiles.</li>
+</ul>
+
+<h2>Play Color Match on Any Device</h2>
+<p>Color Match is built as a web app — it runs in any modern browser with no install. That means you can play on:</p>
+<ul>
+<li>iPhone or Android phone (no app download)</li>
+<li>Tablet or iPad</li>
+<li>Laptop or desktop</li>
+<li>Chromebook</li>
+<li>Any browser: Chrome, Safari, Firefox, Edge</li>
+</ul>
+
+<p>Load time is under 3 seconds. No account. No sign-up. Start playing immediately.</p>
+
+<h2>More Free Games at TinyJoy</h2>
+<p>If you like Color Match, you might also enjoy:</p>
+<ul>
+<li><a href="/games/pattern-echo">Pattern Echo</a> — color sequence memory game (Simon Says style)</li>
+<li><a href="/games/number-rush">Number Rush</a> — tap numbers 1–25 in order, fastest time wins</li>
+<li><a href="/games/memory-flip">Memory Flip</a> — classic card matching with 60-second timer</li>
+<li><a href="/games/word-scramble">Word Scramble</a> — unscramble words before the clock runs out</li>
+</ul>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Is there a free color matching game online no download?</h3>
+<p>Yes — Color Match at TinyJoy.app is free to play in your browser with no download required. Works on phones and desktops.</p>
+
+<h3>What is a color matching game?</h3>
+<p>A color matching game presents you with a target color and asks you to identify or tap matching colors quickly. The goal is speed and accuracy. Color Match at TinyJoy adds a 60-second timer and a tap-the-grid mechanic that makes it fast-paced and replayable.</p>
+
+<h3>What is the best free color game online?</h3>
+<p>Color Match at TinyJoy is the best free browser color game — no download, no account, clean gameplay, and genuinely challenging. It runs on any device and loads instantly.</p>
+
+<h3>Are color games good for the brain?</h3>
+<p>Yes. Color recognition games train visual processing speed, hand-eye coordination, and attention. Regular play improves how quickly your brain categorizes visual information.</p>
+
+<h3>Can I play color matching games on my phone?</h3>
+<p>Yes — Color Match is fully mobile-friendly. Open TinyJoy.app on any phone browser. No app to download.</p>
+    `.trim(),
+  },
+  {
+    slug: 'word-unscramble-game-online-free',
+    title: 'Word Unscramble Game Online Free — Play Word Scramble Instantly',
+    description: 'Play a free word unscramble game online right now. No download, no account. Unscramble as many words as you can in 60 seconds.',
+    date: '2026-03-30',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Looking for a word unscramble game online free? Word Scramble at TinyJoy is exactly that. Open your browser, click play, start unscrambling. No download. No account. Works on any phone or computer.</p>
+
+<p><a href="/games/word-scramble">Play Word Scramble Free →</a></p>
+
+<h2>How the Word Unscramble Game Works</h2>
+<p>A scrambled word appears on screen. Letters are shuffled out of order — your job is to recognize the real word and type it correctly. Each correct answer scores a point and brings the next scrambled word. You have 60 seconds to unscramble as many words as possible.</p>
+
+<p>It sounds simple. In practice, it's fast, satisfying, and surprisingly hard to put down. The best players develop a pattern-recognition shortcut — they stop reading individual letters and start recognizing word shapes instead.</p>
+
+<h2>Why Word Unscramble Games Are Addictive</h2>
+<p>The "aha" moment when a scrambled word suddenly resolves into something familiar is a small dopamine hit. Word unscramble games are built on this loop: confusion → recognition → reward → next word. It's the same mechanism behind crossword puzzles and Wordle, compressed into a 2-second cycle.</p>
+
+<p>The 60-second format adds just enough pressure to keep the game engaging without making it stressful. You're moving fast, but there's always another word coming.</p>
+
+<h2>Word Scramble vs. Other Word Unscramble Games</h2>
+
+<h3>Word Scramble (TinyJoy)</h3>
+<p>Free, browser-based, no account. 60-second timed rounds. Works on any device. Clean interface with no pop-up ads. Immediate replay. <strong>Best for:</strong> Quick daily sessions, mobile play, vocabulary warm-up.</p>
+
+<h3>Wordle</h3>
+<p>One guess-the-word puzzle per day. No unscrambling — you guess a 5-letter word with color-coded feedback. Can't replay the same puzzle. <strong>Best for:</strong> A single daily challenge.</p>
+
+<h3>Scrabble GO</h3>
+<p>Mobile app (requires download + account). Multiplayer tile placement game. More complex and social. <strong>Best for:</strong> Dedicated word game players who want competition.</p>
+
+<h3>Text Twist</h3>
+<p>Classic Flash-era unscramble game. Originally required Flash (now defunct), some browser versions exist with mixed quality. <strong>Best for:</strong> Nostalgia.</p>
+
+<h3>Word Cookies</h3>
+<p>Mobile app with in-app purchases. You find all words hidden in a set of letters. More relaxed, no time pressure. <strong>Best for:</strong> Casual no-timer play.</p>
+
+<p>Word Scramble at TinyJoy is the best option if you want a fast, free, no-install word unscramble game you can open right now.</p>
+
+<h2>Tips to Score Higher in Word Scramble</h2>
+<ul>
+<li><strong>Look for common endings first.</strong> Words ending in -ING, -ED, -ER, -ION, -LY, -TION are extremely common. If you spot those letters together, try building outward from them.</li>
+<li><strong>Find vowels immediately.</strong> Every English word has at least one vowel. Locating the vowels first constrains the possible word shapes dramatically.</li>
+<li><strong>Say it out loud (or mentally).</strong> Pronouncing scrambled letters helps your brain pattern-match against spoken word memory, which is faster than visual parsing for most people.</li>
+<li><strong>Don't stare at hard words.</strong> If a word won't click within 3–4 seconds, skip it mentally, type your best guess, and move on. Time is worth more than any single word.</li>
+<li><strong>Practice short words.</strong> 3- and 4-letter words are easiest to unscramble at speed. Training your recognition of short word patterns increases your overall pace.</li>
+</ul>
+
+<h2>What Skills Do Word Unscramble Games Build?</h2>
+<p>Word scramble games exercise several cognitive skills simultaneously:</p>
+<ul>
+<li><strong>Pattern recognition:</strong> Your brain learns to recognize word shapes even when letters are out of order. This same skill improves reading speed.</li>
+<li><strong>Working memory:</strong> Holding scrambled letters in mind while testing arrangements exercises verbal working memory.</li>
+<li><strong>Processing speed:</strong> The timed format trains your brain to retrieve and apply word knowledge faster.</li>
+<li><strong>Vocabulary:</strong> Regular play gradually expands the set of words your brain can quickly recognize — not by studying, but by encountering them repeatedly under slight cognitive stress.</li>
+</ul>
+
+<h2>Word Scramble as a Daily Brain Warm-Up</h2>
+<p>Many players use Word Scramble as a morning mental warm-up — 2–3 rounds while coffee brews. The verbal activation from unscrambling words primes your language processing for the day. It's faster than a crossword, more engaging than a reading app, and requires no setup.</p>
+
+<p>Good pairing: one round of Word Scramble (verbal) + one round of Number Rush (visual/numeric) = a complete 3-minute cognitive warm-up that hits different brain systems.</p>
+
+<h2>Play on Any Device</h2>
+<p>Word Scramble at TinyJoy is a web app. No download. Works on:</p>
+<ul>
+<li>iPhone or Android — open in Safari or Chrome, no app install</li>
+<li>iPad or tablet — full-screen layout works well</li>
+<li>Laptop or desktop — keyboard typing for faster input</li>
+<li>Chromebook</li>
+</ul>
+
+<p>On desktop, you can type answers with your keyboard, which is significantly faster than tapping on mobile. Both modes are fully supported.</p>
+
+<h2>More Word Games at TinyJoy</h2>
+<p>If you enjoy word unscramble games, also try:</p>
+<ul>
+<li><a href="/games/word-scramble">Word Scramble</a> — the core unscramble experience</li>
+<li><a href="/blog/wordle-alternative-free">Wordle alternatives</a> — more free word games in your browser</li>
+<li><a href="/blog/free-word-games-online">Free word games online</a> — full roundup of browser word games</li>
+<li><a href="/games/memory-flip">Memory Flip</a> — card matching if you want a break from words</li>
+</ul>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Is there a free word unscramble game online no download?</h3>
+<p>Yes — Word Scramble at TinyJoy.app is completely free with no download or account required. Works in any browser on phones and desktops.</p>
+
+<h3>What is the best word scramble game free online?</h3>
+<p>Word Scramble at TinyJoy is the best free online word scramble game for quick play. No login, no install, 60-second rounds, instant replay, works on mobile.</p>
+
+<h3>How do you get better at unscrambling words?</h3>
+<p>The fastest way to improve: identify vowels first, look for common word endings (-ING, -ED, -ER, -LY, -TION), and practice short 3–4 letter words to build recognition speed. Daily play for even 5 minutes noticeably improves your pattern recognition within two weeks.</p>
+
+<h3>Are word scramble games good for your brain?</h3>
+<p>Yes. Word unscramble games build pattern recognition, verbal working memory, and language processing speed. They're a particularly good warm-up for work or study that involves reading and writing.</p>
+
+<h3>Can I play word unscramble on my phone for free?</h3>
+<p>Yes — TinyJoy Word Scramble is mobile-friendly and free. Open TinyJoy.app in your phone's browser. No app download needed.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
