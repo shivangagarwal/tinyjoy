@@ -5431,6 +5431,165 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 ];
 
+  {
+    slug: 'flappy-bird-online-free',
+    title: 'Flappy Bird Online Free — Play in Your Browser (No Download)',
+    description: 'Play Flappy Bird online free in your browser. No download, no app, no sign-up. Tap to fly, dodge the pipes, beat your high score.',
+    date: '2026-04-05',
+    category: 'game-guide',
+    readingTime: '4 min',
+    content: `
+<p>Flappy Bird was one of the most addictive mobile games ever made — and now you can play it free in your browser with no download required. <a href="/games/flappy-jump">Flappy Jump</a> at TinyJoy captures everything that made the original great: one-tap controls, instant restarts, and the kind of "just one more try" loop that keeps you playing for way longer than you planned.</p>
+
+<h2>How to Play Flappy Bird Online</h2>
+<p>The rules haven't changed since 2014:</p>
+<ul>
+<li><strong>Tap / click / spacebar</strong> to flap and gain height</li>
+<li><strong>Release</strong> to fall — gravity pulls you down constantly</li>
+<li><strong>Dodge the pipes</strong> — each gap you pass scores one point</li>
+<li><strong>Don't touch anything</strong> — ground, ceiling, or pipe ends the run</li>
+</ul>
+<p>That's the whole game. The skill is in the rhythm — finding the tap cadence that keeps you centered without overcorrecting.</p>
+
+<h2>Play Flappy Jump Free Now</h2>
+<p>TinyJoy's version is called Flappy Jump. Same gameplay, clean design, instant load.</p>
+<p><a href="/games/flappy-jump">Play Flappy Jump Free →</a></p>
+
+<ul>
+<li>No download</li>
+<li>No app install</li>
+<li>No account</li>
+<li>Works on phone and desktop</li>
+<li>Saves your high score locally</li>
+</ul>
+
+<h2>Flappy Bird Tips and Strategies</h2>
+
+<h3>1. Find a consistent tap rhythm</h3>
+<p>The biggest mistake beginners make is tapping reactively — tapping hard to rise, then waiting until you're almost falling before tapping again. This creates big swings and makes the gaps much harder to thread. Instead, aim for a steady, gentle rhythm: short taps, frequent. Keep yourself near the vertical center of the gap.</p>
+
+<h3>2. Look ahead, not at your bird</h3>
+<p>Your instinct is to watch the bird. Fight it. Watch the next gap. You already know where the bird is — what you need to know is where you need to be in two seconds.</p>
+
+<h3>3. Accept early deaths</h3>
+<p>Your first 10–20 runs will be short. That's normal. Each death teaches your hands the rhythm. Don't overthink the first few runs — just tap, die, restart, repeat. The improvement comes from your fingers, not your analysis.</p>
+
+<h3>4. Don't pause at the top</h3>
+<p>Players often tap to the top of the gap and then stop tapping entirely, waiting for gravity to drop them through. This is a trap — you lose control of the fall rate and often clip the bottom pipe. Stay active throughout the gap.</p>
+
+<h3>5. Restart instantly</h3>
+<p>Flappy Bird's genius is the instant restart. The moment you die, restart. Don't reflect, don't adjust — just go again. The muscle memory builds from repetition, not analysis.</p>
+
+<h2>Why Is Flappy Bird So Hard?</h2>
+<p>Flappy Bird has a brutal feedback loop: the skill ceiling is low enough to feel achievable, but the gap between "okay" and "great" is a lot of practice. The game is honest — there's no luck involved, no powerups, no shortcuts. Every pipe you pass is a real improvement. Every death is a mistake you can correct. This is what makes it genuinely satisfying when you finally string together a high score.</p>
+
+<h2>Flappy Bird History</h2>
+<p>Flappy Bird was released by Vietnamese developer Dong Nguyen in 2013. It went viral in early 2014, hitting 50 million downloads and reportedly generating $50,000/day in ad revenue. Nguyen removed it from app stores in February 2014, citing the game's addictive nature. The removal only increased demand — phones with the game pre-installed sold for thousands on eBay.</p>
+<p>The gameplay has since been recreated countless times. Browser versions let anyone play without needing the original app.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Can I play Flappy Bird online for free?</h3>
+<p>Yes. TinyJoy's <a href="/games/flappy-jump">Flappy Jump</a> is free to play in any browser. No download, no account, no cost. The gameplay is identical to the original Flappy Bird.</p>
+
+<h3>Is there a Flappy Bird browser version?</h3>
+<p>Yes — Flappy Jump at TinyJoy is a browser-based version that works on desktop and mobile. Just open the link and tap to start.</p>
+
+<h3>What is the world record Flappy Bird score?</h3>
+<p>The original Flappy Bird's highest verified score is in the hundreds, though unverified claims go higher. Most casual players find getting past 10 pipes a real achievement. Getting past 50 consistently puts you in the top tier.</p>
+
+<h3>Why is Flappy Bird so addictive?</h3>
+<p>The instant restart loop is the key. Sessions are 5–30 seconds, restarts are immediate, and there's always the feeling that the next run will go better. The difficulty curve is steep enough to stay challenging but shallow enough to keep improving.</p>
+
+<h3>Does Flappy Bird work on mobile?</h3>
+<p>Yes. TinyJoy's Flappy Jump is touch-optimized — tap anywhere on screen to flap. Works on iPhone and Android in Safari or Chrome.</p>
+    `.trim(),
+  },
+  {
+    slug: 'tic-tac-toe-online-free',
+    title: 'Tic-Tac-Toe Online Free — Play Against the Computer',
+    description: 'Play Tic-Tac-Toe online free against the computer or a friend. No download, no sign-up, instant play in your browser.',
+    date: '2026-04-05',
+    category: 'game-guide',
+    readingTime: '4 min',
+    content: `
+<p>Tic-Tac-Toe is one of the oldest games in the world — and it's one of the most satisfying to play in a browser. <a href="/games/tic-tac-toe">TinyJoy Tic-Tac-Toe</a> lets you play free against the computer, instantly, with no download or account needed.</p>
+
+<h2>Play Tic-Tac-Toe Free Online Now</h2>
+<p><a href="/games/tic-tac-toe">Play Tic-Tac-Toe Free →</a></p>
+
+<ul>
+<li>Play against the AI — smart enough to be a real challenge</li>
+<li>Works on phone and desktop</li>
+<li>No download, no sign-up</li>
+<li>Instant restart after each game</li>
+</ul>
+
+<h2>How to Play Tic-Tac-Toe</h2>
+<p>Tic-Tac-Toe is played on a 3×3 grid. Two players (you and the AI) take turns placing their mark — X or O — in empty squares. The first player to get three marks in a row (horizontally, vertically, or diagonally) wins. If all nine squares are filled with no winner, the game is a draw.</p>
+
+<p>Rules:</p>
+<ul>
+<li>You are X. The AI is O.</li>
+<li>Click any empty square to place your mark.</li>
+<li>Get three in a row before the AI does to win.</li>
+<li>If the board fills up with no winner, it's a draw.</li>
+</ul>
+
+<h2>Tic-Tac-Toe Strategy — How to Win (or at Least Draw)</h2>
+<p>Against a perfect AI, the best result you can guarantee is a draw. But many AI implementations are beatable. Here's how to maximize your chances:</p>
+
+<h3>1. Take the center first</h3>
+<p>The center square (middle of the grid) gives you the most winning opportunities — diagonals, horizontal, and vertical all run through it. Always take center if it's open.</p>
+
+<h3>2. If you can't take center, take a corner</h3>
+<p>Corners give you two lines each (horizontal/vertical + diagonal). They're more powerful than edge squares. If center is taken, grab a corner.</p>
+
+<h3>3. Block immediately</h3>
+<p>If your opponent has two marks in a row with one empty square, block it. This is non-negotiable — if you miss a block, you lose (against a good player) or throw away a win.</p>
+
+<h3>4. Create forks</h3>
+<p>A fork is a position where you have two ways to win at once. The AI can only block one, so you win. For example: if you have marks at corners (1,1) and (3,3), placing at (1,3) or (3,1) can create a fork.</p>
+
+<h3>5. Don't go on autopilot in draws</h3>
+<p>When a draw is inevitable, some players rush. Slow down — there may be a fork opportunity you missed, or the AI may not be playing perfectly.</p>
+
+<h2>Is Tic-Tac-Toe Solved?</h2>
+<p>Yes. Tic-Tac-Toe is what mathematicians call a "solved game" — with perfect play from both sides, the game always ends in a draw. The game tree has 255,168 possible games, of which 46,080 end in X winning, 44,016 in O winning, and 46,080 in a draw (with symmetry reductions).</p>
+<p>This means: if the AI plays perfectly, you can never win — only draw. If the AI doesn't play perfectly, there are patterns you can exploit.</p>
+
+<h2>Why Tic-Tac-Toe Is Still Fun</h2>
+<p>Tic-Tac-Toe is perfect for quick sessions — each game takes under 60 seconds. It's one of the first games humans learn, making it universally accessible. Playing against a computer AI is a different challenge than playing a human — AIs often play "optimal" moves that feel counterintuitive and teach you to think more systematically.</p>
+
+<h2>More Quick Games at TinyJoy</h2>
+<p>If you enjoy Tic-Tac-Toe, you'll like these:</p>
+<ul>
+<li><a href="/games/connect-four">Connect Four</a> — same row-matching logic, bigger board, deeper strategy</li>
+<li><a href="/games/number-rush">Number Rush</a> — tap 1–25 in order as fast as possible</li>
+<li><a href="/games/memory-flip">Memory Flip</a> — flip cards to find matching pairs</li>
+<li><a href="/games/minesweeper">Minesweeper</a> — logic puzzle, use number clues to avoid mines</li>
+</ul>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Can I play Tic-Tac-Toe online for free?</h3>
+<p>Yes. TinyJoy's <a href="/games/tic-tac-toe">Tic-Tac-Toe</a> is completely free — no download, no account, no cost. Open the link and start playing immediately.</p>
+
+<h3>Can I play Tic-Tac-Toe against the computer?</h3>
+<p>Yes. TinyJoy's version is single-player against an AI. The AI is smart enough to make the game a genuine challenge while still being beatable with good strategy.</p>
+
+<h3>Is Tic-Tac-Toe always a draw?</h3>
+<p>With perfect play from both sides, yes — it always ends in a draw. But in practice, most players don't play perfectly, so wins do happen. The AI at TinyJoy is challenging but not unbeatable.</p>
+
+<h3>What is the best first move in Tic-Tac-Toe?</h3>
+<p>The center square. It participates in 4 possible winning lines (2 diagonals, 1 horizontal, 1 vertical) — more than any other square. If center is taken, the next best moves are the corner squares.</p>
+
+<h3>Does Tic-Tac-Toe work on mobile?</h3>
+<p>Yes. TinyJoy's game is touch-optimized — tap any square to place your mark. Works on iPhone and Android without any download.</p>
+    `.trim(),
+  },
+];
+
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
 }
