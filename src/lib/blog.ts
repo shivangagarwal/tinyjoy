@@ -5586,6 +5586,268 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Yes. TinyJoy's game is touch-optimized — tap any square to place your mark. Works on iPhone and Android without any download.</p>
     `.trim(),
   },
+  {
+    slug: 'snake-game-online-free',
+    title: 'Snake Game Online Free — Play Instantly, No Download',
+    description: 'Play Snake online for free with no download or sign-up. Browser-based, mobile-friendly, and available instantly on any device.',
+    date: '2026-04-05',
+    category: 'game-guide',
+    readingTime: '4 min',
+    content: `
+<p>Snake is one of the most iconic games ever made. A long, winding creature eats food, grows longer, and one wrong move ends it all. It's simple, addictive, and perfectly suited for the browser.</p>
+
+<p>TinyJoy has a free Snake game you can play right now — no download, no account, no install. Just open it and play.</p>
+
+<p><a href="/games/snake">Play Snake at TinyJoy →</a></p>
+
+<h2>How to Play Snake</h2>
+<p>The rules are classic:</p>
+<ul>
+<li>Control a snake moving around a grid</li>
+<li>Eat the food that appears on the screen to grow longer</li>
+<li>Avoid hitting the walls or your own tail</li>
+<li>The longer you get, the harder it becomes</li>
+<li>Game ends when you collide with a wall or yourself</li>
+</ul>
+
+<p>On desktop: use arrow keys or WASD to steer. On mobile: swipe in the direction you want to turn.</p>
+
+<h2>Snake Strategy — How to Score High</h2>
+
+<h3>Hug the walls early</h3>
+<p>When your snake is short, keep it near the edges. This gives you more open space in the center for maneuvering later. Avoiding the center early means less risk of boxing yourself in.</p>
+
+<h3>Plan your path before you eat</h3>
+<p>Before moving toward food, mentally trace a path to it. Ask: after eating, where will my snake be? Can I turn safely? Many deaths happen not while eating but in the moment after, when the new body position creates a trap.</p>
+
+<h3>Coil inward, not outward</h3>
+<p>As the snake grows long, try to coil it tightly in one corner. This keeps your body predictable. Sprawling randomly across the grid makes it much harder to avoid your own tail.</p>
+
+<h3>Never make 180° turns</h3>
+<p>You can't reverse direction in Snake — turning 180° instantly causes you to collide with yourself. Always plan turns in the same or perpendicular direction as your current heading.</p>
+
+<h3>Slow down and think</h3>
+<p>The instinct when Snake gets hard is to move faster. Do the opposite. Slow, deliberate movements give you time to plan and avoid panic-induced mistakes.</p>
+
+<h2>History of Snake</h2>
+<p>Snake originated in 1976 as an arcade game called "Blockade." The concept became famous when Nokia pre-installed a version on its phones in 1997 — at a time when Nokia had roughly 100 million handsets in use. For an entire generation, Snake was the definitive mobile game long before smartphones existed.</p>
+
+<p>The web brought Snake back. Flash-era sites hosted hundreds of Snake clones. Now browser-native Snake games (like TinyJoy's) run in plain JavaScript without any plugins — faster, smoother, and available on every device.</p>
+
+<h2>Why Snake Is Still Great</h2>
+<p>Snake is enduring for the same reason chess is: the rules fit in a sentence, but mastery takes real skill. The growing length mechanic creates exponential difficulty — a snake of length 5 is a different game than a snake of length 25. Each new food eaten makes everything harder. That elegant feedback loop hooks players and keeps them coming back for "one more run."</p>
+
+<h2>More Arcade Games at TinyJoy</h2>
+<p>If you enjoy Snake, these TinyJoy games have the same pick-up-and-play energy:</p>
+<ul>
+<li><a href="/games/flappy-jump">Flappy Jump</a> — one tap to fly, pure reflex, brutally difficult</li>
+<li><a href="/games/whack-a-mole">Whack-a-Mole</a> — tap targets as fast as possible, escalating speed</li>
+<li><a href="/games/number-rush">Number Rush</a> — tap 1 through 25 in order as fast as you can</li>
+<li><a href="/games/color-match">Color Match</a> — 60-second color recognition challenge</li>
+</ul>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Can I play Snake online for free?</h3>
+<p>Yes. TinyJoy's <a href="/games/snake">Snake game</a> is completely free — no download, no sign-up, no payment. Open the link and start playing in seconds.</p>
+
+<h3>Does Snake work on mobile?</h3>
+<p>Yes. TinyJoy's Snake is touch-optimized — swipe to steer the snake. Works on iPhone and Android without any app install.</p>
+
+<h3>What is the highest possible score in Snake?</h3>
+<p>Theoretically, Snake ends when the snake fills the entire grid (every square covered). In practice, most players reach a fraction of that. A score in the top 10–20% of the grid is considered very strong play.</p>
+
+<h3>What are the controls for Snake?</h3>
+<p>Desktop: arrow keys or WASD. Mobile: swipe in the direction you want to go. There's no clicking required.</p>
+
+<h3>Is Snake a good game for kids?</h3>
+<p>Yes — Snake is simple enough for young children to understand but challenging enough to hold their attention for extended sessions. The cause-and-effect feedback (eating food = growing; hitting walls = death) is immediately intuitive.</p>
+    `.trim(),
+  },
+  {
+    slug: 'minesweeper-online-free',
+    title: 'Minesweeper Online Free — Classic Logic Game, No Download',
+    description: 'Play Minesweeper online for free. Classic grid-based logic puzzle with Easy, Medium, Hard, and Expert modes. No download, no sign-up required.',
+    date: '2026-04-05',
+    category: 'game-guide',
+    readingTime: '5 min',
+    content: `
+<p>Minesweeper is one of the greatest logic puzzles ever made. A grid of hidden squares, numbered clues, and mines you must find without detonating. It's been around since 1989 and has never gotten old.</p>
+
+<p>TinyJoy offers a clean, ad-free Minesweeper with multiple difficulty levels — free to play in your browser right now.</p>
+
+<p><a href="/games/minesweeper">Play Minesweeper at TinyJoy →</a></p>
+
+<h2>How Minesweeper Works</h2>
+<p>The grid contains hidden mines. Your job: reveal every square that isn't a mine.</p>
+<ul>
+<li>Click a square to reveal it</li>
+<li>Numbers show how many mines are in the 8 adjacent squares</li>
+<li>Flag squares you think contain mines (right-click on desktop, long-press on mobile)</li>
+<li>Reveal all non-mine squares to win</li>
+<li>Click a mine — you lose</li>
+</ul>
+
+<p>The first click is always safe. Most Minesweeper implementations (including TinyJoy's) guarantee your first click won't detonate a mine.</p>
+
+<h2>Difficulty Levels</h2>
+<p>TinyJoy's Minesweeper has four modes:</p>
+<ul>
+<li><strong>Easy</strong> — small grid, few mines. Perfect for learning.</li>
+<li><strong>Medium</strong> — more squares, more mines. Requires real strategy.</li>
+<li><strong>Hard</strong> — challenging density. Deduction over luck.</li>
+<li><strong>Expert</strong> — the classic 30×16 or equivalent. Reserved for veterans.</li>
+</ul>
+
+<h2>Minesweeper Strategy — How to Win Consistently</h2>
+
+<h3>Start in a corner or the center</h3>
+<p>First clicks in corners often reveal large empty areas. The center of the board gives you visibility in all directions and often cascades into a big safe reveal early in the game.</p>
+
+<h3>Read number clusters, not individual cells</h3>
+<p>Beginners look at one number at a time. Experts look at groups. When two adjacent numbers share the same remaining unrevealed neighbors, you can deduce which cells must be mines by subtraction.</p>
+
+<h3>The 1-2 pattern</h3>
+<p>When you see a "1" next to a "2" along a wall, the mine is always next to the "2," not the "1." This is one of the most common deducible patterns in Minesweeper and unlocks a huge number of chains.</p>
+
+<h3>Flag systematically</h3>
+<p>When you're certain a cell is a mine, flag it immediately. Flagged cells count against a number — if all adjacent mines are flagged, the remaining neighbors are safe. Chord-clicking (clicking a revealed number when all its mines are flagged) instantly reveals all safe neighbors.</p>
+
+<h3>Guess strategically when forced</h3>
+<p>Sometimes Minesweeper requires a guess. Make it count: choose cells that give you more information if safe (near many unrevealed numbers), and when probability is equal, choose corners of ambiguous zones where a wrong guess wastes less information.</p>
+
+<h2>The History of Minesweeper</h2>
+<p>Minesweeper was created in 1989 by Robert Donner at Microsoft. It shipped with Windows 3.1 in 1992 and became one of the most-played PC games in history — not through design but through ubiquity. Anyone who owned a Windows PC in the 1990s has at least one Minesweeper memory.</p>
+
+<p>Microsoft removed it from default Windows installations in Windows 8, but the game never died. Browser versions proliferated. It remains among the most-searched casual games online, decades after its debut.</p>
+
+<h2>Is Minesweeper Solvable Without Guessing?</h2>
+<p>Sometimes — but not always. In certain board configurations, you'll reach a state where two or more outcomes are equally probable and no logical deduction can distinguish them. In those cases, guessing is unavoidable. Top Minesweeper players minimize guesses by solving as much as possible before entering uncertain territory.</p>
+
+<p>At lower difficulties, most boards are solvable with pure logic. Expert difficulty often requires 1–3 guesses per game.</p>
+
+<h2>More Logic Games at TinyJoy</h2>
+<p>Enjoy thinking games? These are the other logic-focused games at TinyJoy:</p>
+<ul>
+<li><a href="/games/sudoku">Sudoku</a> — number placement puzzle, Easy to Expert difficulty</li>
+<li><a href="/games/connect-four">Connect Four</a> — strategic disc-dropping against the AI</li>
+<li><a href="/games/tic-tac-toe">Tic-Tac-Toe</a> — the solved two-player classic</li>
+<li><a href="/games/memory-flip">Memory Flip</a> — find all matching pairs before time runs out</li>
+</ul>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Can I play Minesweeper online for free?</h3>
+<p>Yes. TinyJoy's <a href="/games/minesweeper">Minesweeper</a> is completely free — no download, no sign-up. Open the link and the game loads instantly.</p>
+
+<h3>Does Minesweeper work on mobile?</h3>
+<p>Yes. TinyJoy's Minesweeper is touch-compatible — tap to reveal, long-press to flag. Works on iPhone and Android.</p>
+
+<h3>What difficulty should I start with?</h3>
+<p>Easy mode. Master the logic patterns (especially the 1-2 pattern) before stepping up. Moving to Medium before you've internalized the basics usually leads to guessing instead of thinking.</p>
+
+<h3>Is the first click always safe?</h3>
+<p>On TinyJoy, yes. The board is generated after your first click to guarantee it's always safe. You'll never detonate a mine on the first move.</p>
+
+<h3>What is the world record for Minesweeper?</h3>
+<p>Expert difficulty (30×16, 99 mines) world records have been pushed below 32 seconds by the fastest players. These times involve near-perfect pattern recognition and chord-clicking mastery. For most players, finishing Expert under 3 minutes is a genuine achievement.</p>
+    `.trim(),
+  },
+  {
+    slug: 'unblocked-games-free',
+    title: 'Unblocked Games Free — Play at School or Work, No Download',
+    description: 'Free unblocked games you can play anywhere — school, work, or on restricted networks. No download, no install, works in any browser.',
+    date: '2026-04-05',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Need something fun to play during a break — but your school or workplace blocks game sites? You're not alone. Millions of people search for "unblocked games" every day.</p>
+
+<p>TinyJoy is a free game site that loads in any browser, on any network. No downloads. No installs. Just games.</p>
+
+<p><a href="/">Play Free Games at TinyJoy →</a></p>
+
+<h2>What Are Unblocked Games?</h2>
+<p>Unblocked games are browser games that can be played on networks that restrict or block gaming sites. Schools and workplaces often block popular game platforms (like Steam, Roblox, or Kongregate) but allow general web browsing. Games hosted on simple, clean websites often slip through these filters.</p>
+
+<p>TinyJoy is a clean, simple game site with no ads blocking the screen, no sign-up, and no content that triggers content filters. It's designed for quick breaks — not extended gaming sessions — which makes it appropriate for school and work contexts.</p>
+
+<h2>Free Unblocked Games at TinyJoy</h2>
+
+<h3>Snake</h3>
+<p>The classic arcade game — steer your snake to eat food and grow, without hitting yourself or the walls. A true test of reflexes and planning.</p>
+<p><a href="/games/snake">Play Snake →</a></p>
+
+<h3>Minesweeper</h3>
+<p>The definitive logic puzzle. Use number clues to find all the mines without detonating any. Easy through Expert difficulty.</p>
+<p><a href="/games/minesweeper">Play Minesweeper →</a></p>
+
+<h3>Sudoku</h3>
+<p>Place numbers 1–9 so every row, column, and 3×3 box contains each digit once. Pure logic, zero luck. Four difficulty modes.</p>
+<p><a href="/games/sudoku">Play Sudoku →</a></p>
+
+<h3>Memory Flip</h3>
+<p>Flip cards to find all 8 matching pairs before 60 seconds runs out. A quick, satisfying memory challenge.</p>
+<p><a href="/games/memory-flip">Play Memory Flip →</a></p>
+
+<h3>Number Rush</h3>
+<p>Tap numbers 1–25 in order as fast as you can. Sounds simple. It's not. One of the most surprising speed games in the browser.</p>
+<p><a href="/games/number-rush">Play Number Rush →</a></p>
+
+<h3>Word Scramble</h3>
+<p>Unscramble as many words as possible in 60 seconds. A vocabulary game that doubles as a mental warm-up.</p>
+<p><a href="/games/word-scramble">Play Word Scramble →</a></p>
+
+<h3>Connect Four</h3>
+<p>Drop colored discs to connect four in a row before the AI does. Strategic, fast, and surprisingly deep.</p>
+<p><a href="/games/connect-four">Play Connect Four →</a></p>
+
+<h3>Hangman</h3>
+<p>Guess the hidden word before the drawing completes. Classic word-guessing game, no installation needed.</p>
+<p><a href="/games/hangman">Play Hangman →</a></p>
+
+<h3>Tic-Tac-Toe</h3>
+<p>Get three in a row before the AI does. The classic solved game — but still satisfying to play.</p>
+<p><a href="/games/tic-tac-toe">Play Tic-Tac-Toe →</a></p>
+
+<h3>Whack-a-Mole</h3>
+<p>Tap moles as they pop up. Reflex-testing, escalating speed, quick sessions.</p>
+<p><a href="/games/whack-a-mole">Play Whack-a-Mole →</a></p>
+
+<h2>Why TinyJoy Works When Other Sites Are Blocked</h2>
+<p>Most school and workplace content filters block sites based on categories: "gaming," "entertainment," "social media." TinyJoy is a lightweight, educational-adjacent site — logic games, memory training, word games. It doesn't carry the same category flags as dedicated gaming platforms.</p>
+
+<p>Beyond that, TinyJoy loads fast, has no obtrusive ads, and doesn't require accounts or downloads. There's nothing to trigger a security scan or block.</p>
+
+<h2>Good Games for a Quick Break</h2>
+<p>TinyJoy is built specifically for short sessions — most games run 60–90 seconds. That makes it perfect for:</p>
+<ul>
+<li>A 5-minute break between classes</li>
+<li>Waiting for a meeting to start</li>
+<li>A mental reset between work tasks</li>
+<li>Killing time on a study hall period</li>
+</ul>
+
+<p>You get a genuine game experience without the time-sink of longer games. Play one round of Number Rush, feel satisfied, and get back to work.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Are these games actually free?</h3>
+<p>Yes — all TinyJoy games are completely free. No premium tier, no in-app purchases, no sign-up required.</p>
+
+<h3>Do I need to download anything to play?</h3>
+<p>No. Everything runs in your browser. No Flash, no plugins, no installs.</p>
+
+<h3>Will these games work on a Chromebook?</h3>
+<p>Yes. TinyJoy is built for the web and works perfectly on Chromebooks, which are common in schools. All games run in Chrome without any issues.</p>
+
+<h3>Can I play on my phone?</h3>
+<p>Yes. All TinyJoy games are mobile-optimized with touch controls. They work on iPhone and Android.</p>
+
+<h3>What if TinyJoy gets blocked too?</h3>
+<p>Content filters update periodically. If TinyJoy ever gets blocked on your network, the most reliable workaround is to ask your network admin to whitelist it — especially since TinyJoy's games are educational (logic, memory, vocabulary).</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
