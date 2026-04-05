@@ -5269,6 +5269,166 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>The easiest starting games for seniors new to computers: Memory Flip (just click cards), Whack-a-Mole (just click moles), and Pattern Echo (just click the color buttons shown). These have the simplest controls and are immediately intuitive.</p>
     `.trim(),
   },
+  {
+    slug: 'free-chromebook-games',
+    title: 'Best Free Chromebook Games — Browser Games That Work on Any Chromebook',
+    description: 'The best free Chromebook games you can play right now — no download, no install, no extensions. Works on every Chromebook, school or personal.',
+    date: '2026-04-05',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Chromebooks are great for games — the browser is fast, the screens are crisp, and everything at <a href="/">TinyJoy</a> plays perfectly with no setup. Here are the best free Chromebook games, playable right now.</p>
+
+<h2>Why Browser Games Are Perfect for Chromebook</h2>
+<p>Chromebooks run Chrome OS, which means no Windows apps and no app store for most games. But browser games run natively in Chrome — and modern browser games are fast, smooth, and genuinely good.</p>
+<p>Every game on TinyJoy works on Chromebook with no download, no Chrome extension, and no account needed. Open the browser, go to TinyJoy.app, and play.</p>
+
+<h2>Best Chromebook Games at TinyJoy</h2>
+
+<h2>Number Rush — Speed + Focus</h2>
+<p>Tap numbers 1 through 25 in order as fast as you can. Numbers are scattered randomly. This sounds easy. It's not. Number Rush is one of the most addictive speed games in the browser and works perfectly with a Chromebook touchpad or keyboard.</p>
+<p><a href="/games/number-rush">Play Number Rush →</a></p>
+
+<h2>Sudoku — Logic Puzzle</h2>
+<p>The best Chromebook puzzle game. Fill the 9×9 grid using logical deduction. TinyJoy Sudoku has four difficulty levels — Easy through Expert. No timer by default, so you can work at your own pace. Perfect for school free periods.</p>
+<p><a href="/games/sudoku">Play Sudoku →</a></p>
+
+<h2>Word Scramble — Vocabulary Speed Game</h2>
+<p>Unscramble as many words as possible in 60 seconds. Type fast, think faster. Word Scramble is a vocabulary game that's easy to learn and hard to put down. Works great with a Chromebook keyboard.</p>
+<p><a href="/games/word-scramble">Play Word Scramble →</a></p>
+
+<h2>Memory Flip — Card Matching</h2>
+<p>Flip cards to find matching pairs before the clock runs out. Classic memory game, clean design. Works with mouse or touchpad. Good for a focused 60-second break.</p>
+<p><a href="/games/memory-flip">Play Memory Flip →</a></p>
+
+<h2>Pattern Echo — Simon Says</h2>
+<p>Watch a color sequence light up, then repeat it. Each round the sequence gets longer. Pattern Echo is a memory and attention game — gentle at first, genuinely challenging later. Click or tap the colored buttons.</p>
+<p><a href="/games/pattern-echo">Play Pattern Echo →</a></p>
+
+<h2>Minesweeper — Classic Logic Puzzle</h2>
+<p>Use number clues to find hidden mines without setting them off. A timeless logic puzzle that millions have played since the 1990s. Three board sizes: Beginner, Intermediate, Expert. Perfect for Chromebook trackpad play.</p>
+<p><a href="/games/minesweeper">Play Minesweeper →</a></p>
+
+<h2>Snake — Arcade Classic</h2>
+<p>Guide a growing snake to eat food without hitting the walls or yourself. Use arrow keys or WASD on Chromebook. Snake is a skill-building game — your first game might last 20 seconds; your hundredth might last 5 minutes.</p>
+<p><a href="/games/snake">Play Snake →</a></p>
+
+<h2>2048 — Number Merging Strategy</h2>
+<p>Slide tiles to merge matching numbers and reach 2048. A strategy puzzle that rewards planning ahead. Works beautifully with Chromebook arrow keys. One of the most popular browser games of all time.</p>
+<p><a href="/games/2048">Play 2048 →</a></p>
+
+<h2>Typing Speed Test — WPM Practice</h2>
+<p>Measure your typing speed in words per minute. Great for Chromebook users who want to improve their keyboard skills. Useful for school work, job applications, and just knowing how fast you type.</p>
+<p><a href="/games/typing-speed">Typing Speed Test →</a></p>
+
+<h2>Chromebook Gaming Tips</h2>
+<ul>
+<li><strong>Use keyboard shortcuts</strong>: Most TinyJoy games support keyboard controls — arrow keys, WASD, Enter to start/restart</li>
+<li><strong>Full-screen mode</strong>: Press F4 or use the window maximize button for a better gaming experience</li>
+<li><strong>Bookmark TinyJoy</strong>: Add TinyJoy.app to your bookmarks bar for quick access (Ctrl+D on Chromebook)</li>
+<li><strong>No extensions needed</strong>: Everything works in stock Chrome with no modifications</li>
+</ul>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What games work on Chromebook for free?</h3>
+<p>All TinyJoy games work on Chromebook for free — no download, no extension, no account. Visit TinyJoy.app in Chrome and play any of the 19 games instantly. Sudoku, Minesweeper, Word Scramble, Number Rush, Snake, 2048, and more.</p>
+
+<h3>Can you play games on a school Chromebook?</h3>
+<p>Browser games generally work on school Chromebooks unless the school has blocked specific sites. TinyJoy.app is a clean, ad-light educational gaming site. Games like Sudoku, Memory Flip, and Typing Speed Test are often allowed on school devices.</p>
+
+<h3>What are the best unblocked Chromebook games?</h3>
+<p>The best unblocked Chromebook games are browser-based and hosted on clean, non-gaming-specific domains. TinyJoy.app offers 19 games with no objectionable content — puzzle games, word games, speed games, and strategy games that work on most school networks.</p>
+
+<h3>Do Chromebook games need a download?</h3>
+<p>No. Browser games like TinyJoy require no download, no app install, and no Chrome Web Store extension. Open TinyJoy.app in Chrome and the game runs immediately in the browser tab.</p>
+
+<h3>What is the best free Chromebook game for kids?</h3>
+<p>Memory Flip (card matching), Whack-a-Mole, and Snake are the most accessible Chromebook games for younger players — simple controls, clear visuals, and short sessions. All free at TinyJoy.app.</p>
+    `.trim(),
+  },
+  {
+    slug: 'mini-games-online-free',
+    title: 'Best Mini Games Online Free — Quick, Fun Browser Games',
+    description: 'The best free mini games online — bite-sized browser games you can play in under 2 minutes. No download, no sign-up, works on phone and desktop.',
+    date: '2026-04-05',
+    category: 'tips',
+    readingTime: '4 min',
+    content: `
+<p>Mini games are short, focused, and satisfying. You can play one in 60–90 seconds, feel a real sense of achievement, and get back to your day. <a href="/">TinyJoy</a> is built around this format: quick sessions, zero friction, and games that are actually fun.</p>
+
+<h2>What Makes a Great Mini Game?</h2>
+<p>The best mini games share a few qualities:</p>
+<ul>
+<li><strong>Learnable in 5 seconds</strong>: One mechanic, immediately obvious</li>
+<li><strong>Satisfying feedback</strong>: Your brain knows when you're doing well</li>
+<li><strong>Short session</strong>: Under 2 minutes is ideal — you leave wanting more</li>
+<li><strong>Replayable</strong>: Each round is different; improvement is visible</li>
+</ul>
+<p>Every game on TinyJoy follows these principles. Here are the best free mini games online.</p>
+
+<h2>Color Match — 60-Second Reaction Mini Game</h2>
+<p>You're shown a target color and a grid of tiles. Tap all the tiles that match before time runs out. Color Match is 60 seconds of fast, satisfying pattern recognition. Your score improves with practice, and each round is different.</p>
+<p><a href="/games/color-match">Play Color Match →</a></p>
+
+<h2>Number Rush — Speed Clicking Mini Game</h2>
+<p>Tap numbers 1 through 25 in order. Fastest time wins. The entire game lasts 15–45 seconds depending on your skill. Number Rush is one of the most purely satisfying mini games available — short, measurable, endlessly replayable.</p>
+<p><a href="/games/number-rush">Play Number Rush →</a></p>
+
+<h2>Whack-a-Mole — Classic Arcade Mini Game</h2>
+<p>Moles pop up, you tap them. 60 seconds, highest score wins. The original mini game format — immediate to learn, hard to play perfectly. Great for mobile or desktop.</p>
+<p><a href="/games/whack-a-mole">Play Whack-a-Mole →</a></p>
+
+<h2>Reaction Time — Reflex Mini Game</h2>
+<p>Wait for the green signal, then tap as fast as you can. Measures your reaction time in milliseconds. Five rounds, average shown. A pure mini game: 30 seconds total, single mechanic, immediately competitive.</p>
+<p><a href="/games/reaction-time">Play Reaction Time Test →</a></p>
+
+<h2>Memory Flip — Card Mini Game</h2>
+<p>Flip cards to find all 8 matching pairs before 60 seconds run out. Memory Flip is a calm mini game — quiet concentration instead of fast reflexes. Perfect for a mental reset.</p>
+<p><a href="/games/memory-flip">Play Memory Flip →</a></p>
+
+<h2>Word Scramble — Word Mini Game</h2>
+<p>Unscramble words as fast as you can — 60 seconds, multiple words per round. Word Scramble is a vocabulary mini game that rewards quick pattern recognition. Each game is completely different.</p>
+<p><a href="/games/word-scramble">Play Word Scramble →</a></p>
+
+<h2>Pattern Echo — Memory Mini Game</h2>
+<p>Watch a color sequence, then repeat it. Pattern Echo starts short (2–3 colors) and grows each round. A single run can last 30 seconds or several minutes depending on how far you get. Pure sequential memory.</p>
+<p><a href="/games/pattern-echo">Play Pattern Echo →</a></p>
+
+<h2>Typing Speed — Skill Mini Game</h2>
+<p>Type a passage as fast as you can. Measures your WPM in about 60 seconds. Typing Speed is a skill game where every round is a chance to beat your personal best.</p>
+<p><a href="/games/typing-speed">Typing Speed Test →</a></p>
+
+<h2>Best Mini Games by Mood</h2>
+<ul>
+<li><strong>High energy</strong>: Number Rush, Whack-a-Mole, Color Match</li>
+<li><strong>Calm + focused</strong>: Memory Flip, Sudoku, 2048</li>
+<li><strong>Competitive with yourself</strong>: Reaction Time, Typing Speed, Number Rush</li>
+<li><strong>Brain workout</strong>: Pattern Echo, Word Scramble, Minesweeper</li>
+</ul>
+
+<h2>Why Play Mini Games?</h2>
+<p>Mini games fit into real life. You have 90 seconds waiting for coffee. You need a mental reset between meetings. You want to do something satisfying before sleeping. Mini games don't ask for long sessions or ongoing commitment — they're designed for exactly the moment you have.</p>
+<p>TinyJoy is built for this: no sign-up, no loading screens, no ads between rounds. Just open the site and play.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What are the best free mini games online?</h3>
+<p>The best free mini games online are short, replayable, and work in any browser. TinyJoy's top mini games: Number Rush (15–45 seconds), Reaction Time (30 seconds), Color Match (60 seconds), Whack-a-Mole (60 seconds). All free, no download.</p>
+
+<h3>Can I play free mini games on my phone?</h3>
+<p>Yes. All TinyJoy mini games are mobile-optimized — large tap targets, fast loading, no install. Open TinyJoy.app in Safari or Chrome on your phone and any game starts immediately.</p>
+
+<h3>What mini games can I play right now with no download?</h3>
+<p>Every game at TinyJoy.app plays instantly in your browser with no download. 19 mini games available: Color Match, Number Rush, Memory Flip, Word Scramble, Pattern Echo, Reaction Time, Typing Speed, Snake, 2048, Sudoku, Minesweeper, Hangman, Connect Four, Whack-a-Mole, Word Guess, Solitaire, and more.</p>
+
+<h3>What is the shortest online mini game?</h3>
+<p>Reaction Time is the shortest TinyJoy game — each round takes about 1 second, and a full session of 5 rounds takes under 30 seconds. Number Rush is also very short: 15 seconds for fast players, 45 seconds for beginners.</p>
+
+<h3>Are mini games good for your brain?</h3>
+<p>Short, focused games train specific cognitive skills: reaction time, pattern recognition, working memory, and attention. Games like Pattern Echo and Memory Flip have direct cognitive training benefits. Reaction Time and Color Match train processing speed. Word Scramble trains vocabulary retrieval.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
