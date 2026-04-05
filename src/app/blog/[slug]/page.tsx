@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { BLOG_POSTS, getPostBySlug, getRelatedPosts, formatDate } from '@/lib/blog';
+import AdUnit from '@/components/AdUnit';
 
 const BASE_URL = 'https://tinyjoy.app';
 
@@ -167,6 +168,10 @@ export default async function BlogPostPage({
           className="prose-blog text-zinc-300"
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
+
+        <div className="my-8">
+          <AdUnit slot="blog-after-content" format="auto" />
+        </div>
 
         {relatedPosts.length > 0 && (
           <section className="mt-16 border-t border-zinc-800 pt-10">
