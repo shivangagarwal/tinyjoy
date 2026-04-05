@@ -5848,6 +5848,249 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Content filters update periodically. If TinyJoy ever gets blocked on your network, the most reliable workaround is to ask your network admin to whitelist it — especially since TinyJoy's games are educational (logic, memory, vocabulary).</p>
     `.trim(),
   },
+  {
+    slug: 'solitaire-online-free',
+    title: 'Solitaire Online Free — Play Klondike Instantly, No Download',
+    description: 'Play Solitaire online for free with no download or sign-up. Classic Klondike Solitaire runs instantly in your browser on any device.',
+    date: '2026-04-05',
+    category: 'game-guide',
+    readingTime: '5 min',
+    content: `
+<p>Solitaire is the most-played card game in history. Klondike Solitaire — the version bundled with Windows for decades — introduced an entire generation to card games. Now you can play it instantly in your browser, no download, no install, no sign-up.</p>
+
+<p>TinyJoy has a free Klondike Solitaire you can play right now on desktop or mobile.</p>
+
+<p><a href="/games/solitaire">Play Solitaire at TinyJoy →</a></p>
+
+<h2>How to Play Klondike Solitaire</h2>
+<p>The goal is to move all 52 cards to the four foundation piles, sorted by suit from Ace to King.</p>
+
+<h3>The layout</h3>
+<ul>
+<li><strong>Tableau</strong> — 7 columns of cards. The top card in each column is face-up.</li>
+<li><strong>Foundations</strong> — 4 piles (top-right), one per suit. Build them Ace → 2 → 3 → ... → King.</li>
+<li><strong>Stock</strong> — the remaining cards, face-down. Flip cards from it to draw new ones.</li>
+<li><strong>Waste</strong> — the face-up pile next to the stock.</li>
+</ul>
+
+<h3>Basic rules</h3>
+<ul>
+<li>In the tableau, stack cards in descending order, alternating colors (red 8 on black 9, for example)</li>
+<li>Only Kings can move to empty tableau columns</li>
+<li>Move cards from the waste pile to the tableau or foundations</li>
+<li>Flip stock cards when you run out of moves</li>
+<li>Win by moving all cards to the foundations</li>
+</ul>
+
+<h2>Solitaire Strategy — How to Win More Often</h2>
+
+<h3>Expose face-down cards first</h3>
+<p>Your primary goal in the early game is not to build foundations — it's to reveal face-down cards in the tableau. Each flip gives you new options. Prioritize moves that uncover hidden cards over moves that simply stack face-up ones.</p>
+
+<h3>Build foundations evenly</h3>
+<p>Keep the four foundation piles within 1-2 cards of each other. If one suit races far ahead, you may not be able to use those high cards to help organize the tableau, locking yourself into a losing position.</p>
+
+<h3>Empty columns are powerful — use them wisely</h3>
+<p>An empty tableau column can hold any King (and its stack). Don't rush to fill empty columns with any King — wait for one that has useful cards underneath it, especially if those help unlock face-down cards in other columns.</p>
+
+<h3>Don't draw from the stock too early</h3>
+<p>Exhaust your tableau moves before drawing from the stock. The stock is a finite resource. Drawing early and cycling through it burns through opportunities without maximizing available moves.</p>
+
+<h3>Think two moves ahead</h3>
+<p>Before making any move, ask: what does this enable? Moving a red 6 onto a black 7 is good — but only if the black 7 isn't blocking another card you need. Solitaire rewards players who visualize consequences, not just immediate fits.</p>
+
+<h2>History of Solitaire</h2>
+<p>Solitaire originated in 18th-century Northern Europe, likely Scandinavia or Germany, as a competitive two-player game before evolving into a solo format. Klondike — the most popular variant — was named after the Klondike region of Canada during the 1890s Gold Rush, though its exact origin is disputed.</p>
+
+<p>Microsoft bundled Solitaire with Windows 3.0 in 1990. The official reason was to teach users how to use a mouse (dragging cards = mouse practice). Unofficially, it made PCs feel fun. Windows Solitaire became the most-used computer program of all time by pure hours logged, with hundreds of millions of players over three decades.</p>
+
+<h2>Solitaire Variants Worth Knowing</h2>
+<p><strong>Klondike</strong> (the standard): 7 tableau columns, draw from stock. What most people mean by "Solitaire."</p>
+<p><strong>Spider Solitaire</strong>: Two decks, 10 columns. Build full suits from King to Ace and remove them. Much harder.</p>
+<p><strong>FreeCell</strong>: All cards are face-up from the start. 4 free cells for temporary storage. Mostly solvable with perfect play.</p>
+<p><strong>Pyramid</strong>: Remove pairs of cards that add up to 13. Luck-dependent but quick.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Is every Solitaire game winnable?</h3>
+<p>No. Roughly 79% of Klondike Solitaire games are theoretically winnable, but in practice a skilled player wins about 43% of games due to information hidden by face-down cards. Don't feel bad when you lose — some games are simply unwinnable from the deal.</p>
+
+<h3>Can I play Solitaire on my phone?</h3>
+<p>Yes. TinyJoy's Solitaire is fully mobile-optimized. Tap and drag cards with your finger just like on desktop.</p>
+
+<h3>Does TinyJoy Solitaire cost anything?</h3>
+<p>No. It's completely free — no ads blocking the cards, no premium unlock required.</p>
+
+<h3>What's the difference between draw-1 and draw-3 Solitaire?</h3>
+<p>In draw-1, you flip one card at a time from the stock. In draw-3, you flip three. Draw-3 is harder because you can only access every third card. TinyJoy uses draw-1 for a more approachable experience.</p>
+
+<h2>More Card and Puzzle Games at TinyJoy</h2>
+<ul>
+<li><a href="/games/memory-flip">Memory Flip</a> — find matching card pairs before time runs out</li>
+<li><a href="/games/2048">2048</a> — slide and merge numbered tiles to reach 2048</li>
+<li><a href="/games/minesweeper">Minesweeper</a> — classic logic grid, avoid the mines</li>
+<li><a href="/games/sudoku">Sudoku</a> — fill the 9×9 grid with numbers 1–9</li>
+</ul>
+
+<p><a href="/">Browse all free games at TinyJoy →</a></p>
+    `.trim(),
+  },
+  {
+    slug: 'sudoku-online-free',
+    title: 'Sudoku Online Free — Play Classic Number Puzzles Instantly',
+    description: 'Play Sudoku online free with no download or account. Classic 9×9 number puzzles run instantly in your browser on desktop and mobile.',
+    date: '2026-04-05',
+    category: 'game-guide',
+    readingTime: '5 min',
+    content: `
+<p>Sudoku is the world's most popular logic puzzle. A 9×9 grid, the numbers 1 through 9, and one simple rule: no number can repeat in any row, column, or 3×3 box. It sounds simple. It is — and it isn't.</p>
+
+<p>TinyJoy has free Sudoku you can play right now in your browser. No download, no account, no install required.</p>
+
+<p><a href="/games/sudoku">Play Sudoku at TinyJoy →</a></p>
+
+<h2>How to Play Sudoku</h2>
+
+<h3>The basic rules</h3>
+<ul>
+<li>The grid is 9 rows × 9 columns = 81 cells</li>
+<li>The grid is divided into nine 3×3 boxes</li>
+<li>Place the digits 1–9 in each row, each column, and each 3×3 box — exactly once each</li>
+<li>Some cells start filled in as "givens" — you cannot change these</li>
+<li>Every valid Sudoku puzzle has exactly one solution</li>
+</ul>
+
+<h3>How to enter numbers</h3>
+<p>On desktop: click an empty cell to select it, then type a number. On mobile: tap a cell, then tap the number from the pad that appears. Many Sudoku apps (including TinyJoy's) let you enter "pencil marks" — small candidate numbers — to track possibilities without committing.</p>
+
+<h2>Sudoku Strategy — From Beginner to Expert</h2>
+
+<h3>Beginner: Naked singles</h3>
+<p>A "naked single" is a cell where only one number is possible. If a cell's row already contains 1, 3, 4, 5, 6, 7, 8, and 9 — the only option is 2. Scan for these first. Beginner puzzles are full of naked singles.</p>
+
+<h3>Intermediate: Hidden singles</h3>
+<p>A "hidden single" is when a number can only go in one cell within a row, column, or box — even if other numbers could also go there. For example, if the digit 7 has no valid cell in a row except one, place 7 there regardless of what other numbers that cell could be.</p>
+
+<h3>Advanced: Candidate elimination</h3>
+<p>Use pencil marks to list all possible candidates in each empty cell. Then apply elimination techniques: if a number appears as a candidate in exactly two cells of a row, those cells form a "pair" and that number can be removed from other rows in their columns or boxes.</p>
+
+<h3>Expert: X-wing and swordfish</h3>
+<p>These are pattern-based techniques for hard Sudoku. An X-wing occurs when a candidate appears in exactly two cells in each of two rows, and those cells share columns — allowing elimination from the rest of those columns. Swordfish extends this to three rows and three columns.</p>
+
+<h3>The most important habit: never guess</h3>
+<p>A properly constructed Sudoku puzzle has one solution reachable by pure logic. If you're guessing, you've missed a logical step. Step back and look for naked/hidden singles or a constraint you overlooked. Good Sudoku is satisfying precisely because luck plays no role.</p>
+
+<h2>History of Sudoku</h2>
+<p>Sudoku's roots trace to 18th-century mathematician Leonhard Euler's "Latin squares" — grids where each symbol appears once per row and column. The modern Sudoku format was created by Howard Garns, an American architect, and published in 1979 as "Number Place" in Dell Magazines.</p>
+
+<p>The puzzle was imported to Japan by Nikoli in 1984, renamed "Suuji wa dokushin ni kagiru" (numbers must remain single) — shortened to Sudoku. Japanese puzzle magazines popularized it. In 2004, The Times of London published its first Sudoku, and the puzzle swept through Europe. By 2005 it was a global phenomenon, appearing in virtually every newspaper worldwide.</p>
+
+<h2>Why Sudoku Is Good for Your Brain</h2>
+<p>Sudoku exercises logical deduction, pattern recognition, and working memory — specifically the ability to hold multiple constraints in mind simultaneously. Research suggests regular puzzle solving correlates with maintained cognitive sharpness in older adults, though Sudoku alone won't prevent cognitive decline. It does, however, make for an excellent mental workout that's more structured than crosswords and less language-dependent.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Is Sudoku math?</h3>
+<p>No. The numbers 1–9 in Sudoku are arbitrary symbols. You could replace them with letters or shapes and the puzzle would work identically. Sudoku is pure logic, not arithmetic.</p>
+
+<h3>What difficulty should I start with?</h3>
+<p>Start with Easy. Easy Sudoku puzzles are solvable with naked and hidden singles alone — no advanced techniques needed. Medium introduces some candidate elimination. Hard and Expert require systematic techniques like X-wing.</p>
+
+<h3>Can Sudoku have multiple solutions?</h3>
+<p>A well-constructed Sudoku has exactly one solution. Puzzles with multiple solutions are considered invalid. If you find two valid arrangements, the puzzle is flawed.</p>
+
+<h3>How long does a Sudoku take?</h3>
+<p>Easy: 5–10 minutes. Medium: 15–25 minutes. Hard: 30–60 minutes. Expert: 1+ hours. Your time will drop with practice.</p>
+
+<h2>More Logic and Puzzle Games at TinyJoy</h2>
+<ul>
+<li><a href="/games/minesweeper">Minesweeper</a> — deduce mine locations from number clues</li>
+<li><a href="/games/2048">2048</a> — merge numbered tiles with sliding logic</li>
+<li><a href="/games/number-rush">Number Rush</a> — tap numbers in order as fast as you can</li>
+<li><a href="/games/pattern-echo">Pattern Echo</a> — remember and repeat color sequences</li>
+</ul>
+
+<p><a href="/">Play all free puzzle games at TinyJoy →</a></p>
+    `.trim(),
+  },
+  {
+    slug: 'wordle-online-free',
+    title: 'Wordle Online Free — Play the Word Guessing Game Instantly',
+    description: 'Play a free Wordle-style word guessing game online — no download, no account. Guess the 5-letter word in 6 tries. Mobile-friendly.',
+    date: '2026-04-05',
+    category: 'game-guide',
+    readingTime: '4 min',
+    content: `
+<p>Wordle took the world by storm in 2021. A five-letter word, six guesses, color-coded feedback — and a new puzzle every day. The concept is simple and brilliant. TinyJoy has a free Wordle-style word guessing game you can play right now, anytime, with no account or download required.</p>
+
+<p><a href="/games/word-guess">Play Word Guess at TinyJoy →</a></p>
+
+<h2>How to Play Wordle</h2>
+<p>The rules of classic Wordle — and TinyJoy's Word Guess — are easy to learn:</p>
+<ul>
+<li>You have 6 attempts to guess a secret 5-letter word</li>
+<li>After each guess, each letter gets color feedback:</li>
+</ul>
+<ul>
+<li><strong>Green</strong> — correct letter, correct position</li>
+<li><strong>Yellow</strong> — correct letter, wrong position</li>
+<li><strong>Gray</strong> — letter not in the word at all</li>
+</ul>
+<p>Use the feedback to narrow down possibilities with each guess. If you identify the word in 6 tries or fewer, you win.</p>
+
+<h2>Wordle Strategy — How to Win Every Time</h2>
+
+<h3>Start with a strong opener</h3>
+<p>Your first guess sets the tone. Use a word that covers common letters. Words like CRANE, RAISE, SLATE, or AUDIO hit vowel-rich, high-frequency letter combinations. Avoid rare letters (Q, X, Z) in your opener.</p>
+
+<h3>Use yellow letters immediately</h3>
+<p>When a letter shows yellow, you know it's in the word — just in the wrong spot. In your next guess, use that letter in a different position. Don't waste guesses on words that put yellow letters back in the same place.</p>
+
+<h3>Eliminate wrong letters fast</h3>
+<p>Gray letters are guaranteed misses. Never use them again. This seems obvious but under pressure players repeat gray letters more than they realize. Be disciplined.</p>
+
+<h3>Think about letter positions</h3>
+<p>Some positions are more common for certain letters. S is very common as a 5th letter (plurals). Common word patterns in English end in -ING, -ER, -LY. If you've confirmed the first two letters, use common patterns for the remaining three.</p>
+
+<h3>Don't sacrifice information for a "winning" guess</h3>
+<p>When you're almost certain of the answer, it can be tempting to guess it immediately. But if you have a guess slot free, consider using it to test new letters that could help in future games — especially if you're playing multiple rounds.</p>
+
+<h2>History of Wordle</h2>
+<p>Wordle was created by Josh Wardle, a software engineer, as a gift for his partner who loves word games. He released it to the public in October 2021. By January 2022, millions were playing daily. The New York Times purchased Wordle for an undisclosed sum (reportedly seven figures) in January 2022 and continues to publish it daily.</p>
+
+<p>Wordle's virality came from its share feature: a grid of colored squares you could paste into social media without spoiling the answer. That mechanic turned Wordle into a daily social ritual — people comparing their guesses, sharing strategies, and bonding over a shared puzzle. It sparked an entire genre of daily word games.</p>
+
+<h2>Wordle Variants and Alternatives</h2>
+<p><strong>Wordle</strong> (NYT): The original. One word per day, shared by all players.</p>
+<p><strong>Quordle</strong>: Solve four Wordle puzzles simultaneously, sharing guesses across all four.</p>
+<p><strong>Absurdle</strong>: Adversarial Wordle — the word shifts to avoid your guesses for as long as possible.</p>
+<p><strong>Nerdle</strong>: A math-equation version of Wordle.</p>
+<p><strong>Word Guess on TinyJoy</strong>: Play unlimited rounds anytime. Great for practicing Wordle skills or just enjoying the word-guessing format without the once-a-day limit.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Is TinyJoy Word Guess exactly like Wordle?</h3>
+<p>It's the same core mechanic — 5-letter word, 6 guesses, color-coded feedback. You can play unlimited games anytime (not just one per day). Great for Wordle practice or just enjoying the format.</p>
+
+<h3>Can I play on my phone?</h3>
+<p>Yes. TinyJoy's Word Guess has a full on-screen keyboard optimized for mobile. Tap letters or type on your keyboard — both work.</p>
+
+<h3>Is it free?</h3>
+<p>Completely free. No account, no subscription, no download.</p>
+
+<h3>What's a good first word for Wordle?</h3>
+<p>Popular strong openers include CRANE, RAISE, SLATE, AUDIO, and AROSE. They cover common letters and give you maximum information on the first guess.</p>
+
+<h2>More Word Games at TinyJoy</h2>
+<ul>
+<li><a href="/games/word-scramble">Word Scramble</a> — unscramble words against the clock</li>
+<li><a href="/games/hangman">Hangman</a> — classic letter-guessing game</li>
+<li><a href="/games/typing-speed">Typing Speed</a> — see how fast you can type a full passage</li>
+</ul>
+
+<p><a href="/">Play all free word games at TinyJoy →</a></p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
