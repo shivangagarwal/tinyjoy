@@ -5429,8 +5429,6 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Short, focused games train specific cognitive skills: reaction time, pattern recognition, working memory, and attention. Games like Pattern Echo and Memory Flip have direct cognitive training benefits. Reaction Time and Color Match train processing speed. Word Scramble trains vocabulary retrieval.</p>
     `.trim(),
   },
-];
-
   {
     slug: 'flappy-bird-online-free',
     title: 'Flappy Bird Online Free — Play in Your Browser (No Download)',
