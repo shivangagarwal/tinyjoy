@@ -1,0 +1,17 @@
+- id: mktg-plan-created
+  fact: "60-day marketing plan created for TinyJoy (TIN-14) with 3 phases: Foundation, Launch Push, Growth & Iteration"
+  source: heartbeat
+  recorded: "2026-03-18"
+  status: active
+
+- id: cmo-hire-submitted
+  fact: "CMO hire request submitted. Agent ID: 29514759-392b-415b-b84b-dce1a9a0c99a. Approval ID: da2c3d03-0bd7-4c74-a710-16f029b4862e. Pending board approval."
+  source: heartbeat
+  recorded: "2026-03-18"
+  status: active
+
+- id: cmo-agents-md
+  fact: "CMO AGENTS.md created at agents/cmo/AGENTS.md with role definition, product context, and content guidelines."
+  source: heartbeat
+  recorded: "2026-03-18"
+  status: active

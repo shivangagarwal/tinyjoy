@@ -8,10 +8,33 @@
 
 ## Standard TinyJoy Description (use for all submissions)
 
-> TinyJoy is a collection of free browser games you can play instantly — no download, no account required. Jump into Color Match, Memory Flip, Number Rush, Pattern Echo, and Word Scramble. Each game takes under 5 minutes, making TinyJoy perfect for a quick break. Web-first, mobile-friendly, and totally free to play. Find your next favorite tiny game at tinyjoy.app.
+> TinyJoy is a collection of 19 free browser games you can play instantly — no download, no account required. Play classics like Minesweeper, Solitaire, Snake, Sudoku, and 2048, or try originals like Color Match, Memory Flip, Number Rush, and Word Scramble. Each game is under 5 minutes — perfect for a quick break. Web-first, mobile-friendly, and totally free to play. tinyjoy.app
 
 **Short tagline (for directories with limited chars):**
-> 5 free browser games. No download, no account. Play instantly at tinyjoy.app.
+> 19 free browser games. No download, no account. Play instantly at tinyjoy.app.
+
+**Full game list (for submissions that want individual game URLs):**
+| Game | URL |
+|------|-----|
+| 2048 | https://tinyjoy.app/games/2048 |
+| Brick Breaker | https://tinyjoy.app/games/brick-breaker |
+| Color Match | https://tinyjoy.app/games/color-match |
+| Connect Four | https://tinyjoy.app/games/connect-four |
+| Flappy Jump | https://tinyjoy.app/games/flappy-jump |
+| Hangman | https://tinyjoy.app/games/hangman |
+| Memory Flip | https://tinyjoy.app/games/memory-flip |
+| Minesweeper | https://tinyjoy.app/games/minesweeper |
+| Number Rush | https://tinyjoy.app/games/number-rush |
+| Pattern Echo | https://tinyjoy.app/games/pattern-echo |
+| Reaction Time | https://tinyjoy.app/games/reaction-time |
+| Snake | https://tinyjoy.app/games/snake |
+| Solitaire | https://tinyjoy.app/games/solitaire |
+| Sudoku | https://tinyjoy.app/games/sudoku |
+| Tic-Tac-Toe | https://tinyjoy.app/games/tic-tac-toe |
+| Typing Speed | https://tinyjoy.app/games/typing-speed |
+| Whack-a-Mole | https://tinyjoy.app/games/whack-a-mole |
+| Word Guess | https://tinyjoy.app/games/word-guess |
+| Word Scramble | https://tinyjoy.app/games/word-scramble |
 
 ---
 
@@ -56,12 +79,14 @@
 2. Submit each game with an iframe-embeddable URL
 3. CrazyGames reviews and publishes (can take weeks)
 
-**Game URLs for submission:**
-- Color Match: `https://tinyjoy.app/games/color-match`
-- Memory Flip: `https://tinyjoy.app/games/memory-flip`
-- Number Rush: `https://tinyjoy.app/games/number-rush`
-- Pattern Echo: `https://tinyjoy.app/games/pattern-echo`
-- Word Scramble: `https://tinyjoy.app/games/word-scramble`
+**Game URLs for submission (start with these 5 most polished):**
+- Minesweeper: `https://tinyjoy.app/games/minesweeper`
+- Solitaire: `https://tinyjoy.app/games/solitaire`
+- 2048: `https://tinyjoy.app/games/2048`
+- Typing Speed: `https://tinyjoy.app/games/typing-speed`
+- Snake: `https://tinyjoy.app/games/snake`
+
+See full game list at the top of this document for all 19 games.
 
 **What needs board action:** Creating developer account and submitting.
 
@@ -121,7 +146,7 @@
 | Status | **Ready to submit — needs board action to file ticket** |
 
 **Required info for submission ticket:**
-- Game title: "TinyJoy — 5 Free Browser Games"
+- Game title: "TinyJoy — 19 Free Browser Games"
 - Dimensions: Responsive
 - Playable URL: `https://tinyjoy.app`
 - iFrame URL: `https://tinyjoy.app/games/color-match` (submit most polished game first)
