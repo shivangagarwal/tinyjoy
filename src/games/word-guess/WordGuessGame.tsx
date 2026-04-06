@@ -62,17 +62,82 @@ const VALID_WORDS = [...new Set(WORDS.filter((w) => w.length === 5))];
 const MAX_GUESSES = 6;
 const WORD_LENGTH = 5;
 const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+const DAILY_ANCHOR = '2024-01-01'; // Day 1
+const LS_DAILY = 'tinyjoy:word-guess-daily';
+const LS_BEST = 'tinyjoy:word-guess-best';
 
 // ── Types ──────────────────────────────────────────────────────────────────
 
 type LetterState = 'correct' | 'present' | 'absent' | 'empty' | 'tbd';
+type GameMode = 'daily' | 'free';
+type GamePhase = 'menu' | 'playing' | 'won' | 'lost';
 
 interface GuessLetter {
   letter: string;
   state: LetterState;
 }
 
-type GamePhase = 'menu' | 'playing' | 'won' | 'lost';
+interface DailyRecord {
+  date: string;
+  target: string;
+  guesses: GuessLetter[][];
+  won: boolean;
+}
+
+// ── Date / Seed helpers ────────────────────────────────────────────────────
+
+function getUTCDateString(): string {
+  const d = new Date();
+  const y = d.getUTCFullYear();
+  const m = String(d.getUTCMonth() + 1).padStart(2, '0');
+  const day = String(d.getUTCDate()).padStart(2, '0');
+  return `${y}-${m}-${day}`;
+}
+
+function getPuzzleNumber(dateStr: string): number {
+  const anchor = new Date(DAILY_ANCHOR + 'T00:00:00Z');
+  const current = new Date(dateStr + 'T00:00:00Z');
+  return Math.floor((current.getTime() - anchor.getTime()) / 86400000) + 1;
+}
+
+function hashString(str: string): number {
+  let h = 2166136261;
+  for (let i = 0; i < str.length; i++) {
+    h = Math.imul(h ^ str.charCodeAt(i), 16777619) >>> 0;
+  }
+  return h;
+}
+
+function mulberry32(seed: number): () => number {
+  return function () {
+    seed += 0x6d2b79f5;
+    let t = seed;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function getDailyWord(dateStr: string): string {
+  const rng = mulberry32(hashString(dateStr));
+  return VALID_WORDS[Math.floor(rng() * VALID_WORDS.length)];
+}
+
+// ── Share helpers ──────────────────────────────────────────────────────────
+
+function buildEmojiGrid(guesses: GuessLetter[][]): string {
+  return guesses
+    .map((row) =>
+      row.map((c) => (c.state === 'correct' ? '🟩' : c.state === 'present' ? '🟨' : '⬛')).join('')
+    )
+    .join('\n');
+}
+
+function buildShareText(dateStr: string, guesses: GuessLetter[][], won: boolean): string {
+  const num = getPuzzleNumber(dateStr);
+  const score = won ? `${guesses.length}/6` : 'X/6';
+  return `Word Guess #${num} ${score}\n${buildEmojiGrid(guesses)}\ntinyjoy.app/games/word-guess`;
+}
 
 // ── Helpers ────────────────────────────────────────────────────────────────
 
@@ -91,7 +156,6 @@ function evaluateGuess(guess: string, target: string): GuessLetter[] {
     targetCounts[ch] = (targetCounts[ch] ?? 0) + 1;
   }
 
-  // First pass: correct positions
   for (let i = 0; i < WORD_LENGTH; i++) {
     if (guess[i] === target[i]) {
       result[i].state = 'correct';
@@ -99,7 +163,6 @@ function evaluateGuess(guess: string, target: string): GuessLetter[] {
     }
   }
 
-  // Second pass: present but wrong position
   for (let i = 0; i < WORD_LENGTH; i++) {
     if (result[i].state === 'correct') continue;
     if (targetCounts[guess[i]] > 0) {
@@ -169,6 +232,8 @@ function KeyboardKey({ char, state, onClick }: {
 
 export default function WordGuessGame() {
   const [phase, setPhase] = useState<GamePhase>('menu');
+  const [mode, setMode] = useState<GameMode>('free');
+  const [dailyDate, setDailyDate] = useState('');
   const [target, setTarget] = useState('');
   const [guesses, setGuesses] = useState<GuessLetter[][]>([]);
   const [currentGuess, setCurrentGuess] = useState('');
@@ -176,16 +241,28 @@ export default function WordGuessGame() {
   const [revealedRows, setRevealedRows] = useState<Set<number>>(new Set());
   const [gamesWon, setGamesWon] = useState(0);
   const [bestStreak, setBestStreak] = useState(0);
+  const [dailyRecord, setDailyRecord] = useState<DailyRecord | null>(null);
+  const [copied, setCopied] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     try {
-      const stored = localStorage.getItem('tinyjoy:word-guess-best');
+      const stored = localStorage.getItem(LS_BEST);
       if (stored) setBestStreak(Number(stored));
+    } catch { /* ignore */ }
+
+    try {
+      const raw = localStorage.getItem(LS_DAILY);
+      if (raw) {
+        const rec: DailyRecord = JSON.parse(raw);
+        const today = getUTCDateString();
+        if (rec.date === today) setDailyRecord(rec);
+      }
     } catch { /* ignore */ }
   }, []);
 
-  const startGame = useCallback(() => {
+  const startFreeGame = useCallback(() => {
+    setMode('free');
     setTarget(pickWord());
     setGuesses([]);
     setCurrentGuess('');
@@ -194,6 +271,30 @@ export default function WordGuessGame() {
     setPhase('playing');
     setTimeout(() => inputRef.current?.focus(), 100);
   }, []);
+
+  const startDailyGame = useCallback(() => {
+    const today = getUTCDateString();
+    setMode('daily');
+    setDailyDate(today);
+
+    // If already completed today, show the result
+    if (dailyRecord && dailyRecord.date === today) {
+      setTarget(dailyRecord.target);
+      setGuesses(dailyRecord.guesses);
+      // Reveal all rows
+      setRevealedRows(new Set(dailyRecord.guesses.map((_, i) => i)));
+      setPhase(dailyRecord.won ? 'won' : 'lost');
+      return;
+    }
+
+    setTarget(getDailyWord(today));
+    setGuesses([]);
+    setCurrentGuess('');
+    setRevealedRows(new Set());
+    setShake(false);
+    setPhase('playing');
+    setTimeout(() => inputRef.current?.focus(), 100);
+  }, [dailyRecord]);
 
   const submitGuess = useCallback(() => {
     if (currentGuess.length !== WORD_LENGTH) {
@@ -213,22 +314,39 @@ export default function WordGuessGame() {
     }, 50);
 
     const won = evaluated.every((l) => l.state === 'correct');
+
     if (won) {
-      const newWins = gamesWon + 1;
-      setGamesWon(newWins);
-      setBestStreak((prev) => {
-        const next = Math.max(prev, newWins);
-        try { localStorage.setItem('tinyjoy:word-guess-best', String(next)); } catch { /* ignore */ }
-        return next;
-      });
-      setTimeout(() => setPhase('won'), WORD_LENGTH * 80 + 400);
+      if (mode === 'free') {
+        const newWins = gamesWon + 1;
+        setGamesWon(newWins);
+        setBestStreak((prev) => {
+          const next = Math.max(prev, newWins);
+          try { localStorage.setItem(LS_BEST, String(next)); } catch { /* ignore */ }
+          return next;
+        });
+      }
+      setTimeout(() => {
+        if (mode === 'daily') {
+          const rec: DailyRecord = { date: dailyDate, target, guesses: newGuesses, won: true };
+          setDailyRecord(rec);
+          try { localStorage.setItem(LS_DAILY, JSON.stringify(rec)); } catch { /* ignore */ }
+        }
+        setPhase('won');
+      }, WORD_LENGTH * 80 + 400);
       return;
     }
 
     if (newGuesses.length >= MAX_GUESSES) {
-      setTimeout(() => setPhase('lost'), WORD_LENGTH * 80 + 400);
+      setTimeout(() => {
+        if (mode === 'daily') {
+          const rec: DailyRecord = { date: dailyDate, target, guesses: newGuesses, won: false };
+          setDailyRecord(rec);
+          try { localStorage.setItem(LS_DAILY, JSON.stringify(rec)); } catch { /* ignore */ }
+        }
+        setPhase('lost');
+      }, WORD_LENGTH * 80 + 400);
     }
-  }, [currentGuess, target, guesses, gamesWon]);
+  }, [currentGuess, target, guesses, gamesWon, mode, dailyDate]);
 
   const handleKeyPress = useCallback((key: string) => {
     if (phase !== 'playing') return;
@@ -252,6 +370,14 @@ export default function WordGuessGame() {
     return () => window.removeEventListener('keydown', handler);
   }, [handleKeyPress]);
 
+  const copyShareText = useCallback(() => {
+    const text = buildShareText(dailyDate, guesses, phase === 'won');
+    navigator.clipboard.writeText(text).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    }).catch(() => { /* ignore */ });
+  }, [dailyDate, guesses, phase]);
+
   // Build keyboard letter states
   const letterStates = new Map<string, LetterState>();
   for (const guess of guesses) {
@@ -266,6 +392,10 @@ export default function WordGuessGame() {
   // ── Render: Menu ───────────────────────────────────────────────────────
 
   if (phase === 'menu') {
+    const today = getUTCDateString();
+    const dailyDone = dailyRecord?.date === today;
+    const puzzleNum = getPuzzleNumber(today);
+
     return (
       <div className="flex min-h-svh flex-col bg-zinc-950 px-6 text-white">
         <div className="pt-4"><HomeLink /></div>
@@ -283,12 +413,23 @@ export default function WordGuessGame() {
                 Best streak: <span className="font-bold text-white">{bestStreak}</span>
               </p>
             )}
-            <button
-              onClick={startGame}
-              className="rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
-            >
-              Play
-            </button>
+            <div className="flex w-full flex-col gap-3">
+              <button
+                onClick={startDailyGame}
+                className="relative rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
+              >
+                {dailyDone ? '✓ Daily Word' : 'Daily Word'}
+                <span className="absolute right-4 top-1/2 -translate-y-1/2 text-sm font-normal text-zinc-500">
+                  #{puzzleNum}
+                </span>
+              </button>
+              <button
+                onClick={startFreeGame}
+                className="rounded-2xl border border-zinc-700 px-10 py-3 text-base font-semibold text-zinc-300 transition active:scale-95"
+              >
+                Free Play
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -298,13 +439,19 @@ export default function WordGuessGame() {
   // ── Render: Won / Lost ─────────────────────────────────────────────────
 
   if (phase === 'won' || phase === 'lost') {
+    const isDaily = mode === 'daily';
+    const puzzleNum = isDaily ? getPuzzleNumber(dailyDate) : 0;
+
     return (
       <div className="flex min-h-svh flex-col bg-zinc-950 px-6 text-white">
         <div className="pt-4"><HomeLink /></div>
         <div className="flex flex-1 flex-col items-center justify-center">
-          <div className="flex w-full max-w-sm flex-col items-center gap-8">
+          <div className="flex w-full max-w-sm flex-col items-center gap-6">
             <div className="flex flex-col items-center gap-3">
               <span className="text-6xl">{phase === 'won' ? '🎉' : '😔'}</span>
+              {isDaily && (
+                <p className="text-sm font-semibold text-zinc-400">Word Guess #{puzzleNum}</p>
+              )}
               <h2 className="text-3xl font-bold">
                 {phase === 'won' ? 'Brilliant!' : 'Game Over'}
               </h2>
@@ -320,23 +467,55 @@ export default function WordGuessGame() {
                   {guesses.length === 1 ? 'guess' : 'guesses'}!
                 </p>
               )}
-              <p className="text-zinc-400">
-                Wins: <span className="text-2xl font-bold text-white">{gamesWon}</span>
-              </p>
-              {bestStreak > 0 && (
+              {!isDaily && (
+                <p className="text-zinc-400">
+                  Wins: <span className="text-2xl font-bold text-white">{gamesWon}</span>
+                </p>
+              )}
+              {!isDaily && bestStreak > 0 && (
                 <p className="text-sm text-zinc-500">
                   Best: <span className="font-semibold text-white">{bestStreak}</span>
                 </p>
               )}
             </div>
-            <div className="flex w-full flex-col items-center gap-4">
-              <button
-                onClick={startGame}
-                className="rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
-              >
-                {phase === 'won' ? 'Next word' : 'Try again'}
-              </button>
-              <ShareButton score={gamesWon} gameName="Word Guess" gameSlug="word-guess" />
+
+            {/* Daily: mini emoji grid preview */}
+            {isDaily && (
+              <div className="flex flex-col items-center gap-0.5 text-2xl leading-tight">
+                {guesses.map((row, i) => (
+                  <div key={i} className="flex gap-0.5">
+                    {row.map((c, j) => (
+                      <span key={j}>
+                        {c.state === 'correct' ? '🟩' : c.state === 'present' ? '🟨' : '⬛'}
+                      </span>
+                    ))}
+                  </div>
+                ))}
+              </div>
+            )}
+
+            <div className="flex w-full flex-col items-center gap-3">
+              {isDaily ? (
+                <>
+                  <button
+                    onClick={copyShareText}
+                    className="w-full rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
+                  >
+                    {copied ? 'Copied!' : 'Share Result'}
+                  </button>
+                  <p className="text-center text-sm text-zinc-500">Come back tomorrow for a new word</p>
+                </>
+              ) : (
+                <>
+                  <button
+                    onClick={startFreeGame}
+                    className="rounded-2xl bg-white px-10 py-4 text-xl font-bold text-zinc-900 transition active:scale-95"
+                  >
+                    {phase === 'won' ? 'Next word' : 'Try again'}
+                  </button>
+                  <ShareButton score={gamesWon} gameName="Word Guess" gameSlug="word-guess" />
+                </>
+              )}
             </div>
             <OtherGames currentHref="/games/word-guess" />
           </div>
@@ -366,11 +545,16 @@ export default function WordGuessGame() {
         <div className="flex items-center justify-between">
           <HomeLink />
           <span className="text-sm text-zinc-400">
-            Wins: <span className="font-bold text-white">{gamesWon}</span>
+            {mode === 'daily'
+              ? `#${getPuzzleNumber(dailyDate)}`
+              : <>Wins: <span className="font-bold text-white">{gamesWon}</span></>
+            }
           </span>
         </div>
 
-        <h1 className="text-center text-xl font-bold tracking-tight">Word Guess</h1>
+        <h1 className="text-center text-xl font-bold tracking-tight">
+          {mode === 'daily' ? 'Daily Word' : 'Word Guess'}
+        </h1>
 
         {/* Hidden input for mobile keyboard */}
         <input
