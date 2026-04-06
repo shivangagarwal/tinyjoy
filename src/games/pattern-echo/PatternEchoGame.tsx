@@ -330,10 +330,19 @@ export default function PatternEchoGame() {
           </div>
         </div>
 
-        {/* Sequence length indicator */}
-        <p className="text-xs text-zinc-600">
-          Sequence length: {currentRound}
-        </p>
+        {/* Sequence history dots — reference during input phase */}
+        <div
+          aria-hidden="true"
+          className={`flex flex-wrap justify-center gap-2 transition-opacity duration-300 ${isInput ? 'opacity-100' : 'opacity-0'}`}
+        >
+          {sequence.map((colorId, i) => (
+            <div
+              key={i}
+              className="h-3.5 w-3.5 rounded-full"
+              style={{ backgroundColor: COLORS[colorId].hex }}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
