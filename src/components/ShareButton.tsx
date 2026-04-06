@@ -1,5 +1,7 @@
 'use client';
 
+import { useState } from 'react';
+
 interface ShareButtonProps {
   gameName: string;
   gameSlug: string;
@@ -10,6 +12,7 @@ interface ShareButtonProps {
 }
 
 export default function ShareButton({ gameName, gameSlug, score, label }: ShareButtonProps) {
+  const [copied, setCopied] = useState(false);
   const scorePhrase = label ?? `I scored ${score}`;
   const text = `${scorePhrase} on ${gameName} at TinyJoy! Can you beat me? tinyjoy.app/games/${gameSlug}`;
 
@@ -21,8 +24,14 @@ export default function ShareButton({ gameName, gameSlug, score, label }: ShareB
         // user cancelled — no-op
       }
     } else {
-      const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
-      window.open(twitterUrl, '_blank', 'noopener,noreferrer');
+      try {
+        await navigator.clipboard.writeText(text);
+        setCopied(true);
+        setTimeout(() => setCopied(false), 2000);
+      } catch {
+        const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
+        window.open(twitterUrl, '_blank', 'noopener,noreferrer');
+      }
     }
   }
 
@@ -30,8 +39,9 @@ export default function ShareButton({ gameName, gameSlug, score, label }: ShareB
     <button
       onClick={handleShare}
       className="rounded-2xl border border-zinc-600 px-10 py-3 text-base font-semibold text-zinc-300 transition active:scale-95"
+      style={{ minWidth: '140px' }}
     >
-      Share Score
+      {copied ? 'Copied!' : 'Share Score'}
     </button>
   );
 }
