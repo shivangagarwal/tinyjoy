@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { GAMES, type GameCategory } from '@/lib/games';
+import GameBestBadge from '@/components/GameBestBadge';
 
 export const metadata: Metadata = {
   title: 'TinyJoy — Calm, Quick, Delightful Games',
@@ -88,6 +89,9 @@ export default function Home() {
                       <div>
                         <p className="font-semibold">{game.name}</p>
                         <p className="text-sm text-zinc-400">{game.description}</p>
+                        {game.storageKey && game.scoreType && (
+                          <GameBestBadge storageKey={game.storageKey} scoreType={game.scoreType} />
+                        )}
                       </div>
                     </Link>
                   ))}

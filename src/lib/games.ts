@@ -1,4 +1,5 @@
 export type GameCategory = 'quick' | 'word' | 'arcade' | 'puzzle' | 'classic';
+export type ScoreType = 'score' | 'ms';
 
 export interface Game {
   href: string;
@@ -8,6 +9,8 @@ export interface Game {
   bg: string;
   category: GameCategory;
   featured?: true;
+  storageKey?: string;
+  scoreType?: ScoreType;
 }
 
 export const GAMES: Game[] = [
@@ -35,6 +38,8 @@ export const GAMES: Game[] = [
     emoji: '⚡',
     bg: '#10B981',
     category: 'quick',
+    storageKey: 'tinyjoy:best-time:number-rush',
+    scoreType: 'ms',
   },
   {
     href: '/games/pattern-echo',
@@ -67,6 +72,8 @@ export const GAMES: Game[] = [
     emoji: '⚡',
     bg: '#22C55E',
     category: 'quick',
+    storageKey: 'tinyjoy:best-avg-reaction-ms',
+    scoreType: 'ms',
   },
   {
     href: '/games/snake',
@@ -75,6 +82,8 @@ export const GAMES: Game[] = [
     emoji: '🐍',
     bg: '#16A34A',
     category: 'arcade',
+    storageKey: 'tinyjoy:snake-best',
+    scoreType: 'score',
   },
   {
     href: '/games/2048',
@@ -84,6 +93,8 @@ export const GAMES: Game[] = [
     bg: '#F59E0B',
     category: 'puzzle',
     featured: true,
+    storageKey: 'tinyjoy:2048-best',
+    scoreType: 'score',
   },
   {
     href: '/games/whack-a-mole',
@@ -92,6 +103,8 @@ export const GAMES: Game[] = [
     emoji: '🔨',
     bg: '#92400E',
     category: 'quick',
+    storageKey: 'tinyjoy:whack-best',
+    scoreType: 'score',
   },
   {
     href: '/games/tic-tac-toe',
@@ -124,6 +137,8 @@ export const GAMES: Game[] = [
     emoji: '🐦',
     bg: '#F97316',
     category: 'arcade',
+    storageKey: 'tinyjoy:flappy-jump-best',
+    scoreType: 'score',
   },
   {
     href: '/games/hangman',
@@ -132,6 +147,8 @@ export const GAMES: Game[] = [
     emoji: '🪢',
     bg: '#DC2626',
     category: 'word',
+    storageKey: 'tinyjoy:hangman-best',
+    scoreType: 'score',
   },
   {
     href: '/games/connect-four',
@@ -149,6 +166,8 @@ export const GAMES: Game[] = [
     bg: '#16A34A',
     category: 'word',
     featured: true,
+    storageKey: 'tinyjoy:word-guess-best',
+    scoreType: 'score',
   },
   {
     href: '/games/solitaire',
@@ -157,6 +176,8 @@ export const GAMES: Game[] = [
     emoji: '🃏',
     bg: '#7C3AED',
     category: 'classic',
+    storageKey: 'tinyjoy:solitaire-best',
+    scoreType: 'score',
   },
   {
     href: '/games/brick-breaker',
@@ -165,5 +186,7 @@ export const GAMES: Game[] = [
     emoji: '🧱',
     bg: '#DC2626',
     category: 'arcade',
+    storageKey: 'tinyjoy:brick-breaker-best',
+    scoreType: 'score',
   },
 ];
