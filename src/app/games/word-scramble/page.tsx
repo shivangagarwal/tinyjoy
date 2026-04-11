@@ -62,7 +62,7 @@ export default function WordScramblePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <WordScrambleGame />
-      <RelatedGuides guides={[
+      <RelatedGuides currentGameHref="/games/word-scramble" guides={[
         { href: '/blog/how-to-play-word-scramble', label: 'How to Play Word Scramble' },
         { href: '/blog/best-word-games-online', label: 'Best Word Games Online' },
       ]} />

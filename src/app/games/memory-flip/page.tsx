@@ -62,7 +62,7 @@ export default function MemoryFlipPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <MemoryFlipGame />
-      <RelatedGuides guides={[
+      <RelatedGuides currentGameHref="/games/memory-flip" guides={[
         { href: '/blog/how-to-play-memory-flip', label: 'How to Play Memory Flip' },
         { href: '/blog/brain-training-games-online', label: 'Brain Training Games Online' },
       ]} />

@@ -63,7 +63,7 @@ export default function TicTacToePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <TicTacToeGame />
-      <RelatedGuides guides={[
+      <RelatedGuides currentGameHref="/games/tic-tac-toe" guides={[
         { href: '/blog/best-free-browser-games-2026', label: 'Best Free Browser Games 2026' },
         { href: '/blog/fun-games-to-play-at-work', label: 'Fun Games to Play at Work' },
       ]} />

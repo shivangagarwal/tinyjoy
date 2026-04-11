@@ -63,7 +63,7 @@ export default function MinesweeperPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <MinesweeperGame />
-      <RelatedGuides guides={[
+      <RelatedGuides currentGameHref="/games/minesweeper" guides={[
         { href: '/blog/how-to-win-at-minesweeper', label: 'How to Win at Minesweeper' },
         { href: '/blog/sudoku-tips-for-beginners', label: 'Sudoku Tips for Beginners' },
       ]} />

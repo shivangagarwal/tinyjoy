@@ -62,7 +62,7 @@ export default function PatternEchoPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <PatternEchoGame />
-      <RelatedGuides guides={[
+      <RelatedGuides currentGameHref="/games/pattern-echo" guides={[
         { href: '/blog/how-to-play-pattern-echo', label: 'How to Play Pattern Echo' },
         { href: '/blog/brain-training-games-online', label: 'Brain Training Games Online' },
       ]} />

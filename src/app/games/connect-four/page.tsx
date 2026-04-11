@@ -63,7 +63,7 @@ export default function ConnectFourPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <ConnectFourGame />
-      <RelatedGuides guides={[
+      <RelatedGuides currentGameHref="/games/connect-four" guides={[
         { href: '/blog/best-arcade-games-browser', label: 'Best Arcade Games for Browser' },
         { href: '/blog/best-free-browser-games-2026', label: 'Best Free Browser Games 2026' },
       ]} />

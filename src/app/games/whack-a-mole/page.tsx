@@ -63,7 +63,7 @@ export default function WhackAMolePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <WhackAMoleGame />
-      <RelatedGuides guides={[
+      <RelatedGuides currentGameHref="/games/whack-a-mole" guides={[
         { href: '/blog/how-to-play-whack-a-mole', label: 'How to Play Whack-a-Mole' },
         { href: '/blog/fun-games-to-play-at-work', label: 'Fun Games to Play at Work' },
       ]} />

@@ -63,7 +63,7 @@ export default function Game2048Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <Game2048 />
-      <RelatedGuides guides={[
+      <RelatedGuides currentGameHref="/games/2048" guides={[
         { href: '/blog/2048-strategy-guide', label: '2048 Strategy Guide' },
         { href: '/blog/free-online-solitaire', label: 'Free Online Solitaire' },
       ]} />

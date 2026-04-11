@@ -62,7 +62,7 @@ export default function ColorMatchPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <ColorMatchGame />
-      <RelatedGuides guides={[
+      <RelatedGuides currentGameHref="/games/color-match" guides={[
         { href: '/blog/how-to-play-color-match', label: 'How to Play Color Match' },
         { href: '/blog/best-free-browser-games-2026', label: 'Best Free Browser Games 2026' },
       ]} />

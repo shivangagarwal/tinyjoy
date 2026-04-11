@@ -62,7 +62,7 @@ export default function BrickBreakerPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <BrickBreakerGame />
-      <RelatedGuides guides={[
+      <RelatedGuides currentGameHref="/games/brick-breaker" guides={[
         { href: '/blog/best-arcade-games-browser', label: 'Best Arcade Games for Browser' },
         { href: '/blog/best-free-games-no-download-2026', label: 'Best Free Games No Download 2026' },
       ]} />

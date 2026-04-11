@@ -63,7 +63,7 @@ export default function ReactionTimePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <ReactionTimeGame />
-      <RelatedGuides guides={[
+      <RelatedGuides currentGameHref="/games/reaction-time" guides={[
         { href: '/blog/how-to-play-reaction-time', label: 'How to Play Reaction Time' },
         { href: '/blog/fun-games-to-play-at-work', label: 'Fun Games to Play at Work' },
       ]} />

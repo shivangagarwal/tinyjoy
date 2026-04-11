@@ -63,7 +63,7 @@ export default function HangmanPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <HangmanGame />
-      <RelatedGuides guides={[
+      <RelatedGuides currentGameHref="/games/hangman" guides={[
         { href: '/blog/best-word-games-online', label: 'Best Word Games Online' },
         { href: '/blog/fun-games-to-play-on-your-phone', label: 'Fun Games to Play on Your Phone' },
       ]} />

@@ -63,7 +63,7 @@ export default function SnakePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <SnakeGame />
-      <RelatedGuides guides={[
+      <RelatedGuides currentGameHref="/games/snake" guides={[
         { href: '/blog/snake-game-online', label: 'Snake Game Online' },
         { href: '/blog/best-arcade-games-browser', label: 'Best Arcade Games for Browser' },
       ]} />

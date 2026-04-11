@@ -62,7 +62,7 @@ export default function TypingSpeedPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <TypingSpeedGame />
-      <RelatedGuides guides={[
+      <RelatedGuides currentGameHref="/games/typing-speed" guides={[
         { href: '/blog/free-typing-speed-test-online', label: 'Free Typing Speed Test Online' },
         { href: '/blog/how-to-improve-typing-speed', label: 'How to Improve Typing Speed' },
       ]} />

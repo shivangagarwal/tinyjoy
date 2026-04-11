@@ -63,7 +63,7 @@ export default function SudokuPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <SudokuGame />
-      <RelatedGuides guides={[
+      <RelatedGuides currentGameHref="/games/sudoku" guides={[
         { href: '/blog/sudoku-tips-for-beginners', label: 'Sudoku Tips for Beginners' },
         { href: '/blog/brain-training-games-that-actually-work', label: 'Brain Training Games That Actually Work' },
       ]} />

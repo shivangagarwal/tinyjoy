@@ -63,7 +63,7 @@ export default function FlappyJumpPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <FlappyJumpGame />
-      <RelatedGuides guides={[
+      <RelatedGuides currentGameHref="/games/flappy-jump" guides={[
         { href: '/blog/best-arcade-games-browser', label: 'Best Arcade Games for Browser' },
         { href: '/blog/quick-games-to-play-on-your-phone', label: 'Quick Games to Play on Your Phone' },
       ]} />

@@ -62,7 +62,7 @@ export default function NumberRushPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <NumberRushGame />
-      <RelatedGuides guides={[
+      <RelatedGuides currentGameHref="/games/number-rush" guides={[
         { href: '/blog/how-to-play-number-rush', label: 'How to Play Number Rush' },
         { href: '/blog/games-to-play-when-bored', label: 'Games to Play When Bored' },
       ]} />
