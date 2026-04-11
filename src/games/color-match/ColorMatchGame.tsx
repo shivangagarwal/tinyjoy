@@ -280,8 +280,8 @@ export default function ColorMatchGame() {
 
   // Playing
   return (
-    <div className="flex h-svh flex-col bg-zinc-950 px-4 py-6 text-white overflow-y-auto">
-      <div className="mx-auto flex w-full max-w-sm flex-1 flex-col gap-4">
+    <div className="flex h-svh flex-col bg-zinc-950 px-4 py-4 text-white overflow-hidden">
+      <div className="mx-auto flex w-full max-w-sm flex-1 flex-col gap-3 min-h-0">
         {/* Home link */}
         <HomeLink />
 
@@ -314,47 +314,47 @@ export default function ColorMatchGame() {
           <span className="text-sm font-medium text-zinc-400">tiles</span>
         </div>
 
-        {/* Grid */}
-        <div className="mt-4">
-        <div
-          className="grid w-full grid-cols-4 gap-2"
-          role="grid"
-          aria-label="Color grid"
-        >
-          {tiles.map((colorId, i) => {
-            const color = colorById(colorId);
-            const kind = flash[i];
-            const isHit = kind === 'hit';
-            const isMiss = kind === 'miss';
+        {/* Grid — flex-1 so it fills remaining vertical space */}
+        <div className="flex-1 min-h-0">
+          <div
+            className="grid h-full w-full grid-cols-4 grid-rows-4 gap-2"
+            role="grid"
+            aria-label="Color grid"
+          >
+            {tiles.map((colorId, i) => {
+              const color = colorById(colorId);
+              const kind = flash[i];
+              const isHit = kind === 'hit';
+              const isMiss = kind === 'miss';
 
-            return (
-              <button
-                key={i}
-                role="gridcell"
-                aria-label={`${color.id} tile`}
-                onClick={() => handleTap(i)}
-                className="aspect-square select-none rounded-2xl font-bold text-white transition-transform"
-                style={{
-                  backgroundColor: color.hex,
-                  transform: isHit
-                    ? 'scale(0.88)'
-                    : isMiss
-                      ? 'scale(0.92) rotate(-4deg)'
-                      : 'scale(1)',
-                  opacity: isHit ? 0.5 : 1,
-                  boxShadow: isHit
-                    ? `0 0 0 3px #fff`
-                    : isMiss
-                      ? `0 0 0 3px #EF4444`
-                      : 'none',
-                  fontSize: 'clamp(14px, 4vw, 20px)',
-                }}
-              >
-                {color.label}
-              </button>
-            );
-          })}
-        </div>
+              return (
+                <button
+                  key={i}
+                  role="gridcell"
+                  aria-label={`${color.id} tile`}
+                  onClick={() => handleTap(i)}
+                  className="select-none rounded-2xl font-bold text-white transition-transform"
+                  style={{
+                    backgroundColor: color.hex,
+                    transform: isHit
+                      ? 'scale(0.88)'
+                      : isMiss
+                        ? 'scale(0.92) rotate(-4deg)'
+                        : 'scale(1)',
+                    opacity: isHit ? 0.5 : 1,
+                    boxShadow: isHit
+                      ? `0 0 0 3px #fff`
+                      : isMiss
+                        ? `0 0 0 3px #EF4444`
+                        : 'none',
+                    fontSize: 'clamp(14px, 4vw, 20px)',
+                  }}
+                >
+                  {color.label}
+                </button>
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>

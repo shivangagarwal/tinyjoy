@@ -253,8 +253,8 @@ export default function MemoryFlipGame() {
 
   // Playing
   return (
-    <div className="flex h-svh flex-col bg-zinc-950 px-4 py-6 text-white overflow-y-auto">
-      <div className="mx-auto flex w-full max-w-sm flex-1 flex-col gap-4">
+    <div className="flex h-svh flex-col bg-zinc-950 px-4 py-6 text-white overflow-hidden">
+      <div className="mx-auto flex w-full max-w-sm flex-1 flex-col gap-4 min-h-0">
         {/* Home link */}
         <HomeLink />
 
@@ -277,11 +277,14 @@ export default function MemoryFlipGame() {
           />
         </div>
 
-        {/* Card grid */}
-        <div className="mt-4">
+        {/* Card grid — flex-1 so it fills remaining vertical space */}
+        <div className="flex-1 min-h-0">
         <div
-          className="grid w-full gap-2"
-          style={{ gridTemplateColumns: `repeat(${COLS}, 1fr)` }}
+          className="grid h-full w-full gap-2"
+          style={{
+            gridTemplateColumns: `repeat(${COLS}, 1fr)`,
+            gridTemplateRows: `repeat(${(EMOJIS.length * 2) / COLS}, 1fr)`,
+          }}
           role="grid"
           aria-label="Memory card grid"
         >
@@ -296,7 +299,7 @@ export default function MemoryFlipGame() {
                 aria-label={isFaceUp ? card.emoji : 'Face-down card'}
                 onClick={() => handleCardTap(card)}
                 disabled={isMatched || (flipped.has(card.id) && flippedRef.current.length < 2)}
-                className="aspect-square select-none rounded-2xl transition-all duration-200"
+                className="select-none rounded-2xl transition-all duration-200"
                 style={{
                   backgroundColor: isMatched
                     ? '#166534'

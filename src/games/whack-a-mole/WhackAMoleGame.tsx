@@ -220,11 +220,11 @@ export default function WhackAMoleGame() {
   // ── Playing ───────────────────────────────────────────────────────────────
 
   return (
-    <div className="flex min-h-svh flex-col bg-zinc-950 px-6 text-white">
+    <div className="flex h-svh flex-col bg-zinc-950 px-6 text-white overflow-hidden">
       <div className="pt-4">
         <HomeLink />
       </div>
-      <div className="flex flex-1 flex-col items-center justify-center gap-6">
+      <div className="flex flex-1 flex-col items-center gap-4 min-h-0 py-4">
         {/* HUD */}
         <div className="flex w-full max-w-sm items-center justify-between">
           <div className="flex flex-col">
@@ -247,36 +247,38 @@ export default function WhackAMoleGame() {
           </div>
         </div>
 
-        {/* 3×3 grid */}
-        <div className="grid w-full max-w-sm grid-cols-3 gap-3">
-          {Array.from({ length: HOLES }, (_, i) => {
-            const hasMole = activeMoles.has(i);
-            const isFlash = flashHole === i;
-            return (
-              <button
-                key={i}
-                onPointerDown={() => whack(i)}
-                className={`relative flex aspect-square items-center justify-center rounded-2xl transition-all duration-100 select-none ${
-                  isFlash
-                    ? 'bg-yellow-400 scale-95'
-                    : hasMole
-                      ? 'bg-amber-800 scale-105 shadow-lg shadow-amber-900/50'
-                      : 'bg-zinc-800'
-                }`}
-              >
-                {hasMole && !isFlash && (
-                  <span className="text-4xl" style={{ userSelect: 'none' }}>
-                    🐭
-                  </span>
-                )}
-                {isFlash && (
-                  <span className="text-4xl" style={{ userSelect: 'none' }}>
-                    💥
-                  </span>
-                )}
-              </button>
-            );
-          })}
+        {/* 3×3 grid — flex-1 so it fills remaining vertical space */}
+        <div className="flex-1 min-h-0 w-full max-w-sm">
+          <div className="grid h-full grid-cols-3 grid-rows-3 gap-3">
+            {Array.from({ length: HOLES }, (_, i) => {
+              const hasMole = activeMoles.has(i);
+              const isFlash = flashHole === i;
+              return (
+                <button
+                  key={i}
+                  onPointerDown={() => whack(i)}
+                  className={`relative flex items-center justify-center rounded-2xl transition-all duration-100 select-none ${
+                    isFlash
+                      ? 'bg-yellow-400 scale-95'
+                      : hasMole
+                        ? 'bg-amber-800 scale-105 shadow-lg shadow-amber-900/50'
+                        : 'bg-zinc-800'
+                  }`}
+                >
+                  {hasMole && !isFlash && (
+                    <span className="text-4xl" style={{ userSelect: 'none' }}>
+                      🐭
+                    </span>
+                  )}
+                  {isFlash && (
+                    <span className="text-4xl" style={{ userSelect: 'none' }}>
+                      💥
+                    </span>
+                  )}
+                </button>
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>

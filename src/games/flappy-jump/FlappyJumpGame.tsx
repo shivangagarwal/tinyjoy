@@ -478,14 +478,23 @@ export default function FlappyJumpGame() {
             </span>
           )}
         </div>
-        <canvas
-          ref={canvasRef}
-          width={CANVAS_W}
-          height={CANVAS_H}
-          className="rounded-2xl"
-          style={{ touchAction: 'none' }}
-          onClick={flap}
-        />
+        {/* Scale canvas to fill viewport while preserving aspect ratio */}
+        <div
+          className="w-full"
+          style={{
+            maxWidth: `min(calc(100vw - 48px), calc((100svh - 180px) * ${CANVAS_W} / ${CANVAS_H}))`,
+            aspectRatio: `${CANVAS_W} / ${CANVAS_H}`,
+          }}
+        >
+          <canvas
+            ref={canvasRef}
+            width={CANVAS_W}
+            height={CANVAS_H}
+            className="w-full h-full rounded-2xl"
+            style={{ touchAction: 'none' }}
+            onClick={flap}
+          />
+        </div>
         <p className="text-xs text-zinc-600">Tap or press Space to flap</p>
       </div>
     </div>

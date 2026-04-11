@@ -286,7 +286,7 @@ export default function SnakeGame() {
       <div className="pt-4">
         <HomeLink />
       </div>
-      <div className="flex flex-1 flex-col items-center justify-center gap-4">
+      <div className="flex flex-1 flex-col items-center justify-center gap-4 min-h-0 py-4">
         <div className="flex items-center gap-6 text-sm text-zinc-400">
           <span>
             Score: <span className="font-bold text-white">{score}</span>
@@ -297,13 +297,22 @@ export default function SnakeGame() {
             </span>
           )}
         </div>
-        <canvas
-          ref={canvasRef}
-          width={CANVAS_SIZE}
-          height={CANVAS_SIZE}
-          className="rounded-2xl"
-          style={{ touchAction: 'none' }}
-        />
+        {/* Scale canvas to fill viewport while preserving square aspect ratio */}
+        <div
+          className="w-full"
+          style={{
+            maxWidth: `min(calc(100vw - 48px), calc(100svh - 180px))`,
+            aspectRatio: '1',
+          }}
+        >
+          <canvas
+            ref={canvasRef}
+            width={CANVAS_SIZE}
+            height={CANVAS_SIZE}
+            className="w-full h-full rounded-2xl"
+            style={{ touchAction: 'none' }}
+          />
+        </div>
         <p className="text-xs text-zinc-600">Swipe or use arrow keys</p>
       </div>
     </div>
