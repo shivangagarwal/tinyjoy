@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 100vw; height: 100vh; overflow: hidden; }
+  body {
+    background: #09090b;
+    color: #fff;
+    font-family: -apple-system, system-ui, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card { text-align: center; animation: rise 0.7s cubic-bezier(0.2, 0.9, 0.3, 1) both; }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(4vh) scale(0.97); }
+    to { opacity: 1; transform: none; }
+  }
+  .chips { display: flex; gap: 1.6vh; justify-content: center; margin-bottom: 4vh; }
+  .chip {
+    width: 8vh; height: 8vh; border-radius: 2.2vh;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 4.4vh;
+    animation: pop 0.5s cubic-bezier(0.3, 1.6, 0.5, 1) both;
+  }
+  .chip:nth-child(1) { background: #D946EF; animation-delay: 0.25s; }
+  .chip:nth-child(2) { background: #14B8A6; animation-delay: 0.35s; }
+  .chip:nth-child(3) { background: #3B82F6; animation-delay: 0.45s; }
+  .chip:nth-child(4) { background: #F59E0B; animation-delay: 0.55s; }
+  .chip:nth-child(5) { background: #16A34A; animation-delay: 0.65s; }
+  @keyframes pop {
+    from { opacity: 0; transform: scale(0.3); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  h1 { font-size: 11vh; font-weight: 800; letter-spacing: -0.02em; }
+  p { font-size: 3.6vh; color: #a1a1aa; margin-top: 1.6vh; }
+  .url {
+    display: inline-block; margin-top: 4.2vh;
+    background: #fff; color: #09090b;
+    font-size: 4vh; font-weight: 800;
+    padding: 2vh 5vh; border-radius: 100vh;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="chips">
+      <div class="chip">✏️</div>
+      <div class="chip">🌍</div>
+      <div class="chip">🎨</div>
+      <div class="chip">🎯</div>
+      <div class="chip">🐍</div>
+    </div>
+    <h1>TinyJoy</h1>
+    <p>Free browser games. Play instantly.</p>
+    <div class="url">tinyjoy.app</div>
+  </div>
+</body>
+</html>
