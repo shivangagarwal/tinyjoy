@@ -400,6 +400,24 @@ const games = {
   <rect x="1040" y="150" width="55" height="55" rx="6" fill="#22C55E" opacity="0.25"/>
   <rect x="1040" y="220" width="55" height="55" rx="6" fill="#334155" opacity="0.2"/>`
   },
+  'guess-my-drawing': {
+    title: 'Guess My Drawing',
+    tagline: 'Draw doodles — the AI guesses live',
+    accentColor: '#D946EF',
+    decorators: `
+  <path d="M 80 130 Q 120 70 160 130 T 240 130" stroke="#D946EF" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="150" cy="240" r="38" stroke="#EAB308" stroke-width="9" fill="none" opacity="0.7"/>
+  <line x1="150" y1="180" x2="150" y2="160" stroke="#EAB308" stroke-width="9" stroke-linecap="round" opacity="0.7"/>
+  <line x1="150" y1="300" x2="150" y2="320" stroke="#EAB308" stroke-width="9" stroke-linecap="round" opacity="0.7"/>
+  <line x1="90" y1="240" x2="70" y2="240" stroke="#EAB308" stroke-width="9" stroke-linecap="round" opacity="0.7"/>
+  <line x1="210" y1="240" x2="230" y2="240" stroke="#EAB308" stroke-width="9" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 1000 120 L 1030 180 L 1095 188 L 1047 232 L 1060 296 L 1000 264 L 940 296 L 953 232 L 905 188 L 970 180 Z" stroke="#3B82F6" stroke-width="9" fill="none" stroke-linejoin="round" opacity="0.7"/>
+  <path d="M 1000 480 q 20 -45 40 0 q 20 45 40 0" stroke="#10B981" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <circle cx="105" cy="500" r="34" stroke="#D946EF" stroke-width="9" fill="none" opacity="0.4"/>
+  <circle cx="93" cy="492" r="4" fill="#D946EF" opacity="0.6"/>
+  <circle cx="117" cy="492" r="4" fill="#D946EF" opacity="0.6"/>
+  <path d="M 92 510 q 13 12 26 0" stroke="#D946EF" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.6"/>`
+  },
 };
 
 async function generateAll() {

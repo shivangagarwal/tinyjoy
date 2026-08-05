@@ -1,4 +1,4 @@
-export type GameCategory = 'quick' | 'word' | 'arcade' | 'puzzle' | 'classic';
+export type GameCategory = 'ai' | 'quick' | 'word' | 'arcade' | 'puzzle' | 'classic';
 export type ScoreType = 'score' | 'ms';
 
 export interface Game {
@@ -14,6 +14,16 @@ export interface Game {
 }
 
 export const GAMES: Game[] = [
+  {
+    href: '/games/guess-my-drawing',
+    name: 'Guess My Drawing',
+    description: 'Draw doodles. The AI guesses live.',
+    emoji: '✏️',
+    bg: '#D946EF',
+    category: 'ai',
+    storageKey: 'tinyjoy:score:guess-my-drawing',
+    scoreType: 'score',
+  },
   {
     href: '/games/color-match',
     name: 'Color Match',

@@ -5,7 +5,7 @@ import GameBestBadge from '@/components/GameBestBadge';
 
 export const metadata: Metadata = {
   title: 'TinyJoy — Calm, Quick, Delightful Games',
-  description: 'Free browser games for everyday moments. Play Color Match, Memory Flip, Number Rush, Pattern Echo, Word Scramble and more.',
+  description: 'Free browser games for everyday moments. Kids learn how AI works the fun way with Guess My Drawing — plus Color Match, Memory Flip, 2048 and more.',
   alternates: { canonical: 'https://tinyjoy.app' },
   openGraph: {
     title: 'TinyJoy — Calm, Quick, Delightful Games',
@@ -22,7 +22,8 @@ export const metadata: Metadata = {
   },
 };
 
-const CATEGORY_SECTIONS: { key: GameCategory; label: string; emoji: string }[] = [
+const CATEGORY_SECTIONS: { key: GameCategory; label: string; emoji: string; description?: string }[] = [
+  { key: 'ai', label: 'AI', emoji: '🤖', description: 'Fun games that teach kids how AI works.' },
   { key: 'quick', label: 'Quick Hits', emoji: '⚡' },
   { key: 'word', label: 'Word Games', emoji: '📝' },
   { key: 'arcade', label: 'Arcade', emoji: '🕹️' },
@@ -69,9 +70,14 @@ export default function Home() {
             const games = GAMES.filter((g) => g.category === section.key);
             return (
               <div key={section.key} className={i > 0 ? 'mt-8' : ''}>
-                <h2 className="text-xs uppercase tracking-widest text-zinc-500 mb-3">
-                  {section.emoji} {section.label}
-                </h2>
+                <div className="mb-3">
+                  <h2 className="text-xs uppercase tracking-widest text-zinc-500">
+                    {section.emoji} {section.label}
+                  </h2>
+                  {section.description && (
+                    <p className="text-xs text-zinc-600 mt-0.5">{section.description}</p>
+                  )}
+                </div>
                 <div className="flex flex-col gap-3">
                   {games.map((game) => (
                     <Link

@@ -7,7 +7,7 @@ const BASE_URL = 'https://tinyjoy.app';
 export const metadata: Metadata = {
   title: 'Free Online Games — Play Instantly, No Download',
   description:
-    'Play 19 free online games instantly in your browser. No download, no sign-up. Word games, puzzles, arcade games, and more — all free.',
+    'Play 20 free online games instantly in your browser. No download, no sign-up. Word games, puzzles, arcade games, and more — all free.',
   alternates: { canonical: `${BASE_URL}/games` },
   keywords: [
     'free online games',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Free Online Games — Play Instantly, No Download | TinyJoy',
     description:
-      'Play 19 free online games instantly. No download, no sign-up. Word games, puzzles, arcade and more.',
+      'Play 20 free online games instantly. No download, no sign-up. Word games, puzzles, arcade and more.',
     url: `${BASE_URL}/games`,
     type: 'website',
     images: [{ url: `${BASE_URL}/og/tinyjoy.png`, width: 1200, height: 630 }],
@@ -29,12 +29,13 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Free Online Games — Play Instantly, No Download | TinyJoy',
-    description: 'Play 19 free online games instantly. No download, no sign-up.',
+    description: 'Play 20 free online games instantly. No download, no sign-up.',
     images: [`${BASE_URL}/og/tinyjoy.png`],
   },
 };
 
 const CATEGORY_SECTIONS: { key: GameCategory; label: string; emoji: string; description: string }[] = [
+  { key: 'ai', label: 'AI', emoji: '🤖', description: 'Fun games that teach kids how AI works — by playing' },
   { key: 'quick', label: 'Quick Hits', emoji: '⚡', description: 'Fast-paced games you can finish in under 2 minutes' },
   { key: 'word', label: 'Word Games', emoji: '📝', description: 'Vocabulary and word puzzles' },
   { key: 'arcade', label: 'Arcade', emoji: '🕹️', description: 'Classic arcade action' },
