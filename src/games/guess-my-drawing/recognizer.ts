@@ -24,8 +24,14 @@ export interface Guess extends DoodleCategory {
 export class DoodleRecognizer {
   private tf: Tf | null = null;
   private model: LayersModel | null = null;
-  /** Model output index for each entry of DOODLE_CATEGORIES */
+  /** Categories this recognizer guesses from (must exist in class_names.txt) */
+  private categories: DoodleCategory[];
+  /** Model output index for each entry of `categories` */
   private indices: number[] = [];
+
+  constructor(categories: DoodleCategory[] = DOODLE_CATEGORIES) {
+    this.categories = categories;
+  }
 
   get isReady(): boolean {
     return this.model !== null;
@@ -46,7 +52,7 @@ export class DoodleRecognizer {
     this.tf = tf;
     this.model = await tf.loadLayersModel(MODEL_URL);
 
-    this.indices = DOODLE_CATEGORIES.map((c) => {
+    this.indices = this.categories.map((c) => {
       const idx = classNames.indexOf(c.id);
       if (idx === -1) console.warn(`DoodleRecognizer: unknown category "${c.id}"`);
       return idx;
@@ -76,7 +82,7 @@ export class DoodleRecognizer {
     const probs = (await logits.data()) as Float32Array;
     logits.dispose();
 
-    const subset = DOODLE_CATEGORIES.map((cat, i) => ({
+    const subset = this.categories.map((cat, i) => ({
       ...cat,
       raw: this.indices[i] >= 0 ? probs[this.indices[i]] : 0,
     }));

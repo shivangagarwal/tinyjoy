@@ -3,8 +3,9 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { SoundManager, vibrate } from '@/lib/engine';
 import { HomeLink } from '@/components/GameNav';
-import { DOODLE_CATEGORIES } from '../guess-my-drawing/categories';
 import { DoodleRecognizer } from '../guess-my-drawing/recognizer';
+import { DOODLE_CATEGORIES } from '../guess-my-drawing/categories';
+import { LAND_CATEGORIES, RECOGNIZABLE_CATEGORIES, WORLD_CATEGORIES } from './categories';
 import type { DoodleWorld as DoodleWorldT, SkyTheme, WorldSave } from './world';
 import DrawPanel from './DrawPanel';
 
@@ -43,7 +44,7 @@ function readSave(): WorldSave | null {
   }
 }
 
-const categoryByIdMap = new Map(DOODLE_CATEGORIES.map((c) => [c.id, c]));
+const categoryByIdMap = new Map(WORLD_CATEGORIES.map((c) => [c.id, c]));
 
 // ── Joystick ───────────────────────────────────────────────────────────────
 
@@ -135,7 +136,7 @@ export default function DoodleWorldGame() {
 
   // Load the recognizer up front so the draw pad is instant
   useEffect(() => {
-    const rec = new DoodleRecognizer();
+    const rec = new DoodleRecognizer(RECOGNIZABLE_CATEGORIES);
     recognizerRef.current = rec;
     rec.load().then(
       () => setModelReady(true),
@@ -238,7 +239,7 @@ export default function DoodleWorldGame() {
 
       if (typeof window !== 'undefined' && window.location.search.includes('grid=1')) {
         world.clearAll();
-        DOODLE_CATEGORIES.forEach((cat, i) => {
+        WORLD_CATEGORIES.forEach((cat, i) => {
           const col = i % 8;
           const row = Math.floor(i / 8);
           world.spawn(cat.id, {
@@ -596,6 +597,22 @@ export default function DoodleWorldGame() {
           <div className="relative max-h-[70svh] overflow-y-auto rounded-t-3xl bg-zinc-900 px-4 pb-6 pt-3">
             <div className="mx-auto mb-2 h-1.5 w-10 rounded-full bg-zinc-700" aria-hidden />
             <div className="mx-auto w-full max-w-sm">
+              <p className="mb-3 text-lg font-bold">Land 🏞️</p>
+              <div className="mb-4 grid grid-cols-5 gap-2">
+                {LAND_CATEGORIES.map((cat) => (
+                  <button
+                    key={cat.id}
+                    onClick={() => spawnCategory(cat.id)}
+                    aria-label={`Add ${article(cat.label)} ${cat.label}`}
+                    className="flex aspect-square flex-col items-center justify-center gap-0.5 rounded-2xl bg-zinc-800 transition hover:bg-zinc-700 active:scale-90"
+                  >
+                    <span className="text-2xl" aria-hidden>{cat.emoji}</span>
+                    <span className="w-full truncate px-1 text-center text-[9px] text-zinc-400">
+                      {cat.label}
+                    </span>
+                  </button>
+                ))}
+              </div>
               <p className="mb-3 text-lg font-bold">Stickers 🎨</p>
               <div className="grid grid-cols-5 gap-2">
                 {DOODLE_CATEGORIES.map((cat) => (

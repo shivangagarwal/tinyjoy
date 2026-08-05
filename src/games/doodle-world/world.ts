@@ -9,7 +9,7 @@
 import * as pc from 'playcanvas';
 import { MODELS, type ModelDef } from './models';
 import { C, mat, clearMaterialCache } from './models/parts';
-import { DOODLE_CATEGORIES } from '../guess-my-drawing/categories';
+import { WORLD_CATEGORIES } from './categories';
 
 export type SkyTheme = 'day' | 'sunset' | 'night';
 export type CameraMode = 'orbit' | 'walk';
@@ -158,8 +158,8 @@ export class DoodleWorld {
     app.setCanvasResolution(pc.RESOLUTION_AUTO);
     app.graphicsDevice.maxPixelRatio = Math.min(window.devicePixelRatio || 1, 2);
 
-    // Dev sanity: every doodle category needs a model
-    for (const cat of DOODLE_CATEGORIES) {
+    // Dev sanity: every spawnable category needs a model
+    for (const cat of WORLD_CATEGORIES) {
       if (!MODELS[cat.id]) console.warn(`DoodleWorld: no model for category "${cat.id}"`);
     }
 

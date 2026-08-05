@@ -12,6 +12,7 @@ import * as creatures from './creatures';
 import * as food from './food';
 import * as things from './things';
 import * as vehicles from './vehicles';
+import * as land from './land';
 
 export interface ModelDef {
   build: () => pc.Entity;
@@ -76,6 +77,13 @@ export const MODELS: Record<string, ModelDef> = {
   airplane: { build: vehicles.airplane, h: 1.3, r: 1.3, float: 1.9 },
   bicycle: { build: vehicles.bicycle, h: 1.3, r: 0.85 },
   sailboat: { build: vehicles.sailboat, h: 2.1, r: 1.0 },
+  // Land tiles
+  river: { build: land.river, h: 0.15, r: 1.2 },
+  pond: { build: land.pond, h: 0.15, r: 1.0 },
+  bridge: { build: land.bridge, h: 0.9, r: 1.15 },
+  fence: { build: land.fence, h: 0.9, r: 1.1 },
+  grass: { build: land.grass, h: 0.55, r: 0.55 },
+  road: { build: land.road, h: 0.12, r: 1.25 },
 };
 
 export function buildModel(categoryId: string): pc.Entity | null {

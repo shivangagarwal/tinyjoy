@@ -28,7 +28,9 @@ Roadmap:
 2. **Doodle World** (shipped) — kid draws a doodle, the same CNN recognizes it
    and spawns a matching procedural 3D model (PlayCanvas engine, MIT — models
    are built from primitives in `src/games/doodle-world/models/`, no external
-   3D assets). Build/explore/save, all in-browser.
+   3D assets). Build/explore/save, all in-browser. Includes chainable land
+   tiles (river/pond/bridge/fence/grass drawable; road palette-only since
+   QuickDraw has no road class).
 3. **Spot the Fake** — daily real-photo vs AI-image pick, Wordle-style cadence.
 
 ## Architecture
