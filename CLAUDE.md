@@ -25,7 +25,11 @@ Roadmap:
 
 1. **Guess My Drawing** (shipped) — kid draws a prompt, a bundled QuickDraw CNN
    (DoodleNet, MIT — see `public/models/doodlenet/README.md`) guesses live.
-2. **Spot the Fake** — daily real-photo vs AI-image pick, Wordle-style cadence.
+2. **Doodle World** (shipped) — kid draws a doodle, the same CNN recognizes it
+   and spawns a matching procedural 3D model (PlayCanvas engine, MIT — models
+   are built from primitives in `src/games/doodle-world/models/`, no external
+   3D assets). Build/explore/save, all in-browser.
+3. **Spot the Fake** — daily real-photo vs AI-image pick, Wordle-style cadence.
 
 ## Architecture
 

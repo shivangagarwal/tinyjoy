@@ -5,7 +5,7 @@ import GameBestBadge from '@/components/GameBestBadge';
 
 export const metadata: Metadata = {
   title: 'TinyJoy — Calm, Quick, Delightful Games',
-  description: 'Free browser games for everyday moments. Kids learn how AI works the fun way with Guess My Drawing — plus Color Match, Memory Flip, 2048 and more.',
+  description: 'Free browser games for everyday moments. Kids learn how AI works the fun way with Guess My Drawing and Doodle World — plus Color Match, 2048 and more.',
   alternates: { canonical: 'https://tinyjoy.app' },
   openGraph: {
     title: 'TinyJoy — Calm, Quick, Delightful Games',

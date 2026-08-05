@@ -25,6 +25,14 @@ export const GAMES: Game[] = [
     scoreType: 'score',
   },
   {
+    href: '/games/doodle-world',
+    name: 'Doodle World',
+    description: 'Draw doodles. Build a 3D world.',
+    emoji: '🌍',
+    bg: '#14B8A6',
+    category: 'ai',
+  },
+  {
     href: '/games/color-match',
     name: 'Color Match',
     description: 'Tap matching tiles. 60 seconds.',

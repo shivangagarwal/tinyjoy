@@ -400,6 +400,27 @@ const games = {
   <rect x="1040" y="150" width="55" height="55" rx="6" fill="#22C55E" opacity="0.25"/>
   <rect x="1040" y="220" width="55" height="55" rx="6" fill="#334155" opacity="0.2"/>`
   },
+  'doodle-world': {
+    title: 'Doodle World',
+    tagline: 'Draw doodles — build a 3D world',
+    accentColor: '#14B8A6',
+    decorators: `
+  <circle cx="150" cy="150" r="60" fill="#14B8A6" opacity="0.25"/>
+  <rect x="95" y="150" width="110" height="70" rx="8" fill="#FFF3D6" opacity="0.85"/>
+  <path d="M 85 150 L 150 95 L 215 150 Z" fill="#EF5350" opacity="0.9"/>
+  <rect x="135" y="185" width="30" height="35" rx="4" fill="#6D4C41" opacity="0.9"/>
+  <circle cx="1030" cy="130" r="42" fill="#FFEE58" opacity="0.9"/>
+  <line x1="1030" y1="65" x2="1030" y2="85" stroke="#FFA726" stroke-width="9" stroke-linecap="round" opacity="0.9"/>
+  <line x1="1030" y1="175" x2="1030" y2="195" stroke="#FFA726" stroke-width="9" stroke-linecap="round" opacity="0.9"/>
+  <line x1="965" y1="130" x2="985" y2="130" stroke="#FFA726" stroke-width="9" stroke-linecap="round" opacity="0.9"/>
+  <line x1="1075" y1="130" x2="1095" y2="130" stroke="#FFA726" stroke-width="9" stroke-linecap="round" opacity="0.9"/>
+  <ellipse cx="130" cy="500" rx="75" ry="18" fill="#66BB6A" opacity="0.5"/>
+  <rect x="118" y="435" width="24" height="55" rx="10" fill="#8D6E63" opacity="0.9"/>
+  <circle cx="130" cy="420" r="42" fill="#66BB6A" opacity="0.95"/>
+  <ellipse cx="1030" cy="505" rx="85" ry="20" fill="#26A69A" opacity="0.4"/>
+  <path d="M 960 505 Q 1030 380 1100 505" stroke="#EC407A" stroke-width="12" fill="none" opacity="0.8"/>
+  <path d="M 980 505 Q 1030 415 1080 505" stroke="#FFC107" stroke-width="12" fill="none" opacity="0.8"/>`
+  },
   'guess-my-drawing': {
     title: 'Guess My Drawing',
     tagline: 'Draw doodles — the AI guesses live',
