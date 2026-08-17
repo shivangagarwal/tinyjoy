@@ -439,6 +439,25 @@ const games = {
   <circle cx="117" cy="492" r="4" fill="#D946EF" opacity="0.6"/>
   <path d="M 92 510 q 13 12 26 0" stroke="#D946EF" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.6"/>`
   },
+  'hand-cricket': {
+    title: 'Hand Cricket vs AI',
+    tagline: 'Odd or even — out-think an AI that learns you',
+    accentColor: '#F97316',
+    decorators: `
+  <rect x="86" y="80" width="18" height="120" rx="9" fill="#F4C58F" transform="rotate(-8 95 140)"/>
+  <rect x="112" y="70" width="18" height="130" rx="9" fill="#F4C58F" transform="rotate(-3 121 135)"/>
+  <rect x="138" y="82" width="18" height="118" rx="9" fill="#F4C58F" transform="rotate(4 147 141)"/>
+  <rect x="80" y="180" width="90" height="80" rx="26" fill="#F4C58F"/>
+  <rect x="1010" y="80" width="18" height="120" rx="9" fill="#8FC1F4" transform="rotate(-8 1019 140)"/>
+  <rect x="1036" y="70" width="18" height="130" rx="9" fill="#8FC1F4" transform="rotate(-3 1045 135)"/>
+  <rect x="1062" y="82" width="18" height="118" rx="9" fill="#8FC1F4" transform="rotate(4 1071 141)"/>
+  <rect x="1088" y="96" width="18" height="104" rx="9" fill="#8FC1F4" transform="rotate(9 1097 148)"/>
+  <rect x="1004" y="180" width="110" height="80" rx="26" fill="#8FC1F4"/>
+  <text x="125" y="330" font-family="system-ui" font-size="64" font-weight="800" fill="#F97316" text-anchor="middle">3</text>
+  <text x="1060" y="330" font-family="system-ui" font-size="64" font-weight="800" fill="#F97316" text-anchor="middle">4</text>
+  <circle cx="110" cy="520" r="34" fill="#F97316" opacity="0.25"/>
+  <circle cx="1090" cy="500" r="40" fill="#8FC1F4" opacity="0.2"/>`
+  },
 };
 
 async function generateAll() {

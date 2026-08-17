@@ -73,3 +73,19 @@ body {
   color: #e4e4e7;
   font-weight: 600;
 }
+
+/* Hand Cricket reveal + pop */
+@keyframes hc-reveal {
+  0% { transform: scale(0.55) rotate(-14deg); opacity: 0.3; }
+  60% { transform: scale(1.12) rotate(4deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0); opacity: 1; }
+}
+.hc-reveal { animation: hc-reveal 0.38s cubic-bezier(0.2, 0.9, 0.3, 1.2) both; }
+@keyframes hc-pop {
+  0% { transform: scale(0.7); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+.hc-pop { animation: hc-pop 0.22s ease-out both; }
+@media (prefers-reduced-motion: reduce) {
+  .hc-reveal, .hc-pop { animation: none; }
+}

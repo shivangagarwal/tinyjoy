@@ -7,7 +7,7 @@ const BASE_URL = 'https://tinyjoy.app';
 export const metadata: Metadata = {
   title: 'Free Online Games — Play Instantly, No Download',
   description:
-    'Play 21 free online games instantly in your browser. No download, no sign-up. Word games, puzzles, arcade games, and more — all free.',
+    'Play 22 free online games instantly in your browser. No download, no sign-up. Word games, puzzles, arcade games, and more — all free.',
   alternates: { canonical: `${BASE_URL}/games` },
   keywords: [
     'free online games',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Free Online Games — Play Instantly, No Download | TinyJoy',
     description:
-      'Play 21 free online games instantly. No download, no sign-up. Word games, puzzles, arcade and more.',
+      'Play 22 free online games instantly. No download, no sign-up. Word games, puzzles, arcade and more.',
     url: `${BASE_URL}/games`,
     type: 'website',
     images: [{ url: `${BASE_URL}/og/tinyjoy.png`, width: 1200, height: 630 }],
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Free Online Games — Play Instantly, No Download | TinyJoy',
-    description: 'Play 21 free online games instantly. No download, no sign-up.',
+    description: 'Play 22 free online games instantly. No download, no sign-up.',
     images: [`${BASE_URL}/og/tinyjoy.png`],
   },
 };

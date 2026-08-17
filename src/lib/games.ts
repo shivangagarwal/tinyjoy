@@ -15,6 +15,17 @@ export interface Game {
 
 export const GAMES: Game[] = [
   {
+    href: '/games/hand-cricket',
+    name: 'Hand Cricket',
+    description: 'Odd or even. Out-think an AI that learns you.',
+    emoji: '🏏',
+    bg: '#F97316',
+    category: 'ai',
+    featured: true,
+    storageKey: 'tinyjoy:hand-cricket-best',
+    scoreType: 'score',
+  },
+  {
     href: '/games/guess-my-drawing',
     name: 'Guess My Drawing',
     description: 'Draw doodles. The AI guesses live.',

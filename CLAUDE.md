@@ -31,7 +31,11 @@ Roadmap:
    3D assets). Build/explore/save, all in-browser. Includes chainable land
    tiles (river/pond/bridge/fence/grass drawable; road palette-only since
    QuickDraw has no road class).
-3. **Spot the Fake** — daily real-photo vs AI-image pick, Wordle-style cadence.
+3. **Hand Cricket vs AI** (shipped, ages 8–14) — odd/even finger cricket vs an AI
+   that models the player's picks (frequency + transition table) and exploits
+   them at a difficulty-set rate; post-match "How the AI read you" card, daily
+   seeded opponent + WhatsApp share (`src/games/hand-cricket/`).
+4. **Spot the Fake** — daily real-photo vs AI-image pick, Wordle-style cadence.
 
 ## Architecture
 

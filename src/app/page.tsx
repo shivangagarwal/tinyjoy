@@ -5,7 +5,7 @@ import GameBestBadge from '@/components/GameBestBadge';
 
 export const metadata: Metadata = {
   title: 'TinyJoy — Calm, Quick, Delightful Games',
-  description: 'Free browser games for everyday moments. Kids learn how AI works the fun way with Guess My Drawing and Doodle World — plus Color Match, 2048 and more.',
+  description: 'Free browser games for everyday moments. Kids learn how AI works the fun way with Guess My Drawing, Doodle World and Hand Cricket vs AI — plus Color Match, 2048 and more.',
   alternates: { canonical: 'https://tinyjoy.app' },
   openGraph: {
     title: 'TinyJoy — Calm, Quick, Delightful Games',
@@ -46,7 +46,7 @@ export default function Home() {
 
         <div className="flex w-full flex-col">
           {/* Featured section */}
-          <div className="grid grid-cols-3 gap-3 mb-8">
+          <div className="grid grid-cols-4 gap-2 mb-8">
             {featuredGames.map((game) => (
               <Link
                 key={game.href}
