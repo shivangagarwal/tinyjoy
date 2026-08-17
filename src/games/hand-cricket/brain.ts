@@ -289,7 +289,8 @@ export function buildInsight(brain: CricketBrain, wicket: BallRecord | null): In
   if (!wicket) {
     wicketStory = 'You were never out — the AI never caught your pattern.';
   } else if (wicket.hit && wicket.basis === 'transition') {
-    wicketStory = `After a ${wicket.context}, you'd played ${n} ${wicket.evidence} times. The AI spotted the habit and bowled ${n}.`;
+    const times = wicket.evidence === 2 ? 'twice' : `${wicket.evidence} times`;
+    wicketStory = `You'd followed a ${wicket.context} with a ${n} ${times} already. The AI spotted the habit and bowled ${n}.`;
   } else if (wicket.hit && wicket.basis === 'frequency' && wicket.evidence <= 1) {
     wicketStory = `You'd played ${n} only once — but the AI bet you'd repeat it. It did. AI jumps to conclusions fast!`;
   } else if (wicket.hit && wicket.basis === 'frequency') {
