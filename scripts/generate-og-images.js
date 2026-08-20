@@ -473,6 +473,20 @@ const games = {
   <circle cx="110" cy="500" r="34" fill="#F43F5E" opacity="0.25"/>
   <circle cx="1090" cy="500" r="40" fill="#FDE047" opacity="0.15"/>`
   },
+  'rock-paper-scissors': {
+    title: 'Stone Paper Scissors',
+    tagline: 'Best of 5 vs Chintu — he learns your habits',
+    accentColor: '#E11D48',
+    decorators: `
+  <circle cx="140" cy="150" r="58" fill="#E11D48" opacity="0.85"/>
+  <rect x="80" y="250" width="110" height="140" rx="10" fill="#FAFAFA" opacity="0.85" transform="rotate(-8 135 320)"/>
+  <rect x="1010" y="90" width="22" height="150" rx="11" fill="#E11D48" opacity="0.85" transform="rotate(24 1050 165)"/>
+  <rect x="1060" y="90" width="22" height="150" rx="11" fill="#E11D48" opacity="0.85" transform="rotate(-24 1040 165)"/>
+  <circle cx="1030" cy="255" r="16" fill="none" stroke="#E11D48" stroke-width="9" opacity="0.85"/>
+  <circle cx="1075" cy="255" r="16" fill="none" stroke="#E11D48" stroke-width="9" opacity="0.85"/>
+  <circle cx="150" cy="500" r="34" fill="#E11D48" opacity="0.2"/>
+  <circle cx="1050" cy="480" r="40" fill="#F59E0B" opacity="0.2"/>`
+  },
 };
 
 async function generateAll() {

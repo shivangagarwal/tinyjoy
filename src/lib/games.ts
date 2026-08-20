@@ -136,6 +136,16 @@ export const GAMES: Game[] = [
     scoreType: 'score',
   },
   {
+    href: '/games/rock-paper-scissors',
+    name: 'Stone Paper Scissors',
+    description: 'Best of 5 vs Chintu. He learns your habits.',
+    emoji: '✌️',
+    bg: '#E11D48',
+    category: 'classic',
+    storageKey: 'tinyjoy:rps-best',
+    scoreType: 'score',
+  },
+  {
     href: '/games/tic-tac-toe',
     name: 'Tic-Tac-Toe',
     description: 'Classic 3×3. Beat the AI.',

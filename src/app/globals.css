@@ -151,3 +151,37 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .bb-idle, .bb-waddle, .bb-jump, .bb-shake, .bb-balloon, .bb-bounce, .bb-part { animation: none; }
 }
+
+/* Stone Paper Scissors: chant bob, reveal lunges */
+@keyframes rps-bob {
+  0% { transform: translateY(0) scale(1); }
+  45% { transform: translateY(-14px) scale(1.04); }
+  100% { transform: translateY(0) scale(1); }
+}
+.rps-bob { display: inline-block; animation: rps-bob 0.32s ease-out 1; }
+.rotate-180.rps-bob { animation-name: rps-bob-down; }
+@keyframes rps-bob-down {
+  0% { transform: rotate(180deg) translateY(0) scale(1); }
+  45% { transform: rotate(180deg) translateY(-14px) scale(1.04); }
+  100% { transform: rotate(180deg) translateY(0) scale(1); }
+}
+@keyframes rps-lunge-up {
+  0% { transform: translateY(0) scale(0.7); }
+  50% { transform: translateY(-26px) scale(1.35) rotate(-8deg); }
+  100% { transform: translateY(-10px) scale(1.18); }
+}
+.rps-lunge-up { display: inline-block; animation: rps-lunge-up 0.4s cubic-bezier(0.2, 0.9, 0.3, 1.2) both; }
+@keyframes rps-lunge {
+  0% { transform: rotate(180deg) translateY(0) scale(0.7); }
+  50% { transform: rotate(180deg) translateY(-26px) scale(1.35) rotate(188deg); }
+  100% { transform: rotate(180deg) translateY(-10px) scale(1.18); }
+}
+.rps-lunge { display: inline-block; animation: rps-lunge 0.4s cubic-bezier(0.2, 0.9, 0.3, 1.2) both; }
+@keyframes rps-sag {
+  0% { scale: 0.9; opacity: 1; }
+  100% { scale: 0.82; opacity: 0.45; }
+}
+.rps-sag { display: inline-block; animation: rps-sag 0.4s ease-out both; }
+@media (prefers-reduced-motion: reduce) {
+  .rps-bob, .rps-lunge, .rps-lunge-up, .rps-sag { animation: none; }
+}
