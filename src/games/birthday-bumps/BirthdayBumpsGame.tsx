@@ -72,6 +72,7 @@ export default function BirthdayBumpsGame() {
   const [yelp, setYelp] = useState<{ id: number; text: string } | null>(null);
   const [feedback, setFeedback] = useState<Feedback | null>(null);
   const [swinging, setSwinging] = useState(false);
+  const [dragging, setDragging] = useState(false);
   const [best, setBest] = useState(0);
   const [muted, setMuted] = useState(false);
   const [burst, setBurst] = useState<{ id: number; parts: { dx: number; dy: number; e: string }[] } | null>(null);
@@ -104,6 +105,9 @@ export default function BirthdayBumpsGame() {
   const clockRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const soundRef = useRef<PartyAudio | null>(null);
   const intensityRef = useRef<1 | 2>(1);
+  const chappalRef = useRef<HTMLSpanElement>(null);
+  const swingMsRef = useRef(WEAPONS.chappal.swingMs);
+  const dragRef = useRef<{ x: number; y: number; t: number; lastY: number; lastT: number; moved: number } | null>(null);
 
   useEffect(() => { phaseRef.current = phase; }, [phase]);
   useEffect(() => { guardingRef.current = guarding; }, [guarding]);
@@ -254,24 +258,87 @@ export default function BirthdayBumpsGame() {
     phaseRef.current = 'over';
   }
 
-  // ── The swing ────────────────────────────────────────────────────────────
+  // ── The swing: flick down to slap ────────────────────────────────────────
 
-  function swing() {
+  /** v in px/ms; harder flick → faster arc. 1.0 ≈ the old fixed speed. */
+  function commitSwing(v: number) {
     if (phaseRef.current !== 'playing' || swingingRef.current) return;
-    const cfg = WEAPONS[weapon];
+    dragRef.current = null;
+    setDragging(false);
+    if (chappalRef.current) {
+      chappalRef.current.style.transition = '';
+      chappalRef.current.style.rotate = '';
+    }
+    const base = WEAPONS[weapon].swingMs;
+    const speed = Math.min(2.2, Math.max(0.45, v));
+    const ms = Math.round(base * (1.35 - ((speed - 0.45) * 0.7) / 1.75));
+    swingMsRef.current = ms;
     swingingRef.current = true;
     setSwinging(true);
     vibrate('tap');
     soundRef.current?.swing();
-
-    // Impact lands mid-animation
     addTimeout(() => {
       resolveHit();
-    }, Math.round(cfg.swingMs * 0.55));
+    }, Math.round(ms * 0.55));
     addTimeout(() => {
       swingingRef.current = false;
       setSwinging(false);
-    }, cfg.swingMs + 90);
+    }, ms + 90);
+  }
+
+  function beginDrag(e: React.PointerEvent<HTMLDivElement>) {
+    if (phaseRef.current !== 'playing' || swingingRef.current) return;
+    try {
+      e.currentTarget.setPointerCapture(e.pointerId);
+    } catch {
+      // synthetic events — best effort
+    }
+    const now = performance.now();
+    dragRef.current = { x: e.clientX, y: e.clientY, t: now, lastY: e.clientY, lastT: now, moved: 0 };
+    setDragging(true);
+    // cock the chappal back
+    if (chappalRef.current) {
+      chappalRef.current.style.transition = 'rotate 40ms linear';
+      chappalRef.current.style.rotate = '-96deg';
+    }
+  }
+
+  function moveDrag(e: React.PointerEvent<HTMLDivElement>) {
+    const d = dragRef.current;
+    if (!d || swingingRef.current) return;
+    const now = performance.now();
+    const dy = e.clientY - d.y;
+    d.moved = Math.max(d.moved, Math.abs(e.clientX - d.x), Math.abs(dy));
+    const v = (e.clientY - d.lastY) / Math.max(1, now - d.lastT);
+    d.lastY = e.clientY;
+    d.lastT = now;
+    // the chappal follows your pull
+    if (chappalRef.current) {
+      const angle = -96 + (Math.min(Math.max(dy, 0), 140) / 140) * 42;
+      chappalRef.current.style.rotate = `${angle}deg`;
+    }
+    // a real downward flick commits mid-drag
+    if (dy >= 34 && v >= 0.45) commitSwing(v);
+  }
+
+  function endDrag(e: React.PointerEvent<HTMLDivElement>) {
+    const d = dragRef.current;
+    if (!d) return;
+    const now = performance.now();
+    dragRef.current = null;
+    setDragging(false);
+    if (chappalRef.current) {
+      chappalRef.current.style.transition = '';
+      chappalRef.current.style.rotate = '';
+    }
+    if (swingingRef.current) return; // committed mid-drag
+    const dy = e.clientY - d.y;
+    const dur = now - d.t;
+    if (d.moved < 12 && dur < 220) {
+      commitSwing(1.0); // plain tap still slaps
+      return;
+    }
+    if (dy >= 34) commitSwing(Math.max(0.45, dy / Math.max(1, dur)));
   }
 
   function resolveHit() {
@@ -397,7 +464,7 @@ export default function BirthdayBumpsGame() {
             <p className="text-6xl" aria-hidden>🩴🎂</p>
             <h1 className="text-4xl font-bold tracking-tight">Birthday Bumps</h1>
             <p className="text-zinc-400">
-              It&apos;s their birthday. You know the rules. Time the swing, dodge the guard, stack the combo.
+              It&apos;s their birthday. You know the rules. Flick down to slap — harder flick, faster swing.
             </p>
           </div>
 
@@ -528,6 +595,14 @@ export default function BirthdayBumpsGame() {
           <p className="w-8 text-right text-sm font-bold tabular-nums text-zinc-400">{secondsLeft}s</p>
         </div>
 
+        {/* Gesture surface: arena + strip — flick down anywhere to slap */}
+        <div
+          className="flex min-h-0 flex-1 touch-none select-none flex-col gap-3"
+          onPointerDown={beginDrag}
+          onPointerMove={moveDrag}
+          onPointerUp={endDrag}
+          onPointerCancel={endDrag}
+        >
         {/* Arena */}
         <div ref={arenaRef} key={`shake${shakeId}`} className={`relative flex-1 overflow-hidden rounded-3xl bg-zinc-900 ${shakeId ? 'bb-shake' : ''}`}>
           {/* party dressing — the gang is watching */}
@@ -547,11 +622,14 @@ export default function BirthdayBumpsGame() {
 
           {/* the chappal, hanging over the zone */}
           <div
-            className={`pointer-events-none absolute left-1/2 top-1 z-10 -translate-x-1/2 text-6xl ${swinging ? 'bb-swing' : 'bb-idle'}`}
-            style={{ transformOrigin: '80% 10%', animationDuration: swinging ? `${cfg.swingMs}ms` : undefined, rotate: swinging ? undefined : '-75deg' }}
+            className={`pointer-events-none absolute left-1/2 top-1 z-10 -translate-x-1/2 text-6xl ${swinging ? 'bb-swing' : dragging ? '' : 'bb-idle'}`}
+            style={{ transformOrigin: '80% 10%', animationDuration: swinging ? `${swingMsRef.current}ms` : undefined, rotate: swinging || dragging ? undefined : '-75deg' }}
             aria-hidden
           >
-            {cfg.emoji}
+            {/* inner span takes the manual drag rotation — React never styles it */}
+            <span ref={chappalRef} className="inline-block" style={{ transformOrigin: '80% 10%' }}>
+              {cfg.emoji}
+            </span>
           </div>
 
           {/* the kid */}
@@ -603,14 +681,22 @@ export default function BirthdayBumpsGame() {
           )}
         </div>
 
-        {/* Swing button */}
-        <button
-          onClick={swing}
-          disabled={swinging}
-          className="mb-1 flex h-20 items-center justify-center gap-3 rounded-3xl bg-white text-2xl font-black text-zinc-900 transition active:scale-95 disabled:opacity-80"
+        {/* Flick strip */}
+        <div
+          role="button"
+          tabIndex={0}
+          aria-label="Flick down to swing"
+          onKeyDown={(e) => {
+            if (e.key === ' ' || e.key === 'Enter') commitSwing(1.0);
+          }}
+          className={`mb-1 flex h-20 items-center justify-center gap-3 rounded-3xl text-2xl font-black transition ${
+            dragging ? 'bg-white text-zinc-900' : swinging ? 'bg-zinc-800 text-zinc-500' : 'bg-zinc-800 text-zinc-200'
+          }`}
         >
-          <span className="text-3xl" aria-hidden>{cfg.emoji}</span> SWING
-        </button>
+          <span className="text-3xl" aria-hidden>{cfg.emoji}</span> FLICK
+          <span className={dragging || swinging ? '' : 'bb-bounce'} aria-hidden>⬇</span>
+        </div>
+        </div>
       </div>
     </div>
   );

@@ -33,12 +33,15 @@ async function startRound() {
         window.__cap.done = true;
         return;
       }
-      const sb = [...document.querySelectorAll('button')].find((b) => b.textContent?.includes('SWING'));
-      if (!sb || sb.disabled || !arena || !kid) return;
+      const surface = document.querySelector('.touch-none.select-none');
+      const swinging = !!document.querySelector('.bb-swing');
+      if (swinging || !surface || !arena || !kid) return;
       const ar = arena.getBoundingClientRect();
       const kr = kid.getBoundingClientRect();
       if (Math.abs(kr.left + kr.width * 0.7 - (ar.left + ar.width / 2)) < 45) {
-        sb.click();
+        const fire = (type, x, y) => surface.dispatchEvent(new PointerEvent(type, { bubbles: true, cancelable: true, pointerId: 5, pointerType: 'touch', isPrimary: true, clientX: x, clientY: y }));
+        fire('pointerdown', 195, 420);
+        fire('pointerup', 196, 421);
         window.__cap.swings++;
       }
     }, 55);
