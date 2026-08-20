@@ -89,3 +89,21 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .hc-reveal, .hc-pop { animation: none; }
 }
+
+/* Birthday Bumps swing + floating feedback */
+@keyframes bb-swing {
+  0% { rotate: -95deg; }
+  55% { rotate: 12deg; }
+  78% { rotate: -4deg; }
+  100% { rotate: -75deg; }
+}
+.bb-swing { animation-name: bb-swing; animation-timing-function: cubic-bezier(0.3, 0, 0.4, 1); animation-fill-mode: both; }
+@keyframes bb-float {
+  0% { opacity: 0; transform: translate(-50%, 8px) scale(0.8); }
+  20% { opacity: 1; transform: translate(-50%, 0) scale(1.05); }
+  100% { opacity: 0; transform: translate(-50%, -26px) scale(1); }
+}
+.bb-float { animation: bb-float 0.8s ease-out both; }
+@media (prefers-reduced-motion: reduce) {
+  .bb-swing, .bb-float { animation: none; }
+}

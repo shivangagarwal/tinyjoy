@@ -209,6 +209,16 @@ export const GAMES: Game[] = [
     scoreType: 'score',
   },
   {
+    href: '/games/birthday-bumps',
+    name: 'GPL: Birthday Bumps',
+    description: 'Chappal, timing, no mercy. 30 seconds.',
+    emoji: '🩴',
+    bg: '#F43F5E',
+    category: 'arcade',
+    storageKey: 'tinyjoy:birthday-bumps-best',
+    scoreType: 'score',
+  },
+  {
     href: '/games/brick-breaker',
     name: 'Brick Breaker',
     description: 'Bounce the ball. Destroy all bricks.',

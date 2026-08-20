@@ -458,6 +458,21 @@ const games = {
   <circle cx="110" cy="520" r="34" fill="#F97316" opacity="0.25"/>
   <circle cx="1090" cy="500" r="40" fill="#8FC1F4" opacity="0.2"/>`
   },
+  'birthday-bumps': {
+    title: 'GPL: Birthday Bumps',
+    tagline: 'Chappal, timing, no mercy',
+    accentColor: '#F43F5E',
+    decorators: `
+  <g transform="rotate(-30 150 160)">
+    <ellipse cx="150" cy="160" rx="52" ry="90" fill="#F43F5E" opacity="0.9"/>
+    <ellipse cx="150" cy="130" rx="14" ry="34" fill="#0d0d1a" opacity="0.5" transform="rotate(48 150 130)"/>
+    <ellipse cx="150" cy="130" rx="14" ry="34" fill="#0d0d1a" opacity="0.5" transform="rotate(-48 150 130)"/>
+  </g>
+  <text x="1060" y="180" font-family="system-ui" font-size="110" text-anchor="middle">🎂</text>
+  <text x="1060" y="320" font-family="system-ui" font-size="72" font-weight="800" fill="#F43F5E" text-anchor="middle">x9</text>
+  <circle cx="110" cy="500" r="34" fill="#F43F5E" opacity="0.25"/>
+  <circle cx="1090" cy="500" r="40" fill="#FDE047" opacity="0.15"/>`
+  },
 };
 
 async function generateAll() {
