@@ -22,7 +22,13 @@ export class PartyAudio {
         this.ctx = new AudioContext();
         this.master = this.ctx.createGain();
         this.master.gain.value = this.muted ? 0 : 1;
-        this.master.connect(this.ctx.destination);
+        const comp = this.ctx.createDynamicsCompressor();
+        comp.threshold.value = -18;
+        comp.knee.value = 12;
+        comp.ratio.value = 6;
+        comp.attack.value = 0.002;
+        comp.release.value = 0.12;
+        this.master.connect(comp).connect(this.ctx.destination);
       } catch {
         return null;
       }
@@ -127,15 +133,15 @@ export class PartyAudio {
     lowpass.type = 'lowpass';
     lowpass.frequency.value = 480;
     this.bedGain = ctx.createGain();
-    this.bedGain.gain.value = 0.05;
+    this.bedGain.gain.value = 0.09;
     bed.connect(lowpass).connect(this.bedGain).connect(this.master);
     bed.start();
 
     // two slow LFOs at different rates make the murmur swell organically
     const lfos: AudioNode[] = [];
     for (const [rate, depth] of [
-      [0.13, 0.02],
-      [0.31, 0.012],
+      [0.13, 0.032],
+      [0.31, 0.02],
     ] as const) {
       const lfo = ctx.createOscillator();
       lfo.frequency.value = rate;
@@ -149,14 +155,14 @@ export class PartyAudio {
 
     // chatter: quiet, indistinct voice-ish blips scattered around the room
     this.chatterTimer = setInterval(() => {
-      const chance = this.intensity > 1 ? 0.55 : 0.34;
+      const chance = this.intensity > 1 ? 0.62 : 0.42;
       if (Math.random() > chance) return;
       const base = 140 + Math.random() * 260;
       this.tone({
         dur: 0.05 + Math.random() * 0.09,
         from: base,
         to: base * (0.8 + Math.random() * 0.5),
-        peak: 0.008 + Math.random() * 0.012,
+        peak: 0.016 + Math.random() * 0.022,
         type: Math.random() < 0.5 ? 'triangle' : 'sine',
         pan: (Math.random() * 2 - 1) * 0.7,
       });
@@ -189,39 +195,40 @@ export class PartyAudio {
   setIntensity(level: 1 | 2): void {
     this.intensity = level;
     if (this.ctx && this.bedGain) {
-      this.bedGain.gain.setTargetAtTime(level === 2 ? 0.075 : 0.05, this.ctx.currentTime, 0.5);
+      this.bedGain.gain.setTargetAtTime(level === 2 ? 0.13 : 0.09, this.ctx.currentTime, 0.5);
     }
   }
 
   // ── One-shots ──────────────────────────────────────────────────────────
 
   swing(): void {
-    this.burst({ dur: 0.16, freq: 1900, sweepTo: 380, q: 0.9, peak: 0.1 });
+    this.burst({ dur: 0.16, freq: 1900, sweepTo: 380, q: 0.9, peak: 0.16 });
   }
 
   thwack(perfect: boolean): void {
-    // bass thump + leathery crack
-    this.tone({ dur: 0.1, from: 150, to: 85, peak: perfect ? 0.5 : 0.4 });
-    this.burst({ dur: 0.07, freq: 1300, q: 0.8, peak: perfect ? 0.42 : 0.3 });
+    // bass thump + leathery crack + high snap = sting
+    this.tone({ dur: 0.11, from: 170, to: 80, peak: perfect ? 0.7 : 0.55 });
+    this.burst({ dur: 0.07, freq: 1700, q: 0.8, peak: perfect ? 0.65 : 0.5 });
+    this.burst({ dur: 0.045, freq: 3400, q: 1.4, peak: perfect ? 0.4 : 0.3 });
     if (perfect) {
-      this.burst({ at: 0.012, dur: 0.05, freq: 2600, q: 1.2, peak: 0.22 });
+      this.burst({ at: 0.012, dur: 0.05, freq: 2600, q: 1.2, peak: 0.35 });
       // crowd OOOH: a vowel-ish swell
-      this.burst({ at: 0.09, dur: 0.85, freq: 420, sweepTo: 640, q: 4, peak: 0.12 });
-      this.burst({ at: 0.12, dur: 0.7, freq: 300, q: 3, peak: 0.07 });
+      this.burst({ at: 0.09, dur: 0.85, freq: 420, sweepTo: 640, q: 4, peak: 0.18 });
+      this.burst({ at: 0.12, dur: 0.7, freq: 300, q: 3, peak: 0.1 });
     }
   }
 
   blocked(): void {
-    this.burst({ dur: 0.09, freq: 240, q: 0.7, peak: 0.24, type: 'lowpass' });
-    this.tone({ dur: 0.2, from: 290, to: 140, peak: 0.1, type: 'triangle' });
+    this.burst({ dur: 0.09, freq: 240, q: 0.7, peak: 0.35, type: 'lowpass' });
+    this.tone({ dur: 0.2, from: 290, to: 140, peak: 0.16, type: 'triangle' });
   }
 
   cheer(): void {
     for (const [i, f] of [523, 659, 784].entries()) {
-      this.tone({ at: i * 0.09, dur: 0.16, from: f, peak: 0.14, type: 'triangle' });
+      this.tone({ at: i * 0.09, dur: 0.16, from: f, peak: 0.2, type: 'triangle' });
     }
-    this.burst({ at: 0.1, dur: 1.3, freq: 500, sweepTo: 800, q: 3.5, peak: 0.14 });
-    this.burst({ at: 0.15, dur: 1.1, freq: 340, q: 3, peak: 0.08 });
+    this.burst({ at: 0.1, dur: 1.3, freq: 500, sweepTo: 800, q: 3.5, peak: 0.2 });
+    this.burst({ at: 0.15, dur: 1.1, freq: 340, q: 3, peak: 0.12 });
   }
 
   dispose(): void {
