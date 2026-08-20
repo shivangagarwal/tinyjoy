@@ -489,7 +489,7 @@ export default function HandCricketGame() {
                   <p className="text-xs font-semibold uppercase tracking-wider text-fuchsia-400">Daily match #{opp.game}</p>
                   <p className="mt-0.5 font-bold">vs {opp.name}</p>
                   <p className="text-xs text-zinc-500">
-                    {DIFFICULTIES[opp.difficulty].emoji} {DIFFICULTIES[opp.difficulty].label} · same brain for everyone today
+                    {DIFFICULTIES[opp.difficulty].emoji} {DIFFICULTIES[opp.difficulty].label}
                   </p>
                 </div>
                 {streak > 0 && (
@@ -538,10 +538,7 @@ export default function HandCricketGame() {
                     }`}
                   >
                     <span className="text-2xl" aria-hidden>{cfg.emoji}</span>
-                    <span>
-                      <span className="block text-sm font-bold">{cfg.label}</span>
-                      <span className="block text-xs text-zinc-400">{cfg.blurb}</span>
-                    </span>
+                    <span className="text-sm font-bold">{cfg.label}</span>
                   </button>
                 );
               })}
@@ -571,9 +568,6 @@ export default function HandCricketGame() {
             </div>
           )}
 
-          <p className="text-center text-xs text-zinc-600">
-            🤖 The AI can’t see your tap. It picks first, using only the habits you’ve shown it.
-          </p>
         </div>
       </div>
     );
@@ -586,7 +580,6 @@ export default function HandCricketGame() {
     const youInn = first.batter === 'you' ? first : second;
     const aiInn = first.batter === 'ai' ? first : second;
     const ins = result.insight;
-    const maxCount = Math.max(1, ...ins.batCounts);
     const won = result.winner === 'you';
     return (
       <div className="flex min-h-svh flex-col bg-zinc-950 px-5 text-white">
@@ -633,51 +626,13 @@ export default function HandCricketGame() {
             ))}
           </div>
 
-          {/* How the AI read you */}
-          <div className="rounded-3xl bg-zinc-900 p-4">
-            <p className="font-bold">🤖 How the AI read you</p>
-            <p className="text-xs text-zinc-500">Your batting picks this match</p>
-            <div className="mt-3 flex h-24 items-end gap-2">
-              {ins.batCounts.map((c, i) => {
-                const n = i + 1;
-                const fav = ins.favourite?.n === n && c > 0;
-                return (
-                  <div key={n} className="flex flex-1 flex-col items-center gap-1">
-                    <span className="text-[10px] text-zinc-500">{c > 0 ? c : ''}</span>
-                    <div
-                      className={`w-full rounded-t-md ${fav ? 'bg-fuchsia-400' : 'bg-zinc-600'}`}
-                      style={{ height: `${Math.max(c > 0 ? 6 : 2, (c / maxCount) * 60)}px` }}
-                    />
-                    <span className={`text-xs font-bold ${fav ? 'text-fuchsia-300' : 'text-zinc-400'}`}>{n}</span>
-                  </div>
-                );
-              })}
+          {/* The one line that matters — only when it truly read you */}
+          {ins.readOut && (
+            <div className="mx-auto flex w-fit max-w-full items-start gap-2 rounded-2xl bg-zinc-900 px-4 py-3">
+              <span aria-hidden>🤖</span>
+              <p className="text-sm text-zinc-200">{ins.wicketStory}</p>
             </div>
-            <div className="mt-3 flex flex-col gap-2 text-sm">
-              {ins.favourite && ins.batTotal > 0 && (
-                <p className="text-zinc-300">
-                  Your favourite: <span className="font-bold text-fuchsia-300">{ins.favourite.n}</span> —{' '}
-                  {ins.favourite.count} of {ins.batTotal} balls.
-                </p>
-              )}
-              {ins.habit && (
-                <p className="text-zinc-300">
-                  Habit spotted: after a <span className="font-bold">{ins.habit.after}</span> you played{' '}
-                  <span className="font-bold">{ins.habit.then}</span> — {ins.habit.count} times.
-                </p>
-              )}
-              <p className="rounded-xl bg-zinc-800 p-3 text-zinc-200">{ins.wicketStory}</p>
-              {ins.reads.attempts > 0 && (
-                <p className="text-xs text-zinc-500">
-                  The AI tried to predict you {ins.reads.attempts} time{ins.reads.attempts === 1 ? '' : 's'} and got it right {ins.reads.hits}.
-                  {brainRef.current && ` It only reads you ${Math.round(brainRef.current.exploit * 100)}% of the time on ${DIFFICULTIES[brainRef.current.difficulty].label}.`}
-                </p>
-              )}
-              <p className="text-xs text-zinc-500">
-                It never sees your tap — it picks first, from your habits alone. Mix it up and it’s just guessing.
-              </p>
-            </div>
-          </div>
+          )}
 
           <div className="flex flex-col items-center gap-3">
             <button

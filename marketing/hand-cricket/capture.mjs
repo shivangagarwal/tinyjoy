@@ -77,7 +77,7 @@ for (let attempt = 0; attempt < 10 && !gotB; attempt++) {
       const t = await text();
       if (await isOut()) return 'wicket';
       if (/Innings break/.test(t)) return 'break';
-      if (/How the AI read you/.test(t)) return 'result';
+      if (/Share result|Share scorecard/.test(t)) return 'result';
       if (/Sudden death — one ball/.test(t)) return 'sudden';
       const isBat = /You bat|You chase/.test(t);
       const seq = isBat ? bat : bowl;
@@ -97,14 +97,14 @@ for (let attempt = 0; attempt < 10 && !gotB; attempt++) {
   for (let r = 0; r < 4 && /Sudden death — one ball/.test(await text()); r++) {
     await page.locator('button', { hasText: 'Let’s go' }).click(); await sleep(300);
     let x = await playInnings(); if (x === 'wicket') { await btn('Continue').click(); await sleep(350); }
-    if (/How the AI read you/.test(await text())) break;
+    if (/Share result|Share scorecard/.test(await text())) break;
     x = await playInnings(); if (x === 'wicket') { await btn('Continue').click(); await sleep(350); }
   }
   const t = await text();
   // Insist on a real read (frequency or habit), not a lucky guess — that's the story
   if (/You'd followed|go-to/.test(t) && batting !== null) {
     // Scroll the card into view and capture the viewport
-    await page.locator('text=How the AI read you').scrollIntoViewIfNeeded();
+    await page.locator('text=Share result').scrollIntoViewIfNeeded();
     await page.evaluate(() => window.scrollBy(0, -70));
     await sleep(300);
     await page.screenshot({ path: path.join(HERE, 'shot-b.png') });

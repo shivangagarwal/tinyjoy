@@ -274,6 +274,8 @@ export interface Insight {
   habit: { after: number; then: number; count: number } | null;
   /** How the wicket ball happened, in kid words */
   wicketStory: string;
+  /** True when the player's wicket came from a genuine data-driven read */
+  readOut: boolean;
   /** Read rate: predicted balls that landed, over predicted balls */
   reads: { hits: number; attempts: number };
 }
@@ -301,7 +303,9 @@ export function buildInsight(brain: CricketBrain, wicket: BallRecord | null): In
     wicketStory = `Not a prediction — the AI was guessing randomly this ball, and ${wicket.aiPick} happened to match.`;
   }
 
+  const readOut = !!wicket && wicket.hit && wicket.basis !== 'none';
   return {
+    readOut,
     batCounts: [...brain.bat.freq],
     batTotal: brain.bat.total,
     favourite,
