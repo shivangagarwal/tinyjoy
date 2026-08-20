@@ -4,12 +4,16 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { vibrate } from '@/lib/engine';
 import { HomeLink, OtherGames } from '@/components/GameNav';
 import Kid from './Kid';
+import { PartyAudio } from './sounds';
 
 // ── Constants ──────────────────────────────────────────────────────────────
 
 const ROUND_MS = 30_000;
 const BEST_KEY = 'tinyjoy:birthday-bumps-best';
 const WEAPON_KEY = 'tinyjoy:birthday-bumps-weapon';
+const MUTE_KEY = 'tinyjoy:birthday-bumps-muted';
+
+const BURST_EMOJI = ['💥', '⭐', '😂', '👏', '✨'];
 
 type WeaponId = 'chappal' | 'sneaker';
 
@@ -18,15 +22,16 @@ const WEAPONS: Record<
   { label: string; emoji: string; swingMs: number; perfectPx: number; goodPx: number; mult: number }
 > = {
   // The classic. Faster swing, tighter sweet spot, bigger numbers.
-  chappal: { label: 'Chappal', emoji: '🩴', swingMs: 170, perfectPx: 26, goodPx: 60, mult: 1.2 },
+  chappal: { label: 'Chappal', emoji: '🩴', swingMs: 170, perfectPx: 34, goodPx: 62, mult: 1.2 },
   // Forgiving. Slower arc, wide sweet spot.
-  sneaker: { label: 'Sneaker', emoji: '👟', swingMs: 230, perfectPx: 36, goodPx: 72, mult: 1 },
+  sneaker: { label: 'Sneaker', emoji: '👟', swingMs: 230, perfectPx: 46, goodPx: 74, mult: 1 },
 };
 
 const YELPS = ['AIYO!', 'MUMMYYY!', 'ARRE YAAR!', 'BHAI BAS!', 'OYE!', 'EK AUR?!', 'OOF!'];
 const BLOCKS = ['hehe, nice try', 'blocked 😎', 'too slow yaar'];
 
 const TITLES: [number, string][] = [
+  [800, 'Warden’s Nightmare 👑'],
   [400, 'GPL Machine 🏆'],
   [250, 'Hostel Legend'],
   [120, 'Final-year Senior'],
@@ -68,6 +73,10 @@ export default function BirthdayBumpsGame() {
   const [feedback, setFeedback] = useState<Feedback | null>(null);
   const [swinging, setSwinging] = useState(false);
   const [best, setBest] = useState(0);
+  const [muted, setMuted] = useState(false);
+  const [burst, setBurst] = useState<{ id: number; parts: { dx: number; dy: number; e: string }[] } | null>(null);
+  const [shakeId, setShakeId] = useState(0);
+  const [jumpId, setJumpId] = useState(0);
   const [result, setResult] = useState<RoundResult | null>(null);
   const [copied, setCopied] = useState(false);
 
@@ -93,6 +102,8 @@ export default function BirthdayBumpsGame() {
   const idRef = useRef(0);
   const timeoutsRef = useRef<ReturnType<typeof setTimeout>[]>([]);
   const clockRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const soundRef = useRef<PartyAudio | null>(null);
+  const intensityRef = useRef<1 | 2>(1);
 
   useEffect(() => { phaseRef.current = phase; }, [phase]);
   useEffect(() => { guardingRef.current = guarding; }, [guarding]);
@@ -102,6 +113,10 @@ export default function BirthdayBumpsGame() {
       setBest(Number(localStorage.getItem(BEST_KEY) ?? '0'));
       const w = localStorage.getItem(WEAPON_KEY) as WeaponId | null;
       if (w && WEAPONS[w]) setWeapon(w);
+      const m = localStorage.getItem(MUTE_KEY) === '1';
+      setMuted(m);
+      soundRef.current = new PartyAudio();
+      soundRef.current.setMuted(m);
     } catch {
       // ignore
     }
@@ -109,6 +124,7 @@ export default function BirthdayBumpsGame() {
       if (rafRef.current !== null) cancelAnimationFrame(rafRef.current);
       if (clockRef.current !== null) clearInterval(clockRef.current);
       timeoutsRef.current.forEach(clearTimeout);
+      soundRef.current?.dispose();
     };
   }, []);
 
@@ -124,11 +140,16 @@ export default function BirthdayBumpsGame() {
     lastTsRef.current = ts;
 
     // wander
+    const rush = endAtRef.current - ts < 10_000;
+    if (rush && intensityRef.current !== 2) {
+      intensityRef.current = 2;
+      soundRef.current?.setIntensity(2);
+    }
     if (ts >= nextWanderRef.current || Math.abs(kidXRef.current - targetXRef.current) < 0.015) {
       targetXRef.current = 0.12 + Math.random() * 0.76;
-      nextWanderRef.current = ts + 650 + Math.random() * 550;
+      nextWanderRef.current = ts + (rush ? 430 : 560) + Math.random() * (rush ? 340 : 480);
     }
-    kidXRef.current += (targetXRef.current - kidXRef.current) * Math.min(1, dt * 3.4);
+    kidXRef.current += (targetXRef.current - kidXRef.current) * Math.min(1, dt * (rush ? 4.8 : 3.8));
 
     // guard cycle: telegraph → hands over bum → release
     if (!guardingRef.current && ts >= nextGuardRef.current) {
@@ -185,8 +206,12 @@ export default function BirthdayBumpsGame() {
     setFeedback(null);
     setYelp(null);
     setResult(null);
+    setBurst(null);
+    intensityRef.current = 1;
     setPhase('playing');
     phaseRef.current = 'playing';
+    soundRef.current?.unlock();
+    soundRef.current?.startAmbience();
     const now = performance.now();
     lastTsRef.current = now;
     endAtRef.current = now + ROUND_MS;
@@ -204,6 +229,8 @@ export default function BirthdayBumpsGame() {
     rafRef.current = null;
     if (clockRef.current !== null) clearInterval(clockRef.current);
     clockRef.current = null;
+    soundRef.current?.stopAmbience();
+    soundRef.current?.cheer();
     const finalScore = scoreRef.current;
     let newBest = false;
     try {
@@ -235,6 +262,7 @@ export default function BirthdayBumpsGame() {
     swingingRef.current = true;
     setSwinging(true);
     vibrate('tap');
+    soundRef.current?.swing();
 
     // Impact lands mid-animation
     addTimeout(() => {
@@ -265,6 +293,7 @@ export default function BirthdayBumpsGame() {
       setCombo(0);
       setFeedback({ id, text: 'BLOCKED', kind: 'blocked' });
       setYelp({ id, text: BLOCKS[Math.floor(Math.random() * BLOCKS.length)] });
+      soundRef.current?.blocked();
       vibrate('error');
       return;
     }
@@ -288,8 +317,33 @@ export default function BirthdayBumpsGame() {
     setFeedback({ id, text: `+${points}${perfect ? ' PERFECT' : ''}`, kind: perfect ? 'perfect' : 'good' });
     setYelp({ id, text: YELPS[Math.floor(Math.random() * YELPS.length)] });
     setHitFlash(true);
+    setJumpId(id);
     addTimeout(() => setHitFlash(false), 220);
+    soundRef.current?.thwack(perfect);
+    if (perfect) {
+      setShakeId(id);
+      setBurst({
+        id,
+        parts: Array.from({ length: 6 }, () => ({
+          dx: (Math.random() * 2 - 1) * 90,
+          dy: -30 - Math.random() * 80,
+          e: BURST_EMOJI[Math.floor(Math.random() * BURST_EMOJI.length)],
+        })),
+      });
+      addTimeout(() => setBurst(null), 650);
+    }
     vibrate(perfect ? 'success' : 'tap');
+  }
+
+  function toggleMute() {
+    const next = !muted;
+    setMuted(next);
+    soundRef.current?.setMuted(next);
+    try {
+      localStorage.setItem(MUTE_KEY, next ? '1' : '0');
+    } catch {
+      // ignore
+    }
   }
 
   function pickWeapon(w: WeaponId) {
@@ -332,8 +386,11 @@ export default function BirthdayBumpsGame() {
   if (phase === 'menu') {
     return (
       <div className="flex min-h-svh flex-col bg-zinc-950 px-5 text-white">
-        <div className="pt-4">
+        <div className="flex items-center justify-between pt-4">
           <HomeLink />
+          <button onClick={toggleMute} aria-label={muted ? 'Unmute sounds' : 'Mute sounds'} className="text-xl">
+            {muted ? '🔇' : '🔊'}
+          </button>
         </div>
         <div className="mx-auto flex w-full max-w-sm flex-1 flex-col items-center justify-center gap-7 py-8">
           <div className="flex flex-col items-center gap-2 text-center">
@@ -452,6 +509,9 @@ export default function BirthdayBumpsGame() {
         <div className="flex items-center justify-between">
           <HomeLink />
           <div className="flex items-center gap-3">
+            <button onClick={toggleMute} aria-label={muted ? 'Unmute sounds' : 'Mute sounds'} className="text-lg opacity-80">
+              {muted ? '🔇' : '🔊'}
+            </button>
             {combo > 1 && <p className="text-sm font-black text-amber-300">x{combo} 🔥</p>}
             <p className="text-3xl font-black tabular-nums">{score}</p>
           </div>
@@ -469,12 +529,15 @@ export default function BirthdayBumpsGame() {
         </div>
 
         {/* Arena */}
-        <div ref={arenaRef} className="relative flex-1 overflow-hidden rounded-3xl bg-zinc-900">
-          {/* party dressing */}
-          <p className="absolute left-3 top-2 text-2xl opacity-60" aria-hidden>🎈</p>
-          <p className="absolute right-3 top-4 text-2xl opacity-60" aria-hidden>🎈</p>
+        <div ref={arenaRef} key={`shake${shakeId}`} className={`relative flex-1 overflow-hidden rounded-3xl bg-zinc-900 ${shakeId ? 'bb-shake' : ''}`}>
+          {/* party dressing — the gang is watching */}
+          <p className="bb-balloon absolute left-3 top-2 text-2xl opacity-60" aria-hidden>🎈</p>
+          <p className="bb-balloon absolute right-3 top-4 text-2xl opacity-60" style={{ animationDelay: '1.2s' }} aria-hidden>🎈</p>
           <p className="absolute left-1/2 top-2 -translate-x-1/2 text-xl opacity-50" aria-hidden>🎉</p>
-          <p className="absolute bottom-2 left-3 text-xl opacity-50" aria-hidden>🎂</p>
+          <p className="bb-bounce absolute bottom-2 left-3 text-xl opacity-70" aria-hidden>😆</p>
+          <p className="bb-bounce absolute bottom-2 right-3 text-xl opacity-70" style={{ animationDelay: '0.4s' }} aria-hidden>👏</p>
+          <p className="bb-bounce absolute bottom-10 right-8 text-lg opacity-50" style={{ animationDelay: '0.8s' }} aria-hidden>🙌</p>
+          <p className="absolute bottom-2 left-10 text-xl opacity-50" aria-hidden>🎂</p>
 
           {/* strike zone */}
           <div
@@ -484,7 +547,7 @@ export default function BirthdayBumpsGame() {
 
           {/* the chappal, hanging over the zone */}
           <div
-            className={`pointer-events-none absolute left-1/2 top-1 z-10 -translate-x-1/2 text-6xl ${swinging ? 'bb-swing' : ''}`}
+            className={`pointer-events-none absolute left-1/2 top-1 z-10 -translate-x-1/2 text-6xl ${swinging ? 'bb-swing' : 'bb-idle'}`}
             style={{ transformOrigin: '80% 10%', animationDuration: swinging ? `${cfg.swingMs}ms` : undefined, rotate: swinging ? undefined : '-75deg' }}
             aria-hidden
           >
@@ -504,8 +567,22 @@ export default function BirthdayBumpsGame() {
                 {yelp.text}
               </p>
             )}
-            <Kid guarding={guarding} hitFlash={hitFlash} />
+            <div key={`j${jumpId}`} className={`bb-waddle ${jumpId ? 'bb-jump' : ''}`}>
+              <Kid guarding={guarding} hitFlash={hitFlash} />
+            </div>
           </div>
+
+          {/* perfect-hit emoji burst */}
+          {burst && burst.parts.map((pt, i) => (
+            <span
+              key={`${burst.id}-${i}`}
+              className="bb-part pointer-events-none absolute left-1/2 top-1/2 text-2xl"
+              style={{ '--dx': `${pt.dx}px`, '--dy': `${pt.dy}px` } as React.CSSProperties}
+              aria-hidden
+            >
+              {pt.e}
+            </span>
+          ))}
 
           {/* floating hit feedback */}
           {feedback && (
