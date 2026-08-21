@@ -185,3 +185,19 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .rps-bob, .rps-lunge, .rps-lunge-up, .rps-sag { animation: none; }
 }
+
+/* Dots & Boxes: line draw + box pop */
+@keyframes db-draw {
+  from { stroke-dasharray: 1; stroke-dashoffset: 1; }
+  to { stroke-dasharray: 1; stroke-dashoffset: 0; }
+}
+.db-draw { animation: db-draw 0.18s ease-out both; }
+@keyframes db-pop {
+  0% { opacity: 0; transform: scale(0.85); transform-origin: center; transform-box: fill-box; }
+  60% { opacity: 1; transform: scale(1.06); }
+  100% { opacity: 1; transform: scale(1); }
+}
+.db-pop { animation: db-pop 0.28s cubic-bezier(0.3, 1.4, 0.5, 1) both; transform-box: fill-box; transform-origin: center; }
+@media (prefers-reduced-motion: reduce) {
+  .db-draw, .db-pop { animation: none; }
+}

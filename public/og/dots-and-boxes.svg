@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0d0d1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <g opacity="0.9">
+    <circle cx="90" cy="100" r="7" fill="#a1a1aa"/><circle cx="170" cy="100" r="7" fill="#a1a1aa"/><circle cx="250" cy="100" r="7" fill="#a1a1aa"/>
+    <circle cx="90" cy="180" r="7" fill="#a1a1aa"/><circle cx="170" cy="180" r="7" fill="#a1a1aa"/><circle cx="250" cy="180" r="7" fill="#a1a1aa"/>
+    <circle cx="90" cy="260" r="7" fill="#a1a1aa"/><circle cx="170" cy="260" r="7" fill="#a1a1aa"/><circle cx="250" cy="260" r="7" fill="#a1a1aa"/>
+    <line x1="96" y1="100" x2="164" y2="100" stroke="#FCD34D" stroke-width="7" stroke-linecap="round"/>
+    <line x1="90" y1="106" x2="90" y2="174" stroke="#FCD34D" stroke-width="7" stroke-linecap="round"/>
+    <line x1="170" y1="106" x2="170" y2="174" stroke="#38BDF8" stroke-width="7" stroke-linecap="round"/>
+    <line x1="96" y1="180" x2="164" y2="180" stroke="#FCD34D" stroke-width="7" stroke-linecap="round"/>
+    <rect x="100" y="110" width="60" height="60" rx="8" fill="#FCD34D" opacity="0.2"/>
+    <path d="M130 120 L136 136 L153 136 L139 146 L145 162 L130 152 L115 162 L121 146 L107 136 L124 136 Z" fill="#FCD34D"/>
+    <line x1="176" y1="180" x2="244" y2="180" stroke="#38BDF8" stroke-width="7" stroke-linecap="round"/>
+    <line x1="176" y1="260" x2="244" y2="260" stroke="#38BDF8" stroke-width="7" stroke-linecap="round"/>
+    <line x1="250" y1="186" x2="250" y2="254" stroke="#38BDF8" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g opacity="0.6">
+    <circle cx="1000" cy="120" r="7" fill="#a1a1aa"/><circle cx="1080" cy="120" r="7" fill="#a1a1aa"/><circle cx="1160" cy="120" r="7" fill="#a1a1aa"/>
+    <circle cx="1000" cy="200" r="7" fill="#a1a1aa"/><circle cx="1080" cy="200" r="7" fill="#a1a1aa"/><circle cx="1160" cy="200" r="7" fill="#a1a1aa"/>
+    <line x1="1006" y1="120" x2="1074" y2="120" stroke="#38BDF8" stroke-width="7" stroke-linecap="round"/>
+    <line x1="1086" y1="200" x2="1154" y2="200" stroke="#FCD34D" stroke-width="7" stroke-linecap="round"/>
+    <line x1="1080" y1="126" x2="1080" y2="194" stroke="#FCD34D" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <circle cx="150" cy="500" r="34" fill="#0891B2" opacity="0.2"/>
+  <circle cx="1060" cy="480" r="40" fill="#0891B2" opacity="0.2"/>
+  <text x="600" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#0891B2" text-anchor="middle" letter-spacing="4">TINYJOY</text>
+  <text x="600" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="88" font-weight="800" fill="white" text-anchor="middle">Dots &amp; Boxes</text>
+  <text x="600" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="400" fill="#a1a1aa" text-anchor="middle">Close boxes, steal chains — beat Pinky</text>
+  <rect x="350" y="460" width="500" height="60" rx="30" fill="#0891B2" opacity="0.15"/>
+  <text x="600" y="498" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#0891B2" text-anchor="middle" letter-spacing="2">FREE · NO DOWNLOAD · PLAY NOW</text>
+</svg>

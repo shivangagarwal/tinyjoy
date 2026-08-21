@@ -136,6 +136,16 @@ export const GAMES: Game[] = [
     scoreType: 'score',
   },
   {
+    href: '/games/dots-and-boxes',
+    name: 'Dots & Boxes',
+    description: 'Close boxes, steal chains. Beat Pinky.',
+    emoji: '🔲',
+    bg: '#0891B2',
+    category: 'classic',
+    storageKey: 'tinyjoy:dots-best',
+    scoreType: 'score',
+  },
+  {
     href: '/games/rock-paper-scissors',
     name: 'Stone Paper Scissors',
     description: 'Best of 5 vs Chintu. He learns your habits.',

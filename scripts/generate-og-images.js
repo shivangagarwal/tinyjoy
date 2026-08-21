@@ -487,6 +487,35 @@ const games = {
   <circle cx="150" cy="500" r="34" fill="#E11D48" opacity="0.2"/>
   <circle cx="1050" cy="480" r="40" fill="#F59E0B" opacity="0.2"/>`
   },
+  'dots-and-boxes': {
+    title: 'Dots &amp; Boxes',
+    tagline: 'Close boxes, steal chains — beat Pinky',
+    accentColor: '#0891B2',
+    decorators: `
+  <g opacity="0.9">
+    <circle cx="90" cy="100" r="7" fill="#a1a1aa"/><circle cx="170" cy="100" r="7" fill="#a1a1aa"/><circle cx="250" cy="100" r="7" fill="#a1a1aa"/>
+    <circle cx="90" cy="180" r="7" fill="#a1a1aa"/><circle cx="170" cy="180" r="7" fill="#a1a1aa"/><circle cx="250" cy="180" r="7" fill="#a1a1aa"/>
+    <circle cx="90" cy="260" r="7" fill="#a1a1aa"/><circle cx="170" cy="260" r="7" fill="#a1a1aa"/><circle cx="250" cy="260" r="7" fill="#a1a1aa"/>
+    <line x1="96" y1="100" x2="164" y2="100" stroke="#FCD34D" stroke-width="7" stroke-linecap="round"/>
+    <line x1="90" y1="106" x2="90" y2="174" stroke="#FCD34D" stroke-width="7" stroke-linecap="round"/>
+    <line x1="170" y1="106" x2="170" y2="174" stroke="#38BDF8" stroke-width="7" stroke-linecap="round"/>
+    <line x1="96" y1="180" x2="164" y2="180" stroke="#FCD34D" stroke-width="7" stroke-linecap="round"/>
+    <rect x="100" y="110" width="60" height="60" rx="8" fill="#FCD34D" opacity="0.2"/>
+    <path d="M130 120 L136 136 L153 136 L139 146 L145 162 L130 152 L115 162 L121 146 L107 136 L124 136 Z" fill="#FCD34D"/>
+    <line x1="176" y1="180" x2="244" y2="180" stroke="#38BDF8" stroke-width="7" stroke-linecap="round"/>
+    <line x1="176" y1="260" x2="244" y2="260" stroke="#38BDF8" stroke-width="7" stroke-linecap="round"/>
+    <line x1="250" y1="186" x2="250" y2="254" stroke="#38BDF8" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g opacity="0.6">
+    <circle cx="1000" cy="120" r="7" fill="#a1a1aa"/><circle cx="1080" cy="120" r="7" fill="#a1a1aa"/><circle cx="1160" cy="120" r="7" fill="#a1a1aa"/>
+    <circle cx="1000" cy="200" r="7" fill="#a1a1aa"/><circle cx="1080" cy="200" r="7" fill="#a1a1aa"/><circle cx="1160" cy="200" r="7" fill="#a1a1aa"/>
+    <line x1="1006" y1="120" x2="1074" y2="120" stroke="#38BDF8" stroke-width="7" stroke-linecap="round"/>
+    <line x1="1086" y1="200" x2="1154" y2="200" stroke="#FCD34D" stroke-width="7" stroke-linecap="round"/>
+    <line x1="1080" y1="126" x2="1080" y2="194" stroke="#FCD34D" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <circle cx="150" cy="500" r="34" fill="#0891B2" opacity="0.2"/>
+  <circle cx="1060" cy="480" r="40" fill="#0891B2" opacity="0.2"/>`
+  },
 };
 
 async function generateAll() {
